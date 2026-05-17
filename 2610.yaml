@@ -1,0 +1,383 @@
+proxies:
+  # ======= 会员节点（pay） =======
+
+  - name: "🇨🇳台湾02 超快专线"
+    type: vless
+    server: 59.125.69.19
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇨🇳台湾01 直连专线"
+    type: vless
+    server: 60.248.219.76
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇭🇰香港01 中转专线"
+    type: vless
+    server: 103.148.73.119
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇭🇰香港02 中转专线"
+    type: vless
+    server: 103.148.73.119
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇭🇰香港03 超快专线"
+    type: vless
+    server: 207.174.133.130
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇯🇵日本01 直连专线"
+    type: vless
+    server: 38.180.201.172
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇯🇵日本02 直连专线"
+    type: vless
+    server: 38.180.201.172
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇺🇸美国01 直连专线"
+    type: vless
+    server: 38.180.193.242
+    port: 30545
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ty986gfazs.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: ty986gfazs.cainiaohub.xyz
+
+  - name: "🇸🇬新加坡01 千兆专线"
+    type: vless
+    server: 38.180.249.80
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: fd687hery.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: fd687hery.cainiaohub.xyz
+
+  - name: "🇦🇺澳大利亚"
+    type: vless
+    server: 103.148.73.119
+    port: 50012
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇲🇲缅甸"
+    type: vless
+    server: 103.148.73.119
+    port: 50013
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇰🇭柬埔寨"
+    type: vless
+    server: 103.148.73.119
+    port: 50014
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇵🇭菲律宾"
+    type: vless
+    server: 103.148.73.119
+    port: 50015
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇲🇾马来西亚"
+    type: vless
+    server: 103.148.73.119
+    port: 50016
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇩🇪德国"
+    type: vless
+    server: 103.148.73.119
+    port: 50017
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇮🇩印度尼西亚"
+    type: vless
+    server: 103.148.73.119
+    port: 50018
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇹🇷土耳其"
+    type: vless
+    server: 103.148.73.119
+    port: 50019
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇳🇬尼日利亚"
+    type: vless
+    server: 103.148.73.119
+    port: 50020
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  - name: "🇵🇰巴基斯坦"
+    type: vless
+    server: 103.148.73.119
+    port: 50021
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: asd65fg41qe.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      headers:
+        Host: asd65fg41qe.cainiaohub.xyz
+
+  # ======= 免费节点（free） =======
+
+  - name: "🇺🇸美国01-免费"
+    type: vless
+    server: 38.180.192.156
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: r8eerh.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: r8eerh.cainiaohub.xyz
+
+  - name: "🇺🇸美国02-免费"
+    type: vless
+    server: 38.180.192.156
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: r8eerh.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: r8eerh.cainiaohub.xyz
+
+  - name: "🇯🇵日本02-免费"
+    type: vless
+    server: 38.180.7.127
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: erfdzxc.ewuernb.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: erfdzxc.ewuernb.uk
+
+  - name: "🇯🇵日本01-免费"
+    type: vless
+    server: 38.180.7.127
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: erfdzxc.ewuernb.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: erfdzxc.ewuernb.uk
+
+  - name: "🇸🇬新加坡02-免费"
+    type: vless
+    server: 38.180.106.175
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    tls: true
+    network: ws
+    servername: ed45sg41sd6g.cainiaohub.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
+      headers:
+        Host: ed45sg41sd6g.cainiaohub.xyz
+
+proxy-groups:
+  - name: "🚀 会员节点"
+    type: select
+    proxies:
+      - "🇨🇳台湾02 超快专线"
+      - "🇨🇳台湾01 直连专线"
+      - "🇭🇰香港01 中转专线"
+      - "🇭🇰香港02 中转专线"
+      - "🇭🇰香港03 超快专线"
+      - "🇯🇵日本01 直连专线"
+      - "🇯🇵日本02 直连专线"
+      - "🇺🇸美国01 直连专线"
+      - "🇸🇬新加坡01 千兆专线"
+      - "🇦🇺澳大利亚"
+      - "🇲🇲缅甸"
+      - "🇰🇭柬埔寨"
+      - "🇵🇭菲律宾"
+      - "🇲🇾马来西亚"
+      - "🇩🇪德国"
+      - "🇮🇩印度尼西亚"
+      - "🇹🇷土耳其"
+      - "🇳🇬尼日利亚"
+      - "🇵🇰巴基斯坦"
+
+  - name: "🎁 免费节点"
+    type: select
+    proxies:
+      - "🇺🇸美国01-免费"
+      - "🇺🇸美国02-免费"
+      - "🇯🇵日本02-免费"
+      - "🇯🇵日本01-免费"
+      - "🇸🇬新加坡02-免费"
+
+  - name: "🌐 节点选择"
+    type: select
+    proxies:
+      - "🚀 会员节点"
+      - "🎁 免费节点"
+      - "DIRECT"
+
+rules:
+  - MATCH,🌐 节点选择
