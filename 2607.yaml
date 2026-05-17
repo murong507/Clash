@@ -1,0 +1,393 @@
+mixed-port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: error
+external-controller: ""
+keep-alive-interval: 15
+keep-alive-idle: 15
+tcp-concurrent: true
+unified-delay: true
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb"
+
+rule-providers:
+  AI-Rules:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list"
+    path: ./rules/OverseasAI.list
+    interval: 86400
+  gemini-Rules:
+    type: http
+    behavior: classical
+    url: "https://git.jasuit.com/jh163888/ios_rule_script/raw/commit/bfc89edad13a234ee95a5362120ca4d6212975a5/rule/Clash/Gemini/Gemini.list"
+    path: ./rules/Gemini.list
+    interval: 86400
+    
+proxy-providers:
+  Airport01:
+    type: http
+    url: 'https://cvb.14kbuy.com/api/v1/client/subscribe?token=4c90786fd3407d126018e36b763f175a'
+    interval: 86400
+    path: ./Airport01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://cp.cloudflare.com/generate_204
+
+  Airport02:
+    type: http
+    url: 'https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=7bc97055ef554de0870c5c7e20a2bd4f'
+    interval: 86400
+    path: ./Airport02.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://cp.cloudflare.com/generate_204
+      
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - tls://223.5.5.5
+    - tls://223.6.6.6
+  nameserver:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  direct-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+
+proxy-groups:
+  - name: 节点选择
+    type: select
+    proxies:
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Available.png
+
+  - name: 手动切换
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+    use: [Airport01, Airport02]
+
+  - name: 流媒体节点选择
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Available_1.png
+
+  # - name: 自动选择
+  #   type: url-test
+  #   url: http://www.gstatic.com/generate_204
+  #   interval: 300
+  #   tolerance: 50
+  #   use: [Airport01]
+  #   icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Available_1.png
+
+  - name: 国外视频
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Netflix.png
+
+  - name: Google
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Google_Search.png
+
+  - name: Github
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/GitHub.png
+
+  - name: Telegram
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Telegram.png
+
+  - name: AI
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Copilot.png
+
+  - name: Instagram
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Instagram.png
+
+  - name: Spotify
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Spotify.png
+
+  - name: Twitter
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Twitter.png
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Microsoft.png
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Apple.png
+
+  - name: 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+      - Ai节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 流媒体节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Final.png
+
+  - name: 流媒体节点
+    type: url-test
+    use: [Airport01, Airport02]
+    filter: 0.1|0.2|0.3|0.5|实验性
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
+
+  - name: 香港节点
+    type: url-test
+    use: [Airport01, Airport02]
+    filter: 港|🇭🇰|香港|HK|Hong
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+
+  - name: 美国节点
+    type: url-test
+    filter: 美|🇺🇸|美国|US|States|American
+    use: [Airport01, Airport02]
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+
+  - name: Ai节点
+    type: select
+    filter: Gemini|ai|Ai|AI|chatgpt|ChatGPT|Chatgpt|gemini|gpt
+    use: [Airport01, Airport02]
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+
+  - name: 日本节点
+    type: url-test
+    filter: 日|🇯🇵|日本|JP|Japan
+    use: [Airport01, Airport02]
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+
+  - name: 台湾节点
+    type: url-test
+    filter: 台|🇨🇳|台湾|TW|Tai
+    use: [Airport01, Airport02]
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+
+  - name: 狮城节点
+    type: url-test
+    filter: 坡|🇸🇬|新加坡|狮城|SG|Singapore
+    use: [Airport01, Airport02]
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
+rules:
+  # DIRECT策略组：不走代理直接连接（根据个人需求自由添加）
+  - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+  - DOMAIN-SUFFIX,msftncsi.com,DIRECT
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN,stun.l.google.com,DIRECT
+  - DOMAIN-SUFFIX,edu.cn,DIRECT
+  - DOMAIN-SUFFIX,v6.navy,DIRECT
+  - DOMAIN-SUFFIX,dynv6.com,DIRECT
+
+  # ===== 你手动指定的特殊域名，优先级最高 =====
+  - DOMAIN-SUFFIX,linux.do,节点选择
+
+  # AI-PROXY策略组：适用于ChatGPT、Claude等AI服务（可根据需要添加或删除）
+  - DOMAIN-KEYWORD,gemini,AI
+  - DOMAIN-SUFFIX,ping0.cc,AI
+  - DOMAIN-SUFFIX,ipdata.co,AI
+  - DOMAIN-SUFFIX,pingip.cn,AI
+  - DOMAIN-SUFFIX,copilot.microsoft.com,AI
+  - DOMAIN-SUFFIX,ciciai.com,狮城节点
+  - DOMAIN-SUFFIX,cici.com,狮城节点
+  - DOMAIN-SUFFIX,anthropic.com,AI
+  - DOMAIN-SUFFIX,perplexity.ai,AI
+  - RULE-SET,AI-Rules,AI
+  - RULE-SET,gemini-Rules,AI
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI
+  # PROXY策略组：需要代理访问的域名（根据个人需求自由添加）
+  - DOMAIN-SUFFIX,live.com,节点选择
+  - DOMAIN-SUFFIX,teracloud.jp,节点选择
+
+  # ===== 各平台精细分流：继续保留（比 geosite:global 嗯精细多了）=====
+  - GEOSITE,cursor,AI
+  - GEOSITE,spotify,Spotify
+  - GEOSITE,apple,Apple
+  - GEOSITE,google,Google
+  - GEOSITE,github,Github
+  - GEOSITE,youtube,国外视频
+  - GEOSITE,netflix,国外视频
+  - GEOSITE,disney,国外视频
+  - GEOSITE,hbo,国外视频
+  - GEOSITE,primevideo,国外视频
+  - GEOSITE,twitch,国外视频
+  - GEOSITE,microsoft,Microsoft
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,reddit,节点选择
+  - GEOSITE,twitter,Twitter
+  - GEOSITE,instagram,Instagram
+  - GEOSITE,steam@cn,DIRECT
+  - GEOSITE,category-games@cn,DIRECT
+  - GEOSITE,category-ai-!cn,AI
+  - GEOSITE,category-ai-cn,DIRECT
+  - GEOSITE,onedrive,DIRECT
+  - GEOSITE,private,DIRECT
+
+  # 国外站中有“国内加速/镜像”的部分 → 直连
+  - GEOSITE,geolocation-!cn@cn,DIRECT
+  # 剩下的正宗国外站 → 统一走你自己的总代理（建议用 节点选择）
+  - GEOSITE,geolocation-!cn,节点选择
+  # 国内站中“必须从国外访问”的那部分 → 走代理
+  - GEOSITE,geolocation-cn@!cn,节点选择
+  # 剩下常规国内站 → 直连
+  - GEOSITE,geolocation-cn,DIRECT
+
+  # ===== 最终兜底 =====
+  # ===== 局域网直连 =====
+  - GEOIP,LAN,DIRECT,no-resolve
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,telegram,Telegram,no-resolve
+  - GEOIP,CN,DIRECT
+  # 如果你坚持用 漏网之鱼 select 分组，也可以：
+  - MATCH,漏网之鱼
