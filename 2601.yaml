@@ -37,12 +37,20 @@ proxies:
 
 
   - {name: "[VM] 直连-台湾1", type: vmess, server: dtw1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: "[SS] 直连-台湾1",  type: ss, server: r3mrcg007147vhp.cybervena.com, port: 50099,cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}  
+  - {name: "[TC] 直连-台湾1", type: tuic, server: tw2.dexlos.com, port: 8080, version: 5, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, skip-cert-verify: false, sni: tw2.dexlos.com} 
+  - {name: "[TC] 直连-台湾2", type: tuic, server: tw5.dexlos.com, port: 8080, version: 5, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, skip-cert-verify: false, sni: tw5.dexlos.com}
+  - {name: "[TC] 直连-台湾3", type: tuic, server: tw8.dexlos.com, port: 8080, version: 5, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, skip-cert-verify: false, sni: tw8.dexlos.com}
 
 
 
   - {name: "[VM] 直连-日本1", type: vmess, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto,network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, tls: false, skip-cert-verify: false}
-  - {name: "[SS] 直连-日本1", type: ss, server: 47.79.144.115, port: 40003, cipher: aes-256-gcm, password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA}
+  - {name: "[VL] 直连-日本1", type: vless, server: jp1-r.link-t7.com, port: 10131, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-service-name: update}}
+  - {name: "[VL] 直连-日本2", type: vless, server: jp2-r.link-t7.com, port: 10132, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-service-name: update}}
+  - {name: "[VL] 直连-日本3", type: vless, server: jp3-r.link-t7.com, port: 10133, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-service-name: update}}
+  - {name: "[VL] 直连-日本4", type: vless, server: jp4-r.link-t7.com, port: 10134, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-service-name: update}}
+  - {name: "[HY] 直连-日本1", type: hysteria2, server: jp6.dexlos.com, ports: 21000-21199, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: jp6.dexlos.com} 
+  - {name: "[HY] 直连-日本2", type: hysteria2, server: jp7.dexlos.com, ports: 21200-21399, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: jp7.dexlos.com} 
+  - {name: "[HY] 直连-日本3", type: hysteria2, server: jp8.dexlos.com, ports: 21400-21599, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: jp8.dexlos.com}
 
   
 
@@ -53,6 +61,8 @@ proxies:
 
   - {name: "[VM] 直连-美国1", type: vmess, server: 82.198.246.214, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
   - {name: "[VL] 直连-美国1", type: vless, server: 209.166.46.195, port: 443, uuid: 73c16ed4-d111-4434-8b24-0dfe112a0813, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: wIFJUBk4GRYT8Oim0-cPDwlGaTHh3kUYP2tOlKz1xlc, short-id: 9f4380a6}, servername: www.microsoft.com, client-fingerprint: chrome}
+  - {name: "[HY] 直连-美国1", type: hysteria2, server: us5.dexlos.com, ports: 20800-20999, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: us5.dexlos.com, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3}
+  - {name: "[HY] 直连-美国2", type: hysteria2, server: us7.dexlos.com, ports: 21200-21399, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: us7.dexlos.com, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3}
 
 
 
@@ -100,16 +110,26 @@ proxy-groups:
     - '[HY] 直连-香港4'
 
     - '[VM] 直连-台湾1'
-    - '[SS] 直连-台湾1'
+    - '[TC] 直连-台湾1'
+    - '[TC] 直连-台湾2'
+    - '[TC] 直连-台湾3'
 
     - '[VM] 直连-日本1'   
-    - '[SS] 直连-日本1'
+    - '[VL] 直连-日本1'
+    - '[VL] 直连-日本2'
+    - '[VL] 直连-日本3'
+    - '[VL] 直连-日本4'
+    - '[HY] 直连-日本1'
+    - '[HY] 直连-日本2'
+    - '[HY] 直连-日本3'
 
     - '[VL] 直连-韩国1'
     - '[VL] 直连-俄国1'
 
     - '[VM] 直连-美国1'
     - '[VL] 直连-美国1'
+    - '[HY] 直连-美国1'
+    - '[HY] 直连-美国2'
 
     - '[VM] 直连-法国1'
     - '[VL] 直连-荷兰1'
@@ -148,13 +168,21 @@ proxy-groups:
   type: select
   proxies:
     - '[VM] 直连-台湾1'
-    - '[SS] 直连-台湾1'
+    - '[TC] 直连-台湾1'
+    - '[TC] 直连-台湾2'
+    - '[TC] 直连-台湾3'
 
 - name: 亚洲节点
   type: select
   proxies:
     - '[VM] 直连-日本1'   
-    - '[SS] 直连-日本1'
+    - '[VL] 直连-日本1'
+    - '[VL] 直连-日本2'
+    - '[VL] 直连-日本3'
+    - '[VL] 直连-日本4'
+    - '[HY] 直连-日本1'
+    - '[HY] 直连-日本2'
+    - '[HY] 直连-日本3'
     - '[VL] 直连-韩国1'
     - '[VL] 直连-俄国1'
 
@@ -163,6 +191,8 @@ proxy-groups:
   proxies:
     - '[VM] 直连-美国1'
     - '[VL] 直连-美国1'
+    - '[HY] 直连-美国1'
+    - '[HY] 直连-美国2'
 
 - name: 欧洲节点
   type: select
