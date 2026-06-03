@@ -52,8 +52,6 @@ proxies:
   - {name: "[TC] 直连-台湾3", type: tuic, server: tw8.dexlos.com, port: 8080, version: 5, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, skip-cert-verify: false, sni: tw8.dexlos.com}
 
 
-
-
   - {name: "[VM] 直连-日本1", type: vmess, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto,network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, tls: false, skip-cert-verify: false}
   - {name: "[VM] 直连-日本2", type: vmess, server: vs.vichyshampoo.world, port: 32325, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
   - {name: "[VM] 直连-日本3", type: vmess, server: vs.vichyshampoo.world, port: 32326, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
