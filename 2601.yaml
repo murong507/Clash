@@ -85,12 +85,12 @@ proxies:
   - {name: "[VM] 直连-德国4", type: vmess, server: 82.198.246.250, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, udp: true, skip-cert-verify: false}
 
 
-  - {name: "[VM] 直连-英国1", type: vmess, server: 82.198.246.9, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
-  - {name: "[VM] 直连-英国2", type: vmess, server: 82.198.246.233, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
-  
+  - {name: "[TJ] 直连-法国1", type: trojan, server: 90081bb25c.node.tro.cac.cab, port: 45619, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true, delay: 1808}
+  - {name: "[TJ] 直连-法国2", type: trojan, server: 155.117.198.83, port: 45619, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true, delay: 1047}
 
-  - {name: "[VL] 直连-法国1", type: vless, server: 194.226.169.36, port: 443, uuid: 4706d9c3-eec0-4666-9d84-e608a200e872, tls: true, udp: true, servername: yahoo.com, reality-opts: {public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk, short-id: b8aa}, client-fingerprint: chrome}
-  - {name: "[VL] 直连-法国2", type: vless, server: 194.226.169.36, port: 443, uuid: fae3277c-0541-4ae9-bbbb-8247453ea652, tls: true, udp: true, servername: yahoo.com, reality-opts: {public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk, short-id: b8aa}, client-fingerprint: chrome}
+
+  - {name: "[VM] 直连-英国1", type: vmess, server: 82.198.246.214, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true}  
+  - {name: "[VM] 直连-英国2", type: vmess, server: 82.198.246.214, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true}  
 
 
   - {name: "[IP] IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -161,8 +161,8 @@ proxy-groups:
     - '[VM] 直连-德国3'
     - '[VM] 直连-德国4'
 
-    - '[VL] 直连-法国1'
-    - '[VL] 直连-法国2'
+    - '[TJ] 直连-法国1'
+    - '[TJ] 直连-法国2'
 
     - '[VM] 直连-英国1'
     - '[VM] 直连-英国2'
@@ -245,8 +245,8 @@ proxy-groups:
     - '[VM] 直连-德国2'
     - '[VM] 直连-德国3'
     - '[VM] 直连-德国4'
-    - '[VL] 直连-法国1'
-    - '[VL] 直连-法国2'
+    - '[TJ] 直连-法国1'
+    - '[TJ] 直连-法国2'
     - '[VM] 直连-英国1'
     - '[VM] 直连-英国2'
 
