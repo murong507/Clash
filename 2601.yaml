@@ -9,30 +9,10 @@ proxies:
   - {name: "[VM] 直连-香港1", type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "[VM] 直连-香港2", type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "[VM] 直连-香港3", type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: "[VM] 直连-香港4", type: vmess, server: 103.181.164.145, port: 54022, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, udp: true, tls: false, skip-cert-verify: true}
-  - {name: "[VM] 直连-香港5", type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-  - {name: "[VM] 直连-香港6", type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }  
-  - {name: "[VM] 直连-香港7", type: vmess, server: dax.kkieo555.cn, port: 43525, uuid: c26b9a18-a1c6-4ca0-86e8-e754f612c8de, alterId: 0, cipher: auto, tls: false}
-  - {name: "[VM] 直连-香港8", type: vmess, server: dax.kkieo555.cn, port: 43525, uuid: e7586178-15db-4a6d-98cb-413e49a921d8, alterId: 0, cipher: auto, tls: false}
-  - {name: "[VM] 直连-香港9", type: vmess, server: dax.kkieo555.cn, port: 43525, uuid: 808d413a-7bc7-4dc3-99d8-d053bc5a66b0, alterId: 0, cipher: auto, tls: false}
-  - {name: "[VM] 直连-香港0", type: vmess, server: dax.kkieo555.cn, port: 43525, uuid: b5f65ff3-3998-4320-b29c-9e3b9ba87a81, alterId: 0, cipher: auto, tls: false}
+  
+  - {name: "[VL] 直连-香港1", type: vless, server: 103.180.20.230, port: 8443, uuid: 10c10faf-375a-4fe8-9403-613641a87c4f, network: ws, udp: true, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: ty986gfazs.cainiaohub.xyz, ws-opts: { path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530', headers: { Host: 'ty986gfazs.cainiaohub.xyz' } } }
+  - {name: "[VL] 直连-香港2", type: vless, server: 207.174.133.111, port: 8443, uuid: 10c10faf-375a-4fe8-9403-613641a87c4f, network: ws, udp: true, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: ty986gfazs.cainiaohub.xyz, ws-opts: { path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530', headers: { Host: 'ty986gfazs.cainiaohub.xyz' } } }
 
-  - {name: "[VL] 直连-香港1", type: vless, server: hkvl.litepath.world, port: 25515, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.microsoft.com, reality-opts: { public-key: dtTHlpLDf5azGAFQoMlAZ6PWvj2-QntJaGTCYdbek0A, short-id: 0133ea02 } }
-  - {name: "[VL] 直连-香港2", type: vless, server: hkvl.litepath.world, port: 25516, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.microsoft.com, reality-opts: { public-key: jfCCH0xgGkBXdeSdheAjRgHpiNCasyQ-5SkPqP-S5Cs, short-id: bee31988 } }
-  - {name: "[VL] 直连-香港3", type: vless, server: jiaqiang.hj2hkt.top, port: 55121, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.microsoft.com, reality-opts: { public-key: RwApdCukU5249njWUCQa1-B0M7iOSPywEu2MsN-JYWg, short-id: bd7087a7 } }
-  - {name: "[VL] 直连-香港4", type: vless, server: jiaqiang.hj2hkt.top, port: 55122, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.microsoft.com, reality-opts: { public-key: BUsSbe0-BFeaSeSrfdOCYjLXv-loVVV6fcokge5qBFQ, short-id: e92d6fb9 } }
-  - {name: "[VL] 直连-香港5", type: vmess, server: 103.181.164.145, port: 51556, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, tls: false, udp: true, cipher: auto, skip-cert-verify: false}
-  - {name: "[VL] 直连-香港6", type: vless, server: hk1-r.link-t7.com, port: 10126, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, packet-encoding: xudp, grpc-opts: {grpc-service-name: update}}
-  - {name: "[VL] 直连-香港7", type: vless, server: hk3-r.link-t7.com, port: 10128, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, packet-encoding: xudp, grpc-opts: {grpc-service-name: movie}}
-  - {name: "[VL] 直连-香港8", type: vless, server: hk4-r.link-t7.com, port: 10129, uuid: 7575DA31-CFDD-4018-8799-04BB4328AF51, cipher: auto, udp: true, tls: true, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, packet-encoding: xudp, grpc-opts: {grpc-service-name: movie}}
-
-  - {name: "[HY] 直连-香港1", type: hysteria2, server: hk2.dexlos.com, ports: 20200-20399, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: hk2.dexlos.com} 
-  - {name: "[HY] 直连-香港2", type: hysteria2, server: hk3.dexlos.com, ports: 20400-20599, password: 7575DA31-CFDD-4018-8799-04BB4328AF51, udp: true, skip-cert-verify: false, sni: hk3.dexlos.com} 
-
-  - {name: "[TJ] 直连-香港1", type: trojan, server: 43.198.151.48, port: 2008, password: d02e3bb7e6b3333e818d36866d40de6e, skip-cert-verify: true, sni: www.nintendogames.net}
-  - {name: "[TJ] 直连-香港2", type: trojan, server: 95.40.47.95, port: 43747, password: BxceQaOe, skip-cert-verify: true, sni: t.me%2Fripaojiedian}
-  - {name: "[TJ] 直连-香港3", type: trojan, server: 95.40.47.95, port: 50116, password: BxceQaOe, skip-cert-verify: true, sni: t.me%2Fripaojiedian}
-  - {name: "[TJ] 直连-香港4", type: trojan, server: 95.40.109.247, port: 5701, password: d02e3bb7e6b3333e818d36866d40de6e, skip-cert-verify: true, sni: www.nintendogames.net}
 
   - {name: "[VM] 直连-台湾1", type: vmess, server: dtw1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "[VM] 直连-台湾2", type: vless, server: vltw.hj888tw.top, port: 53357, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.microsoft.com, reality-opts: { public-key: ozrzwDplADDU_m6KGj7TkLXXkYhHaRsV4rdTyqH_xzg, short-id: 3da12def } }
@@ -92,30 +72,9 @@ proxy-groups:
     - '[VM] 直连-香港1'
     - '[VM] 直连-香港2'
     - '[VM] 直连-香港3'
-    - '[VM] 直连-香港4'
-    - '[VM] 直连-香港5'
-    - '[VM] 直连-香港6'
-    - '[VM] 直连-香港7'
-    - '[VM] 直连-香港8'
-    - '[VM] 直连-香港9'
-    - '[VM] 直连-香港0'
 
     - '[VL] 直连-香港1'
     - '[VL] 直连-香港2'
-    - '[VL] 直连-香港3'
-    - '[VL] 直连-香港4'
-    - '[VL] 直连-香港5'
-    - '[VL] 直连-香港6'
-    - '[VL] 直连-香港7'
-    - '[VL] 直连-香港8'
-
-    - '[HY] 直连-香港1'
-    - '[HY] 直连-香港2'
-
-    - '[TJ] 直连-香港1'
-    - '[TJ] 直连-香港2'
-    - '[TJ] 直连-香港3'
-    - '[TJ] 直连-香港4'
 
     - '[VM] 直连-台湾1'
     - '[VM] 直连-台湾2'
@@ -170,30 +129,13 @@ proxy-groups:
     - '[VM] 直连-香港1'
     - '[VM] 直连-香港2'
     - '[VM] 直连-香港3'
-    - '[VM] 直连-香港4'
-    - '[VM] 直连-香港5'
-    - '[VM] 直连-香港6'
-    - '[VM] 直连-香港7'
-    - '[VM] 直连-香港8'
-    - '[VM] 直连-香港9'
-    - '[VM] 直连-香港0'
+    
+    - '[VM] 直连-香港1'
+    - '[VM] 直连-香港2'
+    - '[VM] 直连-香港3'
 
     - '[VL] 直连-香港1'
     - '[VL] 直连-香港2'
-    - '[VL] 直连-香港3'
-    - '[VL] 直连-香港4'
-    - '[VL] 直连-香港5'
-    - '[VL] 直连-香港6'
-    - '[VL] 直连-香港7'
-    - '[VL] 直连-香港8'
-
-    - '[HY] 直连-香港1'
-    - '[HY] 直连-香港2'
-
-    - '[TJ] 直连-香港1'
-    - '[TJ] 直连-香港2'
-    - '[TJ] 直连-香港3'
-    - '[TJ] 直连-香港4'
 
 - name: 台湾节点
   type: select
