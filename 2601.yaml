@@ -9,6 +9,10 @@ proxies:
   - {name: "[VM] 直连-香港1", type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "[VM] 直连-香港2", type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "[VM] 直连-香港3", type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: "香港", type: vmess, server: 36.133.78.37, port: 50011, uuid: 18cbdd7e-0811-4f3a-b9c3-c5b761213686, alterId: 0, cipher: auto, network: tcp}
+  - {name: "香港-特快1", type: vmess, server: 157.148.7.136, port: 50011, uuid: 18cbdd7e-0811-4f3a-b9c3-c5b761213686, alterId: 0, cipher: auto, network: tcp}
+  - {name: "香港-特快2", type: vmess, server: 157.148.7.55, port: 50011, uuid: 18cbdd7e-0811-4f3a-b9c3-c5b761213686, alterId: 0, cipher: auto, network: tcp}
+  - {name: "香港-特快3", type: vmess, server: 36.133.74.15, port: 50011, uuid: 18cbdd7e-0811-4f3a-b9c3-c5b761213686, alterId: 0, cipher: auto, network: tcp} 
   
   - {name: "[VL] 直连-香港1", type: vless, server: 103.180.20.230, port: 8443, uuid: 10c10faf-375a-4fe8-9403-613641a87c4f, network: ws, udp: true, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: ty986gfazs.cainiaohub.xyz, ws-opts: { path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530', headers: { Host: 'ty986gfazs.cainiaohub.xyz' } } }
   - {name: "[VL] 直连-香港2", type: vless, server: 207.174.133.111, port: 8443, uuid: 10c10faf-375a-4fe8-9403-613641a87c4f, network: ws, udp: true, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: ty986gfazs.cainiaohub.xyz, ws-opts: { path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530', headers: { Host: 'ty986gfazs.cainiaohub.xyz' } } }
@@ -75,6 +79,10 @@ proxy-groups:
     - '[VM] 直连-香港1'
     - '[VM] 直连-香港2'
     - '[VM] 直连-香港3'
+    - '香港'
+    - '香港-特快1'
+    - '香港-特快2'    
+    - '香港-特快3'
 
     - '[VL] 直连-香港1'
     - '[VL] 直连-香港2'
