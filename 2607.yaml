@@ -11,7 +11,6 @@ proxies:
 - {name: 🇭🇰 xingyun-香港-通用1, server: 43.199.43.219, port: 36001, type: hysteria2, password: CR7FgSGFvGz1ZjGG, auth: CR7FgSGFvGz1ZjGG, sni: hk-ls-f-4.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
 - {name: 🇭🇰 xingyun-香港 通用 自动 2, server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
 - {name: 🇭🇰 xingyun-香港-通用5, server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-解锁3, server: 154.16.248.120, port: 36001, type: hysteria2, password: OseEkYbZb8KcLL4r, auth: OseEkYbZb8KcLL4r, sni: jp-akile-5.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇭🇰 xingyun-香港 通用 自动 3, server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
 - {name: 🇭🇰 xingyun-香港-通用2, server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
 - {name: 🇭🇰 xingyun-香港 通用 自动 4, server: 16.163.95.125, port: 56001, type: hysteria2, password: S2nBeV77TVW43iuF, auth: S2nBeV77TVW43iuF, sni: hk-ls-r-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
