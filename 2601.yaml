@@ -189,6 +189,25 @@ proxies:
   - {name: "直连-香港183", server: 218.102.102.119, port: 55848, type: ss, cipher: aes-256-gcm, password: 7AA2ADA4-5FC9-5BFA-BFD9-3041B4E62EAD}
   - {name: "直连-香港184", server: direct-hk-dz2.xlww.cc, port: 43900, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: W1o-aXiwX9UuAntTtAcIWq-B-riPD1-XS4ZvFC4WkDo, short-id: 3df44810}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 
+  - {name: "直连-香港202", server: 43.199.43.219, port: 36001, type: hysteria2, password: CR7FgSGFvGz1ZjGG, auth: CR7FgSGFvGz1ZjGG, sni: hk-ls-f-4.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港203", server: 43.199.43.219, port: 36001, type: hysteria2, password: CR7FgSGFvGz1ZjGG, auth: CR7FgSGFvGz1ZjGG, sni: hk-ls-f-4.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港204", server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+  - {name: "直连-香港205", server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+  - {name: "直连-香港206", server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港207", server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港208", server: 16.163.95.125, port: 56001, type: hysteria2, password: S2nBeV77TVW43iuF, auth: S2nBeV77TVW43iuF, sni: hk-ls-r-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+  - {name: "直连-香港209", server: 16.163.95.125, port: 56001, type: hysteria2, password: S2nBeV77TVW43iuF, auth: S2nBeV77TVW43iuF, sni: hk-ls-r-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+  - {name: "直连-香港210", server: 43.198.73.249, port: 16001, type: hysteria2, password: gWCNjakjGdwNO5w6, auth: gWCNjakjGdwNO5w6, sni: hk-ls-k-18.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港211", server: 43.198.73.249, port: 16001, type: hysteria2, password: gWCNjakjGdwNO5w6, auth: gWCNjakjGdwNO5w6, sni: hk-ls-k-18.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+  - {name: "直连-香港212", server: 103.255.208.14, port: 42104, type: vmess, uuid: 8b571e71-836f-4c65-8137-965b6840d936, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+  - {name: "直连-香港213", server: 103.255.208.18, port: 11869, type: vmess, uuid: 9e88415a-b6f8-4276-9430-b85cb6c10bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
+  - {name: "直连-香港214", server: 103.255.209.100, port: 42675, type: vmess, uuid: 66c01bc5-ec8f-4060-a3ec-eb0d9fdd3cf1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
+  - {name: "直连-香港215", server: 103.255.209.76, port: 42267, type: vmess, uuid: 6fab61b9-74b5-4cd2-b120-72c6638a913a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
+  - {name: "直连-香港216", server: 18.140.249.254, port: 41918, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-3.nebulacloud.win}}}
+  - {name: "直连-香港217", server: 47.128.242.193, port: 18585, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-1.nebulacloud.win}}}
+  - {name: "直连-香港218", server: 13.212.120.35, port: 35702, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-2.nebulacloud.win}}}
+  - {name: "直连-香港219", server: 103.255.208.14, port: 42682, type: vmess, uuid: 8b571e71-836f-4c65-8137-965b6840d936, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+  - {name: "直连-香港220", server: 103.255.209.100, port: 41564, type: vmess, uuid: 66c01bc5-ec8f-4060-a3ec-eb0d9fdd3cf1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
   - {name: "直连-香港221", server: 103.255.209.76, port: 42471, type: vmess, uuid: 6fab61b9-74b5-4cd2-b120-72c6638a913a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
   - {name: "直连-香港222", server: 103.255.208.18, port: 12591, type: vmess, uuid: 9e88415a-b6f8-4276-9430-b85cb6c10bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
   - {name: "直连-香港223", server: speed-01.aliyun-web-tracker.cn, port: 11418, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
@@ -399,6 +418,25 @@ proxy-groups:
     - '直连-香港182'
     - '直连-香港183'
     - '直连-香港184'
+    - '直连-香港202'
+    - '直连-香港203'
+    - '直连-香港204'
+    - '直连-香港205'
+    - '直连-香港206'
+    - '直连-香港207'
+    - '直连-香港208'
+    - '直连-香港209'
+    - '直连-香港210'
+    - '直连-香港211'
+    - '直连-香港212'
+    - '直连-香港213'
+    - '直连-香港214'
+    - '直连-香港215'
+    - '直连-香港216'
+    - '直连-香港217'
+    - '直连-香港218'
+    - '直连-香港219'
+    - '直连-香港220'
     - '直连-香港221'
     - '直连-香港222'
     - '直连-香港223'
@@ -605,6 +643,25 @@ proxy-groups:
     - '直连-香港182'
     - '直连-香港183'
     - '直连-香港184'
+    - '直连-香港202'
+    - '直连-香港203'
+    - '直连-香港204'
+    - '直连-香港205'
+    - '直连-香港206'
+    - '直连-香港207'
+    - '直连-香港208'
+    - '直连-香港209'
+    - '直连-香港210'
+    - '直连-香港211'
+    - '直连-香港212'
+    - '直连-香港213'
+    - '直连-香港214'
+    - '直连-香港215'
+    - '直连-香港216'
+    - '直连-香港217'
+    - '直连-香港218'
+    - '直连-香港219'
+    - '直连-香港220'
     - '直连-香港221'
     - '直连-香港222'
     - '直连-香港223'
