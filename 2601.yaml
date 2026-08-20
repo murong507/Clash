@@ -104,7 +104,57 @@ proxies:
   - {name: "直连-香港098", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 22905eeb40abd86cf8314faceeefb35d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港099", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 41aabe3621c1a46115260b480fa08c47, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港100", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 433eeaa26c6cfb611ac76aa154368ed1, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
-
+  - {name: "直连-香港101", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 43deb843e3f5da502d0b394995fc42d2, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港102", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 4c1511d220e1437b234fa40571c43810, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港103", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 53141abd01b6a4bb4511bd81097c0b8f, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港104", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 5f9b5bfbf52c85aeddefdca3abc694b1, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港105", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 6fac6920d85a061cc5bb88ea80e6a703, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港106", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 8551a9d47b390b78d3be443ad1d0019d, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港107", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 8ea984e1be9ce8206722eb08924039a2, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港108", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 93618d74a3bcf47c8cfbbe678bb29b08, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港109", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: a0d94e10446eef0e1eebb4f6c177512d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港110", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: b4d7471e8bf6508a55dae8b38ba1a625, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港111", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: c30973184a30818b4a19c8b247cc3cd4, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港112", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: c77998f773ec547f3ab3abfe59c7bc68, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港113", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: c98ab2ef8640ec92870b4132c33cd371, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港114", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: cdc83e78afe4ef70ac895d88bcbc6bb5, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港115", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: ce0c3a409dd52a7fcefeb25dc7e32d5f, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港116", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: d518716100e9e02b425f760d9219844e, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港117", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: dc8487a54e41ae2a680b14ab235a30a2, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港118", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: e05cbe848f32b3b9d1224ddacaa3c51d, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港119", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: e5a3fe75c38be1dc79af933221d2d86a, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港120", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: e6a5cbbde3aae828e180b1fb4026841a, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港121", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: e8aaaf6f97db95a2faa5af0c1566385b, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港122", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: f53d2b849a03b2e06fd1c1a04968aff6, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港123", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: fa74fc619c26978ad3585426d06fbde6, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港124", server: 47.83.179.144, port: 30011, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SSFIkykW4mCy8Kn4ni7kX7QA9_DX1TX8YWM1ufLplkU}, servername: www.figma.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港125", server: 47.83.179.144, port: 31012, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LvCIGI5QVMfY3lmEN7LM_WVLHF43ypZkeqMqvyOAax0}, servername: www.amazon.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港126", server: 47.83.179.144, port: 30013, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MPEowms2A7dWKLyN2RflXZkcjkW8mD9q5T-xSS8zoVo}, servername: www.ietf.org, client-fingerprint: qq, network: tcp}
+  - {name: "直连-香港127", server: openai.com, port: 443, type: vless, uuid: 5eaabd2b-110c-4358-a4d3-e8317e642449, tls: true, skip-cert-verify: true, servername: vl83.8999981.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /download, headers: {Host: vl83.8999981.xyz}}}
+  - {name: "直连-香港128", server: 3.147.62.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "直连-香港129", server: eternal-swift.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eternal-swift.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港130", server: d7x7cin3t9h6j.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d7x7cin3t9h6j.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d7x7cin3t9h6j.cloudfront.net}}}
+  - {name: "直连-香港131", server: normal-elk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: normal-elk.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港132", server: d3qyd6pr8itxft.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3qyd6pr8itxft.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3qyd6pr8itxft.cloudfront.net}}}
+  - {name: "直连-香港133", server: heroic-cow.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: heroic-cow.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港134", server: d1jc95n7r57kiy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1jc95n7r57kiy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1jc95n7r57kiy.cloudfront.net}}}
+  - {name: "直连-香港135", server: striking-cheetah.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: striking-cheetah.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港136", server: d18jbb37ccp7h2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d18jbb37ccp7h2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d18jbb37ccp7h2.cloudfront.net}}}
+  - {name: "直连-香港137", server: magical-kodiak.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: magical-kodiak.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港138", server: d29prpqjtidnu0.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d29prpqjtidnu0.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d29prpqjtidnu0.cloudfront.net}}}
+  - {name: "直连-香港139", server: liberal-salmon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: liberal-salmon.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港140", server: d3gy7w1ol5ks6p.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3gy7w1ol5ks6p.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3gy7w1ol5ks6p.cloudfront.net}}}
+  - {name: "直连-香港141", server: novel-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: novel-mouse.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港142", server: d269kcbvuhs9tc.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d269kcbvuhs9tc.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d269kcbvuhs9tc.cloudfront.net}}}
+  - {name: "直连-香港143", server: strong-haddock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: strong-haddock.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港144", server: dss8uaz1qufma.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dss8uaz1qufma.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dss8uaz1qufma.cloudfront.net}}}
+  - {name: "直连-香港145", server: eminent-lamb.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eminent-lamb.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港146", server: wealthy-loon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wealthy-loon.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港147", erver: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港148", server: lisahkxwvhkx3v8.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 7DvbUcDXcPo0, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港149", server: cmihkxwvhkx3v5.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: E9l9rqFuDpr4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港150", server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "IPV6-狮城1 移动", type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "官网：woccloud.net", type: vmess, server: dp.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}  
@@ -213,7 +263,57 @@ proxy-groups:
     - '直连-香港098'
     - '直连-香港099'
     - '直连-香港100'
-    
+    - '直连-香港101'
+    - '直连-香港102'
+    - '直连-香港103'
+    - '直连-香港104'
+    - '直连-香港105'
+    - '直连-香港106'
+    - '直连-香港107'
+    - '直连-香港108'
+    - '直连-香港109'
+    - '直连-香港110'
+    - '直连-香港111'
+    - '直连-香港112'
+    - '直连-香港113'
+    - '直连-香港114'
+    - '直连-香港115'
+    - '直连-香港116'
+    - '直连-香港117'
+    - '直连-香港118'
+    - '直连-香港119'
+    - '直连-香港120'
+    - '直连-香港121'
+    - '直连-香港122'
+    - '直连-香港123'
+    - '直连-香港124'
+    - '直连-香港125'
+    - '直连-香港126'
+    - '直连-香港127'
+    - '直连-香港128'
+    - '直连-香港129'
+    - '直连-香港130'
+    - '直连-香港131'
+    - '直连-香港132'
+    - '直连-香港133'
+    - '直连-香港134'
+    - '直连-香港135'
+    - '直连-香港136'
+    - '直连-香港137'
+    - '直连-香港138'
+    - '直连-香港139'
+    - '直连-香港140'
+    - '直连-香港141'
+    - '直连-香港142'
+    - '直连-香港143'
+    - '直连-香港144'
+    - '直连-香港145'
+    - '直连-香港146'
+    - '直连-香港147'
+    - '直连-香港148'
+    - '直连-香港149'
+    - '直连-香港150'
+  
 - name: 香港节点
   type: select
   proxies:
@@ -317,7 +417,57 @@ proxy-groups:
     - '直连-香港098'
     - '直连-香港099'
     - '直连-香港100'
-
+    - '直连-香港101'
+    - '直连-香港102'
+    - '直连-香港103'
+    - '直连-香港104'
+    - '直连-香港105'
+    - '直连-香港106'
+    - '直连-香港107'
+    - '直连-香港108'
+    - '直连-香港109'
+    - '直连-香港110'
+    - '直连-香港111'
+    - '直连-香港112'
+    - '直连-香港113'
+    - '直连-香港114'
+    - '直连-香港115'
+    - '直连-香港116'
+    - '直连-香港117'
+    - '直连-香港118'
+    - '直连-香港119'
+    - '直连-香港120'
+    - '直连-香港121'
+    - '直连-香港122'
+    - '直连-香港123'
+    - '直连-香港124'
+    - '直连-香港125'
+    - '直连-香港126'
+    - '直连-香港127'
+    - '直连-香港128'
+    - '直连-香港129'
+    - '直连-香港130'
+    - '直连-香港131'
+    - '直连-香港132'
+    - '直连-香港133'
+    - '直连-香港134'
+    - '直连-香港135'
+    - '直连-香港136'
+    - '直连-香港137'
+    - '直连-香港138'
+    - '直连-香港139'
+    - '直连-香港140'
+    - '直连-香港141'
+    - '直连-香港142'
+    - '直连-香港143'
+    - '直连-香港144'
+    - '直连-香港145'
+    - '直连-香港146'
+    - '直连-香港147'
+    - '直连-香港148'
+    - '直连-香港149'
+    - '直连-香港150'
+   
 - name: 其它节点
   type: select
   proxies:
