@@ -1,70 +1,92 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: rule
+bind-address: '*'
+ipv6: false
+mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0457
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0182
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0183
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.244.120.197-0195
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: ''
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- {name: 🇭🇰 xingyun-香港 通用 自动, server: 43.199.43.219, port: 36001, type: hysteria2, password: CR7FgSGFvGz1ZjGG, auth: CR7FgSGFvGz1ZjGG, sni: hk-ls-f-4.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用1, server: 43.199.43.219, port: 36001, type: hysteria2, password: CR7FgSGFvGz1ZjGG, auth: CR7FgSGFvGz1ZjGG, sni: hk-ls-f-4.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 2, server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用5, server: 16.162.90.225, port: 46001, type: hysteria2, password: NZrR7TgSksQSxvZl, auth: NZrR7TgSksQSxvZl, sni: hk-ls-o-5.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-解锁3, server: 154.16.248.120, port: 36001, type: hysteria2, password: OseEkYbZb8KcLL4r, auth: OseEkYbZb8KcLL4r, sni: jp-akile-5.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 3, server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用2, server: 43.199.143.76, port: 26001, type: hysteria2, password: R1rCOJrLEf6Ryz9Y, auth: R1rCOJrLEf6Ryz9Y, sni: hk-ls-i-7.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 4, server: 16.163.95.125, port: 56001, type: hysteria2, password: S2nBeV77TVW43iuF, auth: S2nBeV77TVW43iuF, sni: hk-ls-r-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用4, server: 16.163.95.125, port: 56001, type: hysteria2, password: S2nBeV77TVW43iuF, auth: S2nBeV77TVW43iuF, sni: hk-ls-r-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 5, server: 43.198.73.249, port: 16001, type: hysteria2, password: gWCNjakjGdwNO5w6, auth: gWCNjakjGdwNO5w6, sni: hk-ls-k-18.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用3, server: 43.198.73.249, port: 16001, type: hysteria2, password: gWCNjakjGdwNO5w6, auth: gWCNjakjGdwNO5w6, sni: hk-ls-k-18.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 解锁 自动, server: 103.255.208.14, port: 42104, type: vmess, uuid: 8b571e71-836f-4c65-8137-965b6840d936, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 2, server: 103.255.208.18, port: 11869, type: vmess, uuid: 9e88415a-b6f8-4276-9430-b85cb6c10bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 3, server: 103.255.209.100, port: 42675, type: vmess, uuid: 66c01bc5-ec8f-4060-a3ec-eb0d9fdd3cf1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 4, server: 103.255.209.76, port: 42267, type: vmess, uuid: 6fab61b9-74b5-4cd2-b120-72c6638a913a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-住宅1, server: 18.140.249.254, port: 41918, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-住宅2, server: 47.128.242.193, port: 18585, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-住宅3, server: 13.212.120.35, port: 35702, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-解锁1, server: 103.255.208.14, port: 42682, type: vmess, uuid: 8b571e71-836f-4c65-8137-965b6840d936, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁2, server: 103.255.209.100, port: 41564, type: vmess, uuid: 66c01bc5-ec8f-4060-a3ec-eb0d9fdd3cf1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁3, server: 103.255.209.76, port: 42471, type: vmess, uuid: 6fab61b9-74b5-4cd2-b120-72c6638a913a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁4, server: 103.255.208.18, port: 12591, type: vmess, uuid: 9e88415a-b6f8-4276-9430-b85cb6c10bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
 proxy-groups:
-- name: 🔰 节点选择
-  proxies:
-  - 🇭🇰HK-47.244.120.197-0457
-  - 🇭🇰HK-47.244.120.197-0182
-  - 🇭🇰HK-47.244.120.197-0183
-  - 🇭🇰HK-47.244.120.197-0195
+- name: 🚀 节点选择
   type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🇭🇰 xingyun-香港 通用 自动
+  - 🇭🇰 xingyun-香港-通用1
+  - 🇭🇰 xingyun-香港 通用 自动 2
+  - 🇭🇰 xingyun-香港-通用5
+  - 🇭🇰 xingyun-香港 通用 自动 3
+  - 🇭🇰 xingyun-香港-通用2
+  - 🇭🇰 xingyun-香港 通用 自动 4
+  - 🇭🇰 xingyun-香港-通用4
+  - 🇭🇰 xingyun-香港 通用 自动 5
+  - 🇭🇰 xingyun-香港-通用3
+  - 🇭🇰 xingyun-香港 解锁 自动
+  - 🇭🇰 xingyun-香港 解锁 自动 2
+  - 🇭🇰 xingyun-香港 解锁 自动 3
+  - 🇭🇰 xingyun-香港 解锁 自动 4
+  - 🇭🇰 xingyun-香港-住宅1
+  - 🇭🇰 xingyun-香港-住宅2
+  - 🇭🇰 xingyun-香港-住宅3
+  - 🇭🇰 xingyun-香港-解锁1
+  - 🇭🇰 xingyun-香港-解锁2
+  - 🇭🇰 xingyun-香港-解锁3
+  - 🇭🇰 xingyun-香港-解锁4
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - 🇭🇰 xingyun-香港 通用 自动
+  - 🇭🇰 xingyun-香港-通用1
+  - 🇭🇰 xingyun-香港 通用 自动 2
+  - 🇭🇰 xingyun-香港-通用5
+  - 🇭🇰 xingyun-香港 通用 自动 3
+  - 🇭🇰 xingyun-香港-通用2
+  - 🇭🇰 xingyun-香港 通用 自动 4
+  - 🇭🇰 xingyun-香港-通用4
+  - 🇭🇰 xingyun-香港 通用 自动 5
+  - 🇭🇰 xingyun-香港-通用3
+  - 🇭🇰 xingyun-香港 解锁 自动
+  - 🇭🇰 xingyun-香港 解锁 自动 2
+  - 🇭🇰 xingyun-香港 解锁 自动 3
+  - 🇭🇰 xingyun-香港 解锁 自动 4
+  - 🇭🇰 xingyun-香港-住宅1
+  - 🇭🇰 xingyun-香港-住宅2
+  - 🇭🇰 xingyun-香港-住宅3
+  - 🇭🇰 xingyun-香港-解锁1
+  - 🇭🇰 xingyun-香港-解锁2
+  - 🇭🇰 xingyun-香港-解锁3
+  - 🇭🇰 xingyun-香港-解锁4
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
 rules:
-- MATCH,🔰 节点选择
+- GEOIP,LAN,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼
