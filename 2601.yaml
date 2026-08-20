@@ -144,6 +144,18 @@ proxies:
   - {name: "直连-香港138", server: d29prpqjtidnu0.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d29prpqjtidnu0.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d29prpqjtidnu0.cloudfront.net}}}
   - {name: "直连-香港139", server: liberal-salmon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: liberal-salmon.rooster465.autos, skip-cert-verify: true}
   - {name: "直连-香港140", server: d3gy7w1ol5ks6p.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3gy7w1ol5ks6p.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3gy7w1ol5ks6p.cloudfront.net}}}
+  - {name: "直连-香港141", server: novel-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: novel-mouse.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港142", server: d269kcbvuhs9tc.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d269kcbvuhs9tc.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d269kcbvuhs9tc.cloudfront.net}}}
+  - {name: "直连-香港143", server: strong-haddock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: strong-haddock.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港144", server: dss8uaz1qufma.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dss8uaz1qufma.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dss8uaz1qufma.cloudfront.net}}}
+  - {name: "直连-香港145", server: eminent-lamb.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eminent-lamb.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港146", server: wealthy-loon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wealthy-loon.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港147", server: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港148", server: lisahkxwvhkx3v8.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 7DvbUcDXcPo0, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港149", server: cmihkxwvhkx3v5.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: E9l9rqFuDpr4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港150", server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+
+  
   
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "IPV6-狮城1 移动", type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -291,6 +303,17 @@ proxy-groups:
     - '直连-香港138'
     - '直连-香港139'
     - '直连-香港140'
+    - '直连-香港141'
+    - '直连-香港142'
+    - '直连-香港143'
+    - '直连-香港144'
+    - '直连-香港145'
+    - '直连-香港146'
+    - '直连-香港147'
+    - '直连-香港148'
+    - '直连-香港149'
+    - '直连-香港150'
+    
     
 - name: 香港节点
   type: select
@@ -433,6 +456,16 @@ proxy-groups:
     - '直连-香港138'
     - '直连-香港139'
     - '直连-香港140'
+    - '直连-香港141'
+    - '直连-香港142'
+    - '直连-香港143'
+    - '直连-香港144'
+    - '直连-香港145'
+    - '直连-香港146'
+    - '直连-香港147'
+    - '直连-香港148'
+    - '直连-香港149'
+    - '直连-香港150'    
     
 - name: 其它节点
   type: select
