@@ -154,7 +154,26 @@ proxies:
   - {name: "直连-香港148", server: lisahkxwvhkx3v8.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 7DvbUcDXcPo0, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港149", server: cmihkxwvhkx3v5.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: E9l9rqFuDpr4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港150", server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-
+  - {name: "直连-香港151", server: wwxwtww21v3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: bhxkKG87Zxxz, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港152", server: cmihkcmi3v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: kF37YLRWOOKU, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港153", server: pq.hy.hk.yydjc.top, port: 443, type: hysteria2, password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, auth: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港154", server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港155", server: 120.232.250.162, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港156", server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港157", server: 120.232.251.129, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港158", server: 120.232.253.96, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港159", server: 120.232.253.97, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港160", server: 120.232.253.98, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港161", server: 183.36.35.150, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港162", server: 183.36.35.151, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港163", server: 183.36.35.152, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: "直连-香港164", server: 156.224.79.35, port: 443, type: vless, uuid: 375af4d1-cd8e-43c6-a87f-cc93899a50d4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港165", server: cr36-zili01.infraix.top, port: 443, type: vless, uuid: 1b4b63fc-2184-4c88-8cd7-198667c42821, tls: true, skip-cert-verify: true, servername: cr36-zili01.infraix.top, network: ws, ws-opts: {path: /1b4b63fc-2184-4c88-8cd7-198667c42821, headers: {Host: cr36-zili01.infraix.top}}}
+  - {name: "直连-香港166", server: 6sdo-zilhxv.logicara.top, port: 443, type: vless, uuid: 5a8025a5-5917-4858-96c6-761c3a40677f, tls: true, skip-cert-verify: true, servername: 6sdo-zilhxv.logicara.top, network: ws, ws-opts: {path: /5a8025a5-5917-4858-96c6-761c3a40677f, headers: {Host: 6sdo-zilhxv.logicara.top}}}
+  - {name: "直连-香港167", server: vj37-1936vtw.fincore.top, port: 443, type: vless, uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0, short-id: 14156e3ac23212cc}, servername: www.bing.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港168", server: o3t7-wroxn9.finvanta360.top, port: 443, type: vless, uuid: 69c03204-ae92-4f43-acc5-ccebaba018e3, tls: true, skip-cert-verify: true, servername: o3t7-wroxn9.finvanta360.top, network: ws, ws-opts: {path: /69c03204-ae92-4f43-acc5-ccebaba018e3, headers: {Host: o3t7-wroxn9.finvanta360.top}}}
+  - {name: "直连-香港169", server: 9wf3-zili1w.laurelmedco.com, port: 443, type: vless, uuid: 70fc0b58-a801-4417-a1a6-767fdc2d52da, tls: true, skip-cert-verify: true, servername: 9wf3-zili1w.laurelmedco.com, network: ws, ws-opts: {path: /70fc0b58-a801-4417-a1a6-767fdc2d52da, headers: {Host: 9wf3-zili1w.laurelmedco.com}}}
+  - {name: "直连-香港170", server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 81c517d1-6765-4576-948b-e8c593558729, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: -EzGL_FpChSV4yNmXn_jqtcymmfjVlEswRD6KlLCI1k, short-id: 46221b5749bf3102}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp}
   
   
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -313,6 +332,26 @@ proxy-groups:
     - '直连-香港148'
     - '直连-香港149'
     - '直连-香港150'
+    - '直连-香港151'
+    - '直连-香港152'
+    - '直连-香港153'
+    - '直连-香港154'
+    - '直连-香港155'
+    - '直连-香港156'
+    - '直连-香港157'
+    - '直连-香港158'
+    - '直连-香港159'
+    - '直连-香港160'
+    - '直连-香港161'
+    - '直连-香港162'
+    - '直连-香港163'
+    - '直连-香港164'
+    - '直连-香港165'
+    - '直连-香港166'
+    - '直连-香港167'
+    - '直连-香港168'
+    - '直连-香港169'
+    - '直连-香港170' 
     
     
 - name: 香港节点
@@ -465,7 +504,28 @@ proxy-groups:
     - '直连-香港147'
     - '直连-香港148'
     - '直连-香港149'
-    - '直连-香港150'    
+    - '直连-香港150'
+    - '直连-香港151'
+    - '直连-香港152'
+    - '直连-香港153'
+    - '直连-香港154'
+    - '直连-香港155'
+    - '直连-香港156'
+    - '直连-香港157'
+    - '直连-香港158'
+    - '直连-香港159'
+    - '直连-香港160'
+    - '直连-香港161'
+    - '直连-香港162'
+    - '直连-香港163'
+    - '直连-香港164'
+    - '直连-香港165'
+    - '直连-香港166'
+    - '直连-香港167'
+    - '直连-香港168'
+    - '直连-香港169'
+    - '直连-香港170'
+    
     
 - name: 其它节点
   type: select
