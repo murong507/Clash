@@ -150,7 +150,7 @@ proxies:
   - {name: "直连-香港144", server: dss8uaz1qufma.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dss8uaz1qufma.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dss8uaz1qufma.cloudfront.net}}}
   - {name: "直连-香港145", server: eminent-lamb.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eminent-lamb.rooster465.autos, skip-cert-verify: true}
   - {name: "直连-香港146", server: wealthy-loon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wealthy-loon.rooster465.autos, skip-cert-verify: true}
-  - {name: "直连-香港147", erver: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港147", server: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港148", server: lisahkxwvhkx3v8.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 7DvbUcDXcPo0, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港149", server: cmihkxwvhkx3v5.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: E9l9rqFuDpr4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港150", server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
