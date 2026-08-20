@@ -129,7 +129,9 @@ proxies:
   - {name: "直连-香港123", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: fa74fc619c26978ad3585426d06fbde6, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港124", server: 47.83.179.144, port: 30011, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SSFIkykW4mCy8Kn4ni7kX7QA9_DX1TX8YWM1ufLplkU}, servername: www.figma.com, client-fingerprint: edge, network: tcp}
   - {name: "直连-香港125", server: 47.83.179.144, port: 31012, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LvCIGI5QVMfY3lmEN7LM_WVLHF43ypZkeqMqvyOAax0}, servername: www.amazon.com, client-fingerprint: edge, network: tcp}
-
+  - {name: "直连-香港126", server: 47.83.179.144, port: 30013, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MPEowms2A7dWKLyN2RflXZkcjkW8mD9q5T-xSS8zoVo}, servername: www.ietf.org, client-fingerprint: qq, network: tcp}
+  - {name: "直连-香港127", server: openai.com, port: 443, type: vless, uuid: 5eaabd2b-110c-4358-a4d3-e8317e642449, tls: true, skip-cert-verify: true, servername: vl83.8999981.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /download, headers: {Host: vl83.8999981.xyz}}}
+  - {name: "直连-香港128", server: 3.147.62.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "IPV6-狮城1 移动", type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -264,6 +266,9 @@ proxy-groups:
     - '直连-香港123'
     - '直连-香港124'
     - '直连-香港125'
+    - '直连-香港126'
+    - '直连-香港127'
+    - '直连-香港128'
     
 - name: 香港节点
   type: select
@@ -393,6 +398,9 @@ proxy-groups:
     - '直连-香港123'
     - '直连-香港124'
     - '直连-香港125'
+    - '直连-香港126'
+    - '直连-香港127'
+    - '直连-香港128'
    
 - name: 其它节点
   type: select
