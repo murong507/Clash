@@ -56,7 +56,55 @@ proxies:
   - {name: "直连-香港048", server: 211.91.158.44, port: 9208, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
   - {name: "直连-香港049", server: 211.91.158.47, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
   - {name: "直连-香港050", server: 34.104.220.198, port: 443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
-  
+  - {name: "直连-香港051", server: 207.57.129.122, port: 443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
+  - {name: "直连-香港052", server: anyhk1.deepfind.site, port: 51931, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: qq, network: tcp}
+  - {name: "直连-香港053", server: 87.83.109.246, port: 443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
+  - {name: "直连-香港054", server: tmp.deepfind.site, port: 52396, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港055", server: anyhk1.deepfind.site, port: 11370, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港056", server: anyhk1.deepfind.site, port: 18916, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
+  - {name: "直连-香港057", server: tmp.deepfind.site, port: 443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
+  - {name: "直连-香港060", server: takehk3.deepfind.site, port: 8443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: qq, network: tcp}
+  - {name: "直连-香港061", server: takehk4.deepfind.site, port: 8443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: qq, network: tcp}
+  - {name: "直连-香港062", server: 149.104.3.83, port: 443, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港063", server: hkx-x802.appfra.com, port: 443, type: vless, uuid: f80ac38d-01ff-4b6a-bbf7-a704f344b4e1, tls: true, skip-cert-verify: true, servername: hkx-x802.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: hkx-x802.appfra.com}}}
+  - {name: "直连-香港064", server: hk-x902.appfra.com, port: 443, type: vless, uuid: f80ac38d-01ff-4b6a-bbf7-a704f344b4e1, tls: true, skip-cert-verify: true, servername: hk-x902.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: hk-x902.appfra.com}}}
+  - {name: "直连-香港065", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk1p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk1, headers: {Host: hk1p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港066", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk2p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk2, headers: {Host: hk2p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港067", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk3p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk3, headers: {Host: hk3p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港068", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk4p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk4, headers: {Host: hk4p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港069", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk5p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk5, headers: {Host: hk5p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港070", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk6p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk6, headers: {Host: hk6p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港071", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk7p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk7, headers: {Host: hk7p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港072", server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, uuid: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, tls: true, skip-cert-verify: true, servername: hk8p1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/hk8, headers: {Host: hk8p1.xn--ghq880n3na965a.com}}}
+  - {name: "直连-香港073", server: 103.197.71.112, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港074", server: 103.197.71.113, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港075", server: 103.197.71.114, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港076", server: 103.197.71.116, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港077", server: 103.197.71.117, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: tv.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港078", server: 103.197.71.75, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港079", server: 103.197.71.236, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: tv.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港080", server: 103.197.71.237, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: tv.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港081", server: 103.197.71.238, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: tv.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港082", server: 103.197.71.239, port: 35000, type: hysteria2, password: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, auth: 2cc564de-1f1b-41f0-a2f9-cfb4deee1c0d, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港083", server: 103.182.97.250, port: 23198, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: VMDDT8LM17r-nv3cE7y_lUSRdnIzfWys-96TTVmVfkM, short-id: c40b095a}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
+  - {name: "直连-香港084", server: 175.29.23.198, port: 23198, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: VMDDT8LM17r-nv3cE7y_lUSRdnIzfWys-96TTVmVfkM, short-id: c40b095a}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港085", server: 87.83.109.106, port: 19106, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: hYb4wEKoSCy8rJqf7MUQ0virZWUoKBQbKT6Fbt96yEs, short-id: 63f6e09994d5}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港086", server: 87.83.109.246, port: 19246, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: zHrps6IQU-eosDd7ikdvrxzpuduxtcqi6pPmFLL_GEo, short-id: 4dd1}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
+  - {name: "直连-香港087", server: 87.83.109.6, port: 11096, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: HyMlyYJ68KV573OEioBe6hsxOcD9zb-Ia12Gr48MZwk, short-id: e8b2fd76}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
+  - {name: "直连-香港088", server: beatr-hk3.599789.xyz, port: 11096, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: HyMlyYJ68KV573OEioBe6hsxOcD9zb-Ia12Gr48MZwk, short-id: e8b2fd76}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港089", server: beatr-hk3.599789.xyz, port: 443, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港090", server: jp1.xiaohuojian123.vip, port: 41766, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: zHrps6IQU-eosDd7ikdvrxzpuduxtcqi6pPmFLL_GEo, short-id: 4dd1}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
+  - {name: "直连-香港091", server: tmp.deepfind.site, port: 19106, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: hYb4wEKoSCy8rJqf7MUQ0virZWUoKBQbKT6Fbt96yEs, short-id: 63f6e09994d5}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港092", server: tmp.deepfind.site, port: 2443, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp}
+  - {name: "直连-香港093", server: tomhk1.chatagent.online, port: 2053, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港094", server: tomhk2.chatagent.online, port: 2053, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
+  - {name: "直连-香港095", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 01f65778463ad8f0eff9dbe3e1a75a35, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港096", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 06cf12a7fab279375e55e2f0cfdef381, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港097", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 13e6b9f9497485cdedfdc59328e6a8ad, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+  - {name: "直连-香港098", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 22905eeb40abd86cf8314faceeefb35d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港099", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 41aabe3621c1a46115260b480fa08c47, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港100", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 433eeaa26c6cfb611ac76aa154368ed1, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "IPV6-狮城1 移动", type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "官网：woccloud.net", type: vmess, server: dp.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}  
@@ -115,7 +163,57 @@ proxy-groups:
     - '直连-香港048'
     - '直连-香港049'
     - '直连-香港050'
-   
+    - '直连-香港051'
+    - '直连-香港052'
+    - '直连-香港053'
+    - '直连-香港054'
+    - '直连-香港055'
+    - '直连-香港056'
+    - '直连-香港057'
+    - '直连-香港058'
+    - '直连-香港059'
+    - '直连-香港060'
+    - '直连-香港061'
+    - '直连-香港062'
+    - '直连-香港063'
+    - '直连-香港064'
+    - '直连-香港065'
+    - '直连-香港066'
+    - '直连-香港067'
+    - '直连-香港068'
+    - '直连-香港069'
+    - '直连-香港070'
+    - '直连-香港071'
+    - '直连-香港072'
+    - '直连-香港073'
+    - '直连-香港074'
+    - '直连-香港075'
+    - '直连-香港076'
+    - '直连-香港077'
+    - '直连-香港078'
+    - '直连-香港079'
+    - '直连-香港080'
+    - '直连-香港081'
+    - '直连-香港082'
+    - '直连-香港083'
+    - '直连-香港084'
+    - '直连-香港085'
+    - '直连-香港086'
+    - '直连-香港087'
+    - '直连-香港088'
+    - '直连-香港089'
+    - '直连-香港090'
+    - '直连-香港091'
+    - '直连-香港092'
+    - '直连-香港093'
+    - '直连-香港094'
+    - '直连-香港095'
+    - '直连-香港096'
+    - '直连-香港097'
+    - '直连-香港098'
+    - '直连-香港099'
+    - '直连-香港100'
+    
 - name: 香港节点
   type: select
   proxies:
@@ -169,7 +267,57 @@ proxy-groups:
     - '直连-香港048'
     - '直连-香港049'
     - '直连-香港050'
-   
+    - '直连-香港051'
+    - '直连-香港052'
+    - '直连-香港053'
+    - '直连-香港054'
+    - '直连-香港055'
+    - '直连-香港056'
+    - '直连-香港057'
+    - '直连-香港058'
+    - '直连-香港059'
+    - '直连-香港060'
+    - '直连-香港061'
+    - '直连-香港062'
+    - '直连-香港063'
+    - '直连-香港064'
+    - '直连-香港065'
+    - '直连-香港066'
+    - '直连-香港067'
+    - '直连-香港068'
+    - '直连-香港069'
+    - '直连-香港070'
+    - '直连-香港071'
+    - '直连-香港072'
+    - '直连-香港073'
+    - '直连-香港074'
+    - '直连-香港075'
+    - '直连-香港076'
+    - '直连-香港077'
+    - '直连-香港078'
+    - '直连-香港079'
+    - '直连-香港080'
+    - '直连-香港081'
+    - '直连-香港082'
+    - '直连-香港083'
+    - '直连-香港084'
+    - '直连-香港085'
+    - '直连-香港086'
+    - '直连-香港087'
+    - '直连-香港088'
+    - '直连-香港089'
+    - '直连-香港090'
+    - '直连-香港091'
+    - '直连-香港092'
+    - '直连-香港093'
+    - '直连-香港094'
+    - '直连-香港095'
+    - '直连-香港096'
+    - '直连-香港097'
+    - '直连-香港098'
+    - '直连-香港099'
+    - '直连-香港100'
+
 - name: 其它节点
   type: select
   proxies:
