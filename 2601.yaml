@@ -139,6 +139,7 @@ proxies:
   - {name: "直连-香港133", server: heroic-cow.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: heroic-cow.rooster465.autos, skip-cert-verify: true}
   - {name: "直连-香港134", server: d1jc95n7r57kiy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1jc95n7r57kiy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1jc95n7r57kiy.cloudfront.net}}}
   - {name: "直连-香港135", server: striking-cheetah.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: striking-cheetah.rooster465.autos, skip-cert-verify: true}
+  - {name: "直连-香港136", server: d18jbb37ccp7h2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d18jbb37ccp7h2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d18jbb37ccp7h2.cloudfront.net}}}
 
   
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -284,6 +285,7 @@ proxy-groups:
     - '直连-香港133'
     - '直连-香港134'
     - '直连-香港135'
+    - '直连-香港136'
     
 - name: 香港节点
   type: select
@@ -423,6 +425,7 @@ proxy-groups:
     - '直连-香港133'
     - '直连-香港134'
     - '直连-香港135'
+    - '直连-香港136'
     
 - name: 其它节点
   type: select
