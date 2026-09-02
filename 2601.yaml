@@ -15,7 +15,6 @@ proxies:
   - {name: "直连-香港007", type: vless, server: hk5-r.link-t7.com, port: 10130, uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F, udp: true, network: grpc, tls: true, servername: s0.awsstatic.com, client-fingerprint: chrome, skip-cert-verify: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, grpc-opts: {grpc-service-name: movie}}
   - {name: "直连-香港008", type: vless, server: hk3-r.link-t7.com, port: 10128, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, udp: true, network: grpc, tls: true, servername: s0.awsstatic.com, client-fingerprint: chrome, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, grpc-opts: {grpc-service-name: movie}}
   - {name: "直连-香港009", type: vless, server: hk2-r.link-t7.com, port: 10127, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, tls: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, udp: true}
-  - {name: "直连-香港010", type: vless, server: hk2-r.link-t7.com, port: 10128, uuid: F2987FBA-B653-444D-8057-6B6474E448C6, tls: true, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}, udp: true}
   - {name: "直连-香港035", server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: "直连-香港036", server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
   - {name: "直连-香港095", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 01f65778463ad8f0eff9dbe3e1a75a35, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
@@ -100,7 +99,6 @@ proxy-groups:
     - '直连-香港007'
     - '直连-香港008'
     - '直连-香港009'
-    - '直连-香港010'
     - '直连-香港035'
     - '直连-香港036'
     - '直连-香港095'
@@ -181,7 +179,6 @@ proxy-groups:
     - '直连-香港007'
     - '直连-香港008'
     - '直连-香港009'
-    - '直连-香港010'
     - '直连-香港035'
     - '直连-香港036'
     - '直连-香港095'
