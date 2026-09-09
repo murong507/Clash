@@ -9,9 +9,11 @@ proxies:
   - {name: "直连-香港001", type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "直连-香港002", type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "直连-香港003", type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: "直连-香港010", type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: "直连-香港012", type: vmess, server: 112.132.215.108, port: 50002, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: tcp}
+  - {name: "直连-香港013", type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
   - {name: "直连-香港035", server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: "直连-香港036", server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
+  - {name: "直连-香港095", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 01f65778463ad8f0eff9dbe3e1a75a35, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港096", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 06cf12a7fab279375e55e2f0cfdef381, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港097", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 13e6b9f9497485cdedfdc59328e6a8ad, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
   - {name: "直连-香港098", server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 22905eeb40abd86cf8314faceeefb35d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
@@ -40,6 +42,9 @@ proxies:
   - {name: "直连-香港121", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: e8aaaf6f97db95a2faa5af0c1566385b, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
   - {name: "直连-香港122", server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: f53d2b849a03b2e06fd1c1a04968aff6, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
   - {name: "直连-香港123", server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: fa74fc619c26978ad3585426d06fbde6, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+  - {name: "直连-香港124", server: 47.83.179.144, port: 30011, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SSFIkykW4mCy8Kn4ni7kX7QA9_DX1TX8YWM1ufLplkU}, servername: www.figma.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港125", server: 47.83.179.144, port: 31012, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LvCIGI5QVMfY3lmEN7LM_WVLHF43ypZkeqMqvyOAax0}, servername: www.amazon.com, client-fingerprint: edge, network: tcp}
+  - {name: "直连-香港126", server: 47.83.179.144, port: 30013, type: vless, uuid: 10518b5f-eb32-46a1-b4f4-b8fdf49dc652, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MPEowms2A7dWKLyN2RflXZkcjkW8mD9q5T-xSS8zoVo}, servername: www.ietf.org, client-fingerprint: qq, network: tcp}
   - {name: "直连-香港129", server: eternal-swift.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eternal-swift.rooster465.autos, skip-cert-verify: true}
   - {name: "直连-香港130", server: d7x7cin3t9h6j.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d7x7cin3t9h6j.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d7x7cin3t9h6j.cloudfront.net}}}
   - {name: "直连-香港132", server: d3qyd6pr8itxft.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3qyd6pr8itxft.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3qyd6pr8itxft.cloudfront.net}}}
@@ -58,6 +63,20 @@ proxies:
   - {name: "直连-香港150", server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港151", server: wwxwtww21v3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: bhxkKG87Zxxz, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
   - {name: "直连-香港152", server: cmihkcmi3v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: kF37YLRWOOKU, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: "直连-香港153", server: pq.hy.hk.yydjc.top, port: 443, type: hysteria2, password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, auth: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港172", server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
+  - {name: "直连-香港218", server: 13.212.120.35, port: 35702, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-2.nebulacloud.win}}}
+  - {name: "直连-香港229", server: pq.hy.hk.yydjc.top, port: 443, type: hysteria2, password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, auth: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港230", server: 103.145.107.240, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港231", server: 103.145.107.242, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港232", server: 103.231.15.242, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港233", server: 154.3.36.182, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港234", server: 157.119.103.87, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港235", server: 209.33.166.145, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港236", server: 209.33.166.186, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港237", server: 221.128.249.116, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港238", server: 221.128.249.94, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "直连-香港239", server: 38.180.188.207, port: 9443, type: anytls, password: 976e5a57-c472-4939-9443-ab07012897b6, client-fingerprint: chrome, sni: www.apple.com, skip-cert-verify: true}
 
   - {name: "IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: "IPV6-狮城1 移动", type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -70,9 +89,11 @@ proxy-groups:
     - '直连-香港001'
     - '直连-香港002'
     - '直连-香港003'
-    - '直连-香港010'  
+    - '直连-香港012'
+    - '直连-香港013'   
     - '直连-香港035'
-    - '直连-香港036''
+    - '直连-香港036'
+    - '直连-香港095'
     - '直连-香港096'
     - '直连-香港097'
     - '直连-香港098'
@@ -101,6 +122,9 @@ proxy-groups:
     - '直连-香港121'
     - '直连-香港122'
     - '直连-香港123'
+    - '直连-香港124'
+    - '直连-香港125'
+    - '直连-香港126'
     - '直连-香港129'
     - '直连-香港130'
     - '直连-香港132'
@@ -119,6 +143,21 @@ proxy-groups:
     - '直连-香港150'
     - '直连-香港151'
     - '直连-香港152'
+    - '直连-香港153'
+    - '直连-香港172'
+    - '直连-香港218'
+    - '直连-香港229'
+    - '直连-香港230'
+    - '直连-香港231'
+    - '直连-香港232'
+    - '直连-香港233'
+    - '直连-香港234'
+    - '直连-香港235'
+    - '直连-香港236'
+    - '直连-香港237'
+    - '直连-香港238'
+    - '直连-香港239'
+
     
 - name: 香港节点
   type: select
@@ -126,9 +165,9 @@ proxy-groups:
     - '直连-香港001'
     - '直连-香港002'
     - '直连-香港003'
-    - '直连-香港010'  
     - '直连-香港035'
-    - '直连-香港036''
+    - '直连-香港036'
+    - '直连-香港095'
     - '直连-香港096'
     - '直连-香港097'
     - '直连-香港098'
@@ -157,6 +196,9 @@ proxy-groups:
     - '直连-香港121'
     - '直连-香港122'
     - '直连-香港123'
+    - '直连-香港124'
+    - '直连-香港125'
+    - '直连-香港126'
     - '直连-香港129'
     - '直连-香港130'
     - '直连-香港132'
@@ -175,6 +217,20 @@ proxy-groups:
     - '直连-香港150'
     - '直连-香港151'
     - '直连-香港152'
+    - '直连-香港153'
+    - '直连-香港172'
+    - '直连-香港218'
+    - '直连-香港229'
+    - '直连-香港230'
+    - '直连-香港231'
+    - '直连-香港232'
+    - '直连-香港233'
+    - '直连-香港234'
+    - '直连-香港235'
+    - '直连-香港236'
+    - '直连-香港237'
+    - '直连-香港238'
+    - '直连-香港239'
     
 - name: 其它节点
   type: select
