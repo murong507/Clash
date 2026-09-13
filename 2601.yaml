@@ -11,6 +11,11 @@ proxies:
   - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港035, server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: 直连-香港036, server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
+  - {name: 直连-香港061, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 直连-香港062, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 直连-香港064, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 直连-香港066, type: vmess, server: v36.hdacd.com, port: 30836, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
   
   - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -25,10 +30,11 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港035
     - 直连-香港036
-
-    - IPV6-香港1 移动
-    - IPV6-狮城1 移动
-    - 官网：woccloud.net
+    - 直连-香港061
+    - 直连-香港062
+    - 直连-香港064
+    - 直连-香港066
+    - 直连-香港067
     
 - name: 香港节点
   type: select
@@ -38,10 +44,11 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港035
     - 直连-香港036
-
-    - IPV6-香港1 移动
-    - IPV6-狮城1 移动
-    - 官网：woccloud.net
+    - 直连-香港061
+    - 直连-香港062
+    - 直连-香港064
+    - 直连-香港066
+    - 直连-香港067
     
 - name: 其它节点
   type: select
