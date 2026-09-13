@@ -13,11 +13,11 @@ proxies:
   - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港035, server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: 直连-香港036, server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
-  - {name: 直连-香港061, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港062, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港064, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港066, type: vmess, server: v36.hdacd.com, port: 30836, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 直连-香港061, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true, network: tcp}
+  - {name: 直连-香港062, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true, network: tcp}
+  - {name: 直连-香港064, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true, network: tcp}
+  - {name: 直连-香港066, type: vmess, server: v36.hdacd.com, port: 30836, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true, network: tcp}
+  - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true, network: tcp}
 
   - {name: 直连-香港101, type: vless, server: 47.76.172.190, port: 443, uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b, tls: true, udp: true, skip-cert-verify: true, servername: www.cloudflare.com, flow: xtls-rprx-vision, client-fingerprint: chrome, reality-opts: {public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI, short-id: 92ddbafbf38306f5}}
   
