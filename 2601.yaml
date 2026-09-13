@@ -25,6 +25,10 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港004
     - 直连-香港005
+
+    - IPV6-香港1 移动
+    - IPV6-狮城1 移动
+    - 官网：woccloud.net
     
 - name: 香港节点
   type: select
@@ -34,6 +38,10 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港004
     - 直连-香港005
+
+    - IPV6-香港1 移动
+    - IPV6-狮城1 移动
+    - 官网：woccloud.net
     
 - name: 其它节点
   type: select
