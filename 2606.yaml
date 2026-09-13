@@ -60,7 +60,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_香港_66
+  - name: 🇭🇰_香港_67
     type: vmess
     server: v6.hdacd.com
     port: 30806
