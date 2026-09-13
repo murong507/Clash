@@ -9,19 +9,8 @@ proxies:
   - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港002, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港004, type: vmess, server: wwafj5lhl6bi8au9.v.3dns.vip, port: 443, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, udp: true, network: ws, ws-path: /ws-vmess, ws-headers: {Host: wwafj5LHl6bI8aU9.v.3dns.vip}}  
-  - {name: 直连-香港005, type: vmess, server: nycqg19zkwacpm1b.v.3dns.vip, port: 443, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-path: /ws-vmess, ws-headers: {Host: NYcQg19zkwaCPM1B.v.3dns.vip}}
-  - {name: 直连-香港006, type: vmess, server: ce0gedpxwou6cqon.v.3dns.vip, port: 443, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-path: /ws-vmess, ws-headers: {Host: ce0gedpxwou6cqon.v.3dns.vip}}
-  - {name: 直连-香港007, type: vmess, server: ex1ogt73nzpqkac2.v.3dns.vip, port: 443, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-path: /ws-vmess}
-  - {name: 直连-香港008, type: vmess, server: i2psm3knof5qjjix.v.3dns.vip, port: 443, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-path: /ws-vmess}
-  - {name: 直连-香港035, server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
-  - {name: 直连-香港036, server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
-  - {name: 直连-香港147, server: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-  - {name: 直连-香港148, server: lisahkxwvhkx3v8.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 7DvbUcDXcPo0, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-  - {name: 直连-香港149, server: cmihkxwvhkx3v5.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: E9l9rqFuDpr4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-  - {name: 直连-香港150, server: cmihkxwvhkx3v7.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: EHzqGzez27V4, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-  - {name: 直连-香港151, server: wwxwtww21v3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: bhxkKG87Zxxz, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-  - {name: 直连-香港152, server: cmihkcmi3v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: kF37YLRWOOKU, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+  - {name: 直连-香港004, server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
+  - {name: 直连-香港005, server: sv1.wy888.us, port: 443, type: vmess, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
   
   - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -36,17 +25,6 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港004
     - 直连-香港005
-    - 直连-香港006
-    - 直连-香港007
-    - 直连-香港008    
-    - 直连-香港035
-    - 直连-香港036
-    - 直连-香港147
-    - 直连-香港148
-    - 直连-香港149
-    - 直连-香港150
-    - 直连-香港151
-    - 直连-香港152
     
 - name: 香港节点
   type: select
@@ -54,14 +32,8 @@ proxy-groups:
     - 直连-香港001
     - 直连-香港002
     - 直连-香港003
-    - 直连-香港035
-    - 直连-香港036
-    - 直连-香港147
-    - 直连-香港148
-    - 直连-香港149
-    - 直连-香港150
-    - 直连-香港151
-    - 直连-香港152
+    - 直连-香港004
+    - 直连-香港005
     
 - name: 其它节点
   type: select
