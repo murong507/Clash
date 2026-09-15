@@ -9,6 +9,9 @@ proxies:
   - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港002, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 直连-香港004, type: vmess, server : 183.236.51.38, port: 55754, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, tls: false, udp: true, network: tcp}
+  - {name: 直连-香港005, type: vmess, server : 120.198.71.214, port: 34093, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, tls: false, udp: true, network: tcp} 
+  
   - {name: 直连-香港024, type: vmess, server: v33.hdacd.com, port: 30833, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港035, server: 552o-zili23.datavex.top, port: 443, type: vless, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
@@ -32,6 +35,8 @@ proxy-groups:
     - 直连-香港001
     - 直连-香港002
     - 直连-香港003
+    - 直连-香港004
+    - 直连-香港005
     - 直连-香港024
     - 直连-香港029
     - 直连-香港035
