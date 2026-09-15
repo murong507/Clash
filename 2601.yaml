@@ -11,8 +11,6 @@ proxies:
   - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港004, type: vmess, server: line.acetace.com, port: 39589, cipher: auto, uuid: f6195be4-37bc-3cc8-917e-50c704e2f974, alterId: 0, tls: false, udp: true, network: tcp}
   - {name: 直连-香港005, type: vmess, server: zfd-hkv2.kunlun01dns.com, port: 16115, cipher: auto, uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1, alterId: 0, tls: false, udp: true, network: tcp}
-  - {name: 直连-香港006, type: vmess, server: dog-hk.kunlun01dns.com, port:21018, cipher: auto, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, tls: false, udp: true, network: tcp}
-  - {name: 直连-香港007, type: vmess, server: 47.239.69.43, port: 56698, cipher: auto, uuid: 0be3a336-85ad-4c42-930b-05318236e68c, alterId: 0, tls: false, udp: true, network: tcp}
   
   - {name: 直连-香港024, type: vmess, server: v33.hdacd.com, port: 30833, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
@@ -39,8 +37,7 @@ proxy-groups:
     - 直连-香港003
     - 直连-香港004
     - 直连-香港005
-    - 直连-香港006
-    - 直连-香港007
+
     - 直连-香港024
     - 直连-香港029
     - 直连-香港035
