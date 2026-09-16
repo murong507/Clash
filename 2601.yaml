@@ -21,6 +21,8 @@ proxies:
   - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
 
   - {name: 直连-香港101, type: vless, server: 47.76.172.190, port: 443, uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b, tls: true, udp: true, skip-cert-verify: true, servername: www.cloudflare.com, flow: xtls-rprx-vision, client-fingerprint: chrome, reality-opts: {public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI, short-id: 92ddbafbf38306f5}}
+  - {name: 直连-香港102, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
+  - {name: 直连-香港103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
   
   - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -44,6 +46,8 @@ proxy-groups:
     - 直连-香港066
     - 直连-香港067
     - 直连-香港101
+    - 直连-香港102
+    - 直连-香港103
     
 - name: 香港节点
   type: select
@@ -61,6 +65,8 @@ proxy-groups:
     - 直连-香港066
     - 直连-香港067
     - 直连-香港101
+    - 直连-香港102
+    - 直连-香港103
     
 - name: 其它节点
   type: select
