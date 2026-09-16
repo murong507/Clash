@@ -1,7 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
 ipv6: false
 mode: Rule
 log-level: info
@@ -100,6 +99,4 @@ proxy-groups:
   - 🇭🇰HK-8
 
 rules:
-- GEOIP,LAN,DIRECT
-- GEOIP,CN,DIRECT
-- MATCH,🚀 节点选择
+- MATCH, 🚀 节点选择
