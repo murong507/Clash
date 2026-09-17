@@ -20,7 +20,7 @@ proxies:
   - {name: 直连-香港066, type: vmess, server: v36.hdacd.com, port: 30836, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
   - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
 
-  - {name: 直连-香港101, type: vless, server: 47.76.172.190, port: 443, uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b, tls: true, udp: true, skip-cert-verify: true, servername: www.cloudflare.com, flow: xtls-rprx-vision, client-fingerprint: chrome, reality-opts: {public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI, short-id: 92ddbafbf38306f5}}
+  - {name: 直连-香港101, server: 64.90.0.209, port: 8448, type: vless, uuid: c595888b-36ca-45ed-bf5a-985dd6bf48f1, tls: true, servername: v.idudu.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: v.idudu.xyz}}, udp: true}
   - {name: 直连-香港102, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
   - {name: 直连-香港103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
   - {name: 直连-香港104, server: px2.5ibtc.cn, port: 443, type: vless, uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0, tls: true, servername: px2.5ibtc.cn, client-fingerprint: chrome, network: ws, ws-opts: {path: /326227e2-f2d1-4f43-8715-9da854f5f4c0, headers: {Host: px2.5ibtc.cn}}}
