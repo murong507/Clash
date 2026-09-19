@@ -63,6 +63,15 @@ proxy-groups:
     - 直连-香港104
     - 直连-香港105
     - 直连-香港106
+
+    - [V2] 香港00 LB
+    - [V2] 香港01 HKT Home
+    - [V2] 香港02 HKT Home
+    - [V2] 香港03 HKT Home
+    - [V2] 香港04 HKT Home
+    - [V2] 香港05 HKT Home
+    - [V2] 香港06 IDC商宽
+    - [V2] 香港07 IDC商宽
     
 - name: 香港节点
   type: select
