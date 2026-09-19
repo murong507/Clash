@@ -25,7 +25,7 @@ proxies:
   - {name: 直连-香港104, type: vless, server: px2.5ibtc.cn, port: 443, uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0, tls: true, servername: px2.5ibtc.cn, client-fingerprint: chrome, network: ws, ws-opts: {path: /326227e2-f2d1-4f43-8715-9da854f5f4c0, headers: {Host: px2.5ibtc.cn}}}
   - {name: 直连-香港105, type: vless, server: 64.90.0.209, port: 8448, uuid: c595888b-36ca-45ed-bf5a-985dd6bf48f1, tls: true, servername: v.idudu.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: v.idudu.xyz}}, udp: true}
   - {name: 直连-香港106, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
-
+  - {name: 直连-香港107, type: vless, server: 154.218.15.250, port: 2083, uuid: 40af9131-d540-448a-bc56-5bba147a1dc3, tls: true, servername: proxy-1cu.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: proxy-1cu.pages.dev}}, udp: true}
 
 
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
@@ -77,6 +77,7 @@ proxy-groups:
     - 直连-香港104
     - 直连-香港105
     - 直连-香港106
+    - 直连-香港107
     
 - name: 香港节点
   type: select
