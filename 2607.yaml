@@ -1,117 +1,274 @@
 proxies:
-- name: 🇭🇰 香港 01
-  server: s151.gogocs.xyz
-  port: 18153
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Central_vmess_1112
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: false
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 🇭🇰 香港 02
-  server: s299.kukuss.top
-  port: 18153
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰Hong Kong 03
   type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 🇭🇰 香港 03
-  server: 212.192.15.191
-  port: 18153
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 🇭🇰 香港 04
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  server: hk3.miyazono-kaori.com
   port: 443
-  type: anytls
-  password: 9sK2mP8xQ7vL3nZ6
+  uuid: 038744b2-a659-4706-a79c-cfcf5c897fa9
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: false
+  servername: hk4e-launcher-static.hoyoverse.com
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: b81edf7fdee4
+  client-fingerprint: chrome
+  network: tcp
+- name: 🇭🇰Hong Kong 04
+  type: vless
+  server: hk4.miyazono-kaori.com
+  port: 443
+  uuid: 038744b2-a659-4706-a79c-cfcf5c897fa9
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: false
+  servername: hk4e-launcher-static.hoyoverse.com
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  client-fingerprint: chrome
+  network: tcp
+- name: 🇭🇰Hong Kong 05
+  type: vless
+  server: hk5.miyazono-kaori.com
+  port: 443
+  uuid: 038744b2-a659-4706-a79c-cfcf5c897fa9
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: false
+  servername: www.hsbc.com.hk
+  reality-opts:
+    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
+    short-id: a273e9ee6ac0a466
+  client-fingerprint: chrome
+  network: tcp
+- name: 🇭🇰Hong Kong 06
+  type: vless
+  server: hk6.miyazono-kaori.com
+  port: 443
+  uuid: 038744b2-a659-4706-a79c-cfcf5c897fa9
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: false
+  servername: www.hsbc.com.hk
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: a2d13d677624197e
+  client-fingerprint: chrome
+  network: tcp
+- name: 🇭🇰 香港1 IPLC🔒
+  type: hysteria2
+  server: starlink-hk1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 443
+  sni: www.cloudflare.com
   skip-cert-verify: true
-- name: 🇭🇰 香港 05
+  udp: true
+- name: 🇭🇰 香港2 IPLC🔒
+  type: hysteria2
+  server: starlink-hk2.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 443
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港3 IPLC🔒
+  type: hysteria2
+  server: starlink-hk3.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 443
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港4 IPLC🔒
+  type: hysteria2
+  server: starlink-hk4.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 443
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港5 IPLC🔒
+  type: trojan
+  server: z-hk1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21521
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港6 IPLC🔒
+  type: trojan
+  server: z-hk2.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21522
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港9 家宽🔒
+  type: hysteria2
+  server: starlink-hkt1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 UDP🔒
+- name: 🇭🇰 香港10 家宽🔒
+  type: hysteria2
+  server: starlink-hkt2.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21521
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 UDP🔒
+- name: 🇭🇰 香港11 家宽🔒
+  type: hysteria2
+  server: starlink-hkt3.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 UDP🔒
+- name: 🇭🇰 香港12 家宽🔒
+  type: trojan
+  server: starlink-hkt1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 TCP🔒
+- name: 🇭🇰 香港13 家宽🔒
+  type: trojan
+  server: starlink-hkt2.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 TCP🔒
+- name: 🇭🇰 香港14 家宽🔒
+  type: trojan
+  server: starlink-hkt3.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+  dialer-proxy: 🇭🇰 TCP🔒
+- name: 🇭🇰 UDP🔒
+  type: hysteria2
+  server: z-hk1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 TCP🔒
+  type: trojan
+  server: z-hk1.251313.xyz
+  password: 升级订阅解锁全部节点
+  port: 21520
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 01
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21018
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 02
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21019
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 03
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21020
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 04
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21021
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 05
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21022
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 06
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21041
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港-01
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki?ed=2048
+- name: 香港-02
+  type: vless
   server: 35.220.207.209
   port: 443
-  type: vless
+  udp: true
   uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+  network: tcp
   tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
     short-id: 56d4e7ae4f86fa39
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 06
-  server: 34.92.19.135
-  port: 443
-  type: vless
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
-  tls: true
-  reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: 64b3f192fc0669e1
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 07
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 香港 08
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-proxy-groups:
-- name: Proxy
-  type: url-test
-  proxies:
-  - 🇭🇰 香港 01
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 05
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 08
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-rules:
-- MATCH,Proxy
