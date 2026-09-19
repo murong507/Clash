@@ -9,6 +9,7 @@ proxies:
   - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港002, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true} 
+  - {name: 直连-香港004, type: vmess, server: 156.245.232.239, port: 35043, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws}
   - {name: 直连-香港024, type: vmess, server: v33.hdacd.com, port: 30833, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港036, type: vmess, server: sv1.wy888.us, port: 443, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
@@ -26,7 +27,6 @@ proxies:
   - {name: 直连-香港105, type: vless, server: 64.90.0.209, port: 8448, uuid: c595888b-36ca-45ed-bf5a-985dd6bf48f1, tls: true, servername: v.idudu.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: v.idudu.xyz}}, udp: true}
   - {name: 直连-香港106, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
   - {name: 直连-香港107, type: vless, server: 154.218.15.250, port: 2083, uuid: 40af9131-d540-448a-bc56-5bba147a1dc3, tls: true, servername: proxy-1cu.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: proxy-1cu.pages.dev}}, udp: true}
-
 
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港01 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
@@ -61,7 +61,7 @@ proxy-groups:
     - 直连-香港001
     - 直连-香港002
     - 直连-香港003
-
+    - 直连-香港004
     - 直连-香港024
     - 直连-香港029
     - 直连-香港035
