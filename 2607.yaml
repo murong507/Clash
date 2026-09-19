@@ -1,389 +1,683 @@
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
 mode: rule
-log-level: warning
-ipv6: true
-unified-delay: true
-tcp-concurrent: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-  - '*.lan'
-  - '*.local'
-  - +.stun.*.*
-  - +.stun.*.*.*
-  nameserver:
-  - https://1.1.1.1/dns-query
-  - https://8.8.8.8/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://8.8.4.4:853
+log-level: info
+external-controller: 127.0.0.1:9090
   
 proxies:
-- name: 🇭🇰 HK1 | 47.244.120.197 (389ms)
-  type: vmess
-  server: 47.244.120.197
-  port: 44867
-  uuid: '845e6b08-2919-4290-ade0-5dc7dcea59ca'
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki?ed=2048
-  _real_ip: 47.244.120.197
-  _real_country: HK
-- name: 🇭🇰 HK2 | 47.244.120.197 (575ms)
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: 'b9de1bc9-baa7-41ac-86f7-ccd59695cb21'
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-  _real_ip: 47.244.120.197
-  _real_country: HK
-- name: 🇭🇰 HK3 | 162.128.157.164 (581ms)
-  type: vless
-  server: 162.128.157.164
+- name: 🇭🇰 香港 | hy2 | 01
+  type: hysteria2
+  server: 202.146.222.29
   port: 443
-  uuid: '5e8e81ac-a1c4-4543-b81e-651bf9872b54'
+  auth: /H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.29
+  skip-cert-verify: false
   udp: true
   tls: true
-  servername: www.bing.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 'TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0'
-    short-id: '14156e3ac23212cc'
-  flow: xtls-rprx-vision
-  _real_ip: 162.128.157.164
-  _real_country: HK
-- name: 🇭🇰 HK4 | 162.128.157.164 (635ms)
-  type: vless
-  server: vj37-1936vtw.fincore.top
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 02
+  type: hysteria2
+  server: 202.146.222.89
   port: 443
-  uuid: '5e8e81ac-a1c4-4543-b81e-651bf9872b54'
+  auth: //H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 'off'
+  skip-cert-verify: false
   udp: true
   tls: true
-  servername: www.bing.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 'TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0'
-    short-id: '14156e3ac23212cc'
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 03
+  type: hysteria2
+  server: 31.57.248.176
+  port: 50160
+  auth: //b0917015b656b3dd2286b5633af0c5c1
+  sni: www.bing.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 04
+  type: hysteria2
+  server: mz.hkychina.com
+  port: 8443
+  auth: //HysTeria2026%21Proxy
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 05
+  type: hysteria2
+  server: 202.146.222.174
+  port: 443
+  auth: //H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 06
+  type: hysteria2
+  server: nas.aizhzo.com
+  port: 5010
+  auth: /eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: 127.0.0.1
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 香港 | hy2 | 07
+  type: hysteria2
+  server: 212.192.15.239
+  port: 1327
+  auth: //55d6b1b1-b541-4ce8-bc95-a9f20a1b0f86
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+  obfs: salamander
+  obfs-password: Y2JhZTU3ZjE4ZTI0MzRmMQ==
+- name: 🇭🇰 香港 | hy2 | 08
+  type: hysteria2
+  server: xyhk34994.mggl.wang
+  port: 35789
+  auth: /b96f116d-f578-4eaa-aedd-8fb138d3826c
+  sni: xyhk34994.mggl.wang
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | hy2 | 09
+  type: hysteria2
+  server: aic-2.serbia-maki.stream
+  port: 32030
+  auth: /e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
+  sni: aic-2.serbia-maki.stream
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+  obfs: salamander
+  obfs-password: salamander
+- name: 🇭🇰 香港 | vless | 10
+  type: vless
+  server: 47.242.155.183
+  port: 80
+  uuid: a93eacd2-2852-4d84-9355-fd1e6477dccc
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: false
+  security: none
+- name: 🇭🇰 香港 | vmess | 12
+  type: vmess
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+  path: /arki?ed=2048
+- name: 🇭🇰 香港 | vmess | 13
+  type: vmess
+  server: 8.210.206.163
+  port: 45719
+  uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
+  alterId: 0
+  cipher: auto
+  network: http
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+- name: 🇭🇰 香港 | vmess | 14
+  type: vmess
+  server: 219.79.216.116
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+- name: 🇭🇰 香港 | ss | 15
+  type: ss
+  server: 8.210.172.202
+  port: 80
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  udp: true
+- name: 🇭🇰 香港 | vmess | 18
+  type: vmess
+  server: 103.240.197.112
+  port: 55314
+  uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+- name: 🇭🇰 香港 | vless | 19
+  type: vless
+  server: 142.54.23.15
+  port: 8443
+  uuid: c20c6ab3-0495-48e3-bf01-77144b2a89c1
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: jacbgoff.davdlpck1znnhvqh64hl.workers.dev
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vmess | 20
+  type: vmess
+  server: 47.86.167.194
+  port: 800
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+  path: /x
+  host: sjskendn.dingtalk.com
+- name: 🇭🇰 香港 | trojan | 21
+  type: trojan
+  server: 47.240.80.220
+  port: 2052
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  network: tcp
+  sni: vpn.12169.top
+  skip-cert-verify: false
+  udp: true
+  tls: false
+  security: none
+- name: 🇭🇰 香港 | vmess | 22
+  type: vmess
+  server: 47.76.102.39
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  udp: true
+  security: tls
+  path: /ws-vmess
+  host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 🇭🇰 香港 | vmess | 23
+  type: vmess
+  server: 47.83.19.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  udp: true
+  security: tls
+  path: /ws-vmess
+  host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 香港 | vless | 24
+  type: vless
+  server: 124.156.173.124
+  port: 443
+  uuid: 225d638b-8ad9-47db-b4d2-77d7705fa72e
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: thus-k.netnode.cc.cd
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vmess | 25
+  type: vmess
+  server: 47.243.80.106
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  udp: true
+  security: tls
+  path: /ws-vmess
+  host: wwafj5LHl6bI8aU9.v.3dns.vip
+- name: 🇭🇰 香港 | trojan | 26
+  type: trojan
+  server: 20.187.85.198
+  port: 443
+  password: b26e31e5-eac1-45b0-9069-83830bd69521
+  network: tcp
+  sni: hkt.iamnotagoodman.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 27
+  type: vless
+  server: 119.246.150.50
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: gogo.wknm.dpdns.org
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 28
+  type: vless
+  server: 47.238.126.123
+  port: 443
+  uuid: bf41cc32-f0a2-4b27-ba9f-8026ce0aed84
+  alterId: 0
+  cipher: auto
+  network: tcp
   flow: xtls-rprx-vision
-  _real_ip: 162.128.157.164
-  _real_country: HK
-- name: 🇭🇰 HK5 | 207.56.137.51 (658ms)
+  sni: www.amazon.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: reality
+  reality-opts:
+    public-key: 4IeLDkxPTFecGeobLaxV9XaVW7oBgcqwW2dvfFtPQD4
+- name: 🇭🇰 香港 | vless | 29
+  type: vless
+  server: 23.249.18.144
+  port: 8581
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: cdn8848.776676.xyz
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | trojan | 30
+  type: trojan
+  server: 119.246.1.143
+  port: 443
+  password: BxceQaOe
+  network: tcp
+  sni: t.me
+  skip-cert-verify: false
+  udp: true
+  tls: false
+  security: none
+- name: 🇭🇰 香港 | vless | 31
+  type: vless
+  server: 23.147.172.135
+  port: 443
+  uuid: 225d638b-8ad9-47db-b4d2-77d7705fa72e
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: thus-k.netnode.cc.cd
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 32
+  type: vless
+  server: 109.66.88.158
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: cdn8848.776676.xyz
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vmess | 33
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+  path: /
+- name: 🇭🇰 香港 | vless | 34
+  type: vless
+  server: 47.76.172.190
+  port: 443
+  uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  flow: xtls-rprx-vision
+  sni: www.cloudflare.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: reality
+  reality-opts:
+    public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI
+- name: 🇭🇰 香港 | trojan | 36
+  type: trojan
+  server: 209.248.32.116
+  port: 28101
+  password: i99Cef
+  network: tcp
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | trojan | 37
+  type: trojan
+  server: 209.248.32.116
+  port: 28106
+  password: i99Cef
+  network: tcp
+  sni: download.windowsupdate.com
+  skip-cert-verify: false
+  udp: true
+  tls: false
+  security: none
+- name: 🇭🇰 香港 | vless | 38
+  type: vless
+  server: 38.207.184.202
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: cdn8848.776676.xyz
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 39
+  type: vless
+  server: 209.33.167.234
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: cdn8848.776676.xyz
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 40
   type: vless
   server: 207.56.137.51
   port: 443
-  uuid: '01ada9fb-fa2f-45da-a0d0-bce80cdf433b'
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 'WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0'
-    short-id: 'f713561d'
-  flow: xtls-rprx-vision
-  _real_ip: 207.56.137.51
-  _real_country: HK
-- name: 🇭🇰 HK6 | [2a09:bac5:398e:16dc::247:c1] (680ms)
-  type: vless
-  server: 68.64.179.129
-  port: 443
-  uuid: 'd342d11e-d424-4583-b36e-524ab1f0afa4'
-  udp: true
-  tls: true
-  servername: cdn8848.776676.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /code?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-  _real_ip: 2a09:bac5:398e:16dc::247:c1
-  _real_country: HK
-- name: 🇭🇰 HK7 | [2a09:bac1:3180:8::3cf:12] (779ms)
-  type: vless
-  server: 43.175.131.30
-  port: 443
-  uuid: 'd342d11e-d424-4583-b36e-524ab1f0afa4'
-  udp: true
-  tls: true
-  servername: cdn8848.776676.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /article?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-  _real_ip: 2a09:bac1:3180:8::3cf:12
-  _real_country: HK
-- name: 🇭🇰 HK8 | 8.218.184.4 (814ms)
-  type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  port: 443
-  uuid: 'f23bb427-c1f9-4373-876c-2f43e9f790f3'
+  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
   alterId: 0
   cipher: auto
+  network: tcp
+  flow: xtls-rprx-vision
+  sni: www.cloudflare.com
+  skip-cert-verify: false
   udp: true
   tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-  _real_ip: 8.218.184.4
-  _real_country: HK
-- name: 🇭🇰 HK9 | [2a09:bac1:31e0:8::245:ec] (944ms)
+  security: reality
+  reality-opts:
+    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
+- name: 🇭🇰 香港 | vless | 41
   type: vless
-  server: 8.222.84.103
+  server: 43.159.4.80
   port: 443
-  uuid: 'd342d11e-d424-4583-b36e-524ab1f0afa4'
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  flow: ''
+  sni: cdn8848.776676.xyz
+  skip-cert-verify: false
   udp: true
   tls: true
-  servername: cdn8848.776676.xyz
-  client-fingerprint: chrome
+  security: tls
+- name: 🇭🇰 香港 | vless | 42
+  type: vless
+  server: 162.128.157.164
+  port: 443
+  uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54
+  alterId: 0
+  cipher: auto
+  network: tcp
+  flow: xtls-rprx-vision
+  sni: www.bing.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: reality
+  reality-opts:
+    public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
+- name: 🇭🇰 香港 | vless | 43
+  type: vless
+  server: 20.189.104.97
+  port: 443
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  alterId: 0
+  cipher: auto
   network: ws
-  ws-opts:
-    path: /member/discount?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-  _real_ip: 2a09:bac1:31e0:8::245:ec
-  _real_country: HK
-- name: 🇭🇰 HK10 | 47.238.210.5 (983ms)
+  flow: ''
+  sni: dee33.azurewebsites.net
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | trojan | 45
+  type: trojan
+  server: kind-unicorn.rooster465.autos
+  port: 443
+  password: NQ26071394
+  network: tcp
+  sni: ''
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: tls
+- name: 🇭🇰 香港 | vless | 46
+  type: vless
+  server: 47.239.6.251
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  flow: xtls-rprx-vision
+  sni: tesla.com
+  skip-cert-verify: false
+  udp: true
+  tls: true
+  security: reality
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+- name: 🇭🇰 香港 | vless | 47
   type: vless
   server: 47.238.210.5
   port: 13779
-  uuid: '928e6cce-8ced-4243-9a48-a6642edd09b0'
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  flow: ''
+  sni: tesla.com
+  skip-cert-verify: false
   udp: true
   tls: true
-  servername: tesla.com
-  client-fingerprint: chrome
+  security: reality
   reality-opts:
-    public-key: 'llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg'
-    short-id: 'af1bdd293097b664'
-  _real_ip: 47.238.210.5
-  _real_country: HK
-- name: 🇭🇰 HK11 | 47.86.107.119 (996ms)
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+- name: 🇭🇰 香港 | vmess | 48
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+- name: 🇭🇰 香港 | vmess | 49
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  skip-cert-verify: false
+  udp: true
+  security: none
+- name: 🇭🇰 香港 | vmess | 50
   type: vmess
   server: 47.86.107.119
   port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
-  udp: true
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
   network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-  _real_ip: 47.86.107.119
-  _real_country: HK
-- name: 🇭🇰 HK12 | 47.76.137.85 (1072ms)
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  skip-cert-verify: false
+  udp: true
+  security: tls
+  path: /ws-vmess
+  host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 🇭🇰 香港 | vless | 51
+  type: vless
+  server: vj37-1936vtw.fincore.top
   port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
+  uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54
   alterId: 0
   cipher: auto
+  network: tcp
+  flow: xtls-rprx-vision
+  sni: www.bing.com
+  skip-cert-verify: false
   udp: true
   tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  _real_ip: 47.76.137.85
-  _real_country: HK
-- name: 🇭🇰 HK13 | [2a09:bac1:3180::246:15] (1138ms)
+  security: reality
+  reality-opts:
+    public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
+- name: 🇭🇰 香港 | vmess | 52
   type: vmess
-  server: www.shopify.com
+  server: 8.218.184.4
   port: 443
-  uuid: '3aa71202-a099-49c1-99fc-6662f3335369'
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
-  udp: true
-  tls: true
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  client-fingerprint: chrome
   network: ws
-  ws-opts:
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-    headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
-  _real_ip: 2a09:bac1:3180::246:15
-  _real_country: HK
-- name: 🇭🇰 HK14 | 47.86.107.119 (1286ms)
+  tls: true
+  skip-cert-verify: false
+  udp: true
+  security: tls
+  path: /ws-vmess
+  host: NYcQg19zkwaCPM1B.v.3dns.vip
+- name: 🇭🇰 香港 | vmess | 53
   type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: 47.83.207.148
   port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
-  udp: true
-  tls: true
   network: ws
-  ws-opts:
-    path: /ws-vmess
-  _real_ip: 47.86.107.119
-  _real_country: HK
-- name: 🇭🇰 HK15 | 8.217.229.155 (1732ms)
-  type: vmess
-  server: 8.217.229.155
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
   tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-  _real_ip: 8.217.229.155
-  _real_country: HK
-- name: 🇭🇰 HK16 | 47.243.80.106 (1743ms)
-  type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
+  skip-cert-verify: false
   udp: true
-  tls: true
-  servername: wwafj5LHl6bI8aU9.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
-  _real_ip: 47.243.80.106
-  _real_country: HK
-- name: 🇭🇰 HK17 | 47.83.19.148 (1920ms)
-  type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  _real_ip: 47.83.19.148
-  _real_country: HK
-- name: 🇭🇰 HK18 | 47.242.79.198 (1947ms)
-  type: vmess
-  server: 47.242.79.198
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-  _real_ip: 47.242.79.198
-  _real_country: HK
-- name: 🇭🇰 HK19 | 47.76.44.32 (2387ms)
-  type: vmess
-  server: 47.76.44.32
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  _real_ip: 47.76.44.32
-  _real_country: HK
-- name: 🇭🇰 HK20 | 58.153.170.177 (3026ms)
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: 'cbb3f877-d1fb-344c-87a9-d153bffd5484'
-  alterId: 2
-  cipher: auto
-  udp: true
-  _real_ip: 58.153.170.177
-  _real_country: HK
-- name: 🇭🇰 HK21 | 47.76.44.32 (4033ms)
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  _real_ip: 47.76.44.32
-  _real_country: HK
-- name: 🇭🇰 HK22 | 47.83.207.148 (4296ms)
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: 'f23bb427c1f94373876c2f43e9f790f3'
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  _real_ip: 47.83.207.148
-  _real_country: HK
-
+  security: tls
+  path: /ws-vmess
+  host: VAH4URdZL3jDX5r2.v.3dns.vip
+  
 proxy-groups:
-- name: PROXY
+- name: 🚀 节点选择
   type: select
   proxies:
-  - 🇭🇰 HK1 | 47.244.120.197 (389ms)
-  - 🇭🇰 HK2 | 47.244.120.197 (575ms)
-  - 🇭🇰 HK3 | 162.128.157.164 (581ms)
-  - 🇭🇰 HK4 | 162.128.157.164 (635ms)
-  - 🇭🇰 HK5 | 207.56.137.51 (658ms)
-  - 🇭🇰 HK6 | [2a09:bac5:398e:16dc::247:c1] (680ms)
-  - 🇭🇰 HK7 | [2a09:bac1:3180:8::3cf:12] (779ms)
-  - 🇭🇰 HK8 | 8.218.184.4 (814ms)
-  - 🇭🇰 HK9 | [2a09:bac1:31e0:8::245:ec] (944ms)
-  - 🇭🇰 HK10 | 47.238.210.5 (983ms)
-  - 🇭🇰 HK11 | 47.86.107.119 (996ms)
-  - 🇭🇰 HK12 | 47.76.137.85 (1072ms)
-  - 🇭🇰 HK13 | [2a09:bac1:3180::246:15] (1138ms)
-  - 🇭🇰 HK14 | 47.86.107.119 (1286ms)
-  - 🇭🇰 HK15 | 8.217.229.155 (1732ms)
-  - 🇭🇰 HK16 | 47.243.80.106 (1743ms)
-  - 🇭🇰 HK17 | 47.83.19.148 (1920ms)
-  - 🇭🇰 HK18 | 47.242.79.198 (1947ms)
-  - 🇭🇰 HK19 | 47.76.44.32 (2387ms)
-  - 🇭🇰 HK20 | 58.153.170.177 (3026ms)
-  - 🇭🇰 HK21 | 47.76.44.32 (4033ms)
-  - 🇭🇰 HK22 | 47.83.207.148 (4296ms)
+  - 🇭🇰 香港 | hy2 | 01
+  - 🇭🇰 香港 | hy2 | 02
+  - 🇭🇰 香港 | hy2 | 03
+  - 🇭🇰 香港 | hy2 | 04
+  - 🇭🇰 香港 | hy2 | 05
+  - 🇭🇰 香港 | hy2 | 06
+  - 🇭🇰 香港 | hy2 | 07
+  - 🇭🇰 香港 | hy2 | 08
+  - 🇭🇰 香港 | hy2 | 09
+  - 🇭🇰 香港 | vless | 10
+  - 🇭🇰 香港 | vmess | 12
+  - 🇭🇰 香港 | vmess | 13
+  - 🇭🇰 香港 | vmess | 14
+  - 🇭🇰 香港 | ss | 15
+  - 🇭🇰 香港 | vmess | 18
+  - 🇭🇰 香港 | vless | 19
+  - 🇭🇰 香港 | vmess | 20
+  - 🇭🇰 香港 | trojan | 21
+  - 🇭🇰 香港 | vmess | 22
+  - 🇭🇰 香港 | vmess | 23
+  - 🇭🇰 香港 | vless | 24
+  - 🇭🇰 香港 | vmess | 25
+  - 🇭🇰 香港 | trojan | 26
+  - 🇭🇰 香港 | vless | 27
+  - 🇭🇰 香港 | vless | 28
+  - 🇭🇰 香港 | vless | 29
+  - 🇭🇰 香港 | trojan | 30
+  - 🇭🇰 香港 | vless | 31
+  - 🇭🇰 香港 | vless | 32
+  - 🇭🇰 香港 | vmess | 33
+  - 🇭🇰 香港 | vless | 34
+  - 🇭🇰 香港 | trojan | 36
+  - 🇭🇰 香港 | trojan | 37
+  - 🇭🇰 香港 | vless | 38
+  - 🇭🇰 香港 | vless | 39
+  - 🇭🇰 香港 | vless | 40
+  - 🇭🇰 香港 | vless | 41
+  - 🇭🇰 香港 | vless | 42
+  - 🇭🇰 香港 | vless | 43
+  - 🇭🇰 香港 | trojan | 45
+  - 🇭🇰 香港 | vless | 46
+  - 🇭🇰 香港 | vless | 47
+  - 🇭🇰 香港 | vmess | 48
+  - 🇭🇰 香港 | vmess | 49
+  - 🇭🇰 香港 | vmess | 50
+  - 🇭🇰 香港 | vless | 51
+  - 🇭🇰 香港 | vmess | 52
+  - 🇭🇰 香港 | vmess | 53
 
 rules:
-- MATCH,PROXY
+- MATCH,🚀 节点选择
