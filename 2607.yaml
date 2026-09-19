@@ -53,7 +53,7 @@ proxies:
   port: 12888
   reality-opts:
     public-key: GUeUPPVhptRY2UH0BlLCqh5_WqPZp7Xu0rpqmifkNTk
-    short-id: '!!str 455a4f30c5'
+    short-id: !!str 455a4f30c5
   server: 36.151.187.225
   servername: www.tidal.com
   tls: true
