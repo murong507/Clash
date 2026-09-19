@@ -26,6 +26,9 @@ proxies:
   - {name: 直连-香港104, server: px2.5ibtc.cn, port: 443, type: vless, uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0, tls: true, servername: px2.5ibtc.cn, client-fingerprint: chrome, network: ws, ws-opts: {path: /326227e2-f2d1-4f43-8715-9da854f5f4c0, headers: {Host: px2.5ibtc.cn}}}
   - {name: 直连-香港105, server: 64.90.0.209, port: 8448, type: vless, uuid: c595888b-36ca-45ed-bf5a-985dd6bf48f1, tls: true, servername: v.idudu.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: v.idudu.xyz}}, udp: true}
   - {name: 直连-香港106, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
+
+  - {name: [V2] 香港00 LB, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+
   
   - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -58,25 +61,7 @@ proxy-groups:
 - name: 香港节点
   type: select
   proxies:
-    - 直连-香港001
-    - 直连-香港002
-    - 直连-香港003
-
-    - 直连-香港024
-    - 直连-香港029
-    - 直连-香港035
-    - 直连-香港036
-    - 直连-香港061
-    - 直连-香港062
-    - 直连-香港064
-    - 直连-香港066
-    - 直连-香港067
-    - 直连-香港101
-    - 直连-香港102
-    - 直连-香港103
-    - 直连-香港104
-    - 直连-香港105
-    - 直连-香港106
+    - [V2] 香港00 LB
     
 - name: 其它节点
   type: select
