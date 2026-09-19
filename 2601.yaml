@@ -24,6 +24,8 @@ proxies:
   - {name: 直连-香港102, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
   - {name: 直连-香港103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
   - {name: 直连-香港104, server: px2.5ibtc.cn, port: 443, type: vless, uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0, tls: true, servername: px2.5ibtc.cn, client-fingerprint: chrome, network: ws, ws-opts: {path: /326227e2-f2d1-4f43-8715-9da854f5f4c0, headers: {Host: px2.5ibtc.cn}}}
+  - {name: 直连-香港105, type: vless, server: 35.220.207.209, port: 443, udp: true, uuid: 90153538-ef08-4942-b8e1-41e7c523e659, network: tcp, tls: true, servername: www.cloudflare.com, client-fingerprint: chrome,  reality-opts: {public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM, short-id: 56d4e7ae4f86fa39}}
+  - {name: 直连-香港106, type: vless, server: 34.92.19.135, port: 443, udp: true, uuid: 75d38591-267e-4d89-98bc-164f25b50880, network: tcp, tls: true, servername: www.cloudflare.com, client-fingerprint: chrome, reality-opts: {public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4, short-id: 64b3f192fc0669e1}}
   
   - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -50,6 +52,8 @@ proxy-groups:
     - 直连-香港102
     - 直连-香港103
     - 直连-香港104
+    - 直连-香港105
+    - 直连-香港106
     
 - name: 香港节点
   type: select
@@ -70,6 +74,8 @@ proxy-groups:
     - 直连-香港102
     - 直连-香港103
     - 直连-香港104
+    - 直连-香港105
+    - 直连-香港106
     
 - name: 其它节点
   type: select
