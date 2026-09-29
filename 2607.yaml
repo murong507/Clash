@@ -18,7 +18,6 @@ dns:
     nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
     fallback: [1.1.1.1, 8.8.8.8]
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4], domain: [+.google.com, +.facebook.com, +.youtube.com] }
-    
 proxies:
     - { name: 🇭🇰香港高速01|BGP|CMCU, type: vless, server: aws-link1.lxyun.xyz, port: 36458, uuid: 8a5e55ef-2283-4c7a-9664-b3f4b5fe575d, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: safari, servername: iosapps.itunes.apple.com, fingerprint: d5c39647e414c144b719bc49cb41c4b8f46f09f4cf26c863cae15c01d4a7b96a }
     - { name: 🇭🇰香港高速02|BGP|CMCU, type: vless, server: aws-link2.lxyun.xyz, port: 28346, uuid: 8a5e55ef-2283-4c7a-9664-b3f4b5fe575d, udp: true, tls: true, skip-cert-verify: true, flow: xtls-rprx-vision, client-fingerprint: safari, servername: www.lamer.com.hk, fingerprint: af0f11574724e7ddd96f64eb77a450f71ce2de61ee5afd6f2e27ed7604a6a9b1 }
@@ -37,8 +36,8 @@ proxies:
     - { name: 🇭🇰香港专线05|BGP|住宅IP, server: aws-linkhy5.lxyun.xyz, port: 443, udp: true, skip-cert-verify: true, sni: www.apple.com.cn, type: hysteria2, password: 8a5e55ef-2283-4c7a-9664-b3f4b5fe575d, fingerprint: c77f0fb1aef429ebc3f7e15078ea13c3cc9fe85d8c7a9bda9637f919e340d355 }
 
 proxy-groups:
-    - { name: 良心云, type: select, proxies: [自动选择, 🇭🇰香港高速01|BGP|CMCU, 🇭🇰香港高速02|BGP|CMCU, 🇭🇰香港高速03|BGP|CMCU, 🇭🇰香港高速04|BGP|CMCU, 🇭🇰香港高速05|BGP|CMCU, 🇭🇰香港01住宅IP|BGP|CTCM, 🇭🇰香港02住宅IP|BGP|CTCM, 🇭🇰香港03住宅IP|BGP|CTCM, 🇭🇰香港04住宅IP|BGP|CTCM, 🇭🇰香港05住宅IP|BGP|CTCM,  🇭🇰香港专线01|BGP|住宅IP, 🇭🇰香港专线02|BGP|住宅IP, 🇭🇰香港专线03|BGP|住宅IP, 🇭🇰香港专线04|BGP|住宅IP, 🇭🇰香港专线05|BGP|住宅IPx] }
-   
+    - { name: 良心云, type: select, proxies: [🇭🇰香港高速01|BGP|CMCU, 🇭🇰香港高速02|BGP|CMCU, 🇭🇰香港高速03|BGP|CMCU, 🇭🇰香港高速04|BGP|CMCU, 🇭🇰香港高速05|BGP|CMCU, 🇭🇰香港01住宅IP|BGP|CTCM, 🇭🇰香港02住宅IP|BGP|CTCM, 🇭🇰香港03住宅IP|BGP|CTCM, 🇭🇰香港04住宅IP|BGP|CTCM, 🇭🇰香港05住宅IP|BGP|CTCM, 🇭🇰香港专线01|BGP|住宅IP, 🇭🇰香港专线02|BGP|住宅IP, 🇭🇰香港专线03|BGP|住宅IP, 🇭🇰香港专线04|BGP|住宅IP, 🇭🇰香港专线05|BGP|住宅IP] }
+
 rules:
     - 'IP-CIDR,1.1.1.1/32,良心云,no-resolve'
     - 'IP-CIDR,8.8.8.8/32,良心云,no-resolve'
