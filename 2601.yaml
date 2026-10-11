@@ -139,14 +139,14 @@ proxy-groups:
     - 直连-香港612
     - 直连-香港613
     
-- name: 其它节点
-  type: select
-  proxies:
-    - 直连-香港A01
-    - 直连-香港A02
-    - 直连-香港A03
-    - 直连-香港A04
-    - 官网-woccloud.net
+#- name: 其它节点
+ # type: select
+  #proxies:
+   # - 直连-香港A01
+    #- 直连-香港A02
+    #- 直连-香港A03
+    #- 直连-香港A04
+    #- 官网-woccloud.net
 
 rules:
 - DOMAIN-SUFFIX,linkedin.com,选择节点
