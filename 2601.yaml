@@ -25,13 +25,7 @@ proxies:
 
   - {name: 直连-香港035, type: vless, server: 552o-zili23.datavex.top, port: 443, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: 直连-香港036, type: vless, server: cdn.hk1.bilibiliimg.com, port: 47123, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港037, type: vless, server: cdn.hk2.bilibiliimg.com, port: 47122, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港038, type: vless, server: cdn.hk3.bilibiliimg.com, port: 47130, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港039, type: vless, server: cdn.hk4.bilibiliimg.com, port: 47135, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港040, type: vless, server: cdn.hk5.bilibiliimg.com, port: 47140, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港041, type: vless, server: cdn.hk6.bilibiliimg.com, port: 47145, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港042, type: vless, server: cdn.hk7.bilibiliimg.com, port: 47146, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
-  - {name: 直连-香港043, type: vless, server: cdn.hk8.bilibiliimg.com, port: 47147, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE,  short-id: {693b25e06841ac7f}}}
+
   - {name: 直连-香港101, type: vless, server: 35.220.207.209, port: 443, udp: true, uuid: 90153538-ef08-4942-b8e1-41e7c523e659, network: tcp, tls: true, servername: www.cloudflare.com, client-fingerprint: chrome,  reality-opts: {public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM, short-id: 56d4e7ae4f86fa39}}
   - {name: 直连-香港102, type: vless, server: 34.92.19.135, port: 443, udp: true, uuid: 75d38591-267e-4d89-98bc-164f25b50880, network: tcp, tls: true, servername: www.cloudflare.com, client-fingerprint: chrome, reality-opts: {public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4, short-id: 64b3f192fc0669e1}}
   - {name: 直连-香港103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
@@ -89,12 +83,7 @@ proxy-groups:
 
     - 直连-香港035
     - 直连-香港036
-    - 直连-香港037
-    - 直连-香港038
-    - 直连-香港039
-    - 直连-香港040
-    - 直连-香港042
-    - 直连-香港043
+
     - 直连-香港101
     - 直连-香港102
     - 直连-香港103
