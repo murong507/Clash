@@ -40,6 +40,14 @@ proxies:
   - {name: 直连-香港106, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
   - {name: 直连-香港107, type: vless, server: 154.218.15.250, port: 2083, uuid: 40af9131-d540-448a-bc56-5bba147a1dc3, tls: true, servername: proxy-1cu.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: proxy-1cu.pages.dev}}, udp: true}
 
+  - {name: 直连-香港201, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 38b8d5f3-3353-4adc-89fe-117502c0258a, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港202, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: d79973ed-83bd-4094-a677-d6869792db9f, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港203, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: ad17aaf4-7f0b-4e46-af6a-1bb9745e31b7, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港204, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 454888bc-b703-4025-805b-e9edf7002114, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港205, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: a3a650e5-102c-4523-b6b5-07db40b7282d, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港206, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: cd4c5533-c038-40e3-9e3f-a8a127f08ce9, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港207, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 01088db4-9cb5-435f-98bf-c0d4a4928615, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港208, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 2b1106bf-a793-4876-90fb-56b229af7f7c, sni: www.itunes.com, skip-cert-verify: true}
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港01 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港02 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"udp":true}
@@ -107,6 +115,14 @@ proxy-groups:
 - name: 香港节点
   type: select
   proxies:
+    - 直连-香港201
+    - 直连-香港202
+    - 直连-香港203
+    - 直连-香港204
+    - 直连-香港205
+    - 直连-香港206
+    - 直连-香港207
+    - 直连-香港208
     - '[V2] 香港00 LB'
     - '[V2] 香港01 HKT Home'
     - '[V2] 香港02 HKT Home'
