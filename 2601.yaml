@@ -13,6 +13,7 @@ proxies:
   - {name: 直连-香港005, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 直连-香港006, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 直连-香港007, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 直连-香港008, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, udp: true}
   - {name: 直连-香港024, type: vmess, server: v33.hdacd.com, port: 30833, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
   - {name: 直连-香港036, type: vmess, server: sv1.wy888.us, port: 443, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
@@ -68,6 +69,7 @@ proxy-groups:
     - 直连-香港005
     - 直连-香港006
     - 直连-香港007
+    - 直连-香港008
     - 直连-香港024
     - 直连-香港029
     - 直连-香港035
