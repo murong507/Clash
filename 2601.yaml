@@ -48,7 +48,7 @@ proxies:
   - {name: 直连-香港206, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: cd4c5533-c038-40e3-9e3f-a8a127f08ce9, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港207, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 01088db4-9cb5-435f-98bf-c0d4a4928615, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港208, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 2b1106bf-a793-4876-90fb-56b229af7f7c, sni: www.itunes.com, skip-cert-verify: true}
-  - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {name: 直连-香港601, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {"name":"[V2] 香港01 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港02 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港03 HKT Home","type":"trojan","server":"wof2k.wocnode.com","port":12353,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
@@ -123,7 +123,7 @@ proxy-groups:
     - 直连-香港206
     - 直连-香港207
     - 直连-香港208
-    - '[V2] 香港00 LB'
+    - 直连-香港601
     - '[V2] 香港01 HKT Home'
     - '[V2] 香港02 HKT Home'
     - '[V2] 香港03 HKT Home'
