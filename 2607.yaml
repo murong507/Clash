@@ -1,9 +1,3 @@
-# ══════════════════════════════════════════════════════
-# Clash / Mihomo / FClash — auto-generated profile
-# Updated  : 2026-10-11 02:25 UTC
-# Proxies  : 3249
-# Groups   : ⚡ AUTO (url-test)  🔧 MANUAL (select)
-# ══════════════════════════════════════════════════════
 port: 7890
 socks-port: 7891
 allow-lan: true
