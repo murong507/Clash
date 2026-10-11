@@ -48,30 +48,28 @@ proxies:
   - {name: 直连-香港206, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: cd4c5533-c038-40e3-9e3f-a8a127f08ce9, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港207, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 01088db4-9cb5-435f-98bf-c0d4a4928615, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港208, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 2b1106bf-a793-4876-90fb-56b229af7f7c, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 直连-香港Ak1, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港Ak2, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港Ak3, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港Ak4, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 直连-香港601, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {"name":"[V2] 香港01 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港02 HKT Home","type":"trojan","server":"wof2s.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港03 HKT Home","type":"trojan","server":"wof2k.wocnode.com","port":12353,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港04 HKT Home","type":"trojan","server":"wof2k.wocnode.com","port":12354,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港05 HKT Home","type":"trojan","server":"wof2b.wocnode.com","port":12355,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港06 IDC商宽","type":"trojan","server":"wof2s.wocnode.com","port":12356,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V2] 香港07 IDC商宽","type":"trojan","server":"wof2k.wocnode.com","port":12357,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V3] 香港01 家宽","type":"trojan","server":"wof2s.wocnode.com","port":12355,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V3] 香港02 家宽","type":"trojan","server":"wof2s.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V3] 香港03 家宽","type":"trojan","server":"wof2s.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V3] 香港04 家宽","type":"trojan","server":"wof2s.wocnode.com","port":12353,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 香港01 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 香港02 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 香港03 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 香港04 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V4] 香港01 IPLC专线 x2","type":"trojan","server":"woipa2.wocnode.com","port":24561,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 直连-香港1","type":"vmess","server":"dhk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V1] 直连-香港2","type":"vmess","server":"dhk2.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V1] 直连-香港3","type":"vmess","server":"dhk3.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V3] IPV6-香港1 移动","type":"vmess","server":"v6hk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  
-  - {name: IPV6-香港1 移动, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: IPV6-狮城1 移动, type: vmess, server: v6sg2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 直连-香港602, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港603, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港604, type: trojan, server: wof2k.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港605, type: trojan, server: wof2k.wocnode.com, port: 12354, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港606, type: trojan, server: wof2b.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港607, type: trojan, server: wof2s.wocnode.com, port: 12356, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港608, type: trojan, server: wof2k.wocnode.com, port: 12357, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港609, type: trojan, server: wof2s.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港610, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港611, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港612, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港613, type: trojan, server: woipa2.wocnode.com, port: 24561, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+
+  - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host:ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host:ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host:ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host:ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 直连-香港A03, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host:ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host:ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 直连-香港A04, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host:ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host:ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 官网：woccloud.net, type: vmess, server: dp.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}  
 
 proxy-groups:
@@ -123,33 +121,31 @@ proxy-groups:
     - 直连-香港206
     - 直连-香港207
     - 直连-香港208
+    - 直连-香港Ak1
+    - 直连-香港Ak2
+    - 直连-香港Ak3
+    - 直连-香港Ak4
     - 直连-香港601
-    - '[V2] 香港01 HKT Home'
-    - '[V2] 香港02 HKT Home'
-    - '[V2] 香港03 HKT Home'
-    - '[V2] 香港04 HKT Home'
-    - '[V2] 香港05 HKT Home'
-    - '[V2] 香港06 IDC商宽'
-    - '[V2] 香港07 IDC商宽'
-    - '[V3] 香港01 家宽'
-    - '[V3] 香港02 家宽'
-    - '[V3] 香港03 家宽'
-    - '[V3] 香港04 家宽'
-    - '[V1] 香港01 Akari'
-    - '[V1] 香港02 Akari'
-    - '[V1] 香港03 Akari'
-    - '[V1] 香港04 Akari'
-    - '[V4] 香港01 IPLC专线 x2'
-    - '[V1] 直连-香港1'
-    - '[V1] 直连-香港2'
-    - '[V1] 直连-香港3'
-    - '[V3] IPV6-香港1 移动'
+    - 直连-香港602
+    - 直连-香港603
+    - 直连-香港604
+    - 直连-香港605
+    - 直连-香港606
+    - 直连-香港607
+    - 直连-香港608
+    - 直连-香港609
+    - 直连-香港610
+    - 直连-香港611
+    - 直连-香港612
+    - 直连-香港613
     
 - name: 其它节点
   type: select
   proxies:
-    - IPV6-香港1 移动
-    - IPV6-狮城1 移动
+    - 直连-香港A01
+    - 直连-香港A02
+    - 直连-香港A03
+    - 直连-香港A04
     - 官网：woccloud.net
 
 rules:
