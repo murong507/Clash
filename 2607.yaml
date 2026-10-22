@@ -32,7 +32,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2190
-  - name: 中国 - 香港 - 12
+  - name: 香港3
     server: 123.30.210.42
     port: '6666'
     type: trojan
@@ -45,7 +45,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2604
-  - name: 中国 - 香港 - 14
+  - name: 香港4
     server: 38.180.95.222
     port: 443
     type: trojan
@@ -58,7 +58,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1512
-  - name: 中国 - 香港 - 15
+  - name: 香港5
     server: 154.36.163.46
     port: '55555'
     type: trojan
@@ -71,7 +71,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 638
-  - name: 中国 - 香港 - 16
+  - name: 香港6
     server: 202.81.230.100
     port: 443
     type: trojan
@@ -84,7 +84,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 789
-  - name: 中国 - 香港 - 17
+  - name: 香港7
     server: 163.223.183.199
     port: '8443'
     type: trojan
@@ -97,7 +97,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1739
-  - name: 中国 - 香港 - 18
+  - name: 香港8
     server: 46.232.106.207
     port: '2052'
     type: trojan
@@ -110,7 +110,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 906
-  - name: 中国 - 香港 - 19
+  - name: 香港9
     server: 47.239.212.52
     port: 443
     type: trojan
@@ -123,7 +123,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 842
-  - name: 中国 - 香港 - 2
+  - name: 香港10
     server: 46.232.106.207
     port: 443
     type: trojan
@@ -136,7 +136,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 576
-  - name: 中国 - 香港 - 21
+  - name: 香港11
     server: 45.39.199.204
     port: '18016'
     type: trojan
@@ -149,7 +149,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1881
-  - name: 中国 - 香港 - 22
+ - name: 香港12
     server: 205.198.65.34
     port: '7000'
     type: trojan
@@ -162,7 +162,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2127
-  - name: 中国 - 香港 - 23
+  - name: 香港13
     server: 216.250.97.62
     port: '7000'
     type: trojan
@@ -175,7 +175,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1918
-  - name: 中国 - 香港 - 24
+  - name: 香港14
     server: 156.254.115.247
     port: '2087'
     type: trojan
@@ -188,20 +188,20 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2571
-  - name: 中国 - 香港 - 25
+  - name: 香港15
     server: 202.85.53.54
     port: '7000'
     type: trojan
     password: trojan
     sni: yeyefeng.pages.dev
     skip-cert-verify: true
-    network: ws
+    network: ws- name: 香港1
     ws-opts:
       path: /?ed=2560
       headers:
         Host: yeyefeng.pages.dev
     delay: 1270
-  - name: 中国 - 香港 - 26
+  - name: 香港16
     server: 47.76.133.133
     port: '1314'
     type: trojan
@@ -227,7 +227,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 949
-  - name: 中国 - 香港 - 28
+  - name: 香港18
     server: 40.81.29.103
     port: '8089'
     type: trojan
@@ -240,7 +240,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 983
-  - name: 中国 - 香港 - 29
+  - name: 香港19
     server: 185.36.194.65
     port: '7000'
     type: trojan
@@ -253,7 +253,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2033
-  - name: 中国 - 香港 - 3
+  - name: 香港20
     server: 5.181.4.123
     port: 443
     type: trojan
@@ -266,7 +266,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2004
-  - name: 中国 - 香港 - 30
+  - name: 香港21
     server: 202.81.230.166
     port: '7000'
     type: trojan
@@ -279,7 +279,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1627
-  - name: 中国 - 香港 - 31
+  - name: 香港22
     server: 47.79.20.64
     port: 443
     type: trojan
@@ -292,7 +292,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2104
-  - name: 中国 - 香港 - 32
+  - name: 香港23
     server: 219.77.76.121
     port: '12345'
     type: trojan
@@ -305,7 +305,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1354
-  - name: 中国 - 香港 - 33
+  - name: 香港24
     server: 47.76.237.145
     port: '8005'
     type: trojan
@@ -318,7 +318,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 542
-  - name: 中国 - 香港 - 34
+  - name: 香港25
     server: 175.29.23.5
     port: '7000'
     type: trojan
@@ -331,7 +331,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1534
-  - name: 中国 - 香港 - 35
+  - name: 香港26
     server: 202.85.53.67
     port: '7000'
     type: trojan
@@ -344,7 +344,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 799
-  - name: 中国 - 香港 - 36
+  - name: 香港27
     server: 8.217.168.110
     port: '20000'
     type: trojan
@@ -357,7 +357,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 888
-  - name: 中国 - 香港 - 37
+  - name: 香港28
     server: 103.30.78.224
     port: '999'
     type: trojan
@@ -370,7 +370,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1049
-  - name: 中国 - 香港 - 38
+  - name: 香港29
     server: 46.232.109.220
     port: '28015'
     type: trojan
@@ -383,7 +383,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 466
-  - name: 中国 - 香港 - 39
+  - name: 香港30
     server: 47.238.105.180
     port: '13228'
     type: trojan
@@ -396,7 +396,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 712
-  - name: 中国 - 香港 - 4
+  - name: 香港31
     server: 202.85.53.74
     port: 443
     type: trojan
@@ -409,7 +409,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1242
-  - name: 中国 - 香港 - 40
+  - name: 香港32
     server: 160.191.165.71
     port: '12588'
     type: trojan
@@ -422,7 +422,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2756
-  - name: 中国 - 香港 - 41
+  - name: 香港33
     server: 47.239.65.225
     port: '12586'
     type: trojan
@@ -435,7 +435,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1255
-  - name: 中国 - 香港 - 5
+  - name: 香港34
     server: 217.60.38.13
     port: 443
     type: trojan
@@ -448,7 +448,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2637
-  - name: 中国 - 香港 - 7
+  - name: 香港35
     server: 38.207.132.101
     port: 443
     type: trojan
@@ -461,7 +461,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2354
-  - name: 中国 - 香港 - 8
+  - name: 香港36
     server: 202.81.230.75
     port: 443
     type: trojan
@@ -474,7 +474,7 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 2270
-  - name: 中国 - 香港 - 9
+  - name: 香港37
     server: 8.217.122.24
     port: '8443'
     type: trojan
@@ -494,6 +494,14 @@ proxy-groups:
   proxies:
     - 香港1
     - 香港2
+    - 香港3
+    - 香港4
+    - 香港5
+    - 香港6
+    - 香港7
+    - 香港8
+    - 香港9
+    - 香港10
     
 rules:
 - DOMAIN-SUFFIX,linkedin.com,选择节点
