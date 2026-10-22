@@ -6,15 +6,494 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: 直连-香港001, type: trojan, server: 172.81.111.48, port: 443, password: trojan, sni: yeyefeng.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2560, headers: {Host: yeyefeng.pages.dev}}, delay: 1574}
-
-    
+  - name: 香港1
+    server: 172.81.111.48
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1574
+  - name: 香港2
+    server: 185.241.43.188
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2190
+  - name: 中国 - 香港 - 12
+    server: 123.30.210.42
+    port: '6666'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2604
+  - name: 中国 - 香港 - 14
+    server: 38.180.95.222
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1512
+  - name: 中国 - 香港 - 15
+    server: 154.36.163.46
+    port: '55555'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 638
+  - name: 中国 - 香港 - 16
+    server: 202.81.230.100
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 789
+  - name: 中国 - 香港 - 17
+    server: 163.223.183.199
+    port: '8443'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1739
+  - name: 中国 - 香港 - 18
+    server: 46.232.106.207
+    port: '2052'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 906
+  - name: 中国 - 香港 - 19
+    server: 47.239.212.52
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 842
+  - name: 中国 - 香港 - 2
+    server: 46.232.106.207
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 576
+  - name: 中国 - 香港 - 21
+    server: 45.39.199.204
+    port: '18016'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1881
+  - name: 中国 - 香港 - 22
+    server: 205.198.65.34
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2127
+  - name: 中国 - 香港 - 23
+    server: 216.250.97.62
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1918
+  - name: 中国 - 香港 - 24
+    server: 156.254.115.247
+    port: '2087'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2571
+  - name: 中国 - 香港 - 25
+    server: 202.85.53.54
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1270
+  - name: 中国 - 香港 - 26
+    server: 47.76.133.133
+    port: '1314'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1019
+  - name: 中国 - 香港 - 27
+    server: 38.47.101.176
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 949
+  - name: 中国 - 香港 - 28
+    server: 40.81.29.103
+    port: '8089'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 983
+  - name: 中国 - 香港 - 29
+    server: 185.36.194.65
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2033
+  - name: 中国 - 香港 - 3
+    server: 5.181.4.123
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2004
+  - name: 中国 - 香港 - 30
+    server: 202.81.230.166
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1627
+  - name: 中国 - 香港 - 31
+    server: 47.79.20.64
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2104
+  - name: 中国 - 香港 - 32
+    server: 219.77.76.121
+    port: '12345'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1354
+  - name: 中国 - 香港 - 33
+    server: 47.76.237.145
+    port: '8005'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 542
+  - name: 中国 - 香港 - 34
+    server: 175.29.23.5
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1534
+  - name: 中国 - 香港 - 35
+    server: 202.85.53.67
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 799
+  - name: 中国 - 香港 - 36
+    server: 8.217.168.110
+    port: '20000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 888
+  - name: 中国 - 香港 - 37
+    server: 103.30.78.224
+    port: '999'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1049
+  - name: 中国 - 香港 - 38
+    server: 46.232.109.220
+    port: '28015'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 466
+  - name: 中国 - 香港 - 39
+    server: 47.238.105.180
+    port: '13228'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 712
+  - name: 中国 - 香港 - 4
+    server: 202.85.53.74
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1242
+  - name: 中国 - 香港 - 40
+    server: 160.191.165.71
+    port: '12588'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2756
+  - name: 中国 - 香港 - 41
+    server: 47.239.65.225
+    port: '12586'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1255
+  - name: 中国 - 香港 - 5
+    server: 217.60.38.13
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2637
+  - name: 中国 - 香港 - 7
+    server: 38.207.132.101
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2354
+  - name: 中国 - 香港 - 8
+    server: 202.81.230.75
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2270
+  - name: 中国 - 香港 - 9
+    server: 8.217.122.24
+    port: '8443'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1682
 
 proxy-groups:
 - name: 选择节点
   type: select
   proxies:
-    - 直连-香港001
+    - 香港1
+    - 香港2
     
 rules:
 - DOMAIN-SUFFIX,linkedin.com,选择节点
