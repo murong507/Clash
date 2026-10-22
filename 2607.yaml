@@ -5,118 +5,527 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港_2, server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "香港 | HKG #8", server: 47.244.120.197, port: 23026, type: vmess, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}}
-  - {name: "香港 | HKG #5", server: 47.76.57.83, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: vah4urdzl3jdx5r2.v.3dns.vip}}}
-  - {name: HK-103.149.183.80-0172 | 0.0MB, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: "香港 | HKG #1", server: 47.83.207.148, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: VAH4URdZL3jDX5r2.v.3dns.vip}}}
-  - {name: "香港 | HKG #1 2", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
-  - {name: _HK_中国香港, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}}
-  - {name: HK-103.141.221.101-0150 | 2.291MB, server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: HK-103.149.182.105-5946 | 0.0MB, server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: "香港 | HKG #4", server: 47.243.153.153, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: i2psm3knof5qjjix.v.3dns.vip}}}
-  - {name: "香港 | HKG #7", server: 8.218.195.61, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: EX1oGt73NzPQKAc2.v.3dns.vip}}}
-  - {name: _HK_中国香港_1, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港_1 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 香港+电讯盈科有限公司, server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, skip-cert-verify: true}
-  - {name: 香港+电讯盈科有限公司 2, server: 3ad7a454-tmm5c0-tsdg75-tlhh.hk3.hyhuawei.com, port: 443, type: hysteria2, password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, auth: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, sni: 3ad7a454-tmm5c0-tsdg75-tlhh.hk3.hyhuawei.com, skip-cert-verify: true}
-  - {name: 香港+电讯盈科有限公司 3, server: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com, port: 443, type: hysteria2, password: c11ff50c-f582-11ee-94df-f23c9164ca5d, auth: c11ff50c-f582-11ee-94df-f23c9164ca5d, sni: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com, skip-cert-verify: true}
-  - {name: HK_1|3.4MB/s, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: 522bf832-cb94-4588-bb4e-a578d1f72603, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bc35dd8f9bb478fdf27856815a6d1dc8.mobgslb.tbcache.com}}}
-  - {name: HK_3|2.2MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com}}}
-  - {name: HK_1|2.3MB/s, server: hk04.qianmoip.win, port: 52224, type: trojan, password: d742752c-4231-4695-801e-f06d77f0f277, sni: taobao.com, skip-cert-verify: true}
-  - {name: HK_4|3.0MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 56a511bd-f207-48f4-be5b-4652afe178a4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com}}}
-  - {name: HK_1|3.1MB/s, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: 62319519-82bc-46ff-99cd-237bd0882cef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com}}}
-  - {name: HK_5|4.6MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}}
-  - {name: _HK_中国香港 2, server: 212.192.15.46, port: 20990, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f}
-  - {name: 香港3|@ripaojiedian, server: 2c.fast9988.com, port: 50887, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: HK_7|5.7MB/s, server: 120.232.253.97, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-  - {name: _HK_中国香港 3, server: 212.192.15.46, port: 60112, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f}
-  - {name: HK_2|3.5MB/s, server: cn01.somethingstranges.com, port: 8103, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}}
-  - {name: HK_4|4.4MB/s, server: cn02.somethingstranges.com, port: 8108, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}}
-  - {name: _HK_中国香港->🇰🇷_KR_韩国, server: a8zbx9xj.catcat321.com, port: 20088, type: trojan, password: 0010996f-3eab-4804-9b3a-3a889d6767fc, sni: iepl.krz3.cat.bilibili.com, skip-cert-verify: true}
-  - {name: HK_speednode_0012, server: 16.162.3.11, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇮🇳_IN_印度, server: oplosgru-c.catcat321.com, port: 20034, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇰🇷_KR_韩国 2, server: oplosgru-c.catcat321.com, port: 20088, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇲🇴_MO_中国澳门, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: HK_11c6a_0021, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: "10,11|香港4|@ripaojiedian", server: 95.40.61.23, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇯🇵_JP_日本_1, server: hkdcrtc-e.catcat321.com, port: 20129, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: HK_speednode_0007, server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: HK_speednode_0023, server: 43.198.98.22, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇮🇳_IN_印度 2, server: oplosgru-c.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: "10,11|香港3|@ripaojiedian", server: 18.167.20.3, port: 13118, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: _HK_中国香港->🇮🇩_ID_印度尼西亚, server: oplosgru-c.catcat321.com, port: 20120, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇹🇭_TH_泰国, server: oplosgru-c.catcat321.com, port: 20023, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: HK_3|5.7MB/s, server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com, port: 32029, type: trojan, password: 246fb793-8e5e-4015-943e-22f41e4ea4a5, sni: pull-flv-q1-admin.douyincdn.com, skip-cert-verify: true}
-  - {name: HK-103.149.183.12-0182 | 0.0MB, server: 103.149.183.12, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: HK_1|1.8MB/s, server: 91.110.182.6, port: 443, type: vless, uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4, tls: true, servername: s5gydl.936.us.ci, network: ws, ws-opts: {path: "/proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4", headers: {Host: s5gydl.936.us.ci}}}
-  - {name: HK_1|2.6MB/s, server: c722s2.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k}
-  - {name: HK_3|3.2MB/s, server: c722s4.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_4|2.0MB/s, server: c722s5.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_2|4.9MB/s, server: c722s1.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k}
-  - {name: HK_2|2.4MB/s, server: c722s3.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
-  - {name: _HK_中国香港 4, server: 18.163.5.109, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: _HK_中国香港->🇺🇸_US_美国, server: 18.163.5.109, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-proxy-groups:
+    - name: 香港1
+    server: 172.81.111.48
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1574
+  - name: 香港2
+    server: 185.241.43.188
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2190
+  - name: 香港3
+    server: 123.30.210.42
+    port: '6666'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2604
+  - name: 香港4
+    server: 38.180.95.222
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1512
+  - name: 香港5
+    server: 154.36.163.46
+    port: '55555'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 638
+  - name: 香港6
+    server: 202.81.230.100
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 789
+  - name: 香港7
+    server: 163.223.183.199
+    port: '8443'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1739
+  - name: 香港8
+    server: 46.232.106.207
+    port: '2052'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 906
+  - name: 香港9
+    server: 47.239.212.52
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 842
+  - name: 香港10
+    server: 46.232.106.207
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 576
+  - name: 香港11
+    server: 45.39.199.204
+    port: '18016'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1881
+  - name: 香港12
+    server: 205.198.65.34
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2127
+  - name: 香港13
+    server: 216.250.97.62
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1918
+  - name: 香港14
+    server: 156.254.115.247
+    port: '2087'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2571
+  - name: 香港15
+    server: 202.85.53.54
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1270
+  - name: 香港16
+    server: 47.76.133.133
+    port: '1314'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1019
+  - name: 香港17
+    server: 38.47.101.176
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 949
+  - name: 香港18
+    server: 40.81.29.103
+    port: '8089'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 983
+  - name: 香港19
+    server: 185.36.194.65
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2033
+  - name: 香港20
+    server: 5.181.4.123
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2004
+  - name: 香港21
+    server: 202.81.230.166
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1627
+  - name: 香港22
+    server: 47.79.20.64
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2104
+  - name: 香港23
+    server: 219.77.76.121
+    port: '12345'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1354
+  - name: 香港24
+    server: 47.76.237.145
+    port: '8005'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 542
+  - name: 香港25
+    server: 175.29.23.5
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1534
+  - name: 香港26
+    server: 202.85.53.67
+    port: '7000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 799
+  - name: 香港27
+    server: 8.217.168.110
+    port: '20000'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 888
+  - name: 香港28
+    server: 103.30.78.224
+    port: '999'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1049
+  - name: 香港29
+    server: 46.232.109.220
+    port: '28015'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 466
+  - name: 香港30
+    server: 47.238.105.180
+    port: '13228'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 712
+  - name: 香港31
+    server: 202.85.53.74
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1242
+  - name: 香港32
+    server: 160.191.165.71
+    port: '12588'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2756
+  - name: 香港33
+    server: 47.239.65.225
+    port: '12586'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1255
+  - name: 香港34
+    server: 217.60.38.13
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2637
+  - name: 香港35
+    server: 38.207.132.101
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2354
+  - name: 36
+    server: 202.81.230.75
+    port: 443
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 2270
+  - name: 香港37
+    server: 8.217.122.24
+    port: '8443'
+    type: trojan
+    password: trojan
+    sni: yeyefeng.pages.dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: yeyefeng.pages.dev
+    delay: 1682
   - name: 🔰 节点选择
     type: select
     proxies:
-      - _HK_中国香港_2 2
-      - _HK_中国香港_2
-      - "香港 | HKG #8"
-      - "香港 | HKG #5"
-      - HK-103.149.183.80-0172 | 0.0MB
-      - "香港 | HKG #1"
-      - "香港 | HKG #1 2"
-      - _HK_中国香港
-      - HK-103.141.221.101-0150 | 2.291MB
-      - HK-103.149.182.105-5946 | 0.0MB
-      - "香港 | HKG #4"
-      - "香港 | HKG #7"
-      - _HK_中国香港_1
-      - _HK_中国香港_1 2
-      - 香港+电讯盈科有限公司
-      - 香港+电讯盈科有限公司 2
-      - 香港+电讯盈科有限公司 3
-      - HK_1|3.4MB/s
-      - HK_3|2.2MB/s
-      - HK_1|2.3MB/s
-      - HK_4|3.0MB/s
-      - HK_1|3.1MB/s
-      - HK_5|4.6MB/s
-      - _HK_中国香港 2
-      - 香港3|@ripaojiedian
-      - HK_7|5.7MB/s
-      - _HK_中国香港 3
-      - HK_2|3.5MB/s
-      - HK_4|4.4MB/s
-      - _HK_中国香港->🇰🇷_KR_韩国
-      - HK_speednode_0012
-      - _HK_中国香港->🇮🇳_IN_印度
-      - _HK_中国香港->🇰🇷_KR_韩国 2
-      - _HK_中国香港->🇲🇴_MO_中国澳门
-      - HK_11c6a_0021
-      - 10,11|香港4|@ripaojiedian
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - HK_speednode_0007
-      - HK_speednode_0023
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - _HK_中国香港->🇮🇳_IN_印度 2
-      - 10,11|香港3|@ripaojiedian
-      - _HK_中国香港->🇮🇩_ID_印度尼西亚
-      - _HK_中国香港->🇹🇭_TH_泰国
-      - HK_3|5.7MB/s
-      - HK-103.149.183.12-0182 | 0.0MB
-      - HK_1|1.8MB/s
-      - HK_1|2.6MB/s
-      - HK_3|3.2MB/s
-      - HK_4|2.0MB/s
-      - HK_2|4.9MB/s
-      - HK_2|2.4MB/s
-      - _HK_中国香港 4
-      - _HK_中国香港->🇺🇸_US_美国
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 香港17
+      - 香港18
+      - 香港19
+      - 香港20
+      - 香港21
+      - 香港22
+      - 香港23
+      - 香港24
+      - 香港25
+      - 香港26
+      - 香港27
+      - 香港28
+      - 香港29
+      - 香港30
+      - 香港31
+      - 香港32
+      - 香港33
+      - 香港34
+      - 香港35
+      - 香港36
+      - 香港37
 
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
