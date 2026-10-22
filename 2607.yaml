@@ -7,7 +7,7 @@ external-controller: 127.0.0.1:9090
 
 proxies:
   - {name: 🇭🇰HK香港1, type: vmess, server: 47.83.247.150, port: 800, cipher: auto, uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0, alterId: 0, tls: false, network: http, http-opts: {path: /x, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-
+  - {name: 🇭🇰HK香港2, type: vmess, server: u2frxj0g13vdi0wo.v.3dns.vip, port: 443, cipher: auto, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: U2FRxj0G13vDI0Wo.v.3dns.vip}}, udp: true, servername: U2FRxj0G13vDI0Wo.v.3dns.vip}
 
 
 proxy-groups:
@@ -15,6 +15,7 @@ proxy-groups:
   type: select
   proxies:
     - 🇭🇰HK香港1
+    - 🇭🇰HK香港2
 
     
 rules:
