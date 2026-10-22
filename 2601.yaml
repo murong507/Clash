@@ -3,7 +3,18 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 
 proxies:
   - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -66,6 +77,22 @@ proxies:
   - {name: 直连-香港612, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 直连-香港613, type: trojan, server: woipa2.wocnode.com, port: 24561, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
 
+  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7d5fc5a9-d4a3-421a-93fa-c755b7eda3d7, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: c38ecdc9-d52f-4d55-a4d8-025edf0927bc, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 274c4962-8a94-4c94-a656-d824d864f952, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b36e3ab8-3757-48ce-aa68-e5fd28aa01ce, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 5fae110f-cdc7-497e-ae84-645dc63923c7, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3cedaa41-9ef8-4980-a7bf-f6ef13c5e0ef, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b37a6f97-18a1-4c13-9ebd-343c76189220, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 6, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: a87977f3-5fdf-4f71-9006-e038a11a43c1, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 7, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 5f91b733-892d-4a7c-8e1f-6266e699a1ee, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 6, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 0bc3c107-abbf-4834-8908-45e6299a8b89, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 8, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: f28e1c06-2888-491d-af23-a5d9e8816ff1, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 7, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 2f441042-fa3b-46c4-ac46-7717fe471049, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: dc7b38e5-574d-47e7-9f53-be1fe4dde1a6, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 9, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 36f1bc22-8ed4-44bc-9cbb-cd50a7ef4115, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
+
   - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A03, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -74,6 +101,25 @@ proxies:
 
 proxy-groups:
 - name: 选择节点
+  type: select
+  proxies:    
+    - 🇭🇰 香港 01 2
+    - 🇭🇰 香港 01 3
+    - 🇭🇰 香港 01 4
+    - 🇭🇰 香港 02 2
+    - 🇭🇰 香港 01 5
+    - 🇭🇰 香港 02 4
+    - 🇭🇰 香港 02 5
+    - 🇭🇰 香港 01 6
+    - 🇭🇰 香港 01 7
+    - 🇭🇰 香港 02 6
+    - 🇭🇰 香港 01 8
+    - 🇭🇰 香港 02 7
+    - 🇭🇰 香港 02 8
+    - 🇭🇰 香港 01 9
+    - 🇭🇰 香港 02 9
+    
+- name: 香港新点
   type: select
   proxies:
     - 直连-香港001
@@ -149,34 +195,6 @@ proxy-groups:
     - woccloud.net
 
 rules:
-- DOMAIN-SUFFIX,linkedin.com,选择节点
-- DOMAIN-SUFFIX,openai.com,选择节点
-- DOMAIN-SUFFIX,chatgpt.com,选择节点
-- DOMAIN-SUFFIX,files.oaiusercontent.com,选择节点
-- DOMAIN-SUFFIX,copilot.microsoft.com,选择节点
-- DOMAIN-SUFFIX,cdn.oaistatic.com,选择节点
-- DOMAIN,steambroadcast.akamaized.net,选择节点
-- DOMAIN,steamcommunity-a.akamaihd.net,选择节点
-- DOMAIN,steampipe.akamaized.net,选择节点
-- DOMAIN,steamstore-a.akamaihd.net,选择节点
-- DOMAIN,steamusercontent-a.akamaihd.net,选择节点
-- DOMAIN,steamuserimages-a.akamaihd.net,选择节点
-- DOMAIN-SUFFIX,fanatical.com,选择节点
-- DOMAIN-SUFFIX,humblebundle.com,选择节点
-- DOMAIN-SUFFIX,playartifact.com,选择节点
-- DOMAIN-SUFFIX,steam-chat.com,选择节点
-- DOMAIN-SUFFIX,steamcommunity.com,选择节点
-- DOMAIN-SUFFIX,steamgames.com,选择节点
-- DOMAIN-SUFFIX,steampowered.com,选择节点
-- DOMAIN-SUFFIX,steamstat.us,选择节点
-- DOMAIN-SUFFIX,underlords.com,选择节点
-- DOMAIN-SUFFIX,valvesoftware.com,选择节点
-- DOMAIN-SUFFIX,discord.co,选择节点
-- DOMAIN-SUFFIX,discord.com,选择节点
-- DOMAIN-SUFFIX,discord.gg,选择节点
-- DOMAIN-SUFFIX,discord.media,选择节点
-- DOMAIN-SUFFIX,discordapp.com,选择节点
-- DOMAIN-SUFFIX,discordapp.net,选择节点
 - DOMAIN-SUFFIX,appspot.com,选择节点
 - DOMAIN-SUFFIX,blogger.com,选择节点
 - DOMAIN-SUFFIX,getoutline.org,选择节点
