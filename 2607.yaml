@@ -6,9 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: 香港1, server: 172.81.111.48, port: 443, type: trojan, password: trojan, sni: yeyefeng.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2560, headers: {Host: yeyefeng.pages.dev}}}
+  - {name: 香港1, server: 172.81.111.48, port: 443, type: trojan, password: trojan, sni: yeyefeng.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2560, headers: {Host: yeyefeng.pages.dev}}, delay: 1574}
     
- proxy-groups:
+proxy-groups:
 - name: 选择节点
   type: select
   proxies:
