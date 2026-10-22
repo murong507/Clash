@@ -487,7 +487,9 @@ proxies:
       headers:
         Host: yeyefeng.pages.dev
     delay: 1682
-  - name: 🔰 节点选择
+    
+ proxy-groups:
+  - name: 选择节点
     type: select
     proxies:
       - 香港1
