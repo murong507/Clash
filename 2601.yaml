@@ -104,6 +104,7 @@ proxy-groups:
 - name: 选择节点
   type: select
   proxies:    
+    - 🇭🇰 香港 01 1
     - 🇭🇰 香港 01 2
     - 🇭🇰 香港 01 3
     - 🇭🇰 香港 01 4
