@@ -4,8 +4,9 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
+
 proxies:
-    - name: 香港1
+  - name: 香港1
     server: 172.81.111.48
     port: 443
     type: trojan
