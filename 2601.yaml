@@ -35,7 +35,8 @@ proxies:
   - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
 
   - {name: 直连-香港034, type: vless, server: 189.24.79.229, port: 443, uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw, short-id: 6717a9ae}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 直连-香港035, type: vless, server: 552o-zili23.datavex.top, port: 443, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
+  - {name: 直连-香港035, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
+  - {name: 直连-香港036, type: vless, server: 552o-zili23.datavex.top, port: 443, uuid: 9a1bd9db-e58f-4c71-b305-36c2f6552b38, tls: true, skip-cert-verify: true, servername: 552o-zili23.datavex.top, network: ws, ws-opts: {path: /9a1bd9db-e58f-4c71-b305-36c2f6552b38, headers: {Host: 552o-zili23.datavex.top}}}
   - {name: 直连-香港037, type: vless, server: cdn.hk2.bilibiliimg.com, port: 47122, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
   - {name: 直连-香港038, type: vless, server: cdn.hk3.bilibiliimg.com, port: 47130, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
   - {name: 直连-香港039, type: vless, server: cdn.hk4.bilibiliimg.com, port: 47135, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
@@ -49,7 +50,6 @@ proxies:
   - {name: 直连-香港104, type: vless, server: px2.5ibtc.cn, port: 443, uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0, tls: true, servername: px2.5ibtc.cn, client-fingerprint: chrome, network: ws, ws-opts: {path: /326227e2-f2d1-4f43-8715-9da854f5f4c0, headers: {Host: px2.5ibtc.cn}}}
   - {name: 直连-香港105, type: vless, server: 64.90.0.209, port: 8448, uuid: c595888b-36ca-45ed-bf5a-985dd6bf48f1, tls: true, servername: v.idudu.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: v.idudu.xyz}}, udp: true}
   - {name: 直连-香港106, type: vless, server: yxvm-g2.mihoyo.fun, port: 2053, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: rfc.mihoyo.site}
-  - {name: 直连-香港107, type: vless, server: 154.218.15.250, port: 2083, uuid: 40af9131-d540-448a-bc56-5bba147a1dc3, tls: true, servername: proxy-1cu.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: proxy-1cu.pages.dev}}, udp: true}
 
   - {name: 直连-香港201, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 38b8d5f3-3353-4adc-89fe-117502c0258a, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港202, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: d79973ed-83bd-4094-a677-d6869792db9f, sni: www.itunes.com, skip-cert-verify: true}
@@ -171,8 +171,12 @@ proxy-groups:
     - 直连-香港066
     - 直连-香港067
 
+- name: 香港节点
+  type: select
+  proxies:
     - 直连-香港034
     - 直连-香港035
+    - 直连-香港036
     - 直连-香港037
     - 直连-香港038
     - 直连-香港039
@@ -186,9 +190,8 @@ proxy-groups:
     - 直连-香港104
     - 直连-香港105
     - 直连-香港106
-    - 直连-香港107
     
-- name: 香港节点
+- name: 香港节表
   type: select
   proxies:
     - 直连-香港201
