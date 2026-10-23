@@ -17,22 +17,148 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰香港08, type: trojan, port:12103, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
-  - {name: 🇭🇰香港09, type: trojan, port:10115, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
-  - {name: 🇭🇰香港10, type: trojan, port:12107, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
-  - {name: 🇭🇰香港11, type: trojan, port:12102, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
-
-  - {name: 🇭🇰香港02, type: vmess, port:30807, server: v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, cipher: auto, alterId: 2, tls: false, skip-cert-verify: false}
+- name: 🇭🇰香港01
+  password: XuMweB2PWs
+  port: 45464
+  server: 2.27.109.179
+  sni: 2.27.109.179.sslip.io
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰香港02
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰香港03
+  network: ws
+  port: 443
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  servername: ADncdOvLHR4M1P36.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ADncdOvLHR4M1P36.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰香港04
+  network: ws
+  port: 443
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  servername: kBONDXW9liFCi4h4.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kBONDXW9liFCi4h4.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰香港05
+  network: ws
+  port: 443
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  servername: aZW0eunYVdvRe73k.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aZW0eunYVdvRe73k.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰香港06
+  network: ws
+  port: 443
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰香港07
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰香港08
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12103
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 🇭🇰香港09
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10115
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 🇭🇰香港10
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12107
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 🇭🇰香港11
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12102
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 🇭🇰香港12
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
   
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
+    - 🇭🇰 香港01
+    - 🇭🇰 香港02
+    - 🇭🇰 香港03
+    - 🇭🇰 香港04
+    - 🇭🇰 香港05
+    - 🇭🇰 香港06
+    - 🇭🇰 香港07
     - 🇭🇰 香港08
     - 🇭🇰 香港09
     - 🇭🇰 香港10
     - 🇭🇰 香港11
-    - 🇭🇰 香港02
+    - 🇭🇰 香港12
     
 rules:
 - DOMAIN-SUFFIX,appspot.com,Proxy
