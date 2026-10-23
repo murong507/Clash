@@ -17,13 +17,22 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰香港01, type: trojan, port: 45464, server: 2.27.109.179, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io}
+  - {name: 🇭🇰香港08, type: trojan, port:12103, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+  - {name: 🇭🇰香港09, type: trojan, port:10115, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+  - {name: 🇭🇰香港10, type: trojan, port:12107, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+  - {name: 🇭🇰香港11, type: trojan, port:12102, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+
+  - {name: 🇭🇰香港02, type: vmess, port:30807, server: v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, cipher: auto, alterId: 2, tls: false, skip-cert-verify: false}
   
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
-    - 🇭🇰 香港01
+    - 🇭🇰 香港08
+    - 🇭🇰 香港09
+    - 🇭🇰 香港10
+    - 🇭🇰 香港11
+    - 🇭🇰 香港02
     
 rules:
 - DOMAIN-SUFFIX,appspot.com,Proxy
