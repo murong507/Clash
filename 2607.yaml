@@ -17,97 +17,13 @@ dns:
     - tls://dns.google:853
 
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港01
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  tls: ''
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港02
-  network: ws
-  port: 80
-  server: 20.205.140.244
-  tls: ''
-  type: vmess
-  uuid: defe8224-819e-436b-87c7-ece80453c3f2
-  ws-opts:
-    headers:
-      Host: hkcdn2.snowhalation.cf
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港03
-  network: ws
-  port: 80
-  server: 20.205.140.244
-  tls: ''
-  type: vmess
-  uuid: defe8224-819e-436b-87c7-ece80453c3f2
-  ws-opts:
-    headers:
-      Host: m.t.17186.cn
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港04
-  network: ws
-  port: 80
-  server: 20.205.140.244
-  tls: ''
-  type: vmess
-  uuid: defe8224-819e-436b-87c7-ece80453c3f2
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港05
-  network: ws
-  port: 80
-  server: 20.205.140.244
-  tls: ''
-  type: vmess
-  uuid: defe8224-819e-436b-87c7-ece80453c3f2
-  ws-opts:
-    headers:
-      Host: hgc.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港06
-  network: ws
-  port: 35781
-  server: 18.167.121.42
-  tls: ''
-  type: vmess
-  uuid: d3978bd0-dade-4181-81de-bae3091339f1
-  ws-opts:
-    headers:
-      Host: 18.167.121.42
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港07
-  network: ws
-  port: 443
-  server: 165.154.244.82
-  tls: ''
-  type: vmess
-  uuid: a144de38-a881-4d45-852b-59eb5c38f7a8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  - {name: 🇭🇰 香港01, type: vmess, port: 35043, server: 156.245.232.239, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, network: ws}
+  - {name: 🇭🇰 香港02, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: hkcdn2.snowhalation.cf}}}
+  - {name: 🇭🇰 香港03, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: m.t.17186.cn}}}  
+  - {name: 🇭🇰 香港04, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: a.189.cn}}}  
+  - {name: 🇭🇰 香港05, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: hgc.fkfirewall.top}}}  
+  - {name: 🇭🇰 香港06, type: vmess, port: 35781, server: 18.167.121.42, uuid: d3978bd0-dade-4181-81de-bae3091339f1, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /, headers: {Host: 18.167.121.42}}}  
+  - {name: 🇭🇰 香港07, type: vmess, port: 443, server: 165.154.244.82, uuid: a144de38-a881-4d45-852b-59eb5c38f7a8, alterId: 0, cipher: auto, network: ws}
     
 proxy-groups:
 - name: Proxy
