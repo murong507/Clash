@@ -17,7 +17,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港01, type: vmess, port: 35043, server: 156.245.232.239, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, network: ws}
+  - {name: 🇭🇰 香港 01, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
   - {name: 🇭🇰 香港02, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: hkcdn2.snowhalation.cf}}}
   - {name: 🇭🇰 香港03, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: m.t.17186.cn}}}  
   - {name: 🇭🇰 香港04, type: vmess, port: 80, server: 20.205.140.244, uuid: defe8224-819e-436b-87c7-ece80453c3f2, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /run, headers: {Host: a.189.cn}}}  
