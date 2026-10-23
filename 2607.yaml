@@ -17,41 +17,34 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7d5fc5a9-d4a3-421a-93fa-c755b7eda3d7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: c38ecdc9-d52f-4d55-a4d8-025edf0927bc, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 274c4962-8a94-4c94-a656-d824d864f952, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b36e3ab8-3757-48ce-aa68-e5fd28aa01ce, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 5fae110f-cdc7-497e-ae84-645dc63923c7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3cedaa41-9ef8-4980-a7bf-f6ef13c5e0ef, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b37a6f97-18a1-4c13-9ebd-343c76189220, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 6, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: a87977f3-5fdf-4f71-9006-e038a11a43c1, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 7, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 5f91b733-892d-4a7c-8e1f-6266e699a1ee, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 6, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 0bc3c107-abbf-4834-8908-45e6299a8b89, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 8, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: f28e1c06-2888-491d-af23-a5d9e8816ff1, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 7, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 2f441042-fa3b-46c4-ac46-7717fe471049, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: dc7b38e5-574d-47e7-9f53-be1fe4dde1a6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 9, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 36f1bc22-8ed4-44bc-9cbb-cd50a7ef4115, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
+- {name: 🇭🇰香港01, type: trojan, port: 45464, server: 2.27.109.179, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io}
+- {name: 🇭🇰香港08, type: trojan, port: 12103, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+- {name: 🇭🇰香港09, type: trojan, port: 10115, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+- {name: 🇭🇰香港10, type: trojan, port: 12107, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+- {name: 🇭🇰香港11, type: trojan, port: 12102, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
+
+- {name: 🇭🇰香港02, type: vmess, port: 30807, server: v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, cipher: auto, alterId: 2, tls: false, skip-cert-verify: false}
+- {name: 🇭🇰香港03, type: vmess, port: 443, server: ADncdOvLHR4M1P36.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: ADncdOvLHR4M1P36.v.3dns.vip, ws-opts: {path: /ws-vmess,  headers: {Host: ADncdOvLHR4M1P36.v.3dns.vip}}}
+- {name: 🇭🇰香港04, type: vmess, port: 443, server: kBONDXW9liFCi4h4.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: kBONDXW9liFCi4h4.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: kBONDXW9liFCi4h4.v.3dns.vip}}}
+- {name: 🇭🇰香港05, type: vmess, port: 443, server:  aZW0eunYVdvRe73k.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: aZW0eunYVdvRe73k.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: aZW0eunYVdvRe73k.v.3dns.vip}}}   
+- {name: 🇭🇰香港06, type: vmess, port: 443, server:  syJ2gGUgMwBwQwQx.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: syJ2gGUgMwBwQwQx.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: syJ2gGUgMwBwQwQx.v.3dns.vip}}}     
+- {name: 🇭🇰香港07, type: vmess, port: 30807, server:  v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, network: tcp, tls: false}    
   
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
-    - 🇭🇰 香港 01 2
-    - 🇭🇰 香港 01 3
-    - 🇭🇰 香港 01 4
-    - 🇭🇰 香港 02 2
-    - 🇭🇰 香港 01 5
-    - 🇭🇰 香港 02 4
-    - 🇭🇰 香港 02 5
-    - 🇭🇰 香港 01 6
-    - 🇭🇰 香港 01 7
-    - 🇭🇰 香港 02 6
-    - 🇭🇰 香港 01 8
-    - 🇭🇰 香港 02 7
-    - 🇭🇰 香港 02 8
-    - 🇭🇰 香港 01 9
-    - 🇭🇰 香港 02 9
+    - 🇭🇰 香港01 
+    - 🇭🇰 香港02
+    - 🇭🇰 香港03
+    - 🇭🇰 香港04
+    - 🇭🇰 香港05
+    - 🇭🇰 香港06
+    - 🇭🇰 香港07
+    - 🇭🇰 香港08
+    - 🇭🇰 香港09
+    - 🇭🇰 香港10
+    - 🇭🇰 香港11
     
 rules:
 - DOMAIN-SUFFIX,appspot.com,Proxy
