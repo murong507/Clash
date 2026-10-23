@@ -94,6 +94,9 @@ proxies:
   - {name: 🇭🇰 香港 01 9, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 36f1bc22-8ed4-44bc-9cbb-cd50a7ef4115, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
 
+  - {name: 🇭🇰 香港 03 1, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
+
   - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A03, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -120,6 +123,8 @@ proxy-groups:
     - 🇭🇰 香港 02 8
     - 🇭🇰 香港 01 9
     - 🇭🇰 香港 02 9
+    - 🇭🇰 香港 03 1
+    - 🇭🇰 香港 03 2
     
 - name: 香港新点
   type: select
