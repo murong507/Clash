@@ -29,7 +29,7 @@ proxies:
   - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-01.riverfolder.com}
     
 proxy-groups:
-- name: Proxy
+- name: 选择节点
   type: select
   proxies:
     - 🇭🇰 香港_A
