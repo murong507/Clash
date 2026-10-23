@@ -24,11 +24,11 @@ proxies:
 - {name: 🇭🇰香港11, type: trojan, port: 12102, server: 7d0a2gz0-7a0c.aws-agent.net, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, network: tcp, skip-cert-verify: true}
 
 - {name: 🇭🇰香港02, type: vmess, port: 30807, server: v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, cipher: auto, alterId: 2, tls: false, skip-cert-verify: false}
-- {name: 🇭🇰香港03, type: vmess, port: 443, server: ADncdOvLHR4M1P36.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: ADncdOvLHR4M1P36.v.3dns.vip, ws-opts: {path: /ws-vmess,  headers: {Host: ADncdOvLHR4M1P36.v.3dns.vip}}}
-- {name: 🇭🇰香港04, type: vmess, port: 443, server: kBONDXW9liFCi4h4.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: kBONDXW9liFCi4h4.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: kBONDXW9liFCi4h4.v.3dns.vip}}}
-- {name: 🇭🇰香港05, type: vmess, port: 443, server:  aZW0eunYVdvRe73k.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: aZW0eunYVdvRe73k.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: aZW0eunYVdvRe73k.v.3dns.vip}}}   
-- {name: 🇭🇰香港06, type: vmess, port: 443, server:  syJ2gGUgMwBwQwQx.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: syJ2gGUgMwBwQwQx.v.3dns.vip,  ws-opts: {path: /ws-vmess,  headers: {Host: syJ2gGUgMwBwQwQx.v.3dns.vip}}}     
-- {name: 🇭🇰香港07, type: vmess, port: 30807, server:  v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, network: tcp, tls: false}    
+- {name: 🇭🇰香港03, type: vmess, port: 443, server: ADncdOvLHR4M1P36.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: ADncdOvLHR4M1P36.v.3dns.vip, ws-opts: {path: /ws-vmess, headers: {Host: ADncdOvLHR4M1P36.v.3dns.vip}}}
+- {name: 🇭🇰香港04, type: vmess, port: 443, server: kBONDXW9liFCi4h4.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: kBONDXW9liFCi4h4.v.3dns.vip, ws-opts: {path: /ws-vmess, headers: {Host: kBONDXW9liFCi4h4.v.3dns.vip}}}
+- {name: 🇭🇰香港05, type: vmess, port: 443, server: aZW0eunYVdvRe73k.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: aZW0eunYVdvRe73k.v.3dns.vip, ws-opts: {path: /ws-vmess, headers: {Host: aZW0eunYVdvRe73k.v.3dns.vip}}}   
+- {name: 🇭🇰香港06, type: vmess, port: 443, server: syJ2gGUgMwBwQwQx.v.3dns.vip, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: false, servername: syJ2gGUgMwBwQwQx.v.3dns.vip, ws-opts: {path: /ws-vmess, headers: {Host: syJ2gGUgMwBwQwQx.v.3dns.vip}}}     
+- {name: 🇭🇰香港07, type: vmess, port: 30807, server: v10.hdacd.com, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, network: tcp, tls: false}    
   
 proxy-groups:
 - name: Proxy
