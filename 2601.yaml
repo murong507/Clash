@@ -97,6 +97,17 @@ proxies:
   - {name: 🇭🇰 香港 03 1, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
   - {name: 🇭🇰 香港 03 2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
 
+  - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
+  - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
+  - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-04.riverfolder.com}
+  - {name: 🇭🇰 香港_D, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-05.riverfolder.com}
+  - {name: 🇭🇰 香港_E, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-01.riverfolder.com}
+  - {name: 🇭🇰 香港_F, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-02.riverfolder.com}
+  - {name: 🇭🇰 香港_G, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-03.riverfolder.com}
+  - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-04.riverfolder.com}
+  - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-05.riverfolder.com}
+  - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-01.riverfolder.com}
+
   - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A03, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -125,6 +136,20 @@ proxy-groups:
     - 🇭🇰 香港 02 9
     - 🇭🇰 香港 03 1
     - 🇭🇰 香港 03 2
+
+- name: 香港可用
+  type: select
+  proxies:    
+    - 🇭🇰 香港_A
+    - 🇭🇰 香港_B
+    - 🇭🇰 香港_C
+    - 🇭🇰 香港_D
+    - 🇭🇰 香港_E
+    - 🇭🇰 香港_F
+    - 🇭🇰 香港_G
+    - 🇭🇰 香港_H
+    - 🇭🇰 香港_I
+    - 🇭🇰 香港_J
     
 - name: 香港新点
   type: select
