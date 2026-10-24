@@ -673,716 +673,1427 @@ rules:
 - IP-CIDR,202.160.128.0/22,选择节点
 - IP-CIDR,209.237.192.0/19,选择节点
 
--DOMAIN-SUFFIX,linkedin.com,选择节点
--DOMAIN-SUFFIX,t.me,选择节点
--DOMAIN-SUFFIX,tdesktop.com,选择节点
--DOMAIN-SUFFIX,telegra.ph,选择节点
--DOMAIN-SUFFIX,telegram.me,选择节点
--DOMAIN-SUFFIX,telegram.org,选择节点
--DOMAIN-SUFFIX,telesco.pe,选择节点
--IP-CIDR,91.108.0.0/16,选择节点,no-resolve
--IP-CIDR,109.239.140.0/24,选择节点,no-resolve
--IP-CIDR,149.154.160.0/20,选择节点,no-resolve
--IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
--IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
--IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
--DOMAIN-SUFFIX,edgedatg.com,选择节点
--DOMAIN-SUFFIX,go.com,选择节点
--DOMAIN-KEYWORD,abematv.akamaized.net,选择节点
--DOMAIN-SUFFIX,abema.io,选择节点
--DOMAIN-SUFFIX,abema.tv,选择节点
--DOMAIN-SUFFIX,ameba.jp,选择节点
--DOMAIN-SUFFIX,hayabusa.io,选择节点
--DOMAIN-SUFFIX,c4assets.com,选择节点
--DOMAIN-SUFFIX,channel4.com,选择节点
--DOMAIN, atv-ps.amazon.com,选择节点
--DOMAIN, fls-na.amazon.com,选择节点
--DOMAIN-SUFFIX, media-amazon.com,选择节点
--DOMAIN-SUFFIX,aiv-cdn.net,选择节点
--DOMAIN-SUFFIX,amazonaws.co.uk,选择节点
--DOMAIN-SUFFIX,amazonaws.com,选择节点
--DOMAIN-SUFFIX,amazonvideo.com,选择节点
--DOMAIN-SUFFIX,llnwd.net,选择节点
--DOMAIN-SUFFIX,primevideo.com,选择节点
--DOMAIN,gspe1-ssl.ls.apple.com,选择节点
--DOMAIN,np-edge.itunes.apple.com,选择节点
--DOMAIN,play-edge.itunes.apple.com,选择节点
--DOMAIN-SUFFIX,tv.apple.com,选择节点
--DOMAIN-KEYWORD,bbcfmt,选择节点
--DOMAIN-KEYWORD,uk-live,选择节点
--DOMAIN,aod-dash-uk-live.akamaized.net,选择节点
--DOMAIN,aod-hls-uk-live.akamaized.net,选择节点
--DOMAIN,vod-dash-uk-live.akamaized.net,选择节点
--DOMAIN,vod-thumb-uk-live.akamaized.net,选择节点
--DOMAIN-SUFFIX,bbc.co,选择节点
--DOMAIN-SUFFIX,bbc.co.uk,选择节点
--DOMAIN-SUFFIX,bbc.com,选择节点
--DOMAIN-SUFFIX,bbc.net.uk,选择节点
--DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,选择节点
--DOMAIN-SUFFIX,bbci.co,选择节点
--DOMAIN-SUFFIX,bbci.co.uk,选择节点
--DOMAIN,gamer-cds.cdn.hinet.net,选择节点
--DOMAIN,gamer2-cds.cdn.hinet.net,选择节点
--DOMAIN-SUFFIX,bahamut.com.tw,选择节点
--DOMAIN-SUFFIX,gamer.com.tw,选择节点
--DOMAIN-SUFFIX,hinet.net,选择节点
--DOMAIN-KEYWORD,livedazn,选择节点
--DOMAIN-KEYWORD,vod2dazn,选择节点
--DOMAIN-KEYWORD,voddazn,选择节点
--DOMAIN,d151l6v8er5bdm.cloudfront.net,选择节点
--DOMAIN,edge.api.brightcove.com,选择节点
--DOMAIN,players.brightcove.net,选择节点
--DOMAIN-SUFFIX,amplify.outbrain.com,选择节点
--DOMAIN-SUFFIX,bluekai.com,选择节点
--DOMAIN-SUFFIX,control.kochava.com,选择节点
--DOMAIN-SUFFIX,cws.conviva.com,选择节点
--DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,选择节点
--DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,选择节点
--DOMAIN-SUFFIX,dazn-api.com,选择节点
--DOMAIN-SUFFIX,dazn.com,选择节点
--DOMAIN-SUFFIX,dazndn.com,选择节点
--DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,选择节点
--DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,选择节点
--DOMAIN-SUFFIX,dcblivedazn.akamaized.net,选择节点
--DOMAIN-SUFFIX,indazn.com,选择节点
--DOMAIN-SUFFIX,indaznlab.com,选择节点
--DOMAIN-SUFFIX,intercom.io,选择节点
--DOMAIN-SUFFIX,perfops.doracdn.com,选择节点
--DOMAIN-SUFFIX,s.llnwi.net,选择节点
--DOMAIN-SUFFIX,s.yimg.jp,选择节点
--DOMAIN-SUFFIX,secure.footprint.net,选择节点
--DOMAIN-SUFFIX,sentry.io,选择节点
--DOMAIN-SUFFIX,urbanairship.com,选择节点
--DOMAIN-SUFFIX,vjs.zencdn.net,选择节点
--DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,选择节点
--DOMAIN-SUFFIX,yahoo.co.jp,选择节点
--DOMAIN-SUFFIX,deezer.com,选择节点
--DOMAIN-SUFFIX,dzcdn.net,选择节点
--DOMAIN,cdn.registerdisney.go.com,选择节点
--DOMAIN-SUFFIX,adobedtm.com,选择节点
--DOMAIN-SUFFIX,bam.nr-data.net,选择节点
--DOMAIN-SUFFIX,bamgrid.com,选择节点
--DOMAIN-SUFFIX,braze.com,选择节点
--DOMAIN-SUFFIX,cdn.optimizely.com,选择节点
--DOMAIN-SUFFIX,cdn.registerdisney.go.com,选择节点
--DOMAIN-SUFFIX,cws.conviva.com,选择节点
--DOMAIN-SUFFIX,d9.flashtalking.com,选择节点
--DOMAIN-SUFFIX,disney-plus.net,选择节点
--DOMAIN-SUFFIX,disney-portal.my.onetrust.com,选择节点
--DOMAIN-SUFFIX,disney.demdex.net,选择节点
--DOMAIN-SUFFIX,disney.my.sentry.io,选择节点
--DOMAIN-SUFFIX,disneyplus.bn5x.net,选择节点
--DOMAIN-SUFFIX,disneyplus.com,选择节点
--DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,选择节点
--DOMAIN-SUFFIX,disneystreaming.com,选择节点
--DOMAIN-SUFFIX,dssott.com,选择节点
--DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,选择节点
--DOMAIN-SUFFIX,js-agent.newrelic.com,选择节点
--DOMAIN,bcbolt446c5271-a.akamaihd.net,选择节点
--DOMAIN,content.jwplatform.com,选择节点
--DOMAIN,edge.api.brightcove.com,选择节点
--DOMAIN,videos-f.jwpsrv.com,选择节点
--DOMAIN-SUFFIX,encoretvb.com,选择节点
--DOMAIN-SUFFIX,fox.com,选择节点
--DOMAIN-SUFFIX,foxdcg.com,选择节点
--DOMAIN-SUFFIX,uplynk.com,选择节点
--DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
--DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
--DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
--DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
--DOMAIN,hboasia1-i.akamaihd.net,选择节点
--DOMAIN,hboasia2-i.akamaihd.net,选择节点
--DOMAIN,hboasia3-i.akamaihd.net,选择节点
--DOMAIN,hboasia4-i.akamaihd.net,选择节点
--DOMAIN,hboasia5-i.akamaihd.net,选择节点
--DOMAIN,players.brightcove.net,选择节点
--DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
--DOMAIN-SUFFIX,hbo.com,选择节点
--DOMAIN-SUFFIX,hbogo.com,选择节点
--DOMAIN-SUFFIX,hbogoasia.com,选择节点
--DOMAIN-SUFFIX,hbogoasia.hk,选择节点
--DOMAIN-SUFFIX,hbomax.com,选择节点
--DOMAIN-SUFFIX,hbomaxcdn.com,选择节点
--DOMAIN-SUFFIX,hbonow.com,选择节点
--DOMAIN-KEYWORD,.hbogoasia.,选择节点
--DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
--DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
--DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
--DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
--DOMAIN,hboasia1-i.akamaihd.net,选择节点
--DOMAIN,hboasia2-i.akamaihd.net,选择节点
--DOMAIN,hboasia3-i.akamaihd.net,选择节点
--DOMAIN,hboasia4-i.akamaihd.net,选择节点
--DOMAIN,hboasia5-i.akamaihd.net,选择节点
--DOMAIN,hboasialive.akamaized.net,选择节点
--DOMAIN,hbogoprod-vod.akamaized.net,选择节点
--DOMAIN,hbolb.onwardsmg.com,选择节点
--DOMAIN,hbounify-prod.evergent.com,选择节点
--DOMAIN,players.brightcove.net,选择节点
--DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
--DOMAIN-SUFFIX,hbogoasia.com,选择节点
--DOMAIN-SUFFIX,hbogoasia.hk,选择节点
--DOMAIN-SUFFIX,5itv.tv,选择节点
--DOMAIN-SUFFIX,ocnttv.com,选择节点
--DOMAIN-SUFFIX,cws-hulu.conviva.com,选择节点
--DOMAIN-SUFFIX,hulu.com,选择节点
--DOMAIN-SUFFIX,hulu.hb.omtrdc.net,选择节点
--DOMAIN-SUFFIX,hulu.sc.omtrdc.net,选择节点
--DOMAIN-SUFFIX,huluad.com,选择节点
--DOMAIN-SUFFIX,huluim.com,选择节点
--DOMAIN-SUFFIX,hulustream.com,选择节点
--DOMAIN-SUFFIX,happyon.jp,选择节点
--DOMAIN-SUFFIX,hjholdings.jp,选择节点
--DOMAIN-SUFFIX,hulu.jp,选择节点
--DOMAIN-SUFFIX,prod.hjholdings.tv,选择节点
--DOMAIN-SUFFIX,streaks.jp,选择节点
--DOMAIN-SUFFIX,yb.uncn.jp,选择节点
--DOMAIN,itvpnpmobile-a.akamaihd.net,选择节点
--DOMAIN-SUFFIX,itv.com,选择节点
--DOMAIN-SUFFIX,itvstatic.com,选择节点
--DOMAIN-KEYWORD,jooxweb-api,选择节点
--DOMAIN-SUFFIX,joox.com,选择节点
--DOMAIN-KEYWORD,japonx,选择节点
--DOMAIN-KEYWORD,japronx,选择节点
--DOMAIN-SUFFIX,japonx.com,选择节点
--DOMAIN-SUFFIX,japonx.net,选择节点
--DOMAIN-SUFFIX,japonx.tv,选择节点
--DOMAIN-SUFFIX,japonx.vip,选择节点
--DOMAIN-SUFFIX,japronx.com,选择节点
--DOMAIN-SUFFIX,japronx.net,选择节点
--DOMAIN-SUFFIX,japronx.tv,选择节点
--DOMAIN-SUFFIX,japronx.vip,选择节点
--DOMAIN-SUFFIX,kfs.io,选择节点
--DOMAIN-SUFFIX,kkbox.com,选择节点
--DOMAIN-SUFFIX,kkbox.com.tw,选择节点
--DOMAIN,kktv-theater.kk.stream,选择节点
--DOMAIN-SUFFIX,kktv.com.tw,选择节点
--DOMAIN-SUFFIX,kktv.me,选择节点
--DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,选择节点
--DOMAIN-SUFFIX,litv.tv,选择节点
--DOMAIN,d3c7rimkq79yfu.cloudfront.net,选择节点
--DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,选择节点
--DOMAIN-SUFFIX,linetv.tw,选择节点
--DOMAIN-SUFFIX,profile.line-scdn.net,选择节点
--DOMAIN,d349g9zuie06uo.cloudfront.net,选择节点
--DOMAIN-SUFFIX,channel5.com,选择节点
--DOMAIN-SUFFIX,my5.tv,选择节点
--DOMAIN,mytvsuperlimited.hb.omtrdc.net,选择节点
--DOMAIN,mytvsuperlimited.sc.omtrdc.net,选择节点
--DOMAIN-SUFFIX,mytvsuper.com,选择节点
--DOMAIN-SUFFIX,tvb.com,选择节点
--DOMAIN-KEYWORD,dualstack.apiproxy-,选择节点
--DOMAIN-KEYWORD,dualstack.ichnaea-web-,选择节点
--DOMAIN,netflix.com.edgesuite.net,选择节点
--DOMAIN-SUFFIX,fast.com,选择节点
--DOMAIN-SUFFIX,netflix.com,选择节点
--DOMAIN-SUFFIX,netflix.net,选择节点
--DOMAIN-SUFFIX,netflixdnstest0.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest1.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest2.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest3.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest4.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest5.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest6.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest7.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest8.com,选择节点
--DOMAIN-SUFFIX,netflixdnstest9.com,选择节点
--DOMAIN-SUFFIX,nflxext.com,选择节点
--DOMAIN-SUFFIX,nflximg.com,选择节点
--DOMAIN-SUFFIX,nflximg.net,选择节点
--DOMAIN-SUFFIX,nflxso.net,选择节点
--DOMAIN-SUFFIX,nflxvideo.net,选择节点
--IP-CIDR,8.41.4.0/24,选择节点,no-resolve
--IP-CIDR,23.246.0.0/18,选择节点,no-resolve
--IP-CIDR,34.210.42.111/32,选择节点,no-resolve
--IP-CIDR,37.77.184.0/21,选择节点,no-resolve
--IP-CIDR,38.72.126.0/24,选择节点,no-resolve
--IP-CIDR,45.57.0.0/17,选择节点,no-resolve
--IP-CIDR,52.89.124.203/32,选择节点,no-resolve
--IP-CIDR,54.148.37.5/32,选择节点,no-resolve
--IP-CIDR,64.120.128.0/17,选择节点,no-resolve
--IP-CIDR,66.197.128.0/17,选择节点,no-resolve
--IP-CIDR,69.53.224.0/19,选择节点,no-resolve
--IP-CIDR,103.87.204.0/22,选择节点,no-resolve
--IP-CIDR,108.175.32.0/20,选择节点,no-resolve
--IP-CIDR,185.2.220.0/22,选择节点,no-resolve
--IP-CIDR,185.9.188.0/22,选择节点,no-resolve
--IP-CIDR,192.173.64.0/18,选择节点,no-resolve
--IP-CIDR,198.38.96.0/19,选择节点,no-resolve
--IP-CIDR,198.45.48.0/20,选择节点,no-resolve
--IP-CIDR,207.45.72.0/22,选择节点,no-resolve
--IP-CIDR,208.75.76.0/22,选择节点,no-resolve
--DOMAIN-SUFFIX,dmc.nico,选择节点
--DOMAIN-SUFFIX,nicovideo.jp,选择节点
--DOMAIN-SUFFIX,nimg.jp,选择节点
--DOMAIN-SUFFIX,pbs.org,选择节点
--DOMAIN-SUFFIX,pandora.com,选择节点
--DOMAIN-SUFFIX,phncdn.com,选择节点
--DOMAIN-SUFFIX,phprcdn.com,选择节点
--DOMAIN-SUFFIX,pornhub.com,选择节点
--DOMAIN-SUFFIX,pornhubpremium.com,选择节点
--DOMAIN-SUFFIX,qobuz.com,选择节点
--DOMAIN-SUFFIX,p-cdn.us,选择节点
--DOMAIN-SUFFIX,sndcdn.com,选择节点
--DOMAIN-SUFFIX,soundcloud.com,选择节点
--DOMAIN-KEYWORD,-spotify-com,选择节点
--DOMAIN-KEYWORD,spotify.com,选择节点
--DOMAIN-SUFFIX,pscdn.co,选择节点
--DOMAIN-SUFFIX,scdn.co,选择节点
--DOMAIN-SUFFIX,spoti.fi,选择节点
--DOMAIN-SUFFIX,spotify.com,选择节点
--DOMAIN-SUFFIX,spotifycdn.com,选择节点
--DOMAIN-SUFFIX,spotifycdn.net,选择节点
--DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,选择节点
--DOMAIN-SUFFIX,tidal.com,选择节点
--DOMAIN-SUFFIX,tidalhifi.com,选择节点
--DOMAIN,hamifans.emome.net,选择节点
--DOMAIN-SUFFIX,skyking.com.tw,选择节点
--DOMAIN-KEYWORD,-tiktokcdn-com,选择节点
--DOMAIN-SUFFIX,byteoversea.com,选择节点
--DOMAIN-SUFFIX,ibytedtos.com,选择节点
--DOMAIN-SUFFIX,ipstatp.com,选择节点
--DOMAIN-SUFFIX,muscdn.com,选择节点
--DOMAIN-SUFFIX,musical.ly,选择节点
--DOMAIN-SUFFIX,tik-tokapi.com,选择节点
--DOMAIN-SUFFIX,tiktok.com,选择节点
--DOMAIN-SUFFIX,tiktokcdn.com,选择节点
--DOMAIN-SUFFIX,tiktokv.com,选择节点
--DOMAIN-KEYWORD,ttvnw,选择节点
--DOMAIN-SUFFIX,jtvnw.net,选择节点
--DOMAIN-SUFFIX,ttvnw.net,选择节点
--DOMAIN-SUFFIX,twitch.tv,选择节点
--DOMAIN-SUFFIX,twitchcdn.net,选择节点
--DOMAIN,api.viu.now.com,选择节点
--DOMAIN,d1k2us671qcoau.cloudfront.net,选择节点
--DOMAIN,d2anahhhmp1ffz.cloudfront.net,选择节点
--DOMAIN,dfp6rglgjqszk.cloudfront.net,选择节点
--DOMAIN-SUFFIX,bootstrapcdn.com,选择节点
--DOMAIN-SUFFIX,cloudfront.net,选择节点
--DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,选择节点
--DOMAIN-SUFFIX,firebaseio.com,选择节点
--DOMAIN-SUFFIX,jwpcdn.com,选择节点
--DOMAIN-SUFFIX,jwplayer.com,选择节点
--DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,选择节点
--DOMAIN-SUFFIX,nowe.com,选择节点
--DOMAIN-SUFFIX,viu.com,选择节点
--DOMAIN-SUFFIX,viu.now.com,选择节点
--DOMAIN-SUFFIX,viu.tv,选择节点
--DOMAIN-KEYWORD,youtube,选择节点
--DOMAIN,youtubei.googleapis.com,选择节点
--DOMAIN,yt3.ggpht.com,选择节点
--DOMAIN-SUFFIX,googlevideo.com,选择节点
--DOMAIN-SUFFIX,gvt2.com,选择节点
--DOMAIN-SUFFIX,youtu.be,选择节点
--DOMAIN-SUFFIX,youtube.com,选择节点
--DOMAIN-SUFFIX,ytimg.com,选择节点
--PROCESS-NAME,com.google.android.apps.youtube.music,选择节点
--PROCESS-NAME,com.google.android.youtube.tvmusicroot,选择节点
--PROCESS-NAME,com.vanced.android.apps.youtube.music,选择节点
--DOMAIN-SUFFIX,1password.com,选择节点
--DOMAIN-SUFFIX,adguard.org,选择节点
--DOMAIN-SUFFIX,bit.no.com,选择节点
--DOMAIN-SUFFIX,btlibrary.me,选择节点
--DOMAIN-SUFFIX,cccat.io,选择节点
--DOMAIN-SUFFIX,cloudcone.com,选择节点
--DOMAIN-SUFFIX,dubox.com,选择节点
--DOMAIN-SUFFIX,gameloft.com,选择节点
--DOMAIN-SUFFIX,garena.com,选择节点
--DOMAIN-SUFFIX,inoreader.com,选择节点
--DOMAIN-SUFFIX,ip138.com,选择节点
--DOMAIN-SUFFIX,ping.pe,选择节点
--DOMAIN-SUFFIX,reddit.com,选择节点
--DOMAIN-SUFFIX,teddysun.com,选择节点
--DOMAIN-SUFFIX,tumbex.com,选择节点
--DOMAIN-SUFFIX,twdvd.com,选择节点
--DOMAIN-SUFFIX,unsplash.com,选择节点
--DOMAIN-SUFFIX,xn--i2ru8q2qg.com,选择节点
--DOMAIN-SUFFIX,yunpanjingling.com,选择节点
--DOMAIN-SUFFIX,eu,选择节点
--DOMAIN-SUFFIX,hk,选择节点
--DOMAIN-SUFFIX,jp,选择节点
--DOMAIN-SUFFIX,kr,选择节点
--DOMAIN-SUFFIX,sg,选择节点
--DOMAIN-SUFFIX,tw,选择节点
--DOMAIN-SUFFIX,uk,选择节点
--DOMAIN-SUFFIX,us,选择节点
--DOMAIN-KEYWORD,1e100,选择节点
--DOMAIN-KEYWORD,abema,选择节点
--DOMAIN-KEYWORD,appledaily,选择节点
--DOMAIN-KEYWORD,avtb,选择节点
--DOMAIN-KEYWORD,beetalk,选择节点
--DOMAIN-KEYWORD,blogspot,选择节点
--DOMAIN-KEYWORD,dropbox,选择节点
--DOMAIN-KEYWORD,facebook,选择节点
--DOMAIN-KEYWORD,fbcdn,选择节点
--DOMAIN-KEYWORD,github,选择节点
--DOMAIN-KEYWORD,gmail,选择节点
--DOMAIN-KEYWORD,google,选择节点
--DOMAIN-KEYWORD,instagram,选择节点
--DOMAIN-KEYWORD,porn,选择节点
--DOMAIN-KEYWORD,sci-hub,选择节点
--DOMAIN-KEYWORD,spotify,选择节点
--DOMAIN-KEYWORD,telegram,选择节点
--DOMAIN-KEYWORD,twitter,选择节点
--DOMAIN-KEYWORD,whatsapp,选择节点
--DOMAIN-KEYWORD,youtube,选择节点
--DOMAIN-SUFFIX,4sqi.net,选择节点
--DOMAIN-SUFFIX,a248.e.akamai.net,选择节点
--DOMAIN-SUFFIX,adobedtm.com,选择节点
--DOMAIN-SUFFIX,ampproject.org,选择节点
--DOMAIN-SUFFIX,android.com,选择节点
--DOMAIN-SUFFIX,aolcdn.com,选择节点
--DOMAIN-SUFFIX,apkmirror.com,选择节点
--DOMAIN-SUFFIX,apkpure.com,选择节点
--DOMAIN-SUFFIX,app-measurement.com,选择节点
--DOMAIN-SUFFIX,appspot.com,选择节点
--DOMAIN-SUFFIX,archive.org,选择节点
--DOMAIN-SUFFIX,armorgames.com,选择节点
--DOMAIN-SUFFIX,aspnetcdn.com,选择节点
--DOMAIN-SUFFIX,awsstatic.com,选择节点
--DOMAIN-SUFFIX,azureedge.net,选择节点
--DOMAIN-SUFFIX,azurewebsites.net,选择节点
--DOMAIN-SUFFIX,bandwagonhost.com,选择节点
--DOMAIN-SUFFIX,bing.com,选择节点
--DOMAIN-SUFFIX,bkrtx.com,选择节点
--DOMAIN-SUFFIX,blogcdn.com,选择节点
--DOMAIN-SUFFIX,blogger.com,选择节点
--DOMAIN-SUFFIX,blogsmithmedia.com,选择节点
--DOMAIN-SUFFIX,blogspot.com,选择节点
--DOMAIN-SUFFIX,blogspot.hk,选择节点
--DOMAIN-SUFFIX,blogspot.jp,选择节点
--DOMAIN-SUFFIX,bloomberg.cn,选择节点
--DOMAIN-SUFFIX,bloomberg.com,选择节点
--DOMAIN-SUFFIX,box.com,选择节点
--DOMAIN-SUFFIX,cachefly.net,选择节点
--DOMAIN-SUFFIX,cdnst.net,选择节点
--DOMAIN-SUFFIX,cloudfront.net,选择节点
--DOMAIN-SUFFIX,comodoca.com,选择节点
--DOMAIN-SUFFIX,daum.net,选择节点
--DOMAIN-SUFFIX,demdex.net,选择节点
--DOMAIN-SUFFIX,deskconnect.com,选择节点
--DOMAIN-SUFFIX,disqus.com,选择节点
--DOMAIN-SUFFIX,disquscdn.com,选择节点
--DOMAIN-SUFFIX,dropbox.com,选择节点
--DOMAIN-SUFFIX,dropboxapi.com,选择节点
--DOMAIN-SUFFIX,dropboxstatic.com,选择节点
--DOMAIN-SUFFIX,dropboxusercontent.com,选择节点
--DOMAIN-SUFFIX,duckduckgo.com,选择节点
--DOMAIN-SUFFIX,edgecastcdn.net,选择节点
--DOMAIN-SUFFIX,edgekey.net,选择节点
--DOMAIN-SUFFIX,edgesuite.net,选择节点
--DOMAIN-SUFFIX,eurekavpt.com,选择节点
--DOMAIN-SUFFIX,fastmail.com,选择节点
--DOMAIN-SUFFIX,firebaseio.com,选择节点
--DOMAIN-SUFFIX,flickr.com,选择节点
--DOMAIN-SUFFIX,flipboard.com,选择节点
--DOMAIN-SUFFIX,gfx.ms,选择节点
--DOMAIN-SUFFIX,gongm.in,选择节点
--DOMAIN-SUFFIX,hulu.com,选择节点
--DOMAIN-SUFFIX,id.heroku.com,选择节点
--DOMAIN-SUFFIX,io.io,选择节点
--DOMAIN-SUFFIX,issuu.com,选择节点
--DOMAIN-SUFFIX,ixquick.com,选择节点
--DOMAIN-SUFFIX,jtvnw.net,选择节点
--DOMAIN-SUFFIX,kat.cr,选择节点
--DOMAIN-SUFFIX,kik.com,选择节点
--DOMAIN-SUFFIX,kobo.com,选择节点
--DOMAIN-SUFFIX,kobobooks.com,选择节点
--DOMAIN-SUFFIX,licdn.com,选择节点
--DOMAIN-SUFFIX,live.net,选择节点
--DOMAIN-SUFFIX,livefilestore.com,选择节点
--DOMAIN-SUFFIX,llnwd.net,选择节点
--DOMAIN-SUFFIX,macrumors.com,选择节点
--DOMAIN-SUFFIX,medium.com,选择节点
--DOMAIN-SUFFIX,mega.nz,选择节点
--DOMAIN-SUFFIX,megaupload.com,选择节点
--DOMAIN-SUFFIX,messenger.com,选择节点
--DOMAIN-SUFFIX,netdna-cdn.com,选择节点
--DOMAIN-SUFFIX,nintendo.net,选择节点
--DOMAIN-SUFFIX,nsstatic.net,选择节点
--DOMAIN-SUFFIX,nytstyle.com,选择节点
--DOMAIN-SUFFIX,overcast.fm,选择节点
--DOMAIN-SUFFIX,openvpn.net,选择节点
--DOMAIN-SUFFIX,periscope.tv,选择节点
--DOMAIN-SUFFIX,pinimg.com,选择节点
--DOMAIN-SUFFIX,pinterest.com,选择节点
--DOMAIN-SUFFIX,potato.im,选择节点
--DOMAIN-SUFFIX,prfct.co,选择节点
--DOMAIN-SUFFIX,pscp.tv,选择节点
--DOMAIN-SUFFIX,quora.com,选择节点
--DOMAIN-SUFFIX,resilio.com,选择节点
--DOMAIN-SUFFIX,sfx.ms,选择节点
--DOMAIN-SUFFIX,shadowsocks.org,选择节点
--DOMAIN-SUFFIX,slack-edge.com,选择节点
--DOMAIN-SUFFIX,smartdnsproxy.com,选择节点
--DOMAIN-SUFFIX,sndcdn.com,选择节点
--DOMAIN-SUFFIX,soundcloud.com,选择节点
--DOMAIN-SUFFIX,startpage.com,选择节点
--DOMAIN-SUFFIX,staticflickr.com,选择节点
--DOMAIN-SUFFIX,symauth.com,选择节点
--DOMAIN-SUFFIX,symcb.com,选择节点
--DOMAIN-SUFFIX,symcd.com,选择节点
--DOMAIN-SUFFIX,textnow.com,选择节点
--DOMAIN-SUFFIX,textnow.me,选择节点
--DOMAIN-SUFFIX,thefacebook.com,选择节点
--DOMAIN-SUFFIX,thepiratebay.org,选择节点
--DOMAIN-SUFFIX,torproject.org,选择节点
--DOMAIN-SUFFIX,trustasiassl.com,选择节点
--DOMAIN-SUFFIX,tumblr.co,选择节点
--DOMAIN-SUFFIX,tumblr.com,选择节点
--DOMAIN-SUFFIX,tvb.com,选择节点
--DOMAIN-SUFFIX,txmblr.com,选择节点
--DOMAIN-SUFFIX,v2ex.com,选择节点
--DOMAIN-SUFFIX,vimeo.com,选择节点
--DOMAIN-SUFFIX,vine.co,选择节点
--DOMAIN-SUFFIX,vox-cdn.com,选择节点
--DOMAIN-SUFFIX,amazon.co.jp,选择节点
--DOMAIN-SUFFIX,amazon.com,选择节点
--DOMAIN-SUFFIX,amazonaws.com,选择节点
--IP-CIDR,13.32.0.0/15,选择节点,no-resolve
--IP-CIDR,13.35.0.0/17,选择节点,no-resolve
--IP-CIDR,18.184.0.0/15,选择节点,no-resolve
--IP-CIDR,18.194.0.0/15,选择节点,no-resolve
--IP-CIDR,18.208.0.0/13,选择节点,no-resolve
--IP-CIDR,18.232.0.0/14,选择节点,no-resolve
--IP-CIDR,52.58.0.0/15,选择节点,no-resolve
--IP-CIDR,52.74.0.0/16,选择节点,no-resolve
--IP-CIDR,52.77.0.0/16,选择节点,no-resolve
--IP-CIDR,52.84.0.0/15,选择节点,no-resolve
--IP-CIDR,52.200.0.0/13,选择节点,no-resolve
--IP-CIDR,54.93.0.0/16,选择节点,no-resolve
--IP-CIDR,54.156.0.0/14,选择节点,no-resolve
--IP-CIDR,54.226.0.0/15,选择节点,no-resolve
--IP-CIDR,54.230.156.0/22,选择节点,no-resolve
--DOMAIN-KEYWORD,uk-live,选择节点
--DOMAIN-SUFFIX,bbc.co,选择节点
--DOMAIN-SUFFIX,bbc.com,选择节点
--DOMAIN-SUFFIX,apache.org,选择节点
--DOMAIN-SUFFIX,docker.com,选择节点
--DOMAIN-SUFFIX,elastic.co,选择节点
--DOMAIN-SUFFIX,elastic.com,选择节点
--DOMAIN-SUFFIX,gcr.io,选择节点
--DOMAIN-SUFFIX,gitlab.com,选择节点
--DOMAIN-SUFFIX,gitlab.io,选择节点
--DOMAIN-SUFFIX,jitpack.io,选择节点
--DOMAIN-SUFFIX,maven.org,选择节点
--DOMAIN-SUFFIX,medium.com,选择节点
--DOMAIN-SUFFIX,mvnrepository.com,选择节点
--DOMAIN-SUFFIX,quay.io,选择节点
--DOMAIN-SUFFIX,reddit.com,选择节点
--DOMAIN-SUFFIX,redhat.com,选择节点
--DOMAIN-SUFFIX,sonatype.org,选择节点
--DOMAIN-SUFFIX,sourcegraph.com,选择节点
--DOMAIN-SUFFIX,spring.io,选择节点
--DOMAIN-SUFFIX,spring.net,选择节点
--DOMAIN-SUFFIX,stackoverflow.com,选择节点
--DOMAIN-SUFFIX,discord.co,选择节点
--DOMAIN-SUFFIX,discord.com,选择节点
--DOMAIN-SUFFIX,discord.gg,选择节点
--DOMAIN-SUFFIX,discord.media,选择节点
--DOMAIN-SUFFIX,discordapp.com,选择节点
--DOMAIN-SUFFIX,discordapp.net,选择节点
--DOMAIN-SUFFIX,facebook.com,选择节点
--DOMAIN-SUFFIX,fb.com,选择节点
--DOMAIN-SUFFIX,fb.me,选择节点
--DOMAIN-SUFFIX,fbcdn.com,选择节点
--DOMAIN-SUFFIX,fbcdn.net,选择节点
--IP-CIDR,31.13.24.0/21,选择节点,no-resolve
--IP-CIDR,31.13.64.0/18,选择节点,no-resolve
--IP-CIDR,45.64.40.0/22,选择节点,no-resolve
--IP-CIDR,66.220.144.0/20,选择节点,no-resolve
--IP-CIDR,69.63.176.0/20,选择节点,no-resolve
--IP-CIDR,69.171.224.0/19,选择节点,no-resolve
--IP-CIDR,74.119.76.0/22,选择节点,no-resolve
--IP-CIDR,103.4.96.0/22,选择节点,no-resolve
--IP-CIDR,129.134.0.0/17,选择节点,no-resolve
--IP-CIDR,157.240.0.0/17,选择节点,no-resolve
--IP-CIDR,173.252.64.0/18,选择节点,no-resolve
--IP-CIDR,179.60.192.0/22,选择节点,no-resolve
--IP-CIDR,185.60.216.0/22,选择节点,no-resolve
--IP-CIDR,204.15.20.0/22,选择节点,no-resolve
--DOMAIN-SUFFIX,github.com,选择节点
--DOMAIN-SUFFIX,github.io,选择节点
--DOMAIN-SUFFIX,githubapp.com,选择节点
--DOMAIN-SUFFIX,githubassets.com,选择节点
--DOMAIN-SUFFIX,githubusercontent.com,选择节点
--DOMAIN-SUFFIX,1e100.net,选择节点
--DOMAIN-SUFFIX,2mdn.net,选择节点
--DOMAIN-SUFFIX,app-measurement.net,选择节点
--DOMAIN-SUFFIX,g.co,选择节点
--DOMAIN-SUFFIX,ggpht.com,选择节点
--DOMAIN-SUFFIX,goo.gl,选择节点
--DOMAIN-SUFFIX,googleapis.cn,选择节点
--DOMAIN-SUFFIX,googleapis.com,选择节点
--DOMAIN-SUFFIX,gstatic.cn,选择节点
--DOMAIN-SUFFIX,gstatic.com,选择节点
--DOMAIN-SUFFIX,gvt0.com,选择节点
--DOMAIN-SUFFIX,gvt1.com,选择节点
--DOMAIN-SUFFIX,gvt2.com,选择节点
--DOMAIN-SUFFIX,gvt3.com,选择节点
--DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择节点
--DOMAIN-SUFFIX,youtu.be,选择节点
--DOMAIN-SUFFIX,youtube-nocookie.com,选择节点
--DOMAIN-SUFFIX,youtube.com,选择节点
--DOMAIN-SUFFIX,yt.be,选择节点
--DOMAIN-SUFFIX,ytimg.com,选择节点
--IP-CIDR,74.125.0.0/16,选择节点,no-resolve
--IP-CIDR,173.194.0.0/16,选择节点,no-resolve
--IP-CIDR,120.232.181.162/32,选择节点,no-resolve
--IP-CIDR,120.241.147.226/32,选择节点,no-resolve
--IP-CIDR,120.253.253.226/32,选择节点,no-resolve
--IP-CIDR,120.253.255.162/32,选择节点,no-resolve
--IP-CIDR,120.253.255.34/32,选择节点,no-resolve
--IP-CIDR,120.253.255.98/32,选择节点,no-resolve
--IP-CIDR,180.163.150.162/32,选择节点,no-resolve
--IP-CIDR,180.163.150.34/32,选择节点,no-resolve
--IP-CIDR,180.163.151.162/32,选择节点,no-resolve
--IP-CIDR,180.163.151.34/32,选择节点,no-resolve
--IP-CIDR,203.208.39.0/24,选择节点,no-resolve
--IP-CIDR,203.208.40.0/24,选择节点,no-resolve
--IP-CIDR,203.208.41.0/24,选择节点,no-resolve
--IP-CIDR,203.208.43.0/24,选择节点,no-resolve
--IP-CIDR,203.208.50.0/24,选择节点,no-resolve
--IP-CIDR,220.181.174.162/32,选择节点,no-resolve
--IP-CIDR,220.181.174.226/32,选择节点,no-resolve
--IP-CIDR,220.181.174.34/32,选择节点,no-resolve
--DOMAIN-SUFFIX,cdninstagram.com,选择节点
--DOMAIN-SUFFIX,instagram.com,选择节点
--DOMAIN-SUFFIX,instagr.am,选择节点
--DOMAIN-SUFFIX,kakao.com,选择节点
--DOMAIN-SUFFIX,kakao.co.kr,选择节点
--DOMAIN-SUFFIX,kakaocdn.net,选择节点
--IP-CIDR,1.201.0.0/24,选择节点,no-resolve
--IP-CIDR,27.0.236.0/22,选择节点,no-resolve
--IP-CIDR,103.27.148.0/22,选择节点,no-resolve
--IP-CIDR,103.246.56.0/22,选择节点,no-resolve
--IP-CIDR,110.76.140.0/22,选择节点,no-resolve
--IP-CIDR,113.61.104.0/22,选择节点,no-resolve
--DOMAIN-SUFFIX,lin.ee,选择节点
--DOMAIN-SUFFIX,line-apps.com,选择节点
--DOMAIN-SUFFIX,line-cdn.net,选择节点
--DOMAIN-SUFFIX,line-scdn.net,选择节点
--DOMAIN-SUFFIX,line.me,选择节点
--DOMAIN-SUFFIX,line.naver.jp,选择节点
--DOMAIN-SUFFIX,nhncorp.jp,选择节点
--IP-CIDR,103.2.28.0/24,选择节点,no-resolve
--IP-CIDR,103.2.30.0/23,选择节点,no-resolve
--IP-CIDR,119.235.224.0/24,选择节点,no-resolve
--IP-CIDR,119.235.232.0/24,选择节点,no-resolve
--IP-CIDR,119.235.235.0/24,选择节点,no-resolve
--IP-CIDR,119.235.236.0/23,选择节点,no-resolve
--IP-CIDR,147.92.128.0/17,选择节点,no-resolve
--IP-CIDR,203.104.128.0/19,选择节点,no-resolve
--DOMAIN-KEYWORD,1drv,选择节点
--DOMAIN-KEYWORD,onedrive,选择节点
--DOMAIN-KEYWORD,skydrive,选择节点
--DOMAIN-SUFFIX,livefilestore.com,选择节点
--DOMAIN-SUFFIX,oneclient.sfx.ms,选择节点
--DOMAIN-SUFFIX,onedrive.com,选择节点
--DOMAIN-SUFFIX,onedrive.live.com,选择节点
--DOMAIN-SUFFIX,photos.live.com,选择节点
--DOMAIN-SUFFIX,skydrive.wns.windows.com,选择节点
--DOMAIN-SUFFIX,spoprod-a.akamaihd.net,选择节点
--DOMAIN-SUFFIX,storage.live.com,选择节点
--DOMAIN-SUFFIX,storage.msn.com,选择节点
--DOMAIN-KEYWORD,porn,选择节点
--DOMAIN-SUFFIX,8teenxxx.com,选择节点
--DOMAIN-SUFFIX,ahcdn.com,选择节点
--DOMAIN-SUFFIX,bcvcdn.com,选择节点
--DOMAIN-SUFFIX,bongacams.com,选择节点
--DOMAIN-SUFFIX,chaturbate.com,选择节点
--DOMAIN-SUFFIX,dditscdn.com,选择节点
--DOMAIN-SUFFIX,livejasmin.com,选择节点
--DOMAIN-SUFFIX,phncdn.com,选择节点
--DOMAIN-SUFFIX,phprcdn.com,选择节点
--DOMAIN-SUFFIX,pornhub.com,选择节点
--DOMAIN-SUFFIX,pornhubpremium.com,选择节点
--DOMAIN-SUFFIX,rdtcdn.com,选择节点
--DOMAIN-SUFFIX,redtube.com,选择节点
--DOMAIN-SUFFIX,sb-cd.com,选择节点
--DOMAIN-SUFFIX,spankbang.com,选择节点
--DOMAIN-SUFFIX,t66y.com,选择节点
--DOMAIN-SUFFIX,xhamster.com,选择节点
--DOMAIN-SUFFIX,xnxx-cdn.com,选择节点
--DOMAIN-SUFFIX,xnxx.com,选择节点
--DOMAIN-SUFFIX,xvideos-cdn.com,选择节点
--DOMAIN-SUFFIX,xvideos.com,选择节点
--DOMAIN-SUFFIX,ypncdn.com,选择节点
--DOMAIN-SUFFIX,pixiv.net,选择节点
--DOMAIN-SUFFIX,pximg.net,选择节点
--DOMAIN-SUFFIX,amplitude.com,选择节点
--DOMAIN-SUFFIX,firebaseio.com,选择节点
--DOMAIN-SUFFIX,hockeyapp.net,选择节点
--DOMAIN-SUFFIX,readdle.com,选择节点
--DOMAIN-SUFFIX,smartmailcloud.com,选择节点
--DOMAIN-SUFFIX,fanatical.com,选择节点
--DOMAIN-SUFFIX,humblebundle.com,选择节点
--DOMAIN-SUFFIX,steam-chat.com,选择节点
--DOMAIN-SUFFIX,steamcommunity.com,选择节点
--DOMAIN-SUFFIX,steampowered.com,选择节点
--DOMAIN-SUFFIX,steamstatic.com,选择节点
--DOMAIN-SUFFIX,tap.io,选择节点
--DOMAIN-SUFFIX,taptap.tw,选择节点
--DOMAIN-SUFFIX,twitch.tv,选择节点
--DOMAIN-SUFFIX,ttvnw.net,选择节点
--DOMAIN-SUFFIX,jtvnw.net,选择节点
--DOMAIN-KEYWORD,ttvnw,选择节点
--DOMAIN-SUFFIX,t.co,选择节点
--DOMAIN-SUFFIX,twimg.co,选择节点
--DOMAIN-SUFFIX,twimg.com,选择节点
--DOMAIN-SUFFIX,twimg.org,选择节点
--DOMAIN-SUFFIX,t.me,选择节点
--DOMAIN-SUFFIX,tdesktop.com,选择节点
--DOMAIN-SUFFIX,telegra.ph,选择节点
--DOMAIN-SUFFIX,telegram.me,选择节点
--DOMAIN-SUFFIX,telegram.org,选择节点
--DOMAIN-SUFFIX,telesco.pe,选择节点
--IP-CIDR,91.108.0.0/16,选择节点,no-resolve
--IP-CIDR,109.239.140.0/24,选择节点,no-resolve
--IP-CIDR,149.154.160.0/20,选择节点,no-resolve
--IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
--IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
--IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
--DOMAIN-SUFFIX,terabox.com,选择节点
--DOMAIN-SUFFIX,teraboxcdn.com,选择节点
--IP-CIDR,18.194.0.0/15,选择节点,no-resolve
--IP-CIDR,34.224.0.0/12,选择节点,no-resolve
--IP-CIDR,54.242.0.0/15,选择节点,no-resolve
--IP-CIDR,50.22.198.204/30,选择节点,no-resolve
--IP-CIDR,208.43.122.128/27,选择节点,no-resolve
--IP-CIDR,108.168.174.0/16,选择节点,no-resolve
--IP-CIDR,173.192.231.32/27,选择节点,no-resolve
--IP-CIDR,158.85.5.192/27,选择节点,no-resolve
--IP-CIDR,174.37.243.0/16,选择节点,no-resolve
--IP-CIDR,158.85.46.128/27,选择节点,no-resolve
--IP-CIDR,173.192.222.160/27,选择节点,no-resolve
--IP-CIDR,184.173.128.0/17,选择节点,no-resolve
--IP-CIDR,158.85.224.160/27,选择节点,no-resolve
--IP-CIDR,75.126.150.0/16,选择节点,no-resolve
--IP-CIDR,69.171.235.0/16,选择节点,no-resolve
--DOMAIN-SUFFIX,mediawiki.org,选择节点
--DOMAIN-SUFFIX,wikibooks.org,选择节点
--DOMAIN-SUFFIX,wikidata.org,选择节点
--DOMAIN-SUFFIX,wikileaks.org,选择节点
--DOMAIN-SUFFIX,wikimedia.org,选择节点
--DOMAIN-SUFFIX,wikinews.org,选择节点
--DOMAIN-SUFFIX,wikipedia.org,选择节点
--DOMAIN-SUFFIX,wikiquote.org,选择节点
--DOMAIN-SUFFIX,wikisource.org,选择节点
--DOMAIN-SUFFIX,wikiversity.org,选择节点
--DOMAIN-SUFFIX,wikivoyage.org,选择节点
--DOMAIN-SUFFIX,wiktionary.org,选择节点
--DOMAIN-SUFFIX,neulion.com,选择节点
--DOMAIN-SUFFIX,icntv.xyz,选择节点
--DOMAIN-SUFFIX,flzbcdn.xyz,选择节点
--DOMAIN-SUFFIX,ocnttv.com,选择节点
--DOMAIN-SUFFIX,hutao.cloud,选择节点
+- DOMAIN-SUFFIX,linkedin.com,选择节点
+- DOMAIN-SUFFIX,t.me,选择节点
+- DOMAIN-SUFFIX,tdesktop.com,选择节点
+- DOMAIN-SUFFIX,telegra.ph,选择节点
+- DOMAIN-SUFFIX,telegram.me,选择节点
+- DOMAIN-SUFFIX,telegram.org,选择节点
+- DOMAIN-SUFFIX,telesco.pe,选择节点
+- IP-CIDR,91.108.0.0/16,选择节点,no-resolve
+- IP-CIDR,109.239.140.0/24,选择节点,no-resolve
+- IP-CIDR,149.154.160.0/20,选择节点,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
+- DOMAIN-SUFFIX,edgedatg.com,选择节点
+- DOMAIN-SUFFIX,go.com,选择节点
+- DOMAIN-KEYWORD,abematv.akamaized.net,选择节点
+- DOMAIN-SUFFIX,abema.io,选择节点
+- DOMAIN-SUFFIX,abema.tv,选择节点
+- DOMAIN-SUFFIX,ameba.jp,选择节点
+- DOMAIN-SUFFIX,hayabusa.io,选择节点
+- DOMAIN-SUFFIX,c4assets.com,选择节点
+- DOMAIN-SUFFIX,channel4.com,选择节点
+- DOMAIN, atv-ps.amazon.com,选择节点
+- DOMAIN, fls-na.amazon.com,选择节点
+- DOMAIN-SUFFIX, media-amazon.com,选择节点
+- DOMAIN-SUFFIX,aiv-cdn.net,选择节点
+- DOMAIN-SUFFIX,amazonaws.co.uk,选择节点
+- DOMAIN-SUFFIX,amazonaws.com,选择节点
+- DOMAIN-SUFFIX,amazonvideo.com,选择节点
+- DOMAIN-SUFFIX,llnwd.net,选择节点
+- DOMAIN-SUFFIX,primevideo.com,选择节点
+- DOMAIN,gspe1-ssl.ls.apple.com,选择节点
+- DOMAIN,np-edge.itunes.apple.com,选择节点
+- DOMAIN,play-edge.itunes.apple.com,选择节点
+- DOMAIN-SUFFIX,tv.apple.com,选择节点
+- DOMAIN-KEYWORD,bbcfmt,选择节点
+- DOMAIN-KEYWORD,uk-live,选择节点
+- DOMAIN,aod-dash-uk-live.akamaized.net,选择节点
+- DOMAIN,aod-hls-uk-live.akamaized.net,选择节点
+- DOMAIN,vod-dash-uk-live.akamaized.net,选择节点
+- DOMAIN,vod-thumb-uk-live.akamaized.net,选择节点
+- DOMAIN-SUFFIX,bbc.co,选择节点
+- DOMAIN-SUFFIX,bbc.co.uk,选择节点
+- DOMAIN-SUFFIX,bbc.com,选择节点
+- DOMAIN-SUFFIX,bbc.net.uk,选择节点
+- DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,选择节点
+- DOMAIN-SUFFIX,bbci.co,选择节点
+- DOMAIN-SUFFIX,bbci.co.uk,选择节点
+- DOMAIN,gamer-cds.cdn.hinet.net,选择节点
+- DOMAIN,gamer2-cds.cdn.hinet.net,选择节点
+- DOMAIN-SUFFIX,bahamut.com.tw,选择节点
+- DOMAIN-SUFFIX,gamer.com.tw,选择节点
+- DOMAIN-SUFFIX,hinet.net,选择节点
+- DOMAIN-KEYWORD,livedazn,选择节点
+- DOMAIN-KEYWORD,vod2dazn,选择节点
+- DOMAIN-KEYWORD,voddazn,选择节点
+- DOMAIN,d151l6v8er5bdm.cloudfront.net,选择节点
+- DOMAIN,edge.api.brightcove.com,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN-SUFFIX,amplify.outbrain.com,选择节点
+- DOMAIN-SUFFIX,bluekai.com,选择节点
+- DOMAIN-SUFFIX,control.kochava.com,选择节点
+- DOMAIN-SUFFIX,cws.conviva.com,选择节点
+- DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,dazn-api.com,选择节点
+- DOMAIN-SUFFIX,dazn.com,选择节点
+- DOMAIN-SUFFIX,dazndn.com,选择节点
+- DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,选择节点
+- DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcblivedazn.akamaized.net,选择节点
+- DOMAIN-SUFFIX,indazn.com,选择节点
+- DOMAIN-SUFFIX,indaznlab.com,选择节点
+- DOMAIN-SUFFIX,intercom.io,选择节点
+- DOMAIN-SUFFIX,perfops.doracdn.com,选择节点
+- DOMAIN-SUFFIX,s.llnwi.net,选择节点
+- DOMAIN-SUFFIX,s.yimg.jp,选择节点
+- DOMAIN-SUFFIX,secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,sentry.io,选择节点
+- DOMAIN-SUFFIX,urbanairship.com,选择节点
+- DOMAIN-SUFFIX,vjs.zencdn.net,选择节点
+- DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,选择节点
+- DOMAIN-SUFFIX,yahoo.co.jp,选择节点
+- DOMAIN-SUFFIX,deezer.com,选择节点
+- DOMAIN-SUFFIX,dzcdn.net,选择节点
+- DOMAIN,cdn.registerdisney.go.com,选择节点
+- DOMAIN-SUFFIX,adobedtm.com,选择节点
+- DOMAIN-SUFFIX,bam.nr-data.net,选择节点
+- DOMAIN-SUFFIX,bamgrid.com,选择节点
+- DOMAIN-SUFFIX,braze.com,选择节点
+- DOMAIN-SUFFIX,cdn.optimizely.com,选择节点
+- DOMAIN-SUFFIX,cdn.registerdisney.go.com,选择节点
+- DOMAIN-SUFFIX,cws.conviva.com,选择节点
+- DOMAIN-SUFFIX,d9.flashtalking.com,选择节点
+- DOMAIN-SUFFIX,disney-plus.net,选择节点
+- DOMAIN-SUFFIX,disney-portal.my.onetrust.com,选择节点
+- DOMAIN-SUFFIX,disney.demdex.net,选择节点
+- DOMAIN-SUFFIX,disney.my.sentry.io,选择节点
+- DOMAIN-SUFFIX,disneyplus.bn5x.net,选择节点
+- DOMAIN-SUFFIX,disneyplus.com,选择节点
+- DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,disneystreaming.com,选择节点
+- DOMAIN-SUFFIX,dssott.com,选择节点
+- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,js-agent.newrelic.com,选择节点
+- DOMAIN,bcbolt446c5271-a.akamaihd.net,选择节点
+- DOMAIN,content.jwplatform.com,选择节点
+- DOMAIN,edge.api.brightcove.com,选择节点
+- DOMAIN,videos-f.jwpsrv.com,选择节点
+- DOMAIN-SUFFIX,encoretvb.com,选择节点
+- DOMAIN-SUFFIX,fox.com,选择节点
+- DOMAIN-SUFFIX,foxdcg.com,选择节点
+- DOMAIN-SUFFIX,uplynk.com,选择节点
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
+- DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
+- DOMAIN,hboasia1-i.akamaihd.net,选择节点
+- DOMAIN,hboasia2-i.akamaihd.net,选择节点
+- DOMAIN,hboasia3-i.akamaihd.net,选择节点
+- DOMAIN,hboasia4-i.akamaihd.net,选择节点
+- DOMAIN,hboasia5-i.akamaihd.net,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,hbo.com,选择节点
+- DOMAIN-SUFFIX,hbogo.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.hk,选择节点
+- DOMAIN-SUFFIX,hbomax.com,选择节点
+- DOMAIN-SUFFIX,hbomaxcdn.com,选择节点
+- DOMAIN-SUFFIX,hbonow.com,选择节点
+- DOMAIN-KEYWORD,.hbogoasia.,选择节点
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
+- DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
+- DOMAIN,hboasia1-i.akamaihd.net,选择节点
+- DOMAIN,hboasia2-i.akamaihd.net,选择节点
+- DOMAIN,hboasia3-i.akamaihd.net,选择节点
+- DOMAIN,hboasia4-i.akamaihd.net,选择节点
+- DOMAIN,hboasia5-i.akamaihd.net,选择节点
+- DOMAIN,hboasialive.akamaized.net,选择节点
+- DOMAIN,hbogoprod-vod.akamaized.net,选择节点
+- DOMAIN,hbolb.onwardsmg.com,选择节点
+- DOMAIN,hbounify-prod.evergent.com,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.hk,选择节点
+- DOMAIN-SUFFIX,5itv.tv,选择节点
+- DOMAIN-SUFFIX,ocnttv.com,选择节点
+- DOMAIN-SUFFIX,cws-hulu.conviva.com,选择节点
+- DOMAIN-SUFFIX,hulu.com,选择节点
+- DOMAIN-SUFFIX,hulu.hb.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,hulu.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,huluad.com,选择节点
+- DOMAIN-SUFFIX,huluim.com,选择节点
+- DOMAIN-SUFFIX,hulustream.com,选择节点
+- DOMAIN-SUFFIX,happyon.jp,选择节点
+- DOMAIN-SUFFIX,hjholdings.jp,选择节点
+- DOMAIN-SUFFIX,hulu.jp,选择节点
+- DOMAIN-SUFFIX,prod.hjholdings.tv,选择节点
+- DOMAIN-SUFFIX,streaks.jp,选择节点
+- DOMAIN-SUFFIX,yb.uncn.jp,选择节点
+- DOMAIN,itvpnpmobile-a.akamaihd.net,选择节点
+- DOMAIN-SUFFIX,itv.com,选择节点
+- DOMAIN-SUFFIX,itvstatic.com,选择节点
+- DOMAIN-KEYWORD,jooxweb-api,选择节点
+- DOMAIN-SUFFIX,joox.com,选择节点
+- DOMAIN-KEYWORD,japonx,选择节点
+- DOMAIN-KEYWORD,japronx,选择节点
+- DOMAIN-SUFFIX,japonx.com,选择节点
+- DOMAIN-SUFFIX,japonx.net,选择节点
+- DOMAIN-SUFFIX,japonx.tv,选择节点
+- DOMAIN-SUFFIX,japonx.vip,选择节点
+- DOMAIN-SUFFIX,japronx.com,选择节点
+- DOMAIN-SUFFIX,japronx.net,选择节点
+- DOMAIN-SUFFIX,japronx.tv,选择节点
+- DOMAIN-SUFFIX,japronx.vip,选择节点
+- DOMAIN-SUFFIX,kfs.io,选择节点
+- DOMAIN-SUFFIX,kkbox.com,选择节点
+- DOMAIN-SUFFIX,kkbox.com.tw,选择节点
+- DOMAIN,kktv-theater.kk.stream,选择节点
+- DOMAIN-SUFFIX,kktv.com.tw,选择节点
+- DOMAIN-SUFFIX,kktv.me,选择节点
+- DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,选择节点
+- DOMAIN-SUFFIX,litv.tv,选择节点
+- DOMAIN,d3c7rimkq79yfu.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,linetv.tw,选择节点
+- DOMAIN-SUFFIX,profile.line-scdn.net,选择节点
+- DOMAIN,d349g9zuie06uo.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,channel5.com,选择节点
+- DOMAIN-SUFFIX,my5.tv,选择节点
+- DOMAIN,mytvsuperlimited.hb.omtrdc.net,选择节点
+- DOMAIN,mytvsuperlimited.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,mytvsuper.com,选择节点
+- DOMAIN-SUFFIX,tvb.com,选择节点
+- DOMAIN-KEYWORD,dualstack.apiproxy-,选择节点
+- DOMAIN-KEYWORD,dualstack.ichnaea-web-,选择节点
+- DOMAIN,netflix.com.edgesuite.net,选择节点
+- DOMAIN-SUFFIX,fast.com,选择节点
+- DOMAIN-SUFFIX,netflix.com,选择节点
+- DOMAIN-SUFFIX,netflix.net,选择节点
+- DOMAIN-SUFFIX,netflixdnstest0.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest1.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest2.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest3.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest4.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest5.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest6.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest7.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest8.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest9.com,选择节点
+- DOMAIN-SUFFIX,nflxext.com,选择节点
+- DOMAIN-SUFFIX,nflximg.com,选择节点
+- DOMAIN-SUFFIX,nflximg.net,选择节点
+- DOMAIN-SUFFIX,nflxso.net,选择节点
+- DOMAIN-SUFFIX,nflxvideo.net,选择节点
+- IP-CIDR,8.41.4.0/24,选择节点,no-resolve
+- IP-CIDR,23.246.0.0/18,选择节点,no-resolve
+- IP-CIDR,34.210.42.111/32,选择节点,no-resolve
+- IP-CIDR,37.77.184.0/21,选择节点,no-resolve
+- IP-CIDR,38.72.126.0/24,选择节点,no-resolve
+- IP-CIDR,45.57.0.0/17,选择节点,no-resolve
+- IP-CIDR,52.89.124.203/32,选择节点,no-resolve
+- IP-CIDR,54.148.37.5/32,选择节点,no-resolve
+- IP-CIDR,64.120.128.0/17,选择节点,no-resolve
+- IP-CIDR,66.197.128.0/17,选择节点,no-resolve
+- IP-CIDR,69.53.224.0/19,选择节点,no-resolve
+- IP-CIDR,103.87.204.0/22,选择节点,no-resolve
+- IP-CIDR,108.175.32.0/20,选择节点,no-resolve
+- IP-CIDR,185.2.220.0/22,选择节点,no-resolve
+- IP-CIDR,185.9.188.0/22,选择节点,no-resolve
+- IP-CIDR,192.173.64.0/18,选择节点,no-resolve
+- IP-CIDR,198.38.96.0/19,选择节点,no-resolve
+- IP-CIDR,198.45.48.0/20,选择节点,no-resolve
+- IP-CIDR,207.45.72.0/22,选择节点,no-resolve
+- IP-CIDR,208.75.76.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,dmc.nico,选择节点
+- DOMAIN-SUFFIX,nicovideo.jp,选择节点
+- DOMAIN-SUFFIX,nimg.jp,选择节点
+- DOMAIN-SUFFIX,pbs.org,选择节点
+- DOMAIN-SUFFIX,pandora.com,选择节点
+- DOMAIN-SUFFIX,phncdn.com,选择节点
+- DOMAIN-SUFFIX,phprcdn.com,选择节点
+- DOMAIN-SUFFIX,pornhub.com,选择节点
+- DOMAIN-SUFFIX,pornhubpremium.com,选择节点
+- DOMAIN-SUFFIX,qobuz.com,选择节点
+- DOMAIN-SUFFIX,p-cdn.us,选择节点
+- DOMAIN-SUFFIX,sndcdn.com,选择节点
+- DOMAIN-SUFFIX,soundcloud.com,选择节点
+- DOMAIN-KEYWORD,-spotify-com,选择节点
+- DOMAIN-KEYWORD,spotify.com,选择节点
+- DOMAIN-SUFFIX,pscdn.co,选择节点
+- DOMAIN-SUFFIX,scdn.co,选择节点
+- DOMAIN-SUFFIX,spoti.fi,选择节点
+- DOMAIN-SUFFIX,spotify.com,选择节点
+- DOMAIN-SUFFIX,spotifycdn.com,选择节点
+- DOMAIN-SUFFIX,spotifycdn.net,选择节点
+- DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,tidal.com,选择节点
+- DOMAIN-SUFFIX,tidalhifi.com,选择节点
+- DOMAIN,hamifans.emome.net,选择节点
+- DOMAIN-SUFFIX,skyking.com.tw,选择节点
+- DOMAIN-KEYWORD,-tiktokcdn-com,选择节点
+- DOMAIN-SUFFIX,byteoversea.com,选择节点
+- DOMAIN-SUFFIX,ibytedtos.com,选择节点
+- DOMAIN-SUFFIX,ipstatp.com,选择节点
+- DOMAIN-SUFFIX,muscdn.com,选择节点
+- DOMAIN-SUFFIX,musical.ly,选择节点
+- DOMAIN-SUFFIX,tik-tokapi.com,选择节点
+- DOMAIN-SUFFIX,tiktok.com,选择节点
+- DOMAIN-SUFFIX,tiktokcdn.com,选择节点
+- DOMAIN-SUFFIX,tiktokv.com,选择节点
+- DOMAIN-KEYWORD,ttvnw,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-SUFFIX,ttvnw.net,选择节点
+- DOMAIN-SUFFIX,twitch.tv,选择节点
+- DOMAIN-SUFFIX,twitchcdn.net,选择节点
+- DOMAIN,api.viu.now.com,选择节点
+- DOMAIN,d1k2us671qcoau.cloudfront.net,选择节点
+- DOMAIN,d2anahhhmp1ffz.cloudfront.net,选择节点
+- DOMAIN,dfp6rglgjqszk.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,bootstrapcdn.com,选择节点
+- DOMAIN-SUFFIX,cloudfront.net,选择节点
+- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,jwpcdn.com,选择节点
+- DOMAIN-SUFFIX,jwplayer.com,选择节点
+- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,nowe.com,选择节点
+- DOMAIN-SUFFIX,viu.com,选择节点
+- DOMAIN-SUFFIX,viu.now.com,选择节点
+- DOMAIN-SUFFIX,viu.tv,选择节点
+- DOMAIN-KEYWORD,youtube,选择节点
+- DOMAIN,youtubei.googleapis.com,选择节点
+- DOMAIN,yt3.ggpht.com,选择节点
+- DOMAIN-SUFFIX,googlevideo.com,选择节点
+- DOMAIN-SUFFIX,gvt2.com,选择节点
+- DOMAIN-SUFFIX,youtu.be,选择节点
+- DOMAIN-SUFFIX,youtube.com,选择节点
+- DOMAIN-SUFFIX,ytimg.com,选择节点
+- PROCESS-NAME,com.google.android.apps.youtube.music,选择节点
+- PROCESS-NAME,com.google.android.youtube.tvmusicroot,选择节点
+- PROCESS-NAME,com.vanced.android.apps.youtube.music,选择节点
+- DOMAIN-SUFFIX,1password.com,选择节点
+- DOMAIN-SUFFIX,adguard.org,选择节点
+- DOMAIN-SUFFIX,bit.no.com,选择节点
+- DOMAIN-SUFFIX,btlibrary.me,选择节点
+- DOMAIN-SUFFIX,cccat.io,选择节点
+- DOMAIN-SUFFIX,cloudcone.com,选择节点
+- DOMAIN-SUFFIX,dubox.com,选择节点
+- DOMAIN-SUFFIX,gameloft.com,选择节点
+- DOMAIN-SUFFIX,garena.com,选择节点
+- DOMAIN-SUFFIX,inoreader.com,选择节点
+- DOMAIN-SUFFIX,ip138.com,选择节点
+- DOMAIN-SUFFIX,ping.pe,选择节点
+- DOMAIN-SUFFIX,reddit.com,选择节点
+- DOMAIN-SUFFIX,teddysun.com,选择节点
+- DOMAIN-SUFFIX,tumbex.com,选择节点
+- DOMAIN-SUFFIX,twdvd.com,选择节点
+- DOMAIN-SUFFIX,unsplash.com,选择节点
+- DOMAIN-SUFFIX,xn--i2ru8q2qg.com,选择节点
+- DOMAIN-SUFFIX,yunpanjingling.com,选择节点
+- DOMAIN-SUFFIX,eu,选择节点
+- DOMAIN-SUFFIX,hk,选择节点
+- DOMAIN-SUFFIX,jp,选择节点
+- DOMAIN-SUFFIX,kr,选择节点
+- DOMAIN-SUFFIX,sg,选择节点
+- DOMAIN-SUFFIX,tw,选择节点
+- DOMAIN-SUFFIX,uk,选择节点
+- DOMAIN-SUFFIX,us,选择节点
+- DOMAIN-KEYWORD,1e100,选择节点
+- DOMAIN-KEYWORD,abema,选择节点
+- DOMAIN-KEYWORD,appledaily,选择节点
+- DOMAIN-KEYWORD,avtb,选择节点
+- DOMAIN-KEYWORD,beetalk,选择节点
+- DOMAIN-KEYWORD,blogspot,选择节点
+- DOMAIN-KEYWORD,dropbox,选择节点
+- DOMAIN-KEYWORD,facebook,选择节点
+- DOMAIN-KEYWORD,fbcdn,选择节点
+- DOMAIN-KEYWORD,github,选择节点
+- DOMAIN-KEYWORD,gmail,选择节点
+- DOMAIN-KEYWORD,google,选择节点
+- DOMAIN-KEYWORD,instagram,选择节点
+- DOMAIN-KEYWORD,porn,选择节点
+- DOMAIN-KEYWORD,sci-hub,选择节点
+- DOMAIN-KEYWORD,spotify,选择节点
+- DOMAIN-KEYWORD,telegram,选择节点
+- DOMAIN-KEYWORD,twitter,选择节点
+- DOMAIN-KEYWORD,whatsapp,选择节点
+- DOMAIN-KEYWORD,youtube,选择节点
+- DOMAIN-SUFFIX,4sqi.net,选择节点
+- DOMAIN-SUFFIX,a248.e.akamai.net,选择节点
+- DOMAIN-SUFFIX,adobedtm.com,选择节点
+- DOMAIN-SUFFIX,ampproject.org,选择节点
+- DOMAIN-SUFFIX,android.com,选择节点
+- DOMAIN-SUFFIX,aolcdn.com,选择节点
+- DOMAIN-SUFFIX,apkmirror.com,选择节点
+- DOMAIN-SUFFIX,apkpure.com,选择节点
+- DOMAIN-SUFFIX,app-measurement.com,选择节点
+- DOMAIN-SUFFIX,appspot.com,选择节点
+- DOMAIN-SUFFIX,archive.org,选择节点
+- DOMAIN-SUFFIX,armorgames.com,选择节点
+- DOMAIN-SUFFIX,aspnetcdn.com,选择节点
+- DOMAIN-SUFFIX,awsstatic.com,选择节点
+- DOMAIN-SUFFIX,azureedge.net,选择节点
+- DOMAIN-SUFFIX,azurewebsites.net,选择节点
+- DOMAIN-SUFFIX,bandwagonhost.com,选择节点
+- DOMAIN-SUFFIX,bing.com,选择节点
+- DOMAIN-SUFFIX,bkrtx.com,选择节点
+- DOMAIN-SUFFIX,blogcdn.com,选择节点
+- DOMAIN-SUFFIX,blogger.com,选择节点
+- DOMAIN-SUFFIX,blogsmithmedia.com,选择节点
+- DOMAIN-SUFFIX,blogspot.com,选择节点
+- DOMAIN-SUFFIX,blogspot.hk,选择节点
+- DOMAIN-SUFFIX,blogspot.jp,选择节点
+- DOMAIN-SUFFIX,bloomberg.cn,选择节点
+- DOMAIN-SUFFIX,bloomberg.com,选择节点
+- DOMAIN-SUFFIX,box.com,选择节点
+- DOMAIN-SUFFIX,cachefly.net,选择节点
+- DOMAIN-SUFFIX,cdnst.net,选择节点
+- DOMAIN-SUFFIX,cloudfront.net,选择节点
+- DOMAIN-SUFFIX,comodoca.com,选择节点
+- DOMAIN-SUFFIX,daum.net,选择节点
+- DOMAIN-SUFFIX,demdex.net,选择节点
+- DOMAIN-SUFFIX,deskconnect.com,选择节点
+- DOMAIN-SUFFIX,disqus.com,选择节点
+- DOMAIN-SUFFIX,disquscdn.com,选择节点
+- DOMAIN-SUFFIX,dropbox.com,选择节点
+- DOMAIN-SUFFIX,dropboxapi.com,选择节点
+- DOMAIN-SUFFIX,dropboxstatic.com,选择节点
+- DOMAIN-SUFFIX,dropboxusercontent.com,选择节点
+- DOMAIN-SUFFIX,duckduckgo.com,选择节点
+- DOMAIN-SUFFIX,edgecastcdn.net,选择节点
+- DOMAIN-SUFFIX,edgekey.net,选择节点
+- DOMAIN-SUFFIX,edgesuite.net,选择节点
+- DOMAIN-SUFFIX,eurekavpt.com,选择节点
+- DOMAIN-SUFFIX,fastmail.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,flickr.com,选择节点
+- DOMAIN-SUFFIX,flipboard.com,选择节点
+- DOMAIN-SUFFIX,gfx.ms,选择节点
+- DOMAIN-SUFFIX,gongm.in,选择节点
+- DOMAIN-SUFFIX,hulu.com,选择节点
+- DOMAIN-SUFFIX,id.heroku.com,选择节点
+- DOMAIN-SUFFIX,io.io,选择节点
+- DOMAIN-SUFFIX,issuu.com,选择节点
+- DOMAIN-SUFFIX,ixquick.com,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-SUFFIX,kat.cr,选择节点
+- DOMAIN-SUFFIX,kik.com,选择节点
+- DOMAIN-SUFFIX,kobo.com,选择节点
+- DOMAIN-SUFFIX,kobobooks.com,选择节点
+- DOMAIN-SUFFIX,licdn.com,选择节点
+- DOMAIN-SUFFIX,live.net,选择节点
+- DOMAIN-SUFFIX,livefilestore.com,选择节点
+- DOMAIN-SUFFIX,llnwd.net,选择节点
+- DOMAIN-SUFFIX,macrumors.com,选择节点
+- DOMAIN-SUFFIX,medium.com,选择节点
+- DOMAIN-SUFFIX,mega.nz,选择节点
+- DOMAIN-SUFFIX,megaupload.com,选择节点
+- DOMAIN-SUFFIX,messenger.com,选择节点
+- DOMAIN-SUFFIX,netdna-cdn.com,选择节点
+- DOMAIN-SUFFIX,nintendo.net,选择节点
+- DOMAIN-SUFFIX,nsstatic.net,选择节点
+- DOMAIN-SUFFIX,nytstyle.com,选择节点
+- DOMAIN-SUFFIX,overcast.fm,选择节点
+- DOMAIN-SUFFIX,openvpn.net,选择节点
+- DOMAIN-SUFFIX,periscope.tv,选择节点
+- DOMAIN-SUFFIX,pinimg.com,选择节点
+- DOMAIN-SUFFIX,pinterest.com,选择节点
+- DOMAIN-SUFFIX,potato.im,选择节点
+- DOMAIN-SUFFIX,prfct.co,选择节点
+- DOMAIN-SUFFIX,pscp.tv,选择节点
+- DOMAIN-SUFFIX,quora.com,选择节点
+- DOMAIN-SUFFIX,resilio.com,选择节点
+- DOMAIN-SUFFIX,sfx.ms,选择节点
+- DOMAIN-SUFFIX,shadowsocks.org,选择节点
+- DOMAIN-SUFFIX,slack-edge.com,选择节点
+- DOMAIN-SUFFIX,smartdnsproxy.com,选择节点
+- DOMAIN-SUFFIX,sndcdn.com,选择节点
+- DOMAIN-SUFFIX,soundcloud.com,选择节点
+- DOMAIN-SUFFIX,startpage.com,选择节点
+- DOMAIN-SUFFIX,staticflickr.com,选择节点
+- DOMAIN-SUFFIX,symauth.com,选择节点
+- DOMAIN-SUFFIX,symcb.com,选择节点
+- DOMAIN-SUFFIX,symcd.com,选择节点
+- DOMAIN-SUFFIX,textnow.com,选择节点
+- DOMAIN-SUFFIX,textnow.me,选择节点
+- DOMAIN-SUFFIX,thefacebook.com,选择节点
+- DOMAIN-SUFFIX,thepiratebay.org,选择节点
+- DOMAIN-SUFFIX,torproject.org,选择节点
+- DOMAIN-SUFFIX,trustasiassl.com,选择节点
+- DOMAIN-SUFFIX,tumblr.co,选择节点
+- DOMAIN-SUFFIX,tumblr.com,选择节点
+- DOMAIN-SUFFIX,tvb.com,选择节点
+- DOMAIN-SUFFIX,txmblr.com,选择节点
+- DOMAIN-SUFFIX,v2ex.com,选择节点
+- DOMAIN-SUFFIX,vimeo.com,选择节点
+- DOMAIN-SUFFIX,vine.co,选择节点
+- DOMAIN-SUFFIX,vox-cdn.com,选择节点
+- DOMAIN-SUFFIX,amazon.co.jp,选择节点
+- DOMAIN-SUFFIX,amazon.com,选择节点
+- DOMAIN-SUFFIX,amazonaws.com,选择节点
+- IP-CIDR,13.32.0.0/15,选择节点,no-resolve
+- IP-CIDR,13.35.0.0/17,选择节点,no-resolve
+- IP-CIDR,18.184.0.0/15,选择节点,no-resolve
+- IP-CIDR,18.194.0.0/15,选择节点,no-resolve
+- IP-CIDR,18.208.0.0/13,选择节点,no-resolve
+- IP-CIDR,18.232.0.0/14,选择节点,no-resolve
+- IP-CIDR,52.58.0.0/15,选择节点,no-resolve
+- IP-CIDR,52.74.0.0/16,选择节点,no-resolve
+- IP-CIDR,52.77.0.0/16,选择节点,no-resolve
+- IP-CIDR,52.84.0.0/15,选择节点,no-resolve
+- IP-CIDR,52.200.0.0/13,选择节点,no-resolve
+- IP-CIDR,54.93.0.0/16,选择节点,no-resolve
+- IP-CIDR,54.156.0.0/14,选择节点,no-resolve
+- IP-CIDR,54.226.0.0/15,选择节点,no-resolve
+- IP-CIDR,54.230.156.0/22,选择节点,no-resolve
+- DOMAIN-KEYWORD,uk-live,选择节点
+- DOMAIN-SUFFIX,bbc.co,选择节点
+- DOMAIN-SUFFIX,bbc.com,选择节点
+- DOMAIN-SUFFIX,apache.org,选择节点
+- DOMAIN-SUFFIX,docker.com,选择节点
+- DOMAIN-SUFFIX,elastic.co,选择节点
+- DOMAIN-SUFFIX,elastic.com,选择节点
+- DOMAIN-SUFFIX,gcr.io,选择节点
+- DOMAIN-SUFFIX,gitlab.com,选择节点
+- DOMAIN-SUFFIX,gitlab.io,选择节点
+- DOMAIN-SUFFIX,jitpack.io,选择节点
+- DOMAIN-SUFFIX,maven.org,选择节点
+- DOMAIN-SUFFIX,medium.com,选择节点
+- DOMAIN-SUFFIX,mvnrepository.com,选择节点
+- DOMAIN-SUFFIX,quay.io,选择节点
+- DOMAIN-SUFFIX,reddit.com,选择节点
+- DOMAIN-SUFFIX,redhat.com,选择节点
+- DOMAIN-SUFFIX,sonatype.org,选择节点
+- DOMAIN-SUFFIX,sourcegraph.com,选择节点
+- DOMAIN-SUFFIX,spring.io,选择节点
+- DOMAIN-SUFFIX,spring.net,选择节点
+- DOMAIN-SUFFIX,stackoverflow.com,选择节点
+- DOMAIN-SUFFIX,discord.co,选择节点
+- DOMAIN-SUFFIX,discord.com,选择节点
+- DOMAIN-SUFFIX,discord.gg,选择节点
+- DOMAIN-SUFFIX,discord.media,选择节点
+- DOMAIN-SUFFIX,discordapp.com,选择节点
+- DOMAIN-SUFFIX,discordapp.net,选择节点
+- DOMAIN-SUFFIX,facebook.com,选择节点
+- DOMAIN-SUFFIX,fb.com,选择节点
+- DOMAIN-SUFFIX,fb.me,选择节点
+- DOMAIN-SUFFIX,fbcdn.com,选择节点
+- DOMAIN-SUFFIX,fbcdn.net,选择节点
+- IP-CIDR,31.13.24.0/21,选择节点,no-resolve
+- IP-CIDR,31.13.64.0/18,选择节点,no-resolve
+- IP-CIDR,45.64.40.0/22,选择节点,no-resolve
+- IP-CIDR,66.220.144.0/20,选择节点,no-resolve
+- IP-CIDR,69.63.176.0/20,选择节点,no-resolve
+- IP-CIDR,69.171.224.0/19,选择节点,no-resolve
+- IP-CIDR,74.119.76.0/22,选择节点,no-resolve
+- IP-CIDR,103.4.96.0/22,选择节点,no-resolve
+- IP-CIDR,129.134.0.0/17,选择节点,no-resolve
+- IP-CIDR,157.240.0.0/17,选择节点,no-resolve
+- IP-CIDR,173.252.64.0/18,选择节点,no-resolve
+- IP-CIDR,179.60.192.0/22,选择节点,no-resolve
+- IP-CIDR,185.60.216.0/22,选择节点,no-resolve
+- IP-CIDR,204.15.20.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,github.com,选择节点
+- DOMAIN-SUFFIX,github.io,选择节点
+- DOMAIN-SUFFIX,githubapp.com,选择节点
+- DOMAIN-SUFFIX,githubassets.com,选择节点
+- DOMAIN-SUFFIX,githubusercontent.com,选择节点
+- DOMAIN-SUFFIX,1e100.net,选择节点
+- DOMAIN-SUFFIX,2mdn.net,选择节点
+- DOMAIN-SUFFIX,app-measurement.net,选择节点
+- DOMAIN-SUFFIX,g.co,选择节点
+- DOMAIN-SUFFIX,ggpht.com,选择节点
+- DOMAIN-SUFFIX,goo.gl,选择节点
+- DOMAIN-SUFFIX,googleapis.cn,选择节点
+- DOMAIN-SUFFIX,googleapis.com,选择节点
+- DOMAIN-SUFFIX,gstatic.cn,选择节点
+- DOMAIN-SUFFIX,gstatic.com,选择节点
+- DOMAIN-SUFFIX,gvt0.com,选择节点
+- DOMAIN-SUFFIX,gvt1.com,选择节点
+- DOMAIN-SUFFIX,gvt2.com,选择节点
+- DOMAIN-SUFFIX,gvt3.com,选择节点
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择节点
+- DOMAIN-SUFFIX,youtu.be,选择节点
+- DOMAIN-SUFFIX,youtube-nocookie.com,选择节点
+- DOMAIN-SUFFIX,youtube.com,选择节点
+- DOMAIN-SUFFIX,yt.be,选择节点
+- DOMAIN-SUFFIX,ytimg.com,选择节点
+- IP-CIDR,74.125.0.0/16,选择节点,no-resolve
+- IP-CIDR,173.194.0.0/16,选择节点,no-resolve
+- IP-CIDR,120.232.181.162/32,选择节点,no-resolve
+- IP-CIDR,120.241.147.226/32,选择节点,no-resolve
+- IP-CIDR,120.253.253.226/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.162/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.34/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.98/32,选择节点,no-resolve
+- IP-CIDR,180.163.150.162/32,选择节点,no-resolve
+- IP-CIDR,180.163.150.34/32,选择节点,no-resolve
+- IP-CIDR,180.163.151.162/32,选择节点,no-resolve
+- IP-CIDR,180.163.151.34/32,选择节点,no-resolve
+- IP-CIDR,203.208.39.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.40.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.41.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.43.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.50.0/24,选择节点,no-resolve
+- IP-CIDR,220.181.174.162/32,选择节点,no-resolve
+- IP-CIDR,220.181.174.226/32,选择节点,no-resolve
+- IP-CIDR,220.181.174.34/32,选择节点,no-resolve
+- DOMAIN-SUFFIX,cdninstagram.com,选择节点
+- DOMAIN-SUFFIX,instagram.com,选择节点
+- DOMAIN-SUFFIX,instagr.am,选择节点
+- DOMAIN-SUFFIX,kakao.com,选择节点
+- DOMAIN-SUFFIX,kakao.co.kr,选择节点
+- DOMAIN-SUFFIX,kakaocdn.net,选择节点
+- IP-CIDR,1.201.0.0/24,选择节点,no-resolve
+- IP-CIDR,27.0.236.0/22,选择节点,no-resolve
+- IP-CIDR,103.27.148.0/22,选择节点,no-resolve
+- IP-CIDR,103.246.56.0/22,选择节点,no-resolve
+- IP-CIDR,110.76.140.0/22,选择节点,no-resolve
+- IP-CIDR,113.61.104.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,lin.ee,选择节点
+- DOMAIN-SUFFIX,line-apps.com,选择节点
+- DOMAIN-SUFFIX,line-cdn.net,选择节点
+- DOMAIN-SUFFIX,line-scdn.net,选择节点
+- DOMAIN-SUFFIX,line.me,选择节点
+- DOMAIN-SUFFIX,line.naver.jp,选择节点
+- DOMAIN-SUFFIX,nhncorp.jp,选择节点
+- IP-CIDR,103.2.28.0/24,选择节点,no-resolve
+- IP-CIDR,103.2.30.0/23,选择节点,no-resolve
+- IP-CIDR,119.235.224.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.232.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.235.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.236.0/23,选择节点,no-resolve
+- IP-CIDR,147.92.128.0/17,选择节点,no-resolve
+- IP-CIDR,203.104.128.0/19,选择节点,no-resolve
+- DOMAIN-KEYWORD,1drv,选择节点
+- DOMAIN-KEYWORD,onedrive,选择节点
+- DOMAIN-KEYWORD,skydrive,选择节点
+- DOMAIN-SUFFIX,livefilestore.com,选择节点
+- DOMAIN-SUFFIX,oneclient.sfx.ms,选择节点
+- DOMAIN-SUFFIX,onedrive.com,选择节点
+- DOMAIN-SUFFIX,onedrive.live.com,选择节点
+- DOMAIN-SUFFIX,photos.live.com,选择节点
+- DOMAIN-SUFFIX,skydrive.wns.windows.com,选择节点
+- DOMAIN-SUFFIX,spoprod-a.akamaihd.net,选择节点
+- DOMAIN-SUFFIX,storage.live.com,选择节点
+- DOMAIN-SUFFIX,storage.msn.com,选择节点
+- DOMAIN-KEYWORD,porn,选择节点
+- DOMAIN-SUFFIX,8teenxxx.com,选择节点
+- DOMAIN-SUFFIX,ahcdn.com,选择节点
+- DOMAIN-SUFFIX,bcvcdn.com,选择节点
+- DOMAIN-SUFFIX,bongacams.com,选择节点
+- DOMAIN-SUFFIX,chaturbate.com,选择节点
+- DOMAIN-SUFFIX,dditscdn.com,选择节点
+- DOMAIN-SUFFIX,livejasmin.com,选择节点
+- DOMAIN-SUFFIX,phncdn.com,选择节点
+- DOMAIN-SUFFIX,phprcdn.com,选择节点
+- DOMAIN-SUFFIX,pornhub.com,选择节点
+- DOMAIN-SUFFIX,pornhubpremium.com,选择节点
+- DOMAIN-SUFFIX,rdtcdn.com,选择节点
+- DOMAIN-SUFFIX,redtube.com,选择节点
+- DOMAIN-SUFFIX,sb-cd.com,选择节点
+- DOMAIN-SUFFIX,spankbang.com,选择节点
+- DOMAIN-SUFFIX,t66y.com,选择节点
+- DOMAIN-SUFFIX,xhamster.com,选择节点
+- DOMAIN-SUFFIX,xnxx-cdn.com,选择节点
+- DOMAIN-SUFFIX,xnxx.com,选择节点
+- DOMAIN-SUFFIX,xvideos-cdn.com,选择节点
+- DOMAIN-SUFFIX,xvideos.com,选择节点
+- DOMAIN-SUFFIX,ypncdn.com,选择节点
+- DOMAIN-SUFFIX,pixiv.net,选择节点
+- DOMAIN-SUFFIX,pximg.net,选择节点
+- DOMAIN-SUFFIX,amplitude.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,hockeyapp.net,选择节点
+- DOMAIN-SUFFIX,readdle.com,选择节点
+- DOMAIN-SUFFIX,smartmailcloud.com,选择节点
+- DOMAIN-SUFFIX,fanatical.com,选择节点
+- DOMAIN-SUFFIX,humblebundle.com,选择节点
+- DOMAIN-SUFFIX,steam-chat.com,选择节点
+- DOMAIN-SUFFIX,steamcommunity.com,选择节点
+- DOMAIN-SUFFIX,steampowered.com,选择节点
+- DOMAIN-SUFFIX,steamstatic.com,选择节点
+- DOMAIN-SUFFIX,tap.io,选择节点
+- DOMAIN-SUFFIX,taptap.tw,选择节点
+- DOMAIN-SUFFIX,twitch.tv,选择节点
+- DOMAIN-SUFFIX,ttvnw.net,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-KEYWORD,ttvnw,选择节点
+- DOMAIN-SUFFIX,t.co,选择节点
+- DOMAIN-SUFFIX,twimg.co,选择节点
+- DOMAIN-SUFFIX,twimg.com,选择节点
+- DOMAIN-SUFFIX,twimg.org,选择节点
+- DOMAIN-SUFFIX,t.me,选择节点
+- DOMAIN-SUFFIX,tdesktop.com,选择节点
+- DOMAIN-SUFFIX,telegra.ph,选择节点
+- DOMAIN-SUFFIX,telegram.me,选择节点
+- DOMAIN-SUFFIX,telegram.org,选择节点
+- DOMAIN-SUFFIX,telesco.pe,选择节点
+- IP-CIDR,91.108.0.0/16,选择节点,no-resolve
+- IP-CIDR,109.239.140.0/24,选择节点,no-resolve
+- IP-CIDR,149.154.160.0/20,选择节点,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
+- DOMAIN-SUFFIX,terabox.com,选择节点
+- DOMAIN-SUFFIX,teraboxcdn.com,选择节点
+- IP-CIDR,18.194.0.0/15,选择节点,no-resolve
+- IP-CIDR,34.224.0.0/12,选择节点,no-resolve
+- IP-CIDR,54.242.0.0/15,选择节点,no-resolve
+- IP-CIDR,50.22.198.204/30,选择节点,no-resolve
+- IP-CIDR,208.43.122.128/27,选择节点,no-resolve
+- IP-CIDR,108.168.174.0/16,选择节点,no-resolve
+- IP-CIDR,173.192.231.32/27,选择节点,no-resolve
+- IP-CIDR,158.85.5.192/27,选择节点,no-resolve
+- IP-CIDR,174.37.243.0/16,选择节点,no-resolve
+- IP-CIDR,158.85.46.128/27,选择节点,no-resolve
+- IP-CIDR,173.192.222.160/27,选择节点,no-resolve
+- IP-CIDR,184.173.128.0/17,选择节点,no-resolve
+- IP-CIDR,158.85.224.160/27,选择节点,no-resolve
+- IP-CIDR,75.126.150.0/16,选择节点,no-resolve
+- IP-CIDR,69.171.235.0/16,选择节点,no-resolve
+- DOMAIN-SUFFIX,mediawiki.org,选择节点
+- DOMAIN-SUFFIX,wikibooks.org,选择节点
+- DOMAIN-SUFFIX,wikidata.org,选择节点
+- DOMAIN-SUFFIX,wikileaks.org,选择节点
+- DOMAIN-SUFFIX,wikimedia.org,选择节点
+- DOMAIN-SUFFIX,wikinews.org,选择节点
+- DOMAIN-SUFFIX,wikipedia.org,选择节点
+- DOMAIN-SUFFIX,wikiquote.org,选择节点
+- DOMAIN-SUFFIX,wikisource.org,选择节点
+- DOMAIN-SUFFIX,wikiversity.org,选择节点
+- DOMAIN-SUFFIX,wikivoyage.org,选择节点
+- DOMAIN-SUFFIX,wiktionary.org,选择节点
+- DOMAIN-SUFFIX,neulion.com,选择节点
+- DOMAIN-SUFFIX,icntv.xyz,选择节点
+- DOMAIN-SUFFIX,flzbcdn.xyz,选择节点
+- DOMAIN-SUFFIX,ocnttv.com,选择节点
+- DOMAIN-SUFFIX,hutao.cloud,选择节点- DOMAIN-SUFFIX,linkedin.com,选择节点
+- DOMAIN-SUFFIX,t.me,选择节点
+- DOMAIN-SUFFIX,tdesktop.com,选择节点
+- DOMAIN-SUFFIX,telegra.ph,选择节点
+- DOMAIN-SUFFIX,telegram.me,选择节点
+- DOMAIN-SUFFIX,telegram.org,选择节点
+- DOMAIN-SUFFIX,telesco.pe,选择节点
+- IP-CIDR,91.108.0.0/16,选择节点,no-resolve
+- IP-CIDR,109.239.140.0/24,选择节点,no-resolve
+- IP-CIDR,149.154.160.0/20,选择节点,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
+- DOMAIN-SUFFIX,edgedatg.com,选择节点
+- DOMAIN-SUFFIX,go.com,选择节点
+- DOMAIN-KEYWORD,abematv.akamaized.net,选择节点
+- DOMAIN-SUFFIX,abema.io,选择节点
+- DOMAIN-SUFFIX,abema.tv,选择节点
+- DOMAIN-SUFFIX,ameba.jp,选择节点
+- DOMAIN-SUFFIX,hayabusa.io,选择节点
+- DOMAIN-SUFFIX,c4assets.com,选择节点
+- DOMAIN-SUFFIX,channel4.com,选择节点
+- DOMAIN, atv-ps.amazon.com,选择节点
+- DOMAIN, fls-na.amazon.com,选择节点
+- DOMAIN-SUFFIX, media-amazon.com,选择节点
+- DOMAIN-SUFFIX,aiv-cdn.net,选择节点
+- DOMAIN-SUFFIX,amazonaws.co.uk,选择节点
+- DOMAIN-SUFFIX,amazonaws.com,选择节点
+- DOMAIN-SUFFIX,amazonvideo.com,选择节点
+- DOMAIN-SUFFIX,llnwd.net,选择节点
+- DOMAIN-SUFFIX,primevideo.com,选择节点
+- DOMAIN,gspe1-ssl.ls.apple.com,选择节点
+- DOMAIN,np-edge.itunes.apple.com,选择节点
+- DOMAIN,play-edge.itunes.apple.com,选择节点
+- DOMAIN-SUFFIX,tv.apple.com,选择节点
+- DOMAIN-KEYWORD,bbcfmt,选择节点
+- DOMAIN-KEYWORD,uk-live,选择节点
+- DOMAIN,aod-dash-uk-live.akamaized.net,选择节点
+- DOMAIN,aod-hls-uk-live.akamaized.net,选择节点
+- DOMAIN,vod-dash-uk-live.akamaized.net,选择节点
+- DOMAIN,vod-thumb-uk-live.akamaized.net,选择节点
+- DOMAIN-SUFFIX,bbc.co,选择节点
+- DOMAIN-SUFFIX,bbc.co.uk,选择节点
+- DOMAIN-SUFFIX,bbc.com,选择节点
+- DOMAIN-SUFFIX,bbc.net.uk,选择节点
+- DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,选择节点
+- DOMAIN-SUFFIX,bbci.co,选择节点
+- DOMAIN-SUFFIX,bbci.co.uk,选择节点
+- DOMAIN,gamer-cds.cdn.hinet.net,选择节点
+- DOMAIN,gamer2-cds.cdn.hinet.net,选择节点
+- DOMAIN-SUFFIX,bahamut.com.tw,选择节点
+- DOMAIN-SUFFIX,gamer.com.tw,选择节点
+- DOMAIN-SUFFIX,hinet.net,选择节点
+- DOMAIN-KEYWORD,livedazn,选择节点
+- DOMAIN-KEYWORD,vod2dazn,选择节点
+- DOMAIN-KEYWORD,voddazn,选择节点
+- DOMAIN,d151l6v8er5bdm.cloudfront.net,选择节点
+- DOMAIN,edge.api.brightcove.com,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN-SUFFIX,amplify.outbrain.com,选择节点
+- DOMAIN-SUFFIX,bluekai.com,选择节点
+- DOMAIN-SUFFIX,control.kochava.com,选择节点
+- DOMAIN-SUFFIX,cws.conviva.com,选择节点
+- DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,dazn-api.com,选择节点
+- DOMAIN-SUFFIX,dazn.com,选择节点
+- DOMAIN-SUFFIX,dazndn.com,选择节点
+- DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,选择节点
+- DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,dcblivedazn.akamaized.net,选择节点
+- DOMAIN-SUFFIX,indazn.com,选择节点
+- DOMAIN-SUFFIX,indaznlab.com,选择节点
+- DOMAIN-SUFFIX,intercom.io,选择节点
+- DOMAIN-SUFFIX,perfops.doracdn.com,选择节点
+- DOMAIN-SUFFIX,s.llnwi.net,选择节点
+- DOMAIN-SUFFIX,s.yimg.jp,选择节点
+- DOMAIN-SUFFIX,secure.footprint.net,选择节点
+- DOMAIN-SUFFIX,sentry.io,选择节点
+- DOMAIN-SUFFIX,urbanairship.com,选择节点
+- DOMAIN-SUFFIX,vjs.zencdn.net,选择节点
+- DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,选择节点
+- DOMAIN-SUFFIX,yahoo.co.jp,选择节点
+- DOMAIN-SUFFIX,deezer.com,选择节点
+- DOMAIN-SUFFIX,dzcdn.net,选择节点
+- DOMAIN,cdn.registerdisney.go.com,选择节点
+- DOMAIN-SUFFIX,adobedtm.com,选择节点
+- DOMAIN-SUFFIX,bam.nr-data.net,选择节点
+- DOMAIN-SUFFIX,bamgrid.com,选择节点
+- DOMAIN-SUFFIX,braze.com,选择节点
+- DOMAIN-SUFFIX,cdn.optimizely.com,选择节点
+- DOMAIN-SUFFIX,cdn.registerdisney.go.com,选择节点
+- DOMAIN-SUFFIX,cws.conviva.com,选择节点
+- DOMAIN-SUFFIX,d9.flashtalking.com,选择节点
+- DOMAIN-SUFFIX,disney-plus.net,选择节点
+- DOMAIN-SUFFIX,disney-portal.my.onetrust.com,选择节点
+- DOMAIN-SUFFIX,disney.demdex.net,选择节点
+- DOMAIN-SUFFIX,disney.my.sentry.io,选择节点
+- DOMAIN-SUFFIX,disneyplus.bn5x.net,选择节点
+- DOMAIN-SUFFIX,disneyplus.com,选择节点
+- DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,disneystreaming.com,选择节点
+- DOMAIN-SUFFIX,dssott.com,选择节点
+- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,js-agent.newrelic.com,选择节点
+- DOMAIN,bcbolt446c5271-a.akamaihd.net,选择节点
+- DOMAIN,content.jwplatform.com,选择节点
+- DOMAIN,edge.api.brightcove.com,选择节点
+- DOMAIN,videos-f.jwpsrv.com,选择节点
+- DOMAIN-SUFFIX,encoretvb.com,选择节点
+- DOMAIN-SUFFIX,fox.com,选择节点
+- DOMAIN-SUFFIX,foxdcg.com,选择节点
+- DOMAIN-SUFFIX,uplynk.com,选择节点
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
+- DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
+- DOMAIN,hboasia1-i.akamaihd.net,选择节点
+- DOMAIN,hboasia2-i.akamaihd.net,选择节点
+- DOMAIN,hboasia3-i.akamaihd.net,选择节点
+- DOMAIN,hboasia4-i.akamaihd.net,选择节点
+- DOMAIN,hboasia5-i.akamaihd.net,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,hbo.com,选择节点
+- DOMAIN-SUFFIX,hbogo.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.hk,选择节点
+- DOMAIN-SUFFIX,hbomax.com,选择节点
+- DOMAIN-SUFFIX,hbomaxcdn.com,选择节点
+- DOMAIN-SUFFIX,hbonow.com,选择节点
+- DOMAIN-KEYWORD,.hbogoasia.,选择节点
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN,bcbolthboa-a.akamaihd.net,选择节点
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,选择节点
+- DOMAIN,dai3fd1oh325y.cloudfront.net,选择节点
+- DOMAIN,hboasia1-i.akamaihd.net,选择节点
+- DOMAIN,hboasia2-i.akamaihd.net,选择节点
+- DOMAIN,hboasia3-i.akamaihd.net,选择节点
+- DOMAIN,hboasia4-i.akamaihd.net,选择节点
+- DOMAIN,hboasia5-i.akamaihd.net,选择节点
+- DOMAIN,hboasialive.akamaized.net,选择节点
+- DOMAIN,hbogoprod-vod.akamaized.net,选择节点
+- DOMAIN,hbolb.onwardsmg.com,选择节点
+- DOMAIN,hbounify-prod.evergent.com,选择节点
+- DOMAIN,players.brightcove.net,选择节点
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.com,选择节点
+- DOMAIN-SUFFIX,hbogoasia.hk,选择节点
+- DOMAIN-SUFFIX,5itv.tv,选择节点
+- DOMAIN-SUFFIX,ocnttv.com,选择节点
+- DOMAIN-SUFFIX,cws-hulu.conviva.com,选择节点
+- DOMAIN-SUFFIX,hulu.com,选择节点
+- DOMAIN-SUFFIX,hulu.hb.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,hulu.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,huluad.com,选择节点
+- DOMAIN-SUFFIX,huluim.com,选择节点
+- DOMAIN-SUFFIX,hulustream.com,选择节点
+- DOMAIN-SUFFIX,happyon.jp,选择节点
+- DOMAIN-SUFFIX,hjholdings.jp,选择节点
+- DOMAIN-SUFFIX,hulu.jp,选择节点
+- DOMAIN-SUFFIX,prod.hjholdings.tv,选择节点
+- DOMAIN-SUFFIX,streaks.jp,选择节点
+- DOMAIN-SUFFIX,yb.uncn.jp,选择节点
+- DOMAIN,itvpnpmobile-a.akamaihd.net,选择节点
+- DOMAIN-SUFFIX,itv.com,选择节点
+- DOMAIN-SUFFIX,itvstatic.com,选择节点
+- DOMAIN-KEYWORD,jooxweb-api,选择节点
+- DOMAIN-SUFFIX,joox.com,选择节点
+- DOMAIN-KEYWORD,japonx,选择节点
+- DOMAIN-KEYWORD,japronx,选择节点
+- DOMAIN-SUFFIX,japonx.com,选择节点
+- DOMAIN-SUFFIX,japonx.net,选择节点
+- DOMAIN-SUFFIX,japonx.tv,选择节点
+- DOMAIN-SUFFIX,japonx.vip,选择节点
+- DOMAIN-SUFFIX,japronx.com,选择节点
+- DOMAIN-SUFFIX,japronx.net,选择节点
+- DOMAIN-SUFFIX,japronx.tv,选择节点
+- DOMAIN-SUFFIX,japronx.vip,选择节点
+- DOMAIN-SUFFIX,kfs.io,选择节点
+- DOMAIN-SUFFIX,kkbox.com,选择节点
+- DOMAIN-SUFFIX,kkbox.com.tw,选择节点
+- DOMAIN,kktv-theater.kk.stream,选择节点
+- DOMAIN-SUFFIX,kktv.com.tw,选择节点
+- DOMAIN-SUFFIX,kktv.me,选择节点
+- DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,选择节点
+- DOMAIN-SUFFIX,litv.tv,选择节点
+- DOMAIN,d3c7rimkq79yfu.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,linetv.tw,选择节点
+- DOMAIN-SUFFIX,profile.line-scdn.net,选择节点
+- DOMAIN,d349g9zuie06uo.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,channel5.com,选择节点
+- DOMAIN-SUFFIX,my5.tv,选择节点
+- DOMAIN,mytvsuperlimited.hb.omtrdc.net,选择节点
+- DOMAIN,mytvsuperlimited.sc.omtrdc.net,选择节点
+- DOMAIN-SUFFIX,mytvsuper.com,选择节点
+- DOMAIN-SUFFIX,tvb.com,选择节点
+- DOMAIN-KEYWORD,dualstack.apiproxy-,选择节点
+- DOMAIN-KEYWORD,dualstack.ichnaea-web-,选择节点
+- DOMAIN,netflix.com.edgesuite.net,选择节点
+- DOMAIN-SUFFIX,fast.com,选择节点
+- DOMAIN-SUFFIX,netflix.com,选择节点
+- DOMAIN-SUFFIX,netflix.net,选择节点
+- DOMAIN-SUFFIX,netflixdnstest0.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest1.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest2.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest3.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest4.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest5.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest6.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest7.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest8.com,选择节点
+- DOMAIN-SUFFIX,netflixdnstest9.com,选择节点
+- DOMAIN-SUFFIX,nflxext.com,选择节点
+- DOMAIN-SUFFIX,nflximg.com,选择节点
+- DOMAIN-SUFFIX,nflximg.net,选择节点
+- DOMAIN-SUFFIX,nflxso.net,选择节点
+- DOMAIN-SUFFIX,nflxvideo.net,选择节点
+- IP-CIDR,8.41.4.0/24,选择节点,no-resolve
+- IP-CIDR,23.246.0.0/18,选择节点,no-resolve
+- IP-CIDR,34.210.42.111/32,选择节点,no-resolve
+- IP-CIDR,37.77.184.0/21,选择节点,no-resolve
+- IP-CIDR,38.72.126.0/24,选择节点,no-resolve
+- IP-CIDR,45.57.0.0/17,选择节点,no-resolve
+- IP-CIDR,52.89.124.203/32,选择节点,no-resolve
+- IP-CIDR,54.148.37.5/32,选择节点,no-resolve
+- IP-CIDR,64.120.128.0/17,选择节点,no-resolve
+- IP-CIDR,66.197.128.0/17,选择节点,no-resolve
+- IP-CIDR,69.53.224.0/19,选择节点,no-resolve
+- IP-CIDR,103.87.204.0/22,选择节点,no-resolve
+- IP-CIDR,108.175.32.0/20,选择节点,no-resolve
+- IP-CIDR,185.2.220.0/22,选择节点,no-resolve
+- IP-CIDR,185.9.188.0/22,选择节点,no-resolve
+- IP-CIDR,192.173.64.0/18,选择节点,no-resolve
+- IP-CIDR,198.38.96.0/19,选择节点,no-resolve
+- IP-CIDR,198.45.48.0/20,选择节点,no-resolve
+- IP-CIDR,207.45.72.0/22,选择节点,no-resolve
+- IP-CIDR,208.75.76.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,dmc.nico,选择节点
+- DOMAIN-SUFFIX,nicovideo.jp,选择节点
+- DOMAIN-SUFFIX,nimg.jp,选择节点
+- DOMAIN-SUFFIX,pbs.org,选择节点
+- DOMAIN-SUFFIX,pandora.com,选择节点
+- DOMAIN-SUFFIX,phncdn.com,选择节点
+- DOMAIN-SUFFIX,phprcdn.com,选择节点
+- DOMAIN-SUFFIX,pornhub.com,选择节点
+- DOMAIN-SUFFIX,pornhubpremium.com,选择节点
+- DOMAIN-SUFFIX,qobuz.com,选择节点
+- DOMAIN-SUFFIX,p-cdn.us,选择节点
+- DOMAIN-SUFFIX,sndcdn.com,选择节点
+- DOMAIN-SUFFIX,soundcloud.com,选择节点
+- DOMAIN-KEYWORD,-spotify-com,选择节点
+- DOMAIN-KEYWORD,spotify.com,选择节点
+- DOMAIN-SUFFIX,pscdn.co,选择节点
+- DOMAIN-SUFFIX,scdn.co,选择节点
+- DOMAIN-SUFFIX,spoti.fi,选择节点
+- DOMAIN-SUFFIX,spotify.com,选择节点
+- DOMAIN-SUFFIX,spotifycdn.com,选择节点
+- DOMAIN-SUFFIX,spotifycdn.net,选择节点
+- DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,tidal.com,选择节点
+- DOMAIN-SUFFIX,tidalhifi.com,选择节点
+- DOMAIN,hamifans.emome.net,选择节点
+- DOMAIN-SUFFIX,skyking.com.tw,选择节点
+- DOMAIN-KEYWORD,-tiktokcdn-com,选择节点
+- DOMAIN-SUFFIX,byteoversea.com,选择节点
+- DOMAIN-SUFFIX,ibytedtos.com,选择节点
+- DOMAIN-SUFFIX,ipstatp.com,选择节点
+- DOMAIN-SUFFIX,muscdn.com,选择节点
+- DOMAIN-SUFFIX,musical.ly,选择节点
+- DOMAIN-SUFFIX,tik-tokapi.com,选择节点
+- DOMAIN-SUFFIX,tiktok.com,选择节点
+- DOMAIN-SUFFIX,tiktokcdn.com,选择节点
+- DOMAIN-SUFFIX,tiktokv.com,选择节点
+- DOMAIN-KEYWORD,ttvnw,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-SUFFIX,ttvnw.net,选择节点
+- DOMAIN-SUFFIX,twitch.tv,选择节点
+- DOMAIN-SUFFIX,twitchcdn.net,选择节点
+- DOMAIN,api.viu.now.com,选择节点
+- DOMAIN,d1k2us671qcoau.cloudfront.net,选择节点
+- DOMAIN,d2anahhhmp1ffz.cloudfront.net,选择节点
+- DOMAIN,dfp6rglgjqszk.cloudfront.net,选择节点
+- DOMAIN-SUFFIX,bootstrapcdn.com,选择节点
+- DOMAIN-SUFFIX,cloudfront.net,选择节点
+- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,jwpcdn.com,选择节点
+- DOMAIN-SUFFIX,jwplayer.com,选择节点
+- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,选择节点
+- DOMAIN-SUFFIX,nowe.com,选择节点
+- DOMAIN-SUFFIX,viu.com,选择节点
+- DOMAIN-SUFFIX,viu.now.com,选择节点
+- DOMAIN-SUFFIX,viu.tv,选择节点
+- DOMAIN-KEYWORD,youtube,选择节点
+- DOMAIN,youtubei.googleapis.com,选择节点
+- DOMAIN,yt3.ggpht.com,选择节点
+- DOMAIN-SUFFIX,googlevideo.com,选择节点
+- DOMAIN-SUFFIX,gvt2.com,选择节点
+- DOMAIN-SUFFIX,youtu.be,选择节点
+- DOMAIN-SUFFIX,youtube.com,选择节点
+- DOMAIN-SUFFIX,ytimg.com,选择节点
+- PROCESS-NAME,com.google.android.apps.youtube.music,选择节点
+- PROCESS-NAME,com.google.android.youtube.tvmusicroot,选择节点
+- PROCESS-NAME,com.vanced.android.apps.youtube.music,选择节点
+- DOMAIN-SUFFIX,1password.com,选择节点
+- DOMAIN-SUFFIX,adguard.org,选择节点
+- DOMAIN-SUFFIX,bit.no.com,选择节点
+- DOMAIN-SUFFIX,btlibrary.me,选择节点
+- DOMAIN-SUFFIX,cccat.io,选择节点
+- DOMAIN-SUFFIX,cloudcone.com,选择节点
+- DOMAIN-SUFFIX,dubox.com,选择节点
+- DOMAIN-SUFFIX,gameloft.com,选择节点
+- DOMAIN-SUFFIX,garena.com,选择节点
+- DOMAIN-SUFFIX,inoreader.com,选择节点
+- DOMAIN-SUFFIX,ip138.com,选择节点
+- DOMAIN-SUFFIX,ping.pe,选择节点
+- DOMAIN-SUFFIX,reddit.com,选择节点
+- DOMAIN-SUFFIX,teddysun.com,选择节点
+- DOMAIN-SUFFIX,tumbex.com,选择节点
+- DOMAIN-SUFFIX,twdvd.com,选择节点
+- DOMAIN-SUFFIX,unsplash.com,选择节点
+- DOMAIN-SUFFIX,xn--i2ru8q2qg.com,选择节点
+- DOMAIN-SUFFIX,yunpanjingling.com,选择节点
+- DOMAIN-SUFFIX,eu,选择节点
+- DOMAIN-SUFFIX,hk,选择节点
+- DOMAIN-SUFFIX,jp,选择节点
+- DOMAIN-SUFFIX,kr,选择节点
+- DOMAIN-SUFFIX,sg,选择节点
+- DOMAIN-SUFFIX,tw,选择节点
+- DOMAIN-SUFFIX,uk,选择节点
+- DOMAIN-SUFFIX,us,选择节点
+- DOMAIN-KEYWORD,1e100,选择节点
+- DOMAIN-KEYWORD,abema,选择节点
+- DOMAIN-KEYWORD,appledaily,选择节点
+- DOMAIN-KEYWORD,avtb,选择节点
+- DOMAIN-KEYWORD,beetalk,选择节点
+- DOMAIN-KEYWORD,blogspot,选择节点
+- DOMAIN-KEYWORD,dropbox,选择节点
+- DOMAIN-KEYWORD,facebook,选择节点
+- DOMAIN-KEYWORD,fbcdn,选择节点
+- DOMAIN-KEYWORD,github,选择节点
+- DOMAIN-KEYWORD,gmail,选择节点
+- DOMAIN-KEYWORD,google,选择节点
+- DOMAIN-KEYWORD,instagram,选择节点
+- DOMAIN-KEYWORD,porn,选择节点
+- DOMAIN-KEYWORD,sci-hub,选择节点
+- DOMAIN-KEYWORD,spotify,选择节点
+- DOMAIN-KEYWORD,telegram,选择节点
+- DOMAIN-KEYWORD,twitter,选择节点
+- DOMAIN-KEYWORD,whatsapp,选择节点
+- DOMAIN-KEYWORD,youtube,选择节点
+- DOMAIN-SUFFIX,4sqi.net,选择节点
+- DOMAIN-SUFFIX,a248.e.akamai.net,选择节点
+- DOMAIN-SUFFIX,adobedtm.com,选择节点
+- DOMAIN-SUFFIX,ampproject.org,选择节点
+- DOMAIN-SUFFIX,android.com,选择节点
+- DOMAIN-SUFFIX,aolcdn.com,选择节点
+- DOMAIN-SUFFIX,apkmirror.com,选择节点
+- DOMAIN-SUFFIX,apkpure.com,选择节点
+- DOMAIN-SUFFIX,app-measurement.com,选择节点
+- DOMAIN-SUFFIX,appspot.com,选择节点
+- DOMAIN-SUFFIX,archive.org,选择节点
+- DOMAIN-SUFFIX,armorgames.com,选择节点
+- DOMAIN-SUFFIX,aspnetcdn.com,选择节点
+- DOMAIN-SUFFIX,awsstatic.com,选择节点
+- DOMAIN-SUFFIX,azureedge.net,选择节点
+- DOMAIN-SUFFIX,azurewebsites.net,选择节点
+- DOMAIN-SUFFIX,bandwagonhost.com,选择节点
+- DOMAIN-SUFFIX,bing.com,选择节点
+- DOMAIN-SUFFIX,bkrtx.com,选择节点
+- DOMAIN-SUFFIX,blogcdn.com,选择节点
+- DOMAIN-SUFFIX,blogger.com,选择节点
+- DOMAIN-SUFFIX,blogsmithmedia.com,选择节点
+- DOMAIN-SUFFIX,blogspot.com,选择节点
+- DOMAIN-SUFFIX,blogspot.hk,选择节点
+- DOMAIN-SUFFIX,blogspot.jp,选择节点
+- DOMAIN-SUFFIX,bloomberg.cn,选择节点
+- DOMAIN-SUFFIX,bloomberg.com,选择节点
+- DOMAIN-SUFFIX,box.com,选择节点
+- DOMAIN-SUFFIX,cachefly.net,选择节点
+- DOMAIN-SUFFIX,cdnst.net,选择节点
+- DOMAIN-SUFFIX,cloudfront.net,选择节点
+- DOMAIN-SUFFIX,comodoca.com,选择节点
+- DOMAIN-SUFFIX,daum.net,选择节点
+- DOMAIN-SUFFIX,demdex.net,选择节点
+- DOMAIN-SUFFIX,deskconnect.com,选择节点
+- DOMAIN-SUFFIX,disqus.com,选择节点
+- DOMAIN-SUFFIX,disquscdn.com,选择节点
+- DOMAIN-SUFFIX,dropbox.com,选择节点
+- DOMAIN-SUFFIX,dropboxapi.com,选择节点
+- DOMAIN-SUFFIX,dropboxstatic.com,选择节点
+- DOMAIN-SUFFIX,dropboxusercontent.com,选择节点
+- DOMAIN-SUFFIX,duckduckgo.com,选择节点
+- DOMAIN-SUFFIX,edgecastcdn.net,选择节点
+- DOMAIN-SUFFIX,edgekey.net,选择节点
+- DOMAIN-SUFFIX,edgesuite.net,选择节点
+- DOMAIN-SUFFIX,eurekavpt.com,选择节点
+- DOMAIN-SUFFIX,fastmail.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,flickr.com,选择节点
+- DOMAIN-SUFFIX,flipboard.com,选择节点
+- DOMAIN-SUFFIX,gfx.ms,选择节点
+- DOMAIN-SUFFIX,gongm.in,选择节点
+- DOMAIN-SUFFIX,hulu.com,选择节点
+- DOMAIN-SUFFIX,id.heroku.com,选择节点
+- DOMAIN-SUFFIX,io.io,选择节点
+- DOMAIN-SUFFIX,issuu.com,选择节点
+- DOMAIN-SUFFIX,ixquick.com,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-SUFFIX,kat.cr,选择节点
+- DOMAIN-SUFFIX,kik.com,选择节点
+- DOMAIN-SUFFIX,kobo.com,选择节点
+- DOMAIN-SUFFIX,kobobooks.com,选择节点
+- DOMAIN-SUFFIX,licdn.com,选择节点
+- DOMAIN-SUFFIX,live.net,选择节点
+- DOMAIN-SUFFIX,livefilestore.com,选择节点
+- DOMAIN-SUFFIX,llnwd.net,选择节点
+- DOMAIN-SUFFIX,macrumors.com,选择节点
+- DOMAIN-SUFFIX,medium.com,选择节点
+- DOMAIN-SUFFIX,mega.nz,选择节点
+- DOMAIN-SUFFIX,megaupload.com,选择节点
+- DOMAIN-SUFFIX,messenger.com,选择节点
+- DOMAIN-SUFFIX,netdna-cdn.com,选择节点
+- DOMAIN-SUFFIX,nintendo.net,选择节点
+- DOMAIN-SUFFIX,nsstatic.net,选择节点
+- DOMAIN-SUFFIX,nytstyle.com,选择节点
+- DOMAIN-SUFFIX,overcast.fm,选择节点
+- DOMAIN-SUFFIX,openvpn.net,选择节点
+- DOMAIN-SUFFIX,periscope.tv,选择节点
+- DOMAIN-SUFFIX,pinimg.com,选择节点
+- DOMAIN-SUFFIX,pinterest.com,选择节点
+- DOMAIN-SUFFIX,potato.im,选择节点
+- DOMAIN-SUFFIX,prfct.co,选择节点
+- DOMAIN-SUFFIX,pscp.tv,选择节点
+- DOMAIN-SUFFIX,quora.com,选择节点
+- DOMAIN-SUFFIX,resilio.com,选择节点
+- DOMAIN-SUFFIX,sfx.ms,选择节点
+- DOMAIN-SUFFIX,shadowsocks.org,选择节点
+- DOMAIN-SUFFIX,slack-edge.com,选择节点
+- DOMAIN-SUFFIX,smartdnsproxy.com,选择节点
+- DOMAIN-SUFFIX,sndcdn.com,选择节点
+- DOMAIN-SUFFIX,soundcloud.com,选择节点
+- DOMAIN-SUFFIX,startpage.com,选择节点
+- DOMAIN-SUFFIX,staticflickr.com,选择节点
+- DOMAIN-SUFFIX,symauth.com,选择节点
+- DOMAIN-SUFFIX,symcb.com,选择节点
+- DOMAIN-SUFFIX,symcd.com,选择节点
+- DOMAIN-SUFFIX,textnow.com,选择节点
+- DOMAIN-SUFFIX,textnow.me,选择节点
+- DOMAIN-SUFFIX,thefacebook.com,选择节点
+- DOMAIN-SUFFIX,thepiratebay.org,选择节点
+- DOMAIN-SUFFIX,torproject.org,选择节点
+- DOMAIN-SUFFIX,trustasiassl.com,选择节点
+- DOMAIN-SUFFIX,tumblr.co,选择节点
+- DOMAIN-SUFFIX,tumblr.com,选择节点
+- DOMAIN-SUFFIX,tvb.com,选择节点
+- DOMAIN-SUFFIX,txmblr.com,选择节点
+- DOMAIN-SUFFIX,v2ex.com,选择节点
+- DOMAIN-SUFFIX,vimeo.com,选择节点
+- DOMAIN-SUFFIX,vine.co,选择节点
+- DOMAIN-SUFFIX,vox-cdn.com,选择节点
+- DOMAIN-SUFFIX,amazon.co.jp,选择节点
+- DOMAIN-SUFFIX,amazon.com,选择节点
+- DOMAIN-SUFFIX,amazonaws.com,选择节点
+- IP-CIDR,13.32.0.0/15,选择节点,no-resolve
+- IP-CIDR,13.35.0.0/17,选择节点,no-resolve
+- IP-CIDR,18.184.0.0/15,选择节点,no-resolve
+- IP-CIDR,18.194.0.0/15,选择节点,no-resolve
+- IP-CIDR,18.208.0.0/13,选择节点,no-resolve
+- IP-CIDR,18.232.0.0/14,选择节点,no-resolve
+- IP-CIDR,52.58.0.0/15,选择节点,no-resolve
+- IP-CIDR,52.74.0.0/16,选择节点,no-resolve
+- IP-CIDR,52.77.0.0/16,选择节点,no-resolve
+- IP-CIDR,52.84.0.0/15,选择节点,no-resolve
+- IP-CIDR,52.200.0.0/13,选择节点,no-resolve
+- IP-CIDR,54.93.0.0/16,选择节点,no-resolve
+- IP-CIDR,54.156.0.0/14,选择节点,no-resolve
+- IP-CIDR,54.226.0.0/15,选择节点,no-resolve
+- IP-CIDR,54.230.156.0/22,选择节点,no-resolve
+- DOMAIN-KEYWORD,uk-live,选择节点
+- DOMAIN-SUFFIX,bbc.co,选择节点
+- DOMAIN-SUFFIX,bbc.com,选择节点
+- DOMAIN-SUFFIX,apache.org,选择节点
+- DOMAIN-SUFFIX,docker.com,选择节点
+- DOMAIN-SUFFIX,elastic.co,选择节点
+- DOMAIN-SUFFIX,elastic.com,选择节点
+- DOMAIN-SUFFIX,gcr.io,选择节点
+- DOMAIN-SUFFIX,gitlab.com,选择节点
+- DOMAIN-SUFFIX,gitlab.io,选择节点
+- DOMAIN-SUFFIX,jitpack.io,选择节点
+- DOMAIN-SUFFIX,maven.org,选择节点
+- DOMAIN-SUFFIX,medium.com,选择节点
+- DOMAIN-SUFFIX,mvnrepository.com,选择节点
+- DOMAIN-SUFFIX,quay.io,选择节点
+- DOMAIN-SUFFIX,reddit.com,选择节点
+- DOMAIN-SUFFIX,redhat.com,选择节点
+- DOMAIN-SUFFIX,sonatype.org,选择节点
+- DOMAIN-SUFFIX,sourcegraph.com,选择节点
+- DOMAIN-SUFFIX,spring.io,选择节点
+- DOMAIN-SUFFIX,spring.net,选择节点
+- DOMAIN-SUFFIX,stackoverflow.com,选择节点
+- DOMAIN-SUFFIX,discord.co,选择节点
+- DOMAIN-SUFFIX,discord.com,选择节点
+- DOMAIN-SUFFIX,discord.gg,选择节点
+- DOMAIN-SUFFIX,discord.media,选择节点
+- DOMAIN-SUFFIX,discordapp.com,选择节点
+- DOMAIN-SUFFIX,discordapp.net,选择节点
+- DOMAIN-SUFFIX,facebook.com,选择节点
+- DOMAIN-SUFFIX,fb.com,选择节点
+- DOMAIN-SUFFIX,fb.me,选择节点
+- DOMAIN-SUFFIX,fbcdn.com,选择节点
+- DOMAIN-SUFFIX,fbcdn.net,选择节点
+- IP-CIDR,31.13.24.0/21,选择节点,no-resolve
+- IP-CIDR,31.13.64.0/18,选择节点,no-resolve
+- IP-CIDR,45.64.40.0/22,选择节点,no-resolve
+- IP-CIDR,66.220.144.0/20,选择节点,no-resolve
+- IP-CIDR,69.63.176.0/20,选择节点,no-resolve
+- IP-CIDR,69.171.224.0/19,选择节点,no-resolve
+- IP-CIDR,74.119.76.0/22,选择节点,no-resolve
+- IP-CIDR,103.4.96.0/22,选择节点,no-resolve
+- IP-CIDR,129.134.0.0/17,选择节点,no-resolve
+- IP-CIDR,157.240.0.0/17,选择节点,no-resolve
+- IP-CIDR,173.252.64.0/18,选择节点,no-resolve
+- IP-CIDR,179.60.192.0/22,选择节点,no-resolve
+- IP-CIDR,185.60.216.0/22,选择节点,no-resolve
+- IP-CIDR,204.15.20.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,github.com,选择节点
+- DOMAIN-SUFFIX,github.io,选择节点
+- DOMAIN-SUFFIX,githubapp.com,选择节点
+- DOMAIN-SUFFIX,githubassets.com,选择节点
+- DOMAIN-SUFFIX,githubusercontent.com,选择节点
+- DOMAIN-SUFFIX,1e100.net,选择节点
+- DOMAIN-SUFFIX,2mdn.net,选择节点
+- DOMAIN-SUFFIX,app-measurement.net,选择节点
+- DOMAIN-SUFFIX,g.co,选择节点
+- DOMAIN-SUFFIX,ggpht.com,选择节点
+- DOMAIN-SUFFIX,goo.gl,选择节点
+- DOMAIN-SUFFIX,googleapis.cn,选择节点
+- DOMAIN-SUFFIX,googleapis.com,选择节点
+- DOMAIN-SUFFIX,gstatic.cn,选择节点
+- DOMAIN-SUFFIX,gstatic.com,选择节点
+- DOMAIN-SUFFIX,gvt0.com,选择节点
+- DOMAIN-SUFFIX,gvt1.com,选择节点
+- DOMAIN-SUFFIX,gvt2.com,选择节点
+- DOMAIN-SUFFIX,gvt3.com,选择节点
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择节点
+- DOMAIN-SUFFIX,youtu.be,选择节点
+- DOMAIN-SUFFIX,youtube-nocookie.com,选择节点
+- DOMAIN-SUFFIX,youtube.com,选择节点
+- DOMAIN-SUFFIX,yt.be,选择节点
+- DOMAIN-SUFFIX,ytimg.com,选择节点
+- IP-CIDR,74.125.0.0/16,选择节点,no-resolve
+- IP-CIDR,173.194.0.0/16,选择节点,no-resolve
+- IP-CIDR,120.232.181.162/32,选择节点,no-resolve
+- IP-CIDR,120.241.147.226/32,选择节点,no-resolve
+- IP-CIDR,120.253.253.226/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.162/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.34/32,选择节点,no-resolve
+- IP-CIDR,120.253.255.98/32,选择节点,no-resolve
+- IP-CIDR,180.163.150.162/32,选择节点,no-resolve
+- IP-CIDR,180.163.150.34/32,选择节点,no-resolve
+- IP-CIDR,180.163.151.162/32,选择节点,no-resolve
+- IP-CIDR,180.163.151.34/32,选择节点,no-resolve
+- IP-CIDR,203.208.39.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.40.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.41.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.43.0/24,选择节点,no-resolve
+- IP-CIDR,203.208.50.0/24,选择节点,no-resolve
+- IP-CIDR,220.181.174.162/32,选择节点,no-resolve
+- IP-CIDR,220.181.174.226/32,选择节点,no-resolve
+- IP-CIDR,220.181.174.34/32,选择节点,no-resolve
+- DOMAIN-SUFFIX,cdninstagram.com,选择节点
+- DOMAIN-SUFFIX,instagram.com,选择节点
+- DOMAIN-SUFFIX,instagr.am,选择节点
+- DOMAIN-SUFFIX,kakao.com,选择节点
+- DOMAIN-SUFFIX,kakao.co.kr,选择节点
+- DOMAIN-SUFFIX,kakaocdn.net,选择节点
+- IP-CIDR,1.201.0.0/24,选择节点,no-resolve
+- IP-CIDR,27.0.236.0/22,选择节点,no-resolve
+- IP-CIDR,103.27.148.0/22,选择节点,no-resolve
+- IP-CIDR,103.246.56.0/22,选择节点,no-resolve
+- IP-CIDR,110.76.140.0/22,选择节点,no-resolve
+- IP-CIDR,113.61.104.0/22,选择节点,no-resolve
+- DOMAIN-SUFFIX,lin.ee,选择节点
+- DOMAIN-SUFFIX,line-apps.com,选择节点
+- DOMAIN-SUFFIX,line-cdn.net,选择节点
+- DOMAIN-SUFFIX,line-scdn.net,选择节点
+- DOMAIN-SUFFIX,line.me,选择节点
+- DOMAIN-SUFFIX,line.naver.jp,选择节点
+- DOMAIN-SUFFIX,nhncorp.jp,选择节点
+- IP-CIDR,103.2.28.0/24,选择节点,no-resolve
+- IP-CIDR,103.2.30.0/23,选择节点,no-resolve
+- IP-CIDR,119.235.224.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.232.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.235.0/24,选择节点,no-resolve
+- IP-CIDR,119.235.236.0/23,选择节点,no-resolve
+- IP-CIDR,147.92.128.0/17,选择节点,no-resolve
+- IP-CIDR,203.104.128.0/19,选择节点,no-resolve
+- DOMAIN-KEYWORD,1drv,选择节点
+- DOMAIN-KEYWORD,onedrive,选择节点
+- DOMAIN-KEYWORD,skydrive,选择节点
+- DOMAIN-SUFFIX,livefilestore.com,选择节点
+- DOMAIN-SUFFIX,oneclient.sfx.ms,选择节点
+- DOMAIN-SUFFIX,onedrive.com,选择节点
+- DOMAIN-SUFFIX,onedrive.live.com,选择节点
+- DOMAIN-SUFFIX,photos.live.com,选择节点
+- DOMAIN-SUFFIX,skydrive.wns.windows.com,选择节点
+- DOMAIN-SUFFIX,spoprod-a.akamaihd.net,选择节点
+- DOMAIN-SUFFIX,storage.live.com,选择节点
+- DOMAIN-SUFFIX,storage.msn.com,选择节点
+- DOMAIN-KEYWORD,porn,选择节点
+- DOMAIN-SUFFIX,8teenxxx.com,选择节点
+- DOMAIN-SUFFIX,ahcdn.com,选择节点
+- DOMAIN-SUFFIX,bcvcdn.com,选择节点
+- DOMAIN-SUFFIX,bongacams.com,选择节点
+- DOMAIN-SUFFIX,chaturbate.com,选择节点
+- DOMAIN-SUFFIX,dditscdn.com,选择节点
+- DOMAIN-SUFFIX,livejasmin.com,选择节点
+- DOMAIN-SUFFIX,phncdn.com,选择节点
+- DOMAIN-SUFFIX,phprcdn.com,选择节点
+- DOMAIN-SUFFIX,pornhub.com,选择节点
+- DOMAIN-SUFFIX,pornhubpremium.com,选择节点
+- DOMAIN-SUFFIX,rdtcdn.com,选择节点
+- DOMAIN-SUFFIX,redtube.com,选择节点
+- DOMAIN-SUFFIX,sb-cd.com,选择节点
+- DOMAIN-SUFFIX,spankbang.com,选择节点
+- DOMAIN-SUFFIX,t66y.com,选择节点
+- DOMAIN-SUFFIX,xhamster.com,选择节点
+- DOMAIN-SUFFIX,xnxx-cdn.com,选择节点
+- DOMAIN-SUFFIX,xnxx.com,选择节点
+- DOMAIN-SUFFIX,xvideos-cdn.com,选择节点
+- DOMAIN-SUFFIX,xvideos.com,选择节点
+- DOMAIN-SUFFIX,ypncdn.com,选择节点
+- DOMAIN-SUFFIX,pixiv.net,选择节点
+- DOMAIN-SUFFIX,pximg.net,选择节点
+- DOMAIN-SUFFIX,amplitude.com,选择节点
+- DOMAIN-SUFFIX,firebaseio.com,选择节点
+- DOMAIN-SUFFIX,hockeyapp.net,选择节点
+- DOMAIN-SUFFIX,readdle.com,选择节点
+- DOMAIN-SUFFIX,smartmailcloud.com,选择节点
+- DOMAIN-SUFFIX,fanatical.com,选择节点
+- DOMAIN-SUFFIX,humblebundle.com,选择节点
+- DOMAIN-SUFFIX,steam-chat.com,选择节点
+- DOMAIN-SUFFIX,steamcommunity.com,选择节点
+- DOMAIN-SUFFIX,steampowered.com,选择节点
+- DOMAIN-SUFFIX,steamstatic.com,选择节点
+- DOMAIN-SUFFIX,tap.io,选择节点
+- DOMAIN-SUFFIX,taptap.tw,选择节点
+- DOMAIN-SUFFIX,twitch.tv,选择节点
+- DOMAIN-SUFFIX,ttvnw.net,选择节点
+- DOMAIN-SUFFIX,jtvnw.net,选择节点
+- DOMAIN-KEYWORD,ttvnw,选择节点
+- DOMAIN-SUFFIX,t.co,选择节点
+- DOMAIN-SUFFIX,twimg.co,选择节点
+- DOMAIN-SUFFIX,twimg.com,选择节点
+- DOMAIN-SUFFIX,twimg.org,选择节点
+- DOMAIN-SUFFIX,t.me,选择节点
+- DOMAIN-SUFFIX,tdesktop.com,选择节点
+- DOMAIN-SUFFIX,telegra.ph,选择节点
+- DOMAIN-SUFFIX,telegram.me,选择节点
+- DOMAIN-SUFFIX,telegram.org,选择节点
+- DOMAIN-SUFFIX,telesco.pe,选择节点
+- IP-CIDR,91.108.0.0/16,选择节点,no-resolve
+- IP-CIDR,109.239.140.0/24,选择节点,no-resolve
+- IP-CIDR,149.154.160.0/20,选择节点,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,选择节点,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,选择节点,no-resolve
+- DOMAIN-SUFFIX,terabox.com,选择节点
+- DOMAIN-SUFFIX,teraboxcdn.com,选择节点
+- IP-CIDR,18.194.0.0/15,选择节点,no-resolve
+- IP-CIDR,34.224.0.0/12,选择节点,no-resolve
+- IP-CIDR,54.242.0.0/15,选择节点,no-resolve
+- IP-CIDR,50.22.198.204/30,选择节点,no-resolve
+- IP-CIDR,208.43.122.128/27,选择节点,no-resolve
+- IP-CIDR,108.168.174.0/16,选择节点,no-resolve
+- IP-CIDR,173.192.231.32/27,选择节点,no-resolve
+- IP-CIDR,158.85.5.192/27,选择节点,no-resolve
+- IP-CIDR,174.37.243.0/16,选择节点,no-resolve
+- IP-CIDR,158.85.46.128/27,选择节点,no-resolve
+- IP-CIDR,173.192.222.160/27,选择节点,no-resolve
+- IP-CIDR,184.173.128.0/17,选择节点,no-resolve
+- IP-CIDR,158.85.224.160/27,选择节点,no-resolve
+- IP-CIDR,75.126.150.0/16,选择节点,no-resolve
+- IP-CIDR,69.171.235.0/16,选择节点,no-resolve
+- DOMAIN-SUFFIX,mediawiki.org,选择节点
+- DOMAIN-SUFFIX,wikibooks.org,选择节点
+- DOMAIN-SUFFIX,wikidata.org,选择节点
+- DOMAIN-SUFFIX,wikileaks.org,选择节点
+- DOMAIN-SUFFIX,wikimedia.org,选择节点
+- DOMAIN-SUFFIX,wikinews.org,选择节点
+- DOMAIN-SUFFIX,wikipedia.org,选择节点
+- DOMAIN-SUFFIX,wikiquote.org,选择节点
+- DOMAIN-SUFFIX,wikisource.org,选择节点
+- DOMAIN-SUFFIX,wikiversity.org,选择节点
+- DOMAIN-SUFFIX,wikivoyage.org,选择节点
+- DOMAIN-SUFFIX,wiktionary.org,选择节点
+- DOMAIN-SUFFIX,neulion.com,选择节点
+- DOMAIN-SUFFIX,icntv.xyz,选择节点
+- DOMAIN-SUFFIX,flzbcdn.xyz,选择节点
+- DOMAIN-SUFFIX,ocnttv.com,选择节点
+- DOMAIN-SUFFIX,hutao.cloud,选择节点
 - MATCH,选择节点
