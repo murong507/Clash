@@ -1,22 +1,25 @@
-port: 7890
+mixed-port: 7890
 socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
+secret: ''
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
   enable: true
-  nameserver:
-    - 119.29.29.29
+  listen: '127.0.0.1:1053'
+  default-nameserver:
     - 223.5.5.5
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query  
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.1.1.1
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 119.29.29.29
+  nameserver:
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
   fake-ip-filter:
     - '*'
     - +.lan
@@ -42,7 +45,7 @@ dns:
     - localhost.sec.qq.com
     - localhost.work.weixin.qq.com
     - +.weixin.qq.com
-    - +.wechat.com    
+    - +.wechat.com
 
 proxies:
   - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
