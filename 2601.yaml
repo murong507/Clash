@@ -60,7 +60,6 @@ proxies:
   - {name: 🇭🇰 香港 02 7, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 2f441042-fa3b-46c4-ac46-7717fe471049, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: dc7b38e5-574d-47e7-9f53-be1fe4dde1a6, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 9, server: xiaozhu113.xiaozhu9545515.com, port: 49213, type: trojan, password: 36f1bc22-8ed4-44bc-9cbb-cd50a7ef4115, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
 
   - {name: 🇭🇰 香港 03 1, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
   - {name: 🇭🇰 香港 03 2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
@@ -92,17 +91,7 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
-    - 🇭🇰 香港 01 1
-    - 🇭🇰 香港 01 2
-    - 🇭🇰 香港 01 3
-    - 🇭🇰 香港 01 4
-    - 🇭🇰 香港 02 2
-    - 🇭🇰 香港 01 5
-    - 🇭🇰 香港 02 4
-    - 🇭🇰 香港 02 5
-    - 🇭🇰 香港 01 6
-    - 🇭🇰 香港 01 7
-    - 🇭🇰 香港 02 6
+
     - 🇭🇰 香港 01 8
     - 🇭🇰 香港 02 7
     - 🇭🇰 香港 02 8
@@ -115,6 +104,17 @@ proxy-groups:
     - 🇭🇰 香港 04 3
     - 🇭🇰 香港 04 4
     - 🇭🇰 香港 04 5
+    - 🇭🇰 香港 01 1
+    - 🇭🇰 香港 01 2
+    - 🇭🇰 香港 01 3
+    - 🇭🇰 香港 01 4
+    - 🇭🇰 香港 02 2
+    - 🇭🇰 香港 01 5
+    - 🇭🇰 香港 02 4
+    - 🇭🇰 香港 02 5
+    - 🇭🇰 香港 01 6
+    - 🇭🇰 香港 01 7
+    - 🇭🇰 香港 02 6    
 
 - name: 香港可用
   type: select
