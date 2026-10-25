@@ -25,14 +25,14 @@ proxies:
   - {name: 🇭🇰 HK 5, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjxg.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
 
 proxy-groups:
-  - name: '🚀 节点选择'
-    type: select
-    proxies:
-      - 🇭🇰 HK 1
-      - 🇭🇰 HK 2
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 4
-      - 🇭🇰 HK 5
+- name: '🚀 节点选择'
+  type: select
+  proxies:
+    - 🇭🇰 HK 1
+    - 🇭🇰 HK 2
+    - 🇭🇰 HK 3
+    - 🇭🇰 HK 4
+    - 🇭🇰 HK 5
 
 rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
