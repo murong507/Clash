@@ -41,31 +41,10 @@ proxies:
   - {name: 直连-香港103, type: vless, server: 45.202.248.189, port: 9443, uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9, udp: true, tls: true, reality-opts: {public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4, short-id: b390142456517acc}, servername: www.amazon.com, flow: xtls-rprx-vision, client-fingerprint: chrome}
   - {name: 直连-香港106, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
 
+
   - {name: 直连-香港201, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 38b8d5f3-3353-4adc-89fe-117502c0258a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港202, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: d79973ed-83bd-4094-a677-d6869792db9f, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港203, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: ad17aaf4-7f0b-4e46-af6a-1bb9745e31b7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港204, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 454888bc-b703-4025-805b-e9edf7002114, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港205, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: a3a650e5-102c-4523-b6b5-07db40b7282d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港206, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: cd4c5533-c038-40e3-9e3f-a8a127f08ce9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港207, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 01088db4-9cb5-435f-98bf-c0d4a4928615, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港208, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 2b1106bf-a793-4876-90fb-56b229af7f7c, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港Ak1, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港Ak2, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港Ak3, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港Ak4, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港601, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港602, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港603, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港604, type: trojan, server: wof2k.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港605, type: trojan, server: wof2k.wocnode.com, port: 12354, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港606, type: trojan, server: wof2b.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港607, type: trojan, server: wof2s.wocnode.com, port: 12356, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港608, type: trojan, server: wof2k.wocnode.com, port: 12357, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港609, type: trojan, server: wof2s.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港610, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港611, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港612, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
-  - {name: 直连-香港613, type: trojan, server: woipa2.wocnode.com, port: 24561, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 直连-香港202, password: 0324fbc29561, port: 443, server: 654968169. df6h451rh.xin, skip-cert-verify: true, sni:127.0.0.1, sub_tag: B004-260618, type: anytls, udp: true, username: 0324fbc29561, disable-sni: true}
+  - {name: 直连-香港203, password: 0324fbc29561, port: 443, server: 654968169. df6h451rh.xin, skip-cert-verify: true, sni:127.0.0.1, sub_tag: B006-260618, type: anytls, udp: true, username: 0324fbc29561}
 
   - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7d5fc5a9-d4a3-421a-93fa-c755b7eda3d7, sni: www.itunes.com, skip-cert-verify: true}
