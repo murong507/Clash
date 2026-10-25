@@ -65,6 +65,12 @@ proxies:
   - {name: 🇭🇰 香港 03 1, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
   - {name: 🇭🇰 香港 03 2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
 
+  - {name: 🇭🇰 香港 04 1, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjmlxy.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
+  - {name: 🇭🇰 香港 04 2, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjjnd.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
+  - {name: 🇭🇰 香港 04 3, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjadly.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
+  - {name: 🇭🇰 香港 04 4, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjyg.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
+  - {name: 🇭🇰 香港 04 5, client-fingerprint: chrome, network: tcp, password: 29086912-33e4-4e06-ba2b-60f1a195864f, port: 24999, server: tjxg.m2k699.com, skip-cert-verify: true, sni: www.itunes.com, sub_tag: A004-260618, type: trojan, udp: true}
+
   - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
   - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
   - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-04.riverfolder.com}
@@ -104,6 +110,11 @@ proxy-groups:
     - 🇭🇰 香港 02 9
     - 🇭🇰 香港 03 1
     - 🇭🇰 香港 03 2
+    - 🇭🇰 香港 04 1
+    - 🇭🇰 香港 04 2
+    - 🇭🇰 香港 04 3
+    - 🇭🇰 香港 04 4
+    - 🇭🇰 香港 04 5
 
 - name: 香港可用
   type: select
