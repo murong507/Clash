@@ -44,7 +44,6 @@ proxies:
 
   - {name: 直连-香港201, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 38b8d5f3-3353-4adc-89fe-117502c0258a, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 直连-香港202, password: 0324fbc29561, port: 443, server: 654968169. df6h451rh.xin, skip-cert-verify: true, sni:127.0.0.1, sub_tag: B004-260618, type: anytls, udp: true, username: 0324fbc29561, disable-sni: true}
-  - {name: 直连-香港203, password: 0324fbc29561, port: 443, server: 654968169. df6h451rh.xin, skip-cert-verify: true, sni:127.0.0.1, sub_tag: B006-260618, type: anytls, udp: true, username: 0324fbc29561}
 
   - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: aa935ad0-1ae2-454f-a6fa-7652cc9159b7, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7d5fc5a9-d4a3-421a-93fa-c755b7eda3d7, sni: www.itunes.com, skip-cert-verify: true}
