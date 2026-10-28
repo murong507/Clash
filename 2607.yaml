@@ -19,8 +19,8 @@ dns:
     - tls://dns.google:853
     
 proxies:
-  - {type: anytls, name: 🇭🇰 HK 1, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, alpn: [http/1.1], skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, fp: chrome, sub-tag:R002-260618}
-  - {type: anytls, name: 🇭🇰 HK 2, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, sub-tag: P002-260618}
+  - {name: 🇭🇰 HK 1, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, alpn: [http/1.1], skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, fp: chrome, sub-tag:R002-260618}
+  - {name: 🇭🇰 HK 2, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, sub-tag: P002-260618}
 
 proxy-groups:
 - name: '🚀 节点选择'
@@ -51,9 +51,9 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
  - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
  - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
- - DOMAIN, atv-ps.amazon.com,🚀 节点选择
- - DOMAIN, fls-na.amazon.com,🚀 节点选择
- - DOMAIN-SUFFIX, media-amazon.com,🚀 节点选择
+ - DOMAIN,atv-ps.amazon.com,🚀 节点选择
+ - DOMAIN,fls-na.amazon.com,🚀 节点选择
+ - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 节点选择
  - DOMAIN-SUFFIX,amazonaws.co.uk,🚀 节点选择
  - DOMAIN-SUFFIX,amazonaws.com,🚀 节点选择
