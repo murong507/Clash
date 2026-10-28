@@ -19,24 +19,21 @@ dns:
     - tls://dns.google:853
     
 proxies:
-  - {"name":"🇭🇰 香港_1","server":"103.177.136.45","port":46424,"type":"trojan","password":"4f4d1167-ef14-4304-9bce-0740472503ef","skip-cert-verify":false,"sni":"de.01.naiun.bilibili.com","udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_2","server":"203.198.84.221","port":443,"type":"trojan","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me/ripaojiedian","udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_3","server":"112.118.116.8","port":443,"type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","skip-cert-verify":true,"sni":"www.nintendogames.net","udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_4","server":"95.40.125.63","port":29642,"type":"trojan","network":"tcp","password":"e0195c73018d597b1c2f0ea89d8676ae","skip-cert-verify":true,"sni":"www.nintendogames.net","udp":true}
-  - {"name":"🇭🇰 香港_5","server":"95.40.125.63","port":6357,"type":"trojan","network":"tcp","password":"e0195c73018d597b1c2f0ea89d8676ae","skip-cert-verify":true,"sni":"www.nintendogames.net","udp":true}
-  - {"name":"🇭🇰 香港_6","server":"95.40.125.63","port":5701,"type":"trojan","network":"tcp","password":"e0195c73018d597b1c2f0ea89d8676ae","skip-cert-verify":true,"sni":"www.nintendogames.net","udp":true}
-  - {"name":"🇭🇰 香港_7","server":"8.217.36.203","port":443,"type":"vless","client-fingerprint":"chrome","network":"tcp","reality-opts":{"public-key":"DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw","short-id":"6ba85179e30d4fc2"},"skip-cert-verify":true,"tls":true,"udp":true,"uuid":"5c183802-747d-4d2f-a6f1-aff2d5d78401","servername":"j.6sc.co"}
-  - {"name":"🇭🇰 香港_8","server":"8.218.41.50","port":443,"type":"vless","client-fingerprint":"chrome","network":"tcp","reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"},"skip-cert-verify":true,"tls":true,"udp":true,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","servername":"cdn.userway.org"}
-  - {"name":"🇭🇰 香港_9","server":"47.243.209.49","port":443,"type":"vless","client-fingerprint":"random","flow":"xtls-rprx-vision","network":"tcp","skip-cert-verify":true,"tls":true,"udp":true,"uuid":"f3dc78d2-a8cb-3f6e-bebd-b223dfa91691","servername":"u720947u0dc6s554.okgfwbackxyz.xyz"}
-  - {"name":"🇭🇰 香港_10","server":"185.241.41.128","port":443,"type":"vless","client-fingerprint":"random","flow":"xtls-rprx-vision","network":"tcp","skip-cert-verify":true,"tls":true,"udp":true,"uuid":"f3dc78d2-a8cb-3f6e-bebd-b223dfa91691","servername":"u720947u9e27s745.okgfw.top"}
-  - {"name":"🇭🇰 香港_11","server":"103.177.136.41","port":45553,"type":"trojan","password":"4f4d1167-ef14-4304-9bce-0740472503ef","skip-cert-verify":false,"sni":"ch.01.naiun.bilibili.com","udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_12","server":"58.152.46.60","port":443,"type":"trojan","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me/ripaojiedian","udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_13","server":"64.49.44.87","port":19107,"type":"vless","client-fingerprint":"chrome","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rdfVgNqwK528X1X4ZdKe9abvTm7yMICZ5FRUmdYLF14","short-id":"bedc231e12dd39"},"skip-cert-verify":false,"tfo":false,"tls":true,"uuid":"9e13f74e-3ad7-437d-aba6-5def3c42b046","udp":true,"servername":"www.intel.com"}
-  - {"name":"🇭🇰 香港_14","server":"18.162.213.254","port":41889,"type":"trojan","network":"tcp","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","udp":true}
-  - {"name":"🇭🇰 香港_15","server":"16.163.107.220","port":11035,"type":"trojan","network":"tcp","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","udp":true}
-  - {"name":"🇭🇰 香港_16","server":"43.198.107.157","port":17005,"type":"trojan","network":"tcp","password":"e0195c73018d597b1c2f0ea89d8676ae","skip-cert-verify":true,"sni":"www.nintendogames.net","udp":true}
-  - {"name":"🇭🇰 香港_17","server":"18.163.84.233","port":9149,"type":"trojan","network":"tcp","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me%252Fripaojiedian","udp":true}
-  - {"name":"🇭🇰 香港_18","server":"18.163.84.233","port":11035,"type":"trojan","network":"tcp","password":"BxceQaOe","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","udp":true}
+  - {"name":"🇭🇰 香港_1","server":"v10hk30.stableq.top","port":45106,"sni":"v10hk30.stableq.top","up":300,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"ZmpVHtfy0BIlxQHa","udp":true}
+  - {"name":"🇭🇰 香港_2","server":"v10hk30.stableq.top","port":45206,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kEkCaLaumO0Ovvv3","udp":true}
+  - {"name":"🇭🇰 香港_3","server":"v10hk30.stableq.top","port":45306,"sni":"v10hk30.stableq.top","up":200,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"FSkE0FDWbbrQUbPG","udp":true}
+  - {"name":"🇭🇰 香港_4","server":"v10hk30.stableq.top","port":45406,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qtCy5We1l1gMYOzd","udp":true}
+  - {"name":"🇭🇰 香港_5","server":"v10hk30.stableq.top","port":45506,"sni":"v10hk30.stableq.top","up":100,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"mLlUWmEOjFFtmReA","udp":true}
+  - {"name":"🇭🇰 香港_6","server":"v10hk30.stableq.top","port":45607,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RSgERnskqy15qMTo","udp":true}
+  - {"name":"🇭🇰 香港_7","server":"v10hk30.stableq.top","port":45703,"sni":"v10hk30.stableq.top","up":500,"down":200,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"Jp47s2DVexsPg1Lt","udp":true}
+  - {"name":"🇭🇰 香港_8","server":"v10hk30.stableq.top","port":45802,"sni":"v10hk30.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"T3n2MIpDvdZn16TQ","udp":true}
+  - {"name":"🇭🇰 香港_9","server":"v10hk30.stableq.top","port":45902,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"hvhFznkNqHceM7ct","udp":true}
+  - {"name":"🇭🇰 香港_10","server":"v3hk36.stableq.top","port":45106,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"4Tf9DSrpNGUwu7ef","udp":true}
+  - {"name":"🇭🇰 香港_11","server":"v3hk36.stableq.top","port":45206,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qONdAQegtpW7Z5Bz","udp":true}
+  - {"name":"🇭🇰 香港_12","server":"v3hk36.stableq.top","port":45306,"sni":"v3hk36.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RnnogKGDQJXn9ncS","udp":true}
+  - {"name":"🇭🇰 香港_13","server":"v3hk36.stableq.top","port":45406,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kZfq0cOFaA527N4u","udp":true}
+  - {"name":"🇭🇰 香港_14","server":"v2hk37.stableq.top","port":45103,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"N4jsyUlCv7jOSeIb","udp":true}
+  - {"name":"🇭🇰 香港_5","server":"v2hk37.stableq.top","port":45201,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"KOfP5lme6aeFpDXC","udp":true}
   
 proxy-groups:
 - name: '🚀 节点选择'
@@ -57,15 +54,6 @@ proxy-groups:
     - 🇭🇰 香港_13
     - 🇭🇰 香港_14
     - 🇭🇰 香港_15
-    - 🇭🇰 香港_16
-    - 🇭🇰 香港_17
-    - 🇭🇰 香港_18
-    - 🇭🇰 香港_19
-    - 🇭🇰 香港_20
-    - 🇭🇰 香港_21
-    - 🇭🇰 香港_22
-    - 🇭🇰 香港_23
-    - 🇭🇰 香港_24
     
 rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
