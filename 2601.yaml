@@ -54,6 +54,8 @@ proxies:
 
   - {name: 🇭🇰 香港_1, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, alpn: [http/1.1], skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, fp: chrome, sub-tag:R002-260618}
   - {name: 🇭🇰 香港_2, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, sub-tag: P002-260618}
+  - {name: 🇭🇰 香港_3, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561}
+  - {name: 🇭🇰 香港_4, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, skip-cert-verify: true, password: 0324fbc29561}
 
   - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -112,6 +114,8 @@ proxy-groups:
   proxies:
     - 🇭🇰 香港_1
     - 🇭🇰 香港_2
+    - 🇭🇰 香港_3
+    - 🇭🇰 香港_4
     
 - name: 其它节点
   type: select
