@@ -19,17 +19,8 @@ dns:
     - tls://dns.google:853
     
 proxies:
-- name:  🇭🇰 HK 1
-  server: "156.245.232.239"
-  port: 35043
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
+  - {"type":"anytls","name":" 🇭🇰 HK 1","server":"654968169.df6h451rh.xin","port":443,"udp":true,"sni":"images.ctfassets.net","client-fingerprint":"chrome","alpn":["http/1.1"],"skip-cert-verify":true,"packet-encoding":"","password":"0324fbc29561","packetEncoding":"none","allowInsecure":"1","fp":"chrome","sub-tag":"R002-260618"}
+  - {"type":"anytls","name":" 🇭🇰 HK 2","server":"56481.df6h451rh.xin","port":443,"udp":true,"sni":"images.ctfassets.net","skip-cert-verify":true,"packet-encoding":"","password":"0324fbc29561","packetEncoding":"none","allowInsecure":"1","sub-tag":"P002-260618"}
   
 proxy-groups:
 - name: '🚀 节点选择'
