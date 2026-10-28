@@ -19,8 +19,8 @@ dns:
     - tls://dns.google:853
     
 proxies:
-  - {name: 🇭🇰 香港 01, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 07, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
+  - {name: 🇭🇰 香港_1, server: 64.90.0.30, port: 443, type: hysteria2, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
   
 proxy-groups:
 - name: '🚀 节点选择'
@@ -28,30 +28,6 @@ proxy-groups:
   proxies:
     - 🇭🇰 香港_1
     - 🇭🇰 香港_2
-    - 🇭🇰 香港_3
-    - 🇭🇰 香港_4
-    - 🇭🇰 香港_5
-    - 🇭🇰 香港_6
-    - 🇭🇰 香港_7
-    - 🇭🇰 香港_8
-    - 🇭🇰 香港_9
-    - 🇭🇰 香港_10
-    - 🇭🇰 香港_11
-    - 🇭🇰 香港_12
-    - 🇭🇰 香港_13
-    - 🇭🇰 香港_14
-    - 🇭🇰 香港_15
-    - 🇭🇰 香港_16
-    - 🇭🇰 香港_17
-    - 🇭🇰 香港_18
-    - 🇭🇰 香港_19
-    - 🇭🇰 香港_20
-    - 🇭🇰 香港_21
-    - 🇭🇰 香港_22
-    - 🇭🇰 香港_23
-    - 🇭🇰 香港_24
-    - 🇭🇰 香港_25
-    - 🇭🇰 香港_26
     
 rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
