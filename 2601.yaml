@@ -41,10 +41,6 @@ proxies:
   - {name: 直连-香港103, type: vless, server: 45.202.248.189, port: 9443, uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9, udp: true, tls: true, reality-opts: {public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4, short-id: b390142456517acc}, servername: www.amazon.com, flow: xtls-rprx-vision, client-fingerprint: chrome}
   - {name: 直连-香港106, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
 
-
-  - {name: 直连-香港201, server: xiaozhux2.xiaozhu9545515.com, port: 49213, type: trojan, password: 38b8d5f3-3353-4adc-89fe-117502c0258a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 直连-香港202, password: 0324fbc29561, port: 443, server: 654968169. df6h451rh.xin, skip-cert-verify: true, sni:127.0.0.1, sub_tag: B004-260618, type: anytls, udp: true, username: 0324fbc29561, disable-sni: true}
-
   - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d1b59bf7-ec0d-45ee-b332-a8dad1584bae, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b6c610d5-de58-4acf-8b58-e2a31e9fade3, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f505d58-2fc3-4556-b14c-e49abe126972, sni: www.itunes.com, skip-cert-verify: true}
@@ -128,12 +124,6 @@ proxy-groups:
     - 直连-香港104
     - 直连-香港105
     - 直连-香港106
-    
-- name: 香港节表
-  type: select
-  proxies:
-    - 直连-香港201
-    - 直连-香港202
     
 - name: 其它节点
   type: select
