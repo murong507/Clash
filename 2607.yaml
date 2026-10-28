@@ -23,7 +23,7 @@ proxies:
   - {name: 🇭🇰 香港_2, server: 165.154.193.165, port: 443, type: hysteria2, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
   
 proxy-groups:
-- name: '🚀 节点选择'
+- name: 🚀 节点选择
   type: select
   proxies:
     - 🇭🇰 香港_1
