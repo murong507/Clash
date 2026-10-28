@@ -17,23 +17,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 直连-香港001, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港002, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港003, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true} 
-  - {name: 直连-香港004, type: vmess, server: 156.245.232.239, port: 35043, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: 直连-香港005, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 直连-香港006, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 直连-香港007, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 直连-香港008, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, udp: true}
-  - {name: 直连-香港024, type: vmess, server: v33.hdacd.com, port: 30833, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
-  - {name: 直连-香港029, type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true, skip-cert-verify: true}
-  - {name: 直连-香港030, type: vmess, server: sv1.wy888.us, port: 443, uuid: a7522798-e461-4006-9540-4627ef35ba57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sv1.wy888.us, network: ws, ws-opts: {path: /vd1e636, headers: {Host: sv1.wy888.us}}}
-  - {name: 直连-香港061, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港062, type: vmess, server: v10.hdacd.com, port: 30807, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港064, type: vmess, server: v4.hdacd.com, port: 30804, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港066, type: vmess, server: v36.hdacd.com, port: 30836, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-  - {name: 直连-香港067, type: vmess, server: v6.hdacd.com, port: 30806, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: tcp}
-
   - {name: 🇭🇰 香港 101, type: vless, server: 189.24.79.229, port: 443, uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw, short-id: 6717a9ae}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇭🇰 香港 102, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
   - {name: 🇭🇰 香港 103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
@@ -45,7 +28,7 @@ proxies:
   - {name: 🇭🇰 香港 109, type: vless, server: cdn.hk6.bilibiliimg.com, port: 47145, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
   - {name: 🇭🇰 香港 110, type: vless, server: cdn.hk7.bilibiliimg.com, port: 47146, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
   - {name: 🇭🇰 香港 111, type: vless, server: cdn.hk5.bilibiliimg.com, port: 47147, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 112, type: vless, server: cdn.hk5.bilibiliimg.com, port: 47147, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
+  - {name: 🇭🇰 香港 112, server: 213.152.165.195, port: 2091, type: vless, uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k, short-id: "08a4b1f473932632" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
 
   - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d1b59bf7-ec0d-45ee-b332-a8dad1584bae, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b6c610d5-de58-4acf-8b58-e2a31e9fade3, sni: www.itunes.com, skip-cert-verify: true}
@@ -55,6 +38,8 @@ proxies:
   - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f261c75-0cbb-465d-8cc8-75bd68bb4661, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: e59573b6-d540-4c92-bdd8-ac0ddae59d9e, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 1, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
   
   - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
   - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
@@ -66,6 +51,9 @@ proxies:
   - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-04.riverfolder.com}
   - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-05.riverfolder.com}
   - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-01.riverfolder.com}
+
+  - {name: 🇭🇰 香港_1, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, alpn: [http/1.1], skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, fp: chrome, sub-tag:R002-260618}
+  - {name: 🇭🇰 香港_2, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, sub-tag: P002-260618}
 
   - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
   - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -86,6 +74,8 @@ proxy-groups:
     - 🇭🇰 香港 01 2
     - 🇭🇰 香港 01 3
     - 🇭🇰 香港 02 5
+    - 🇭🇰 香港 03 1
+    - 🇭🇰 香港 03 2
     
 - name: 香港可用
   type: select
@@ -120,22 +110,8 @@ proxy-groups:
 - name: 香港新点
   type: select
   proxies:
-    - 直连-香港001
-    - 直连-香港002
-    - 直连-香港003
-    - 直连-香港004
-    - 直连-香港005
-    - 直连-香港006
-    - 直连-香港007
-    - 直连-香港008
-    - 直连-香港024
-    - 直连-香港029
-    - 直连-香港030
-    - 直连-香港061
-    - 直连-香港062
-    - 直连-香港064
-    - 直连-香港066
-    - 直连-香港067
+    - 🇭🇰 香港_1
+    - 🇭🇰 香港_2
     
 - name: 其它节点
   type: select
