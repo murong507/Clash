@@ -28,12 +28,6 @@ proxy-groups:
   proxies:
     - 🇭🇰 HK 1
     - 🇭🇰 HK 2
-    - 🇭🇰 HK 3
-    - 🇭🇰 HK 4
-    - 🇭🇰 HK 5
-    - 🇭🇰 HK 6
-
-
 rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,t.me,🚀 节点选择
