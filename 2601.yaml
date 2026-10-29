@@ -57,17 +57,29 @@ proxies:
   - {name: 🇭🇰 香港_3, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561}
   - {name: 🇭🇰 香港_4, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, skip-cert-verify: true, password: 0324fbc29561}
 
-  - {name: 直连-香港A01, type: vmess, server: dhk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港A02, type: vmess, server: dhk2.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港A03, type: vmess, server: dhk3.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: 直连-香港A04, type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03, type: trojan, server: wof2k.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 04, type: trojan, server: wof2k.wocnode.com, port: 12354, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 05, type: trojan, server: wof2b.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 06, type: trojan, server: wof2s.wocnode.com, port: 12356, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 07, type: trojan, server: wof2k.wocnode.com, port: 12357, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 08, type: trojan, server: wof2s.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 09, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 10, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 11, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 12, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 13, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 14, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 15, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 16, type: trojan, server: woipa2.wocnode.com, port: 24561, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: woccloud.net, type: vmess, server: dp.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}  
 
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
-
     - 🇭🇰 香港 02 1
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
@@ -120,10 +132,23 @@ proxy-groups:
 - name: 其它节点
   type: select
   proxies:
-    - 直连-香港A01
-    - 直连-香港A02
-    - 直连-香港A03
-    - 直连-香港A04
+    - 🇭🇰 香港 00
+    - 🇭🇰 香港 01
+    - 🇭🇰 香港 02
+    - 🇭🇰 香港 03
+    - 🇭🇰 香港 04
+    - 🇭🇰 香港 05
+    - 🇭🇰 香港 06
+    - 🇭🇰 香港 07
+    - 🇭🇰 香港 08
+    - 🇭🇰 香港 09
+    - 🇭🇰 香港 10
+    - 🇭🇰 香港 11
+    - 🇭🇰 香港 12
+    - 🇭🇰 香港 13
+    - 🇭🇰 香港 14
+    - 🇭🇰 香港 15
+    - 🇭🇰 香港 16
     - woccloud.net
 
 rules:
