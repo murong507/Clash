@@ -25,14 +25,6 @@ log-level: silent
 # Clash 的 RESTful API
 external-controller: '0.0.0.0:9090'
 
-# RESTful API 的口令
-secret: ''
-
-# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
-# 参数应填写配置目录的相对路径或绝对路径。
-# external-ui: folder
-external-ui: ../static
-
 
 proxies:
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
