@@ -25,6 +25,18 @@ log-level: silent
 # Clash 的 RESTful API
 external-controller: '0.0.0.0:9090'
 
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
 
 proxies:
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"wof2s.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
@@ -44,10 +56,6 @@ proxies:
   - {"name":"[V1] 香港03 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V1] 香港04 Akari","type":"trojan","server":"wof2k.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"[V4] 香港01 IPLC专线 x2","type":"trojan","server":"woipa2.wocnode.com","port":24561,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
-  - {"name":"[V1] 直连-香港1","type":"vmess","server":"dhk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V1] 直连-香港2","type":"vmess","server":"dhk2.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V1] 直连-香港3","type":"vmess","server":"dhk3.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V3] IPV6-香港1 移动","type":"vmess","server":"v6hk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"官网：woccloud.net","type":"vmess","server":"dp.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
 
 proxy-groups:
@@ -72,10 +80,6 @@ proxy-groups:
     - '[V1] 香港03 Akari'
     - '[V1] 香港04 Akari'
     - '[V4] 香港01 IPLC专线 x2'
-    - '[V1] 直连-香港1'
-    - '[V1] 直连-香港2'
-    - '[V1] 直连-香港3'
-    - '[V3] 直连-台湾1'
     - 官网：woccloud.net
 -
   name: Domestic
