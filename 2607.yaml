@@ -42,7 +42,7 @@ proxies:
   - {"name":"🇭🇰 香港-23","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sni":"fan.240104.xyz","tls":true,"type":"http","udp":true}
   - {"name":"🇭🇰 香港-24","type":"vmess","server":"47.243.92.155","port":443,"cipher":"auto","uuid":"f23bb427-c1f9-4373-876c-2f43e9f790f3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"Host":"mTCKUNDiGePwU3uP.v.3dns.vip"}},"udp":true,"servername":"mTCKUNDiGePwU3uP.v.3dns.vip"}
   - {"name":"🇭🇰 香港-25","type":"vmess","server":"nycqg19zkwacpm1b.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427-c1f9-4373-876c-2f43e9f790f3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"Host":"NYcQg19zkwaCPM1B.v.3dns.vip"}},"client-fingerprint":"","udp":true,"servername":"NYcQg19zkwaCPM1B.v.3dns.vip"}
-    - {"type":"vless","name":"🇭🇰 香港-26","server":"nexusmods.com","port":443,"uuid":"30610baf-4645-4c7b-9a22-0d0a0a79eab5","udp":true,"tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"ech-opts":{"enable":true,"_dns":"https://dns.alidns.com/dns-query","query-server-name":"cloudflare-ech.com"},"packet-encoding":"","network":"ws","ws-opts":{"headers":{"Host":"mao.kipfel.kdns.fr"},"path":"/glasspanel/guest000_0_5de14443985f/"},"servername":"mao.kipfel.kdns.fr"}
+  - {"type":"vless","name":"🇭🇰 香港-26","server":"nexusmods.com","port":443,"uuid":"30610baf-4645-4c7b-9a22-0d0a0a79eab5","udp":true,"tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"ech-opts":{"enable":true,"_dns":"https://dns.alidns.com/dns-query","query-server-name":"cloudflare-ech.com"},"packet-encoding":"","network":"ws","ws-opts":{"headers":{"Host":"mao.kipfel.kdns.fr"},"path":"/glasspanel/guest000_0_5de14443985f/"},"servername":"mao.kipfel.kdns.fr"}
 
 proxy-groups:
 - name: 节点选择
@@ -73,6 +73,7 @@ proxy-groups:
     - 🇭🇰 香港-23
     - 🇭🇰 香港-24
     - 🇭🇰 香港-25
+    - 🇭🇰 香港-26
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
