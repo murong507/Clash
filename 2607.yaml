@@ -17,35 +17,23 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰HK-01","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sni":"fan.240104.xyz","sub_tag":"R002-260618","tls":true,"type":"http","udp":true}
-  - {"name":"🇭🇰HK-02","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sub_tag":"R002-260618","tls":true,"type":"http","udp":true,"sni":"fan.240104.xyz"}
-  - {"name":"🇭🇰HK-03","password":"null","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","sub_tag":"R002-260618","tls":true,"type":"http","username":"null","udp":true}
-  - {"name":"🇭🇰HK-04","port":3128,"server":"119.28.24.235","skip-cert-verify":true,"sub_tag":"P002-260618","tls":true,"type":"http","udp":true}
-  - {"name":"🇭🇰HK-05","password":"","port":10808,"server":"123.58.219.171","skip-cert-verify":true,"sub_tag":"K001-260618","type":"socks5","username":"","udp":true}
-  - {"name":"🇭🇰HK-06","port":1080,"server":"47.238.126.208","sub_tag":"R002-260618","type":"socks5","udp":true}
-  - {"cipher":"chacha20-ietf","name":"🇭🇰HK-07","password":"asd123456","port":8388,"server":"103.36.91.32","sub_tag":"C002-260622","type":"ss","udp":true}
-  - {"name":"🇭🇰HK-08","network":"ws","port":1443,"server":"38.76.180.144","sub_tag":"M003-260806","type":"vless","udp":true,"uuid":"d98b67d4-024a-4bba-91e2-e6ebece6df11","ws-opts":{"headers":{"Host":"38.76.180.144","User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"},"path":"/vless-ws"},"xudp":true,"packet-encoding":"xudp"}
-  - {"alpn":["h2","http/1.1"],"client-fingerprint":"chrome","name":"🇭🇰HK-09","network":"tcp","port":11907,"server":"195.58.144.56","sub_tag":"A001-260618","tls":true,"type":"vless","udp":true,"uuid":"07cb07b9-0c4d-46c1-a15a-b147511b6b07","xudp":true,"packet-encoding":"xudp"}
-  - {"alpn":["h2","http/1.1"],"client-fingerprint":"chrome","name":"🇭🇰HK-010","network":"raw","port":11907,"server":"195.58.144.56","sub_tag":"M003-260806","tls":true,"type":"vless","udp":true,"uuid":"07cb07b9-0c4d-46c1-a15a-b147511b6b07","xudp":true,"packet-encoding":"xudp"}
-  - {"alpn":["h2","http/1.1"],"client-fingerprint":"chrome","name":"🇭🇰HK-011","network":"tcp","port":11907,"server":"195.58.144.56","sub_tag":"M003-260806","tls":true,"type":"vless","udp":true,"uuid":"07cb07b9-0c4d-46c1-a15a-b147511b6b07","xudp":true,"packet-encoding":"xudp","servername":"195.58.144.56"}
-  - {"alpn":["h2","http/1.1"],"client-fingerprint":"chrome","name":"🇭🇰HK-012","port":11907,"server":"195.58.144.56","skip-cert-verify":false,"sub_tag":"P002-260618","tls":true,"type":"vless","uuid":"07cb07b9-0c4d-46c1-a15a-b147511b6b07","udp":true,"network":"tcp"}
+  - {name: 🇭🇰 香港-01, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {name: 🇭🇰 香港-02, server: s151.gogocs.xyz, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {name: 🇭🇰 香港-03, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {name: 🇭🇰 香港-04, server: s299.kukuss.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {name: 🇭🇰 香港-05, server: 212.192.15.191, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {name: 🇭🇰 香港-06, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
 
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
-    - 🇭🇰HK-01
-    - 🇭🇰HK-02
-    - 🇭🇰HK-03
-    - 🇭🇰HK-04
-    - 🇭🇰HK-05
-    - 🇭🇰HK-06
-    - 🇭🇰HK-07
-    - 🇭🇰HK-08
-    - 🇭🇰HK-09
-    - 🇭🇰HK-10
-    - 🇭🇰HK-11
-    - 🇭🇰HK-12
+    - 🇭🇰 香港-01
+    - 🇭🇰 香港-02
+    - 🇭🇰 香港-03
+    - 🇭🇰 香港-04
+    - 🇭🇰 香港-05
+    - 🇭🇰 香港-06
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
