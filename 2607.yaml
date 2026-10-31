@@ -17,12 +17,10 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港-01, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港-02, server: s151.gogocs.xyz, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港-03, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港-04, server: s299.kukuss.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港-05, server: 212.192.15.191, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港-06, server: 2605:e440:15::6b, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u695098u54d73951s298.kukuss.top, client-fingerprint: firefox, network: tcp}
+  - {"name":"🇭🇰 香港-01","server":"103.236.66.4","port":10001,"type":"ss","cipher":"aes-256-gcm","password":"Butterfly123@qwe9527","udp":true}
+  - {"name":"🇭🇰 香港-02","server":"112.28.141.77","port":10006,"type":"ss","cipher":"aes-256-gcm","password":"Butterfly123@qwe9527","udp":true}
+  - {"name":"🇭🇰 香港-03","server":"18.142.250.141","port":7674,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"udp":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港-04","server":"35.78.206.14","port":2944,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"udp":true,"network":"tcp"}
 
 proxy-groups:
 - name: 节点选择
@@ -32,8 +30,6 @@ proxy-groups:
     - 🇭🇰 香港-02
     - 🇭🇰 香港-03
     - 🇭🇰 香港-04
-    - 🇭🇰 香港-05
-    - 🇭🇰 香港-06
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
