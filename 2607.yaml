@@ -17,21 +17,24 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港-01","server":"v10hk30.stableq.top","port":45106,"sni":"v10hk30.stableq.top","up":300,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"ZmpVHtfy0BIlxQHa","udp":true}
-  - {"name":"🇭🇰 香港-02","server":"v10hk30.stableq.top","port":45206,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kEkCaLaumO0Ovvv3","udp":true}
-  - {"name":"🇭🇰 香港-03","server":"v10hk30.stableq.top","port":45306,"sni":"v10hk30.stableq.top","up":200,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"FSkE0FDWbbrQUbPG","udp":true}
-  - {"name":"🇭🇰 香港-04","server":"v10hk30.stableq.top","port":45406,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qtCy5We1l1gMYOzd","udp":true}
-  - {"name":"🇭🇰 香港-05","server":"v10hk30.stableq.top","port":45506,"sni":"v10hk30.stableq.top","up":100,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"mLlUWmEOjFFtmReA","udp":true}
-  - {"name":"🇭🇰 香港-06","server":"v10hk30.stableq.top","port":45607,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RSgERnskqy15qMTo","udp":true}
-  - {"name":"🇭🇰 香港-07","server":"v10hk30.stableq.top","port":45703,"sni":"v10hk30.stableq.top","up":500,"down":200,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"Jp47s2DVexsPg1Lt","udp":true}
-  - {"name":"🇭🇰 香港-08","server":"v10hk30.stableq.top","port":45802,"sni":"v10hk30.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"T3n2MIpDvdZn16TQ","udp":true}
-  - {"name":"🇭🇰 香港-09","server":"v10hk30.stableq.top","port":45902,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"hvhFznkNqHceM7ct","udp":true}
-  - {"name":"🇭🇰 香港-10","server":"v3hk36.stableq.top","port":45106,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"4Tf9DSrpNGUwu7ef","udp":true}
-  - {"name":"🇭🇰 香港-11","server":"v3hk36.stableq.top","port":45206,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qONdAQegtpW7Z5Bz","udp":true}
-  - {"name":"🇭🇰 香港-12","server":"v3hk36.stableq.top","port":45306,"sni":"v3hk36.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RnnogKGDQJXn9ncS","udp":true}
-  - {"name":"🇭🇰 香港-13","server":"v3hk36.stableq.top","port":45406,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kZfq0cOFaA527N4u","udp":true}
-  - {"name":"🇭🇰 香港-14","server":"v2hk37.stableq.top","port":45103,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"N4jsyUlCv7jOSeIb","udp":true}
-  - {"name":"🇭🇰 香港-15","server":"v2hk37.stableq.top","port":45201,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"KOfP5lme6aeFpDXC","udp":true}
+  - {"type":"vless","name":"🇭🇰 香港-01","server":"hk-hkg-dc23-001.node.valaccess.com","port":443,"uuid":"29794dae-06ca-4b62-94f2-220b5858d39b","udp":true,"tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"packet-encoding":"xudp","reality-opts":{"public-key":"i7FRaArcUxL2_qo-MZHANck17kt3MGfJ36LTXfxfzjg","short-id":"0ea827164b58a9f7"},"network":"tcp","encryption":"none","servername":"www.speedtest.net"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-02","server":"hk-hkg-dc23-001.node.valaccess.com","port":443,"ports":"20000-40000","password":"29794dae-06ca-4b62-94f2-220b5858d39b","sni":"na.node.valaccess.com","obfs":"salamander","obfs-password":"TB3NFWHCbuXajqux","skip-cert-verify":false,"tfo":false,"udp":true}
+  - {"type":"vless","name":"🇭🇰 香港-03","server":"hk-hkg-dc23-002.node.valaccess.com","port":443,"uuid":"29794dae-06ca-4b62-94f2-220b5858d39b","udp":true,"tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"packet-encoding":"xudp","reality-opts":{"public-key":"i7FRaArcUxL2_qo-MZHANck17kt3MGfJ36LTXfxfzjg","short-id":"0ea827164b58a9f7"},"network":"tcp","encryption":"none","servername":"www.speedtest.net"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-04","server":"hk-hkg-dc23-002.node.valaccess.com","port":443,"ports":"20000-40000","password":"29794dae-06ca-4b62-94f2-220b5858d39b","sni":"na.node.valaccess.com","obfs":"salamander","obfs-password":"TB3NFWHCbuXajqux","skip-cert-verify":false,"tfo":false,"udp":true}
+  - {"type":"vless","name":"🇭🇰 香港-05","server":"hk-hkg-dc23-003.node.valaccess.com","port":443,"uuid":"29794dae-06ca-4b62-94f2-220b5858d39b","udp":true,"tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"packet-encoding":"xudp","reality-opts":{"public-key":"i7FRaArcUxL2_qo-MZHANck17kt3MGfJ36LTXfxfzjg","short-id":"0ea827164b58a9f7"},"network":"tcp","encryption":"none","servername":"www.speedtest.net"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-06","server":"hk-hkg-dc23-003.node.valaccess.com","port":443,"ports":"20000-40000","password":"29794dae-06ca-4b62-94f2-220b5858d39b","sni":"na.node.valaccess.com","obfs":"salamander","obfs-password":"TB3NFWHCbuXajqux","skip-cert-verify":false,"tfo":false,"udp":true}
+  - {"type":"vless","name":"🇭🇰 香港-07","server":"hk-hkg-dc23-004.node.valaccess.com","port":443,"uuid":"29794dae-06ca-4b62-94f2-220b5858d39b","udp":true,"tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"packet-encoding":"xudp","reality-opts":{"public-key":"i7FRaArcUxL2_qo-MZHANck17kt3MGfJ36LTXfxfzjg","short-id":"0ea827164b58a9f7"},"network":"tcp","encryption":"none","servername":"www.speedtest.net"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-08","server":"hk-hkg-dc23-004.node.valaccess.com","port":443,"ports":"20000-40000","password":"29794dae-06ca-4b62-94f2-220b5858d39b","sni":"na.node.valaccess.com","obfs":"salamander","obfs-password":"TB3NFWHCbuXajqux","skip-cert-verify":false,"tfo":false,"udp":true}
+  - {"type":"vless","name":"🇭🇰 香港-09","server":"hk-hkg-dc23-005.node.valaccess.com","port":443,"uuid":"29794dae-06ca-4b62-94f2-220b5858d39b","udp":true,"tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"packet-encoding":"xudp","reality-opts":{"public-key":"i7FRaArcUxL2_qo-MZHANck17kt3MGfJ36LTXfxfzjg","short-id":"0ea827164b58a9f7"},"network":"tcp","encryption":"none","servername":"www.speedtest.net"}
+  - {"type":"hysteria2","name":"🇭🇰 香港-10","server":"hk-hkg-dc23-005.node.valaccess.com","port":443,"ports":"20000-40000","password":"29794dae-06ca-4b62-94f2-220b5858d39b","sni":"na.node.valaccess.com","obfs":"salamander","obfs-password":"TB3NFWHCbuXajqux","skip-cert-verify":false,"tfo":false,"udp":true}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8tv68qhq.slashdevslashnetslashtun.net","port":15005,"cipher":"aes-256-gcm","password":"EHFWU1PZ4MODRXQK","name":"🇭🇰 香港-11"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ti3hyra4.slashdevslashnetslashtun.net","port":15007,"cipher":"aes-256-gcm","password":"ALPWJOTEW2FUPBPA","name":"🇭🇰 香港-12"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8tv68qhq.slashdevslashnetslashtun.net","port":15009,"cipher":"aes-256-gcm","password":"FNI26U8JOI68L6Z8","name":"🇭🇰 香港-13"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8tv68qhq.slashdevslashnetslashtun.net","port":15012,"cipher":"aes-256-gcm","password":"1NI9A9PID1PHEDBT","name":"🇭🇰 香港-14"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8tv68qhq.slashdevslashnetslashtun.net","port":15014,"cipher":"aes-256-gcm","password":"P5FMEGDPGYCXJIKC","name":"🇭🇰 香港-15"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ti3hyra4.slashdevslashnetslashtun.net","port":15015,"cipher":"aes-256-gcm","password":"OR6ELXNZL7SII6LL","name":"🇭🇰 香港-16"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ti3hyra4.slashdevslashnetslashtun.net","port":15016,"cipher":"aes-256-gcm","password":"W7FWPR7PTGUXJPR6","name":"🇭🇰 香港-17"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"gd2.bjnet2.com","port":36602,"cipher":"aes-128-gcm","password":"fe9c3bb2-2372-47bf-bb4f-8faf65d435df","plugin":"obfs","plugin-opts":{"mode":"http","host":"b271059bbc28a2b13e554ab1b4a88eb0.baidu.com"},"name":"🇭🇰 香港-18"}
 
 proxy-groups:
 - name: 节点选择
@@ -52,6 +55,9 @@ proxy-groups:
     - 🇭🇰 香港-13
     - 🇭🇰 香港-14
     - 🇭🇰 香港-15
+    - 🇭🇰 香港-16
+    - 🇭🇰 香港-17
+    - 🇭🇰 香港-18
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
