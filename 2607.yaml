@@ -17,10 +17,21 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港-01","server":"103.236.66.4","port":10001,"type":"ss","cipher":"aes-256-gcm","password":"Butterfly123@qwe9527","udp":true}
-  - {"name":"🇭🇰 香港-02","server":"112.28.141.77","port":10006,"type":"ss","cipher":"aes-256-gcm","password":"Butterfly123@qwe9527","udp":true}
-  - {"name":"🇭🇰 香港-03","server":"18.142.250.141","port":7674,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"udp":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港-04","server":"35.78.206.14","port":2944,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"udp":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港-01","server":"v10hk30.stableq.top","port":45106,"sni":"v10hk30.stableq.top","up":300,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"ZmpVHtfy0BIlxQHa","udp":true}
+  - {"name":"🇭🇰 香港-02","server":"v10hk30.stableq.top","port":45206,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kEkCaLaumO0Ovvv3","udp":true}
+  - {"name":"🇭🇰 香港-03","server":"v10hk30.stableq.top","port":45306,"sni":"v10hk30.stableq.top","up":200,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"FSkE0FDWbbrQUbPG","udp":true}
+  - {"name":"🇭🇰 香港-04","server":"v10hk30.stableq.top","port":45406,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qtCy5We1l1gMYOzd","udp":true}
+  - {"name":"🇭🇰 香港-05","server":"v10hk30.stableq.top","port":45506,"sni":"v10hk30.stableq.top","up":100,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"mLlUWmEOjFFtmReA","udp":true}
+  - {"name":"🇭🇰 香港-06","server":"v10hk30.stableq.top","port":45607,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RSgERnskqy15qMTo","udp":true}
+  - {"name":"🇭🇰 香港-07","server":"v10hk30.stableq.top","port":45703,"sni":"v10hk30.stableq.top","up":500,"down":200,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"Jp47s2DVexsPg1Lt","udp":true}
+  - {"name":"🇭🇰 香港-08","server":"v10hk30.stableq.top","port":45802,"sni":"v10hk30.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"T3n2MIpDvdZn16TQ","udp":true}
+  - {"name":"🇭🇰 香港-09","server":"v10hk30.stableq.top","port":45902,"sni":"v10hk30.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"hvhFznkNqHceM7ct","udp":true}
+  - {"name":"🇭🇰 香港-10","server":"v3hk36.stableq.top","port":45106,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"4Tf9DSrpNGUwu7ef","udp":true}
+  - {"name":"🇭🇰 香港-11","server":"v3hk36.stableq.top","port":45206,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"qONdAQegtpW7Z5Bz","udp":true}
+  - {"name":"🇭🇰 香港-12","server":"v3hk36.stableq.top","port":45306,"sni":"v3hk36.stableq.top","up":200,"down":500,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"RnnogKGDQJXn9ncS","udp":true}
+  - {"name":"🇭🇰 香港-13","server":"v3hk36.stableq.top","port":45406,"sni":"v3hk36.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"kZfq0cOFaA527N4u","udp":true}
+  - {"name":"🇭🇰 香港-14","server":"v2hk37.stableq.top","port":45103,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"N4jsyUlCv7jOSeIb","udp":true}
+  - {"name":"🇭🇰 香港-15","server":"v2hk37.stableq.top","port":45201,"sni":"v2hk37.stableq.top","up":300,"down":800,"skip-cert-verify":false,"type":"hysteria2","password":"4e15e531-4dd0-420b-a074-a6fb64a292f2","obfs":"salamander","obfs-password":"KOfP5lme6aeFpDXC","udp":true}
 
 proxy-groups:
 - name: 节点选择
@@ -30,6 +41,17 @@ proxy-groups:
     - 🇭🇰 香港-02
     - 🇭🇰 香港-03
     - 🇭🇰 香港-04
+    - 🇭🇰 香港-05
+    - 🇭🇰 香港-06
+    - 🇭🇰 香港-07
+    - 🇭🇰 香港-08
+    - 🇭🇰 香港-09
+    - 🇭🇰 香港-10
+    - 🇭🇰 香港-11
+    - 🇭🇰 香港-12
+    - 🇭🇰 香港-13
+    - 🇭🇰 香港-14
+    - 🇭🇰 香港-15
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
