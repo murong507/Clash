@@ -17,7 +17,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港 101, type: vless, server: 189.24.79.229, port: 443, uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw, short-id: 6717a9ae}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 101, type: vless, server: 140.225.208.140, port: 2083, uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67, udp: true, tls: true, servername: speedtestmark.com, sni: speedtestmark.com, skip-cert-verify: true, network: ws, client-fingerprint: chrome, ws-opts: {path: /vless-ws, headers: {Host: speedtestmark.com}}}
   - {name: 🇭🇰 香港 102, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
   - {name: 🇭🇰 香港 103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
   - {name: 🇭🇰 香港 104, type: vless, server: cdn.hk1.bilibiliimg.com, port: 47123, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
@@ -30,11 +30,19 @@ proxies:
   - {name: 🇭🇰 香港 111, type: vless, server: cdn.hk8.bilibiliimg.com, port: 47147, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
   - {name: 🇭🇰 香港 112, server: 213.152.165.195, port: 2091, type: vless, uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k, short-id: "08a4b1f473932632" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
 
+  - {name: 🇭🇰 香港 00 1, type: trojan, server: 103.69.128.221, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 2, type: trojan, server: 47.57.181.17, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 3, type: trojan, server: 103.219.195.65, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 4, type: trojan, server: 45.196.235.64, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 5, type: trojan, server: 207.57.123.77, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 6, type: trojan, server: 207.57.132.189, port: 8443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 7, type: trojan, server: 207.57.123.112, port: 443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 00 8, type: trojan, server: 43.161.233.40, port: 8443, password: humanity, udp: true, tls: true, servername: www.cordweave.com, sni: www.cordweave.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: e7c4ed83-1d09-4732-b9b3-1ce6288db92e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d1b59bf7-ec0d-45ee-b332-a8dad1584bae, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b6c610d5-de58-4acf-8b58-e2a31e9fade3, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f505d58-2fc3-4556-b14c-e49abe126972, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: ab79437f-ea10-48de-8d7a-b8a3e2aa3d86, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: e7c4ed83-1d09-4732-b9b3-1ce6288db92e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f261c75-0cbb-465d-8cc8-75bd68bb4661, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: e59573b6-d540-4c92-bdd8-ac0ddae59d9e, sni: www.itunes.com, skip-cert-verify: true}
@@ -86,11 +94,19 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
+    - 🇭🇰 香港 00 1
+    - 🇭🇰 香港 00 2
+    - 🇭🇰 香港 00 3
+    - 🇭🇰 香港 00 4
+    - 🇭🇰 香港 00 5
+    - 🇭🇰 香港 00 6
+    - 🇭🇰 香港 00 7
+    - 🇭🇰 香港 00 8
+    - 🇭🇰 香港 02 4
     - 🇭🇰 香港 02 1
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
     - 🇭🇰 香港 01 1
-    - 🇭🇰 香港 02 4
     - 🇭🇰 香港 01 2
     - 🇭🇰 香港 01 3
     - 🇭🇰 香港 02 5
