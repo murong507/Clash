@@ -56,6 +56,11 @@ proxies:
   - {name: 🇭🇰 香港_2, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561, packetEncoding: none, allowInsecure: 1, sub-tag: P002-260618}
   - {name: 🇭🇰 香港_3, type: anytls, server: 56481.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, skip-cert-verify: true, password: 0324fbc29561}
   - {name: 🇭🇰 香港_4, type: anytls, server: 654968169.df6h451rh.xin, port: 443, udp: true, sni: images.ctfassets.net, client-fingerprint: chrome, skip-cert-verify: true, password: 0324fbc29561}
+  - {name: 🇭🇰 香港_5, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, type: http, udp: true}
+  - {name: 🇭🇰 香港_6, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, type: http, udp: true, sni: fan.240104.xyz}
+  - {name: 🇭🇰 香港_7, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, type: http, username: null, udp: true}
+  - {name: 🇭🇰 香港_8, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, type: http, udp: true}
+  - {name: 🇭🇰 香港_9, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, type: socks5, username: , udp: true}
 
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
