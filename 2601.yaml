@@ -61,6 +61,7 @@ proxies:
   - {name: 🇭🇰 香港_7, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, type: http, username: null, udp: true}
   - {name: 🇭🇰 香港_8, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, type: http, udp: true}
   - {name: 🇭🇰 香港_9, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, type: socks5, username: , udp: true}
+  - {name: 🇭🇰 香港_10, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, type: socks5, username: , udp: true}
 
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
@@ -154,7 +155,13 @@ proxy-groups:
     - 🇭🇰 香港_1
     - 🇭🇰 香港_2
     - 🇭🇰 香港_3
-    - 🇭🇰 香港_4    
+    - 🇭🇰 香港_4
+    - 🇭🇰 香港_5
+    - 🇭🇰 香港_6
+    - 🇭🇰 香港_7
+    - 🇭🇰 香港_8
+    - 🇭🇰 香港_9
+    - 🇭🇰 香港_10
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
