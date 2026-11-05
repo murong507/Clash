@@ -17,20 +17,16 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港 101, type: vless, server: 140.225.208.140, port: 2083, uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67, udp: true, tls: true, servername: speedtestmark.com, sni: speedtestmark.com, skip-cert-verify: true, network: ws, client-fingerprint: chrome, ws-opts: {path: /vless-ws, headers: {Host: speedtestmark.com}}}
-  - {name: 🇭🇰 香港 102, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
-  - {name: 🇭🇰 香港 103, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
-  - {name: 🇭🇰 香港 104, type: vless, server: cdn.hk1.bilibiliimg.com, port: 47123, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 105, type: vless, server: cdn.hk2.bilibiliimg.com, port: 47122, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 106, type: vless, server: cdn.hk3.bilibiliimg.com, port: 47130, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 107, type: vless, server: cdn.hk4.bilibiliimg.com, port: 47135, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 108, type: vless, server: cdn.hk5.bilibiliimg.com, port: 47140, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 109, type: vless, server: cdn.hk6.bilibiliimg.com, port: 47145, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 110, type: vless, server: cdn.hk7.bilibiliimg.com, port: 47146, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 111, type: vless, server: cdn.hk8.bilibiliimg.com, port: 47147, uuid: 589b2402-07c3-4951-aed5-836a1015a6c4, udp: true, network: tcp, tls: true, flow: xtls-rprx-vision, servername: bilibili-hk.biliimg.com, client-fingerprint: chrome, reality-opts: {public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE, short-id: 693b25e06841ac7f}}
-  - {name: 🇭🇰 香港 112, type: vless, server: 213.152.165.195, port: 2091, uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k, short-id: "08a4b1f473932632" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 113, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, client-fingerprint: firefox, servername: hk010.zestapp778.com, skip-cert-verify: true, sni: hk010.zestapp778.com, tls: true, udp: true}
-  - {name: 🇭🇰 香港 114, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, network: tcp}
+  - {name: 🇭🇰 香港 101, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
+  - {name: 🇭🇰 香港 102, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
+  - {name: 🇭🇰 香港 103, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, client-fingerprint: firefox, servername: hk010.zestapp778.com, skip-cert-verify: true, sni: hk010.zestapp778.com, tls: true, udp: true}
+  - {name: 🇭🇰 香港 104, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, network: tcp}
+  - {name: 🇭🇰 香港 105, type: vless, server: aws-link1.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA, short-id: c8660f6e}, network: tcp}
+  - {name: 🇭🇰 香港 106, type: vless, server: aws-link2.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28, short-id: 6afd82c0}, network: tcp}
+  - {name: 🇭🇰 香港 107, type: vless, server: aws-link3.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs, short-id: 3206e665}, network: tcp}
+  - {name: 🇭🇰 香港 108, type: vless, server: aws-link4.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg, short-id: a31b59fe}, network: tcp}
+  - {name: 🇭🇰 香港 109, type: vless, server: aws-link5.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ, short-id: a49232a7}, network: tcp}
+  - {name: 🇭🇰 香港 110, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true,  udp: true, servername: hk010.zestapp778.com, skip-cert-verify: true, client-fingerprint: chrome}
 
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
@@ -77,6 +73,8 @@ proxies:
   - {name: 🇭🇰 香港-10, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
   - {name: 🇭🇰 香港-11, type: anytls, password: 0324fbc29561, port: 443, server: 56481.df6h451rh.xin, skip-cert-verify: true, sni: images.ctfassets.net, udp: true}
   - {name: 🇭🇰 香港-12, type: anytls, server: 56481.df6h451rh.xin, port: 443, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港-13, type: hysteria2, server: aws-linkhy1.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: download-porter.hoyoverse.com, fingerprint: 5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806, servername: download-porter.hoyoverse.com}
+  - {name: 🇭🇰 香港-14, type: hysteria2, server: aws-linkhy2.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: www.hoyoverse.com, fingerprint: f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf, servername: www.hoyoverse.com}
 
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
@@ -147,10 +145,7 @@ proxy-groups:
     - 🇭🇰 香港 108
     - 🇭🇰 香港 109
     - 🇭🇰 香港 110
-    - 🇭🇰 香港 111
-    - 🇭🇰 香港 112
-    - 🇭🇰 香港 113
-    - 🇭🇰 香港 114
+    
     - 🇭🇰 香港 201
     - 🇭🇰 香港 202
     
