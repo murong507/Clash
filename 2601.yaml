@@ -186,6 +186,8 @@ proxy-groups:
     - 🇭🇰 香港-10
     - 🇭🇰 香港-11
     - 🇭🇰 香港-12
+    - 🇭🇰 香港-13
+    - 🇭🇰 香港-14
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
