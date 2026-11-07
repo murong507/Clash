@@ -31,14 +31,10 @@ proxies:
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
 
-  - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d6c51d00-7bb6-4629-9b60-6a111268e954, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 75332357-ef7d-42d0-87b7-e3839941621e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d10931ec-10d0-45f8-901d-7eb8b37c56be, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 5a6a0b1d-b402-4450-8de5-4576c75b0169, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: cfa9dcdb-ce54-4d0e-83f5-f3393dc7e64d, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a9fa114f-0c65-4fd9-ad57-cb28c0285762, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 6d8bdad1-65fd-43ce-abb8-62007932ca8d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7cf850e3-e894-4c4e-8c6a-74c562541466, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 4afe9f1b-1c17-440b-83b9-3f8ec9d2c464, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a65182b0-445a-4896-8761-031251da29df, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 25beab85-cd77-428b-8e71-eca5bf4f7a1d, sni: www.itunes.com, skip-cert-verify: true}
@@ -99,14 +95,10 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
-    - 🇭🇰 香港 01 1
-    - 🇭🇰 香港 01 2
     - 🇭🇰 香港 02 1
-    - 🇭🇰 香港 01 3
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
     - 🇭🇰 香港 01 4
-    - 🇭🇰 香港 01 5
     - 🇭🇰 香港 01 6
     - 🇭🇰 香港 02 4
     - 🇭🇰 香港 02 5
@@ -186,8 +178,6 @@ proxy-groups:
     - 🇭🇰 香港-10
     - 🇭🇰 香港-11
     - 🇭🇰 香港-12
-    - 🇭🇰 香港-13
-    - 🇭🇰 香港-14
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
