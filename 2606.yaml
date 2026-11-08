@@ -48,7 +48,7 @@ proxies:
   - {"name":"🇭🇰 香港 103","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","client-fingerprint":firefox,"servername":"hk010.zestapp778.com","skip-cert-verify":true,"sni":"hk010.zestapp778.com","tls":true,"udp":true}
   - {"name":"🇭🇰 香港 104","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","tls":true,"servername":"hk010.zestapp778.com","network":tcp}
   - {"name":"🇭🇰 香港 105","type":"vless","server":"aws-link1.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":safari,"skip-cert-verify":false,"reality-opts":{"public-key":"TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA","short-id":"c8660f6e"},"network":tcp}
-  - {"name":"🇭🇰 香港 106","type":"vless","server":"aws-link2.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":safari,"skip-cert-verify":false,"reality-opts":{"public-key":"ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28","short-id":"6afd82c0"},"password":"","network":tcp}
+  - {"name":"🇭🇰 香港 106","type":"vless","server":"aws-link2.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":safari,"skip-cert-verify":false,"reality-opts":{"public-key":"ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28","short-id":"6afd82c0"},"network":tcp}
   - {"name":"🇭🇰 香港 107","type":"vless","server":"aws-link3.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"www.lamer.com.hk","flow":"xtls-rprx-vision","client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key":"ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs","short-id":"3206e665"},"network":tcp}
   - {"name":"🇭🇰 香港 108","type":"vless","server":"aws-link4.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"www.lamer.com.hk","flow":"xtls-rprx-vision","client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key":"wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg","short-id":"a31b59fe"},"network":tcp}
   - {"name":"🇭🇰 香港 109","type":"vless","server":"aws-link5.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key":"HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ","short-id":"a49232a7"},"network":tcp}
@@ -156,6 +156,8 @@ proxy-groups:
     - "🇭🇰 香港-10"
     - "🇭🇰 香港-11"
     - "🇭🇰 香港-12"
+    - "🇭🇰 香港-13"
+    - "🇭🇰 香港-14"
 
 - name: 香港优选
   type: select
