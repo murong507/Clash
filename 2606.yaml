@@ -3,84 +3,627 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 
 proxies:
-  - name: 🇭🇰_香港_61
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_62
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_63
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_64
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_65
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_66
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_67
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
+  - {name: 🇭🇰 香港 101, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
+  - {name: 🇭🇰 香港 102, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
+  - {name: 🇭🇰 香港 103, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, client-fingerprint: firefox, servername: hk010.zestapp778.com, skip-cert-verify: true, sni: hk010.zestapp778.com, tls: true, udp: true}
+  - {name: 🇭🇰 香港 104, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, network: tcp}
+  - {name: 🇭🇰 香港 105, type: vless, server: aws-link1.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA, short-id: c8660f6e}, network: tcp}
+  - {name: 🇭🇰 香港 106, type: vless, server: aws-link2.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28, short-id: 6afd82c0}, network: tcp}
+  - {name: 🇭🇰 香港 107, type: vless, server: aws-link3.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs, short-id: 3206e665}, network: tcp}
+  - {name: 🇭🇰 香港 108, type: vless, server: aws-link4.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg, short-id: a31b59fe}, network: tcp}
+  - {name: 🇭🇰 香港 109, type: vless, server: aws-link5.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ, short-id: a49232a7}, network: tcp}
+  - {name: 🇭🇰 香港 110, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true,  udp: true, servername: hk010.zestapp778.com, skip-cert-verify: true, client-fingerprint: chrome}
 
-proxy-groups:
-- name: Proxy
+  - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
+  - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
+
+  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: cfa9dcdb-ce54-4d0e-83f5-f3393dc7e64d, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a9fa114f-0c65-4fd9-ad57-cb28c0285762, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 6d8bdad1-65fd-43ce-abb8-62007932ca8d, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 4afe9f1b-1c17-440b-83b9-3f8ec9d2c464, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a65182b0-445a-4896-8761-031251da29df, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 25beab85-cd77-428b-8e71-eca5bf4f7a1d, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b20961e8-005f-4caf-b710-93b165f27fc6, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 42037910-3402-4464-b81a-43f5c455e20a, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b16085f5-3d8d-4573-a426-0556f344cb52, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: afd86f4d-e665-4a93-8859-c9c1496561a5, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 1, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
+  
+  - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
+  - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
+  - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-04.riverfolder.com}
+  - {name: 🇭🇰 香港_D, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-05.riverfolder.com}
+  - {name: 🇭🇰 香港_E, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-01.riverfolder.com}
+  - {name: 🇭🇰 香港_F, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-02.riverfolder.com}
+  - {name: 🇭🇰 香港_G, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-03.riverfolder.com}
+  - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-04.riverfolder.com}
+  - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-05.riverfolder.com}
+  - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-01.riverfolder.com}
+
+  - {name: 🇭🇰 香港-01, type: http, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
+  - {name: 🇭🇰 香港-02, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true}
+  - {name: 🇭🇰 香港-03, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
+  - {name: 🇭🇰 香港-04, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz} 
+  - {name: 🇭🇰 香港-05, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
+  - {name: 🇭🇰 香港-06, type: http, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
+  - {name: 🇭🇰 香港-07, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true}
+  - {name: 🇭🇰 香港-08, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz}
+  - {name: 🇭🇰 香港-09, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
+  - {name: 🇭🇰 香港-10, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
+  - {name: 🇭🇰 香港-11, type: anytls, password: 0324fbc29561, port: 443, server: 56481.df6h451rh.xin, skip-cert-verify: true, sni: images.ctfassets.net, udp: true}
+  - {name: 🇭🇰 香港-12, type: anytls, server: 56481.df6h451rh.xin, port: 443, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港-13, type: hysteria2, server: aws-linkhy1.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: download-porter.hoyoverse.com, fingerprint: 5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806, servername: download-porter.hoyoverse.com}
+  - {name: 🇭🇰 香港-14, type: hysteria2, server: aws-linkhy2.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: www.hoyoverse.com, fingerprint: f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf, servername: www.hoyoverse.com}
+
+  - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 04, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 05, type: trojan, server: wof2k.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 06, type: trojan, server: wof2s.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 07, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 08, type: trojan, server: wof2s.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 09, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 10, type: trojan, server: wof2k.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 11, type: trojan, server: wof2k.wocnode.com, port: 12354, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 12, type: trojan, server: wof2b.wocnode.com, port: 12355, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 13, type: trojan, server: wof2s.wocnode.com, port: 12350, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 14, type: trojan, server: wof2s.wocnode.com, port: 12356, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 15, type: trojan, server: wof2k.wocnode.com, port: 12357, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 16, type: trojan, server: woipa2.wocnode.com, port: 24561, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
+  - {name: woccloud.net, type: vmess, server: dp.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}  
+
+proxy-groups: 
+- name: 节点选择
+  type: select
+  proxies:    
+    - 🇭🇰 香港 02 1
+    - 🇭🇰 香港 02 2
+    - 🇭🇰 香港 02 3
+    - 🇭🇰 香港 01 4
+    - 🇭🇰 香港 01 6
+    - 🇭🇰 香港 02 4
+    - 🇭🇰 香港 02 5
+    - 🇭🇰 香港 01 7
+    - 🇭🇰 香港 01 8
+    - 🇭🇰 香港 01 9
+    - 🇭🇰 香港 02 6
+    - 🇭🇰 香港 02 7
+    - 🇭🇰 香港 03 1
+    - 🇭🇰 香港 03 2
+    - DIRECT
+    
+- name: 香港可用
+  type: select
+  proxies:    
+    - 🇭🇰 香港_A
+    - 🇭🇰 香港_B
+    - 🇭🇰 香港_C
+    - 🇭🇰 香港_D
+    - 🇭🇰 香港_E
+    - 🇭🇰 香港_F
+    - 🇭🇰 香港_G
+    - 🇭🇰 香港_H
+    - 🇭🇰 香港_I
+    - 🇭🇰 香港_J
+
+- name: 香港节点
   type: select
   proxies:
-  - 🇭🇰_香港_61
-  - 🇭🇰_香港_62
-  - 🇭🇰_香港_63
-  - 🇭🇰_香港_64
-  - 🇭🇰_香港_65
-  - 🇭🇰_香港_66
-  - 🇭🇰_香港_67
+    - 🇭🇰 香港 101
+    - 🇭🇰 香港 102
+    - 🇭🇰 香港 103
+    - 🇭🇰 香港 104
+    - 🇭🇰 香港 105
+    - 🇭🇰 香港 106
+    - 🇭🇰 香港 107
+    - 🇭🇰 香港 108
+    - 🇭🇰 香港 109
+    - 🇭🇰 香港 110
+    
+    - 🇭🇰 香港 201
+    - 🇭🇰 香港 202
+    - DIRECT
+    
+- name: 香港优选
+  type: select
+  proxies:
+    - 🇭🇰 香港 00
+    - 🇭🇰 香港 01
+    - 🇭🇰 香港 02
+    - 🇭🇰 香港 03
+    - 🇭🇰 香港 04
+    - 🇭🇰 香港 05
+    - 🇭🇰 香港 06
+    - 🇭🇰 香港 07
+    - 🇭🇰 香港 08
+    - 🇭🇰 香港 09
+    - 🇭🇰 香港 10
+    - 🇭🇰 香港 11
+    - 🇭🇰 香港 12
+    - 🇭🇰 香港 13
+    - 🇭🇰 香港 14
+    - 🇭🇰 香港 15
+    - 🇭🇰 香港 16
+    - woccloud.net
+    - DIRECT
+    
+- name: 香港新点
+  type: select
+  proxies:
+    - 🇭🇰 香港-01
+    - 🇭🇰 香港-02
+    - 🇭🇰 香港-03
+    - 🇭🇰 香港-04
+    - 🇭🇰 香港-05
+    - 🇭🇰 香港-06
+    - 🇭🇰 香港-07
+    - 🇭🇰 香港-08
+    - 🇭🇰 香港-09
+    - 🇭🇰 香港-10
+    - 🇭🇰 香港-11
+    - 🇭🇰 香港-12
+    - DIRECT
 
 rules:
-  - MATCH,Proxy
+- DOMAIN-SUFFIX,appspot.com,节点选择
+- DOMAIN-SUFFIX,blogger.com,节点选择
+- DOMAIN-SUFFIX,getoutline.org,节点选择
+- DOMAIN-SUFFIX,gvt0.com,节点选择
+- DOMAIN-SUFFIX,gvt1.com,节点选择
+- DOMAIN-SUFFIX,gvt3.com,节点选择
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
+- DOMAIN-KEYWORD,google,节点选择
+- DOMAIN-KEYWORD,blogspot,节点选择
+- DOMAIN-SUFFIX,cdninstagram.com,节点选择
+- DOMAIN-SUFFIX,fb.com,节点选择
+- DOMAIN-SUFFIX,fb.me,节点选择
+- DOMAIN-SUFFIX,fbaddins.com,节点选择
+- DOMAIN-SUFFIX,fbcdn.net,节点选择
+- DOMAIN-SUFFIX,fbsbx.com,节点选择
+- DOMAIN-SUFFIX,fbworkmail.com,节点选择
+- DOMAIN-SUFFIX,instagram.com,节点选择
+- DOMAIN-SUFFIX,m.me,节点选择
+- DOMAIN-SUFFIX,messenger.com,节点选择
+- DOMAIN-SUFFIX,oculus.com,节点选择
+- DOMAIN-SUFFIX,oculuscdn.com,节点选择
+- DOMAIN-SUFFIX,rocksdb.org,节点选择
+- DOMAIN-SUFFIX,whatsapp.com,节点选择
+- DOMAIN-SUFFIX,whatsapp.net,节点选择
+- DOMAIN-KEYWORD,facebook,节点选择
+- DOMAIN-SUFFIX,pscp.tv,节点选择
+- DOMAIN-SUFFIX,periscope.tv,节点选择
+- DOMAIN-SUFFIX,t.co,节点选择
+- DOMAIN-SUFFIX,twimg.co,节点选择
+- DOMAIN-SUFFIX,twimg.com,节点选择
+- DOMAIN-SUFFIX,twitpic.com,节点选择
+- DOMAIN-SUFFIX,vine.co,节点选择
+- DOMAIN-KEYWORD,twitter,节点选择
+- DOMAIN-SUFFIX,t.me,节点选择
+- DOMAIN-SUFFIX,tdesktop.com,节点选择
+- DOMAIN-SUFFIX,telegra.ph,节点选择
+- DOMAIN-SUFFIX,telegram.me,节点选择
+- DOMAIN-SUFFIX,telegram.org,节点选择
+- DOMAIN-SUFFIX,line.me,节点选择
+- DOMAIN-SUFFIX,line-apps.com,节点选择
+- DOMAIN-SUFFIX,line-scdn.net,节点选择
+- DOMAIN-SUFFIX,naver.jp,节点选择
+- DOMAIN-SUFFIX,4shared.com,节点选择
+- DOMAIN-SUFFIX,881903.com,节点选择
+- DOMAIN-SUFFIX,abc.net.au,节点选择
+- DOMAIN-SUFFIX,abebooks.com,节点选择
+- DOMAIN-SUFFIX,amazon.co.jp,节点选择
+- DOMAIN-SUFFIX,apigee.com,节点选择
+- DOMAIN-SUFFIX,apk-dl.com,节点选择
+- DOMAIN-SUFFIX,apkmirror.com,节点选择
+- DOMAIN-SUFFIX,apkmonk.com,节点选择
+- DOMAIN-SUFFIX,apkpure.com,节点选择
+- DOMAIN-SUFFIX,aptoide.com,节点选择
+- DOMAIN-SUFFIX,archive.is,节点选择
+- DOMAIN-SUFFIX,archive.org,节点选择
+- DOMAIN-SUFFIX,arte.tv,节点选择
+- DOMAIN-SUFFIX,ask.com,节点选择
+- DOMAIN-SUFFIX,avgle.com,节点选择
+- DOMAIN-SUFFIX,badoo.com,节点选择
+- DOMAIN-SUFFIX,bandwagonhost.com,节点选择
+- DOMAIN-SUFFIX,bbc.com,节点选择
+- DOMAIN-SUFFIX,behance.net,节点选择
+- DOMAIN-SUFFIX,bibox.com,节点选择
+- DOMAIN-SUFFIX,biggo.com.tw,节点选择
+- DOMAIN-SUFFIX,binance.com,节点选择
+- DOMAIN-SUFFIX,bitcointalk.org,节点选择
+- DOMAIN-SUFFIX,bitfinex.com,节点选择
+- DOMAIN-SUFFIX,bitmex.com,节点选择
+- DOMAIN-SUFFIX,bit-z.com,节点选择
+- DOMAIN-SUFFIX,bloglovin.com,节点选择
+- DOMAIN-SUFFIX,bloomberg.cn,节点选择
+- DOMAIN-SUFFIX,bloomberg.com,节点选择
+- DOMAIN-SUFFIX,book.com.tw,节点选择
+- DOMAIN-SUFFIX,booklive.jp,节点选择
+- DOMAIN-SUFFIX,books.com.tw,节点选择
+- DOMAIN-SUFFIX,box.com,节点选择
+- DOMAIN-SUFFIX,brookings.edu,节点选择
+- DOMAIN-SUFFIX,businessinsider.com,节点选择
+- DOMAIN-SUFFIX,bwh1.net,节点选择
+- DOMAIN-SUFFIX,castbox.fm,节点选择
+- DOMAIN-SUFFIX,cbc.ca,节点选择
+- DOMAIN-SUFFIX,cdw.com,节点选择
+- DOMAIN-SUFFIX,change.org,节点选择
+- DOMAIN-SUFFIX,ck101.com,节点选择
+- DOMAIN-SUFFIX,clarionproject.org,节点选择
+- DOMAIN-SUFFIX,clyp.it,节点选择
+- DOMAIN-SUFFIX,cna.com.tw,节点选择
+- DOMAIN-SUFFIX,comparitech.com,节点选择
+- DOMAIN-SUFFIX,conoha.jp,节点选择
+- DOMAIN-SUFFIX,crucial.com,节点选择
+- DOMAIN-SUFFIX,cts.com.tw,节点选择
+- DOMAIN-SUFFIX,cw.com.tw,节点选择
+- DOMAIN-SUFFIX,cyberctm.com,节点选择
+- DOMAIN-SUFFIX,dailymotion.com,节点选择
+- DOMAIN-SUFFIX,dailyview.tw,节点选择
+- DOMAIN-SUFFIX,daum.net,节点选择
+- DOMAIN-SUFFIX,daumcdn.net,节点选择
+- DOMAIN-SUFFIX,dcard.tw,节点选择
+- DOMAIN-SUFFIX,deepdiscount.com,节点选择
+- DOMAIN-SUFFIX,deezer.com,节点选择
+- DOMAIN-SUFFIX,depositphotos.com,节点选择
+- DOMAIN-SUFFIX,disconnect.me,节点选择
+- DOMAIN-SUFFIX,discordapp.com,节点选择
+- DOMAIN-SUFFIX,discordapp.net,节点选择
+- DOMAIN-SUFFIX,disqus.com,节点选择
+- DOMAIN-SUFFIX,dns2go.com,节点选择
+- DOMAIN-SUFFIX,dropbox.com,节点选择
+- DOMAIN-SUFFIX,dropboxusercontent.com,节点选择
+- DOMAIN-SUFFIX,duckduckgo.com,节点选择
+- DOMAIN-SUFFIX,dw.com,节点选择
+- DOMAIN-SUFFIX,dynu.com,节点选择
+- DOMAIN-SUFFIX,earthcam.com,节点选择
+- DOMAIN-SUFFIX,ebookservice.tw,节点选择
+- DOMAIN-SUFFIX,economist.com,节点选择
+- DOMAIN-SUFFIX,edgecastcdn.net,节点选择
+- DOMAIN-SUFFIX,edu,节点选择
+- DOMAIN-SUFFIX,elpais.com,节点选择
+- DOMAIN-SUFFIX,enanyang.my,节点选择
+- DOMAIN-SUFFIX,euronews.com,节点选择
+- DOMAIN-SUFFIX,feedly.com,节点选择
+- DOMAIN-SUFFIX,files.wordpress.com,节点选择
+- DOMAIN-SUFFIX,flickr.com,节点选择
+- DOMAIN-SUFFIX,flitto.com,节点选择
+- DOMAIN-SUFFIX,foreignpolicy.com,节点选择
+- DOMAIN-SUFFIX,friday.tw,节点选择
+- DOMAIN-SUFFIX,gate.io,节点选择
+- DOMAIN-SUFFIX,getlantern.org,节点选择
+- DOMAIN-SUFFIX,getsync.com,节点选择
+- DOMAIN-SUFFIX,globalvoices.org,节点选择
+- DOMAIN-SUFFIX,goo.ne.jp,节点选择
+- DOMAIN-SUFFIX,goodreads.com,节点选择
+- DOMAIN-SUFFIX,gov.tw,节点选择
+- DOMAIN-SUFFIX,gumroad.com,节点选择
+- DOMAIN-SUFFIX,hbg.com,节点选择
+- DOMAIN-SUFFIX,hightail.com,节点选择
+- DOMAIN-SUFFIX,hk01.com,节点选择
+- DOMAIN-SUFFIX,hkbf.org,节点选择
+- DOMAIN-SUFFIX,hkbookcity.com,节点选择
+- DOMAIN-SUFFIX,hkej.com,节点选择
+- DOMAIN-SUFFIX,hket.com,节点选择
+- DOMAIN-SUFFIX,hkgolden.com,节点选择
+- DOMAIN-SUFFIX,hootsuite.com,节点选择
+- DOMAIN-SUFFIX,hudson.org,节点选择
+- DOMAIN-SUFFIX,huobi.pro,节点选择
+- DOMAIN-SUFFIX,initiummall.com,节点选择
+- DOMAIN-SUFFIX,ipfs.io,节点选择
+- DOMAIN-SUFFIX,issuu.com,节点选择
+- DOMAIN-SUFFIX,japantimes.co.jp,节点选择
+- DOMAIN-SUFFIX,jiji.com,节点选择
+- DOMAIN-SUFFIX,jinx.com,节点选择
+- DOMAIN-SUFFIX,jkforum.net,节点选择
+- DOMAIN-SUFFIX,joinmastodon.org,节点选择
+- DOMAIN-SUFFIX,kakao.com,节点选择
+- DOMAIN-SUFFIX,lihkg.com,节点选择
+- DOMAIN-SUFFIX,live.com,节点选择
+- DOMAIN-SUFFIX,mail.ru,节点选择
+- DOMAIN-SUFFIX,matters.news,节点选择
+- DOMAIN-SUFFIX,medium.com,节点选择
+- DOMAIN-SUFFIX,mega.nz,节点选择
+- DOMAIN-SUFFIX,mil,节点选择
+- DOMAIN-SUFFIX,mobile01.com,节点选择
+- DOMAIN-SUFFIX,naver.com,节点选择
+- DOMAIN-SUFFIX,nikkei.com,节点选择
+- DOMAIN-SUFFIX,nofile.io,节点选择
+- DOMAIN-SUFFIX,now.com,节点选择
+- DOMAIN-SUFFIX,nyt.com,节点选择
+- DOMAIN-SUFFIX,nytchina.com,节点选择
+- DOMAIN-SUFFIX,nytcn.me,节点选择
+- DOMAIN-SUFFIX,nytco.com,节点选择
+- DOMAIN-SUFFIX,nytimes.com,节点选择
+- DOMAIN-SUFFIX,nytimg.com,节点选择
+- DOMAIN-SUFFIX,nytlog.com,节点选择
+- DOMAIN-SUFFIX,nytstyle.com,节点选择
+- DOMAIN-SUFFIX,ok.ru,节点选择
+- DOMAIN-SUFFIX,okex.com,节点选择
+- DOMAIN-SUFFIX,pcloud.com,节点选择
+- DOMAIN-SUFFIX,pinimg.com,节点选择
+- DOMAIN-SUFFIX,pixiv.net,节点选择
+- DOMAIN-SUFFIX,pornhub.com,节点选择
+- DOMAIN-SUFFIX,pureapk.com,节点选择
+- DOMAIN-SUFFIX,quora.com,节点选择
+- DOMAIN-SUFFIX,quoracdn.net,节点选择
+- DOMAIN-SUFFIX,rakuten.co.jp,节点选择
+- DOMAIN-SUFFIX,reddit.com,节点选择
+- DOMAIN-SUFFIX,redditmedia.com,节点选择
+- DOMAIN-SUFFIX,resilio.com,节点选择
+- DOMAIN-SUFFIX,reuters.com,节点选择
+- DOMAIN-SUFFIX,scmp.com,节点选择
+- DOMAIN-SUFFIX,scribd.com,节点选择
+- DOMAIN-SUFFIX,seatguru.com,节点选择
+- DOMAIN-SUFFIX,shadowsocks.org,节点选择
+- DOMAIN-SUFFIX,slideshare.net,节点选择
+- DOMAIN-SUFFIX,soundcloud.com,节点选择
+- DOMAIN-SUFFIX,startpage.com,节点选择
+- DOMAIN-SUFFIX,steamcommunity.com,节点选择
+- DOMAIN-SUFFIX,steemit.com,节点选择
+- DOMAIN-SUFFIX,t66y.com,节点选择
+- DOMAIN-SUFFIX,teco-hk.org,节点选择
+- DOMAIN-SUFFIX,teco-mo.org,节点选择
+- DOMAIN-SUFFIX,teddysun.com,节点选择
+- DOMAIN-SUFFIX,theinitium.com,节点选择
+- DOMAIN-SUFFIX,tineye.com,节点选择
+- DOMAIN-SUFFIX,torproject.org,节点选择
+- DOMAIN-SUFFIX,tumblr.com,节点选择
+- DOMAIN-SUFFIX,turbobit.net,节点选择
+- DOMAIN-SUFFIX,twitch.tv,节点选择
+- DOMAIN-SUFFIX,udn.com,节点选择
+- DOMAIN-SUFFIX,unseen.is,节点选择
+- DOMAIN-SUFFIX,upmedia.mg,节点选择
+- DOMAIN-SUFFIX,uptodown.com,节点选择
+- DOMAIN-SUFFIX,ustream.tv,节点选择
+- DOMAIN-SUFFIX,uwants.com,节点选择
+- DOMAIN-SUFFIX,v2ray.com,节点选择
+- DOMAIN-SUFFIX,viber.com,节点选择
+- DOMAIN-SUFFIX,videopress.com,节点选择
+- DOMAIN-SUFFIX,vimeo.com,节点选择
+- DOMAIN-SUFFIX,voxer.com,节点选择
+- DOMAIN-SUFFIX,vzw.com,节点选择
+- DOMAIN-SUFFIX,w3schools.com,节点选择
+- DOMAIN-SUFFIX,wattpad.com,节点选择
+- DOMAIN-SUFFIX,whoer.net,节点选择
+- DOMAIN-SUFFIX,wikimapia.org,节点选择
+- DOMAIN-SUFFIX,wikipedia.org,节点选择
+- DOMAIN-SUFFIX,wire.com,节点选择
+- DOMAIN-SUFFIX,worldcat.org,节点选择
+- DOMAIN-SUFFIX,wsj.com,节点选择
+- DOMAIN-SUFFIX,wsj.net,节点选择
+- DOMAIN-SUFFIX,xboxlive.com,节点选择
+- DOMAIN-SUFFIX,xvideos.com,节点选择
+- DOMAIN-SUFFIX,yahoo.com,节点选择
+- DOMAIN-SUFFIX,yesasia.com,节点选择
+- DOMAIN-SUFFIX,yes-news.com,节点选择
+- DOMAIN-SUFFIX,yomiuri.co.jp,节点选择
+- DOMAIN-SUFFIX,you-get.org,节点选择
+- DOMAIN-SUFFIX,zb.com,节点选择
+- DOMAIN-SUFFIX,zello.com,节点选择
+- DOMAIN-SUFFIX,zeronet.io,节点选择
+- DOMAIN,cdn-images.mailchimp.com,节点选择
+- DOMAIN,id.heroku.com,节点选择
+- DOMAIN-KEYWORD,github,节点选择
+- DOMAIN-KEYWORD,jav,节点选择
+- DOMAIN-KEYWORD,pinterest,节点选择
+- DOMAIN-KEYWORD,porn,节点选择
+- DOMAIN-KEYWORD,wikileaks,节点选择
+- DOMAIN-SUFFIX,apartmentratings.com,节点选择
+- DOMAIN-SUFFIX,apartments.com,节点选择
+- DOMAIN-SUFFIX,bankmobilevibe.com,节点选择
+- DOMAIN-SUFFIX,bing.com,节点选择
+- DOMAIN-SUFFIX,booktopia.com.au,节点选择
+- DOMAIN-SUFFIX,centauro.com.br,节点选择
+- DOMAIN-SUFFIX,clearsurance.com,节点选择
+- DOMAIN-SUFFIX,costco.com,节点选择
+- DOMAIN-SUFFIX,crackle.com,节点选择
+- DOMAIN-SUFFIX,depositphotos.cn,节点选择
+- DOMAIN-SUFFIX,dish.com,节点选择
+- DOMAIN-SUFFIX,dmm.co.jp,节点选择
+- DOMAIN-SUFFIX,dmm.com,节点选择
+- DOMAIN-SUFFIX,dnvod.tv,节点选择
+- DOMAIN-SUFFIX,esurance.com,节点选择
+- DOMAIN-SUFFIX,extmatrix.com,节点选择
+- DOMAIN-SUFFIX,fastpic.ru,节点选择
+- DOMAIN-SUFFIX,flipboard.com,节点选择
+- DOMAIN-SUFFIX,fnac.be,节点选择
+- DOMAIN-SUFFIX,fnac.com,节点选择
+- DOMAIN-SUFFIX,funkyimg.com,节点选择
+- DOMAIN-SUFFIX,fxnetworks.com,节点选择
+- DOMAIN-SUFFIX,gettyimages.com,节点选择
+- DOMAIN-SUFFIX,jcpenney.com,节点选择
+- DOMAIN-SUFFIX,kknews.cc,节点选择
+- DOMAIN-SUFFIX,nationwide.com,节点选择
+- DOMAIN-SUFFIX,nbc.com,节点选择
+- DOMAIN-SUFFIX,nordstrom.com,节点选择
+- DOMAIN-SUFFIX,nordstromimage.com,节点选择
+- DOMAIN-SUFFIX,nordstromrack.com,节点选择
+- DOMAIN-SUFFIX,read01.com,节点选择
+- DOMAIN-SUFFIX,superpages.com,节点选择
+- DOMAIN-SUFFIX,target.com,节点选择
+- DOMAIN-SUFFIX,thinkgeek.com,节点选择
+- DOMAIN-SUFFIX,tracfone.com,节点选择
+- DOMAIN-SUFFIX,uploader.jp,节点选择
+- DOMAIN-SUFFIX,vevo.com,节点选择
+- DOMAIN-SUFFIX,viu.tv,节点选择
+- DOMAIN-SUFFIX,vk.com,节点选择
+- DOMAIN-SUFFIX,vsco.co,节点选择
+- DOMAIN-SUFFIX,xfinity.com,节点选择
+- DOMAIN-SUFFIX,zattoo.com,节点选择
+- DOMAIN,abc.com,节点选择
+- DOMAIN,abc.go.com,节点选择
+- DOMAIN,abc.net.au,节点选择
+- DOMAIN,wego.here.com,节点选择
+- DOMAIN-SUFFIX,appsto.re,节点选择
+- DOMAIN,beta.itunes.apple.com,节点选择
+- DOMAIN,books.itunes.apple.com,节点选择
+- DOMAIN,hls.itunes.apple.com,节点选择
+- DOMAIN,itunes.apple.com,节点选择
+- DOMAIN,api-glb-sea.smoot.apple.com,节点选择
+- DOMAIN,lookup-api.apple.com,节点选择
+- DOMAIN-SUFFIX,abc.xyz,节点选择
+- DOMAIN-SUFFIX,android.com,节点选择
+- DOMAIN-SUFFIX,androidify.com,节点选择
+- DOMAIN-SUFFIX,dialogflow.com,节点选择
+- DOMAIN-SUFFIX,autodraw.com,节点选择
+- DOMAIN-SUFFIX,capitalg.com,节点选择
+- DOMAIN-SUFFIX,certificate-transparency.org,节点选择
+- DOMAIN-SUFFIX,chrome.com,节点选择
+- DOMAIN-SUFFIX,chromeexperiments.com,节点选择
+- DOMAIN-SUFFIX,chromestatus.com,节点选择
+- DOMAIN-SUFFIX,chromium.org,节点选择
+- DOMAIN-SUFFIX,creativelab5.com,节点选择
+- DOMAIN-SUFFIX,debug.com,节点选择
+- DOMAIN-SUFFIX,deepmind.com,节点选择
+- DOMAIN-SUFFIX,firebaseio.com,节点选择
+- DOMAIN-SUFFIX,getmdl.io,节点选择
+- DOMAIN-SUFFIX,ggpht.com,节点选择
+- DOMAIN-SUFFIX,gmail.com,节点选择
+- DOMAIN-SUFFIX,gmodules.com,节点选择
+- DOMAIN-SUFFIX,godoc.org,节点选择
+- DOMAIN-SUFFIX,golang.org,节点选择
+- DOMAIN-SUFFIX,gstatic.com,节点选择
+- DOMAIN-SUFFIX,gv.com,节点选择
+- DOMAIN-SUFFIX,gwtproject.org,节点选择
+- DOMAIN-SUFFIX,itasoftware.com,节点选择
+- DOMAIN-SUFFIX,madewithcode.com,节点选择
+- DOMAIN-SUFFIX,material.io,节点选择
+- DOMAIN-SUFFIX,polymer-project.org,节点选择
+- DOMAIN-SUFFIX,admin.recaptcha.net,节点选择
+- DOMAIN-SUFFIX,recaptcha.net,节点选择
+- DOMAIN-SUFFIX,shattered.io,节点选择
+- DOMAIN-SUFFIX,synergyse.com,节点选择
+- DOMAIN-SUFFIX,tensorflow.org,节点选择
+- DOMAIN-SUFFIX,tiltbrush.com,节点选择
+- DOMAIN-SUFFIX,waveprotocol.org,节点选择
+- DOMAIN-SUFFIX,waymo.com,节点选择
+- DOMAIN-SUFFIX,webmproject.org,节点选择
+- DOMAIN-SUFFIX,webrtc.org,节点选择
+- DOMAIN-SUFFIX,whatbrowser.org,节点选择
+- DOMAIN-SUFFIX,widevine.com,节点选择
+- DOMAIN-SUFFIX,x.company,节点选择
+- DOMAIN-SUFFIX,youtu.be,节点选择
+- DOMAIN-SUFFIX,yt.be,节点选择
+- DOMAIN-SUFFIX,ytimg.com,节点选择
+- DOMAIN,media.steampowered.com,节点选择
+- DOMAIN,store.steampowered.com,节点选择
+- DOMAIN-SUFFIX,0rz.tw,节点选择
+- DOMAIN-SUFFIX,4bluestones.biz,节点选择
+- DOMAIN-SUFFIX,9bis.net,节点选择
+- DOMAIN-SUFFIX,allconnected.co,节点选择
+- DOMAIN-SUFFIX,amazonaws.com,节点选择
+- DOMAIN-SUFFIX,aol.com,节点选择
+- DOMAIN-SUFFIX,bcc.com.tw,节点选择
+- DOMAIN-SUFFIX,bit.ly,节点选择
+- DOMAIN-SUFFIX,bitshare.com,节点选择
+- DOMAIN-SUFFIX,blog.jp,节点选择
+- DOMAIN-SUFFIX,blogimg.jp,节点选择
+- DOMAIN-SUFFIX,blogtd.org,节点选择
+- DOMAIN-SUFFIX,broadcast.co.nz,节点选择
+- DOMAIN-SUFFIX,camfrog.com,节点选择
+- DOMAIN-SUFFIX,cfos.de,节点选择
+- DOMAIN-SUFFIX,citypopulation.de,节点选择
+- DOMAIN-SUFFIX,cloudfront.net,节点选择
+- DOMAIN-SUFFIX,ctitv.com.tw,节点选择
+- DOMAIN-SUFFIX,cuhk.edu.hk,节点选择
+- DOMAIN-SUFFIX,cusu.hk,节点选择
+- DOMAIN-SUFFIX,discuss.com.hk,节点选择
+- DOMAIN-SUFFIX,dropboxapi.com,节点选择
+- DOMAIN-SUFFIX,edditstatic.com,节点选择
+- DOMAIN-SUFFIX,flickriver.com,节点选择
+- DOMAIN-SUFFIX,focustaiwan.tw,节点选择
+- DOMAIN-SUFFIX,free.fr,节点选择
+- DOMAIN-SUFFIX,ftchinese.com,节点选择
+- DOMAIN-SUFFIX,gigacircle.com,节点选择
+- DOMAIN-SUFFIX,gov,节点选择
+- DOMAIN-SUFFIX,hk-pub.com,节点选择
+- DOMAIN-SUFFIX,hosting.co.uk,节点选择
+- DOMAIN-SUFFIX,hwcdn.net,节点选择
+- DOMAIN-SUFFIX,jtvnw.net,节点选择
+- DOMAIN-SUFFIX,linksalpha.com,节点选择
+- DOMAIN-SUFFIX,manyvids.com,节点选择
+- DOMAIN-SUFFIX,myactimes.com,节点选择
+- DOMAIN-SUFFIX,newsblur.com,节点选择
+- DOMAIN-SUFFIX,now.im,节点选择
+- DOMAIN-SUFFIX,redditlist.com,节点选择
+- DOMAIN-SUFFIX,signal.org,节点选择
+- DOMAIN-SUFFIX,sparknotes.com,节点选择
+- DOMAIN-SUFFIX,streetvoice.com,节点选择
+- DOMAIN-SUFFIX,ttvnw.net,节点选择
+- DOMAIN-SUFFIX,tv.com,节点选择
+- DOMAIN-SUFFIX,twitchcdn.net,节点选择
+- DOMAIN-SUFFIX,typepad.com,节点选择
+- DOMAIN-SUFFIX,udnbkk.com,节点选择
+- DOMAIN-SUFFIX,whispersystems.org,节点选择
+- DOMAIN-SUFFIX,wikia.com,节点选择
+- DOMAIN-SUFFIX,wn.com,节点选择
+- DOMAIN-SUFFIX,wolframalpha.com,节点选择
+- DOMAIN-SUFFIX,x-art.com,节点选择
+- DOMAIN-SUFFIX,yimg.com,节点选择
+- DOMAIN-KEYWORD,dlercloud,节点选择
+- DOMAIN-SUFFIX,dler.cloud,节点选择
+- IP-CIDR,67.198.55.0/24,节点选择
+- IP-CIDR,91.108.4.0/22,节点选择
+- IP-CIDR,91.108.8.0/22,节点选择
+- IP-CIDR,91.108.12.0/22,节点选择
+- IP-CIDR,91.108.16.0/22,节点选择
+- IP-CIDR,91.108.56.0/22,节点选择
+- IP-CIDR,109.239.140.0/24,节点选择
+- IP-CIDR,149.154.160.0/20,节点选择
+- IP-CIDR,205.172.60.0/22,节点选择
+- IP-CIDR,35.190.247.0/24,节点选择
+- IP-CIDR,64.233.160.0/19,节点选择
+- IP-CIDR,66.102.0.0/20,节点选择
+- IP-CIDR,66.249.80.0/20,节点选择
+- IP-CIDR,72.14.192.0/18,节点选择
+- IP-CIDR,74.125.0.0/16,节点选择
+- IP-CIDR,108.177.8.0/21,节点选择
+- IP-CIDR,172.217.0.0/16,节点选择
+- IP-CIDR,173.194.0.0/16,节点选择
+- IP-CIDR,209.85.128.0/17,节点选择
+- IP-CIDR,216.58.192.0/19,节点选择
+- IP-CIDR,216.239.32.0/19,节点选择
+- IP-CIDR,31.13.24.0/21,节点选择
+- IP-CIDR,31.13.64.0/18,节点选择
+- IP-CIDR,45.64.40.0/22,节点选择
+- IP-CIDR,66.220.144.0/20,节点选择
+- IP-CIDR,69.63.176.0/20,节点选择
+- IP-CIDR,69.171.224.0/19,节点选择
+- IP-CIDR,74.119.76.0/22,节点选择
+- IP-CIDR,103.4.96.0/22,节点选择
+- IP-CIDR,129.134.0.0/17,节点选择
+- IP-CIDR,157.240.0.0/17,节点选择
+- IP-CIDR,173.252.64.0/19,节点选择
+- IP-CIDR,173.252.96.0/19,节点选择
+- IP-CIDR,179.60.192.0/22,节点选择
+- IP-CIDR,185.60.216.0/22,节点选择
+- IP-CIDR,204.15.20.0/22,节点选择
+- IP-CIDR,69.195.160.0/19,节点选择
+- IP-CIDR,104.244.42.0/21,节点选择
+- IP-CIDR,192.133.76.0/22,节点选择
+- IP-CIDR,199.16.156.0/22,节点选择
+- IP-CIDR,199.59.148.0/22,节点选择
+- IP-CIDR,199.96.56.0/21,节点选择
+- IP-CIDR,202.160.128.0/22,节点选择
+- IP-CIDR,209.237.192.0/19,节点选择
+- MATCH,节点选择
