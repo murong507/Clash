@@ -72,6 +72,25 @@ proxies:
   - {"name":"🇭🇰 香港-13","type":"hysteria2","port":443,"server":"aws-linkhy1.lxyun.xyz","password":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","sni":"download-porter.hoyoverse.com","fingerprint":"5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806","servername":"download-porter.hoyoverse.com"}
   - {"name":"🇭🇰 香港-14","type":"hysteria2","port":443,"server":"aws-linkhy2.lxyun.xyz","password":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","sni":"www.hoyoverse.com","fingerprint":"f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf","servername":"www.hoyoverse.com"}
 
+  - {"name":"🇭🇰 香港 00","type":"trojan","server":"wof2s.wocnode.com","port":12352," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 01","type":"trojan","server":"wof2s.wocnode.com","port":12353," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 02","type":"trojan","server":"wof2k.wocnode.com","port":12351," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 03","type":"trojan","server":"wof2k.wocnode.com","port":12351," password":"a987b451-b116-3059-97d4-1d6f466602cb", sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {"name":"🇭🇰 香港 04","type":"trojan","server":"wof2k.wocnode.com","port":12352," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 05","type":"trojan","server":"wof2k.wocnode.com","port":12352," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 06","type":"trojan","server":"wof2s.wocnode.com","port":12355," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 07","type":"trojan","server":"wof2s.wocnode.com","port":12351," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 08","type":"trojan","server":"wof2s.wocnode.com","port":12351," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 09","type":"trojan","server":"wof2s.wocnode.com","port":12352," password":"a987b451-b116-3059-97d4-1d6f466602cb", sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+  - {"name":"🇭🇰 香港 10","type":"trojan","server":"wof2k.wocnode.com","port":12353," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 11","type":"trojan","server":"wof2k.wocnode.com","port":12354," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 12","type":"trojan","server":"wof2b.wocnode.com","port":12355," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 13","type":"trojan","server":"wof2s.wocnode.com","port":12350," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 14","type":"trojan","server":"wof2s.wocnode.com","port":12356," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 15","type":"trojan","server":"wof2k.wocnode.com","port":12357," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 16","type":"trojan","server":"woipa2.wocnode.com","port":24561," password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"woccloud.net","type":"vmess","server":"dp.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":auto,"udp":true,"network":ws,"ws-opts":{"path": "/play.m3u8", "headers": {"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true} 
+
 proxy-groups:
 - name: 节点选择
   type: select
@@ -137,6 +156,28 @@ proxy-groups:
     - "🇭🇰 香港-10"
     - "🇭🇰 香港-11"
     - "🇭🇰 香港-12"
+
+- name: 香港优选
+  type: select
+  proxies:
+    - 🇭🇰 香港 00
+    - 🇭🇰 香港 01
+    - 🇭🇰 香港 02
+    - 🇭🇰 香港 03
+    - 🇭🇰 香港 04
+    - 🇭🇰 香港 05
+    - 🇭🇰 香港 06
+    - 🇭🇰 香港 07
+    - 🇭🇰 香港 08
+    - 🇭🇰 香港 09
+    - 🇭🇰 香港 10
+    - 🇭🇰 香港 11
+    - 🇭🇰 香港 12
+    - 🇭🇰 香港 13
+    - 🇭🇰 香港 14
+    - 🇭🇰 香港 15
+    - 🇭🇰 香港 16
+    - woccloud.net
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
