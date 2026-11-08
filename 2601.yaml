@@ -67,10 +67,6 @@ proxies:
   - {name: 🇭🇰 香港-08, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz}
   - {name: 🇭🇰 香港-09, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
   - {name: 🇭🇰 香港-10, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
-  - {name: 🇭🇰 香港-11, type: anytls, password: 0324fbc29561, port: 443, server: 56481.df6h451rh.xin, skip-cert-verify: true, sni: images.ctfassets.net, udp: true}
-  - {name: 🇭🇰 香港-12, type: anytls, server: 56481.df6h451rh.xin, port: 443, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-13, type: hysteria2, server: aws-linkhy1.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: download-porter.hoyoverse.com, fingerprint: 5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806, servername: download-porter.hoyoverse.com}
-  - {name: 🇭🇰 香港-14, type: hysteria2, server: aws-linkhy2.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: www.hoyoverse.com, fingerprint: f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf, servername: www.hoyoverse.com}
 
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
@@ -140,6 +136,19 @@ proxy-groups:
     
     - 🇭🇰 香港 201
     - 🇭🇰 香港 202
+
+- name: 香港新点
+  type: select
+  proxies:
+    - 🇭🇰 香港-01
+    - 🇭🇰 香港-02
+    - 🇭🇰 香港-03
+    - 🇭🇰 香港-04
+    - 🇭🇰 香港-05
+    - 🇭🇰 香港-06
+    - 🇭🇰 香港-07
+    - 🇭🇰 香港-08
+    - 🇭🇰 香港-09    
     
 - name: 香港优选
   type: select
@@ -162,24 +171,6 @@ proxy-groups:
     - 🇭🇰 香港 15
     - 🇭🇰 香港 16
     - woccloud.net
-    
-- name: 香港新点
-  type: select
-  proxies:
-    - 🇭🇰 香港-01
-    - 🇭🇰 香港-02
-    - 🇭🇰 香港-03
-    - 🇭🇰 香港-04
-    - 🇭🇰 香港-05
-    - 🇭🇰 香港-06
-    - 🇭🇰 香港-07
-    - 🇭🇰 香港-08
-    - 🇭🇰 香港-09
-    - 🇭🇰 香港-10
-    - 🇭🇰 香港-11
-    - 🇭🇰 香港-12
-    - 🇭🇰 香港-13
-    - 🇭🇰 香港-14
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
