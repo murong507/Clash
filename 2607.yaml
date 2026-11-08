@@ -17,90 +17,191 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港 01, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d6c51d00-7bb6-4629-9b60-6a111268e954, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 75332357-ef7d-42d0-87b7-e3839941621e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d10931ec-10d0-45f8-901d-7eb8b37c56be, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 5a6a0b1d-b402-4450-8de5-4576c75b0169, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: cfa9dcdb-ce54-4d0e-83f5-f3393dc7e64d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a9fa114f-0c65-4fd9-ad57-cb28c0285762, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 6d8bdad1-65fd-43ce-abb8-62007932ca8d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7cf850e3-e894-4c4e-8c6a-74c562541466, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 4afe9f1b-1c17-440b-83b9-3f8ec9d2c464, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a65182b0-445a-4896-8761-031251da29df, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 25beab85-cd77-428b-8e71-eca5bf4f7a1d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b20961e8-005f-4caf-b710-93b165f27fc6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 42037910-3402-4464-b81a-43f5c455e20a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b16085f5-3d8d-4573-a426-0556f344cb52, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 10, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: afd86f4d-e665-4a93-8859-c9c1496561a5, sni: www.itunes.com, skip-cert-verify: true}
+- name: 🇭🇰 香港 01
+  type: anytls
+  server: hk-aws-122.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-122.hi2026.net
+  servername: hk-aws-122.hi2026.net
+- name: 🇭🇰 香港 02
+  type: anytls
+  server: hk-aws-54.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-54.hi2026.net
+  servername: hk-aws-54.hi2026.net
+- name: 🇭🇰 香港 03
+  type: anytls
+  server: hk-aws-53.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-53.hi2026.net
+  servername: hk-aws-53.hi2026.net
+- name: 🇭🇰 香港 04
+  type: anytls
+  server: hk-aws-111.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-111.hi2026.net
+  servername: hk-aws-111.hi2026.net
+- name: 🇭🇰 香港 05
+  type: anytls
+  server: hk-aws-123.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-123.hi2026.net
+  servername: hk-aws-123.hi2026.net
+- name: 🇭🇰 香港 06
+  type: anytls
+  server: hk-aws-124.acczzz.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-aws-124.hi2026.net
+  servername: hk-aws-124.hi2026.net
+- name: 🇭🇰 香港 07
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-59.okzdns.com
+  servername: hk-gc-59.okzdns.com
+- name: 🇭🇰 香港 08
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-61.okzdns.com
+  servername: hk-gc-61.okzdns.com
+- name: 🇭🇰 香港 09
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-63.okzdns.com
+  servername: hk-gc-63.okzdns.com
+- name: 🇭🇰 香港 10
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-65.okzdns.com
+  servername: hk-gc-65.okzdns.com
+- name: 🇭🇰 香港 11
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-ak-any-13.hi2026.net
+  servername: hk-ak-any-13.hi2026.net
+- name: 🇭🇰 香港 12
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-ak-any-15.hi2026.net
+  servername: hk-ak-any-15.hi2026.net
+- name: 🇭🇰 香港 13
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-ak-any-17.hi2026.net
+  servername: hk-ak-any-17.hi2026.net
+- name: 🇭🇰 香港 14
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-ak-any-19.hi2026.net
+  servername: hk-ak-any-19.hi2026.net
+- name: 🇭🇰 香港 15
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-21.okzdns.com
+  servername: hk-gc-21.okzdns.com
+- name: 🇭🇰 香港 16
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-gc-23.okzdns.com
+  servername: hk-gc-23.okzdns.com
+- name: 🇭🇰 香港 17
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-qiu-25.okzdns.com
+  servername: hk-qiu-25.okzdns.com
+- name: 🇭🇰 香港 18
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-qiu-27.okzdns.com
+  servername: hk-qiu-27.okzdns.com
+- name: 🇭🇰 香港 19
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-qiu-29.okzdns.com
+  servername: hk-qiu-29.okzdns.com
+- name: 🇭🇰 香港 20
+  type: anytls
+  server: cn.bing.com
+  port: 443
+  password: 94b473ca-280b-49d9-903b-c43243addbd2
+  client-fingerprint: chrome
+  sni: hk-qiu-31.okzdns.com
+  servername: hk-qiu-31.okzdns.com
 
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:  
     - 🇭🇰 香港 01
-    - 🇭🇰 香港 01 2
     - 🇭🇰 香港 02
-    - 🇭🇰 香港 01 3
-    - 🇭🇰 香港 02 2
-    - 🇭🇰 香港 02 3
-    - 🇭🇰 香港 01 4
-    - 🇭🇰 香港 01 5
-    - 🇭🇰 香港 01 6
-    - 🇭🇰 香港 02 4
-    - 🇭🇰 香港 02 5
-    - 🇭🇰 香港 01 7
-    - 🇭🇰 香港 01 8
-    - 🇭🇰 香港 01 9
-    - 🇭🇰 香港 02 6
-    - 🇭🇰 香港 01 10
-    - 🇭🇰 香港-01
-    - 🇭🇰 香港-02
-    - 🇭🇰 香港-03
-    - 🇭🇰 香港-04
-    - 🇭🇰 香港-05
-    - 🇭🇰 香港-06
-    - 🇭🇰 香港-07
-    - 🇭🇰 香港-08
-    - 🇭🇰 香港-09
-    - 🇭🇰 香港-10
-    - 🇭🇰 香港-11
-    - 🇭🇰 香港-12
-    - 🇭🇰 香港-13
-    - 🇭🇰 香港-14
-    - 🇭🇰 香港-15
-    - 🇭🇰 香港-16
-    - 🇭🇰 香港-17
-    - 🇭🇰 香港-18
-    - 🇭🇰 香港-19
-    - 🇭🇰 香港-20
-    - 🇭🇰 香港-21
-    - 🇭🇰 香港-22
-    - 🇭🇰 香港-23
-    - 🇭🇰 香港-24
-    - 🇭🇰 香港-25
-    - 🇭🇰 香港-26
-    - 🇭🇰 香港-27
-    - 🇭🇰 香港-28
-    - 🇭🇰 香港-29
-    - 🇭🇰 香港-30
-    - 🇭🇰 香港-31
-    - 🇭🇰 香港-32
-    - 🇭🇰 香港-33
-    - 🇭🇰 香港-34
-    - 🇭🇰 香港-35
-    - 🇭🇰 香港-36
-    - 🇭🇰 香港-37
-    - 🇭🇰 香港-38
-    - 🇭🇰 香港-39
-    - 🇭🇰 香港-40
-    - 🇭🇰 香港-41
-    - 🇭🇰 香港-42
-    - 🇭🇰 香港-43
-    - 🇭🇰 香港-44
-    - 🇭🇰 香港-45
-    - 🇭🇰 香港-46
-    - 🇭🇰 香港-47
+    - 🇭🇰 香港 03
+    - 🇭🇰 香港 04
+    - 🇭🇰 香港 05
+    - 🇭🇰 香港 06
+    - 🇭🇰 香港 07
+    - 🇭🇰 香港 08
+    - 🇭🇰 香港 09
+    - 🇭🇰 香港 10
+    - 🇭🇰 香港 11
+    - 🇭🇰 香港 12
+    - 🇭🇰 香港 13
+    - 🇭🇰 香港 14
+    - 🇭🇰 香港 15
+    - 🇭🇰 香港 16
+    - 🇭🇰 香港 17
+    - 🇭🇰 香港 18
+    - 🇭🇰 香港 19
+    - 🇭🇰 香港 20
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
