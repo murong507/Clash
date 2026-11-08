@@ -10,10 +10,8 @@ proxies:
   - {name: 🇭🇰 香港 108, type: vless, server: aws-link4.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg, short-id: a31b59fe}, network: tcp}
   - {name: 🇭🇰 香港 109, type: vless, server: aws-link5.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ, short-id: a49232a7}, network: tcp}
   - {name: 🇭🇰 香港 110, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true,  udp: true, servername: hk010.zestapp778.com, skip-cert-verify: true, client-fingerprint: chrome}
-
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
-
   - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: cfa9dcdb-ce54-4d0e-83f5-f3393dc7e64d, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a9fa114f-0c65-4fd9-ad57-cb28c0285762, sni: www.itunes.com, skip-cert-verify: true}
@@ -27,8 +25,7 @@ proxies:
   - {name: 🇭🇰 香港 02 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b16085f5-3d8d-4573-a426-0556f344cb52, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: afd86f4d-e665-4a93-8859-c9c1496561a5, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 03 1, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
-  
+  - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true} 
   - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
   - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
   - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-04.riverfolder.com}
@@ -39,7 +36,6 @@ proxies:
   - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-04.riverfolder.com}
   - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: gateway-05.riverfolder.com}
   - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-01.riverfolder.com}
-
   - {name: 🇭🇰 香港-01, type: http, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
   - {name: 🇭🇰 香港-02, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true}
   - {name: 🇭🇰 香港-03, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
@@ -54,7 +50,6 @@ proxies:
   - {name: 🇭🇰 香港-12, type: anytls, server: 56481.df6h451rh.xin, port: 443, password: 0324fbc29561, udp: true, sni: images.ctfassets.net, skip-cert-verify: true}
   - {name: 🇭🇰 香港-13, type: hysteria2, server: aws-linkhy1.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: download-porter.hoyoverse.com, fingerprint: 5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806, servername: download-porter.hoyoverse.com}
   - {name: 🇭🇰 香港-14, type: hysteria2, server: aws-linkhy2.lxyun.xyz, port: 443, password: c99fc6d2-216f-4b9e-8f42-392c9ce87681, sni: www.hoyoverse.com, fingerprint: f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf, servername: www.hoyoverse.com}
-
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 02, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
