@@ -1,3 +1,4 @@
+proxies:
   - {"name":"🇭🇰 香港 101","type":"vless","server":"lig-hk.mihoyo.site","port":"2096","uuid":"93c0244e-6eb2-41bc-ad9c-1a7606747e13","alterId":"0","cipher":"auto","udp":"true","flow":"xtls-rprx-vision","tls":"true","skip-cert-verify":"false","servername":"lyhk.mihoyo.site"}
   - {"name":"🇭🇰 香港 102","type":"vless","server":"cf.mihoyo.site","port":"2087","uuid":"93c0244e-6eb2-41bc-ad9c-1a7606747e13","alterId":"0","cipher":"auto","udp":"true","flow":"null","tls":"true","skip-cert-verify":"false","servername":"hkbase.666629.xyz","network":"ws","ws-opts":"{" path":"/api","headers":"{" Host":"hkbase.666629.xyz"}"}"}
   - {"name":"🇭🇰 香港 103","type":"vless","server":"152.175.6.229","port":"31884","uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","client-fingerprint":"firefox","servername":"hk010.zestapp778.com","skip-cert-verify":"true","sni":"hk010.zestapp778.com","tls":"true","udp":"true"}
