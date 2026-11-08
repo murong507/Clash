@@ -43,6 +43,20 @@ proxies:
   - {"name":"🇭🇰 香港_I","type":"anytls","port":10008,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"sni":"gateway-05.riverfolder.com","idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0}
   - {"name":"🇭🇰 香港_J","type":"anytls","port":10009,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"sni":"api-01.riverfolder.com","idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0}
 
+  - {"name":"🇭🇰 香港 101","type":"vless","server":"lig-hk.mihoyo.site","port":2096,"uuid":"93c0244e-6eb2-41bc-ad9c-1a7606747e13","alterId":0,"cipher":auto,"udp":true,"flow":"xtls-rprx-vision","tls":true,"skip-cert-verify":false,"servername":"lyhk.mihoyo.site"}
+  - {"name":"🇭🇰 香港 102","type":"vless","server":"cf.mihoyo.site","port":2087,"uuid":"93c0244e-6eb2-41bc-ad9c-1a7606747e13","alterId":0,"cipher":auto,"udp":true,"flow":"null","tls":true,"skip-cert-verify":false,"servername":"hkbase.666629.xyz","network":ws,"ws-opt"s:"{"path":"/api","headers":"{"Host":"hkbase.666629.xyz"}}}
+  - {"name":"🇭🇰 香港 103","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","client-fingerprint":firefox,"servername":"hk010.zestapp778.com,"skip-cert-verify":true,"sni":"hk010.zestapp778.com","tls":true,"udp":true}
+  - {"name":"🇭🇰 香港 104","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","tls":true,"servername":"hk010.zestapp778.com,"network":tcp}
+  - {"name":"🇭🇰 香港 105","type":"vless","server":"aws-link1.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com,"flow":"xtls-rprx-vision,"client-fingerprint":safari,"skip-cert-verify":false,"reality-opts":{"public-key":"TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA","short-id":"c8660f6e"}, "networ"k:tcp}
+  - {"name":"🇭🇰 香港 106","type":"vless","server":"aws-link2.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com,"flow":"xtls-rprx-vision,"client-fingerprint":safari,"skip-cert-verify":false,"reality-opts":{"public-key":"ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28","short-id":"6afd82c0"}, "networ"k:tcp}
+  - {"name":"🇭🇰 香港 107","type":"vless","server":"aws-link3.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"www.lamer.com.hk,"flow":"xtls-rprx-vision,"client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key":"ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs","short-id":"3206e665"}, "networ"k:tcp}
+  - {"name":"🇭🇰 香港 108","type":"vless","server":"aws-link4.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"www.lamer.com.hk,"flow":"xtls-rprx-vision,"client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key"":wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg","short-id":"a31b59fe"}, "networ"k:tcp}
+  - {"name":"🇭🇰 香港 109","type":"vless","server":"aws-link5.lxyun.xyz","port":443,"uuid":"c99fc6d2-216f-4b9e-8f42-392c9ce87681","tls":true,"servername":"fastcdn.hoyoverse.com,"flow":"xtls-rprx-vision,"client-fingerprint":ios,"skip-cert-verify":false,"reality-opts":{"public-key":"HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ","short-id":"a49232a7"}, "networ"k:tcp}
+  - {"name":"🇭🇰 香港 110","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","tls":true,"udp":true,"servername":"hk010.zestapp778.com,"skip-cert-verify":true,"client-fingerprint":chrome}
+
+  - {"name":"🇭🇰 香港 201","type":"vmess","server":"dog-hk.kunlun01dns.com","port":21019,"uuid":"9464ca40-dd75-3742-a628-d931a9f413b2","alterId":0,"cipher":auto,"udp":true}
+  - {"name":"🇭🇰 香港 202","type":"vmess","server":"dog-hk.kunlun01dns.com","port":21020,"uuid":"9464ca40-dd75-3742-a628-d931a9f413b2","alterId":0,"cipher":auto,"udp":true}
+
 proxy-groups:
 - name: 节点选择
   type: select
@@ -75,6 +89,23 @@ proxy-groups:
     - "🇭🇰 香港_H"
     - "🇭🇰 香港_I"
     - "🇭🇰 香港_J"
+
+- name: 香港节点
+  type: select
+  proxies:
+    - "🇭🇰 香港 101"
+    - "🇭🇰 香港 102"
+    - "🇭🇰 香港 103"
+    - "🇭🇰 香港 104"
+    - "🇭🇰 香港 105"
+    - "🇭🇰 香港 106"
+    - "🇭🇰 香港 107"
+    - "🇭🇰 香港 108"
+    - "🇭🇰 香港 109"
+    - "🇭🇰 香港 110"
+    
+    - "🇭🇰 香港 201"
+    - "🇭🇰 香港 202"
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
