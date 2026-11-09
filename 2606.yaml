@@ -17,12 +17,12 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港 01 2","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 01 1","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 01 2","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 01 3","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7f261c75-0cbb-465d-8cc8-75bd68bb4661","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 2","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"b6c610d5-de58-4acf-8b58-e2a31e9fade3","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 3","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"e7c4ed83-1d09-4732-b9b3-1ce6288db92e","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 4","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7f505d58-2fc3-4556-b14c-e49abe126972","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 02 1","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"b6c610d5-de58-4acf-8b58-e2a31e9fade3","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 02 2","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"e7c4ed83-1d09-4732-b9b3-1ce6288db92e","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 02 3","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7f505d58-2fc3-4556-b14c-e49abe126972","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 01 6","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"4afe9f1b-1c17-440b-83b9-3f8ec9d2c464","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 4","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"a65182b0-445a-4896-8761-031251da29df","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 5","server":"xiaozhux7.xiaozhu9545515.com","port":49213,"type":"trojan","password":"25beab85-cd77-428b-8e71-eca5bf4f7a1d","sni":"www.itunes.com","skip-cert-verify":true}
@@ -92,18 +92,18 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
+    - "🇭🇰 香港 01 1"
+    - "🇭🇰 香港 01 2"
+    - "🇭🇰 香港 01 3"
     - "🇭🇰 香港 02 1"
     - "🇭🇰 香港 02 2"
     - "🇭🇰 香港 02 3"
-    - "🇭🇰 香港 01 4"
     - "🇭🇰 香港 01 6"
     - "🇭🇰 香港 02 4"
     - "🇭🇰 香港 02 5"
     - "🇭🇰 香港 01 7"
     - "🇭🇰 香港 01 8"
     - "🇭🇰 香港 01 9"
-    - "🇭🇰 香港 02 6"
-    - "🇭🇰 香港 02 7"
     - "🇭🇰 香港 03 1"
     - "🇭🇰 香港 03 2"
     
