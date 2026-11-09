@@ -31,18 +31,12 @@ proxies:
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
 
-  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: cfa9dcdb-ce54-4d0e-83f5-f3393dc7e64d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a9fa114f-0c65-4fd9-ad57-cb28c0285762, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 6d8bdad1-65fd-43ce-abb8-62007932ca8d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 4afe9f1b-1c17-440b-83b9-3f8ec9d2c464, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: a65182b0-445a-4896-8761-031251da29df, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 5, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 25beab85-cd77-428b-8e71-eca5bf4f7a1d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 3bcc877d-386f-4dd4-8f54-76ec19b3da8e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 8, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b20961e8-005f-4caf-b710-93b165f27fc6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 9, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 42037910-3402-4464-b81a-43f5c455e20a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 6, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b16085f5-3d8d-4573-a426-0556f344cb52, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 7, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: afd86f4d-e665-4a93-8859-c9c1496561a5, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: ab79437f-ea10-48de-8d7a-b8a3e2aa3d86, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f261c75-0cbb-465d-8cc8-75bd68bb4661, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d1b59bf7-ec0d-45ee-b332-a8dad1584bae, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b6c610d5-de58-4acf-8b58-e2a31e9fade3, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f505d58-2fc3-4556-b14c-e49abe126972, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 03 1, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
   
@@ -91,18 +85,12 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
+    - 🇭🇰 香港 01 1
+    - 🇭🇰 香港 01 2
+    - 🇭🇰 香港 01 3
     - 🇭🇰 香港 02 1
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
-    - 🇭🇰 香港 01 4
-    - 🇭🇰 香港 01 6
-    - 🇭🇰 香港 02 4
-    - 🇭🇰 香港 02 5
-    - 🇭🇰 香港 01 7
-    - 🇭🇰 香港 01 8
-    - 🇭🇰 香港 01 9
-    - 🇭🇰 香港 02 6
-    - 🇭🇰 香港 02 7
     - 🇭🇰 香港 03 1
     - 🇭🇰 香港 03 2
     
