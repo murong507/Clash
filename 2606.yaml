@@ -59,9 +59,9 @@ proxies:
   - {"name":"🇭🇰 香港-06","type":"http","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sni":"fan.240104.xyz","sub_tag":"R002-260618","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-07","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","skip-cert-verify":true,"sub_tag":"R002-260618","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-08","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","skip-cert-verify":true,"tls":true,"udp":true}
-  - {"name":"🇭🇰 香港-09","type":"socks5","port":48621,"server":"91.229.133.236","password":"H318Qwk3LBI1mxF7CCvP","username":"u990000312","udp":true}
-  - {"name":"🇭🇰 香港-10","type":"socks5","port":8899,"server":"47.242.19.215","password":"admin","username":"admin","udp":true}
-
+  - {"name":"🇭🇰 香港-09","type":"socks5","port":8899,"server":"47.242.19.215","password":"admin","username":"admin","udp":true}
+  - {"name":"🇭🇰 香港-10","type":"socks5","port":48621,"server":"91.229.133.236","password":"H318Qwk3LBI1mxF7CCvP","username":"u990000312","udp":true}
+  
   - {"name":"🇭🇰 香港 00","type":"trojan","server":"wof2s.wocnode.com","port":12352,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"🇭🇰 香港 01","type":"trojan","server":"wof2s.wocnode.com","port":12353,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
   - {"name":"🇭🇰 香港 02","type":"trojan","server":"wof2k.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"udp":true}
