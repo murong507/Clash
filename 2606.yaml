@@ -51,7 +51,7 @@ proxies:
   - {"name":"🇭🇰 香港 201","type":"vmess","server":"dog-hk.kunlun01dns.com","port":21019,"uuid":"9464ca40-dd75-3742-a628-d931a9f413b2","alterId":0,"cipher":auto,"udp":true}
   - {"name":"🇭🇰 香港 202","type":"vmess","server":"dog-hk.kunlun01dns.com","port":21020,"uuid":"9464ca40-dd75-3742-a628-d931a9f413b2","alterId":0,"cipher":auto,"udp":true}
 
-  - {"name":"🇭🇰 香港-01","type":"http","port":3128,"server":"119.28.24.235","skip-cert-verify":true,"sub_tag":"P002-260618","tls":true,"udp":true}
+  - {"name":"🇭🇰 香港-01","type":"http","port":31343,"server":"120.232.204.58","skip-cert-verify":true,"password":"None","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-02","type":"http","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sni":"fan.240104.xyz","sub_tag":"R002-260618","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-03","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","sub_tag":"R002-260618","password":"null","tls":true,"username":"null","udp":true}
   - {"name":"🇭🇰 香港-04","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","skip-cert-verify":true,"sub_tag":"R002-260618","tls":true,"udp":true} 
