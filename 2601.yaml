@@ -31,14 +31,18 @@ proxies:
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
 
-  - {name: 🇭🇰 香港 01 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: ab79437f-ea10-48de-8d7a-b8a3e2aa3d86, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f261c75-0cbb-465d-8cc8-75bd68bb4661, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 1, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: d1b59bf7-ec0d-45ee-b332-a8dad1584bae, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: b6c610d5-de58-4acf-8b58-e2a31e9fade3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhux7.xiaozhu9545515.com, port: 49213, type: trojan, password: 7f505d58-2fc3-4556-b14c-e49abe126972, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 03 1, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 03 2, server: 124.151.45.214, port: 12010, type: trojan, password: 298c5651d3015d7cee9e8411eaa0bd72, sni: apis.99912345.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01 1, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: c938430a-00b7-4d65-9df5-97a4716394b9, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 2, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: ae40ee5d-3d21-4942-aef4-25c17c5511ed, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 3, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 8eed44b1-c389-4901-9dac-2bda3b515239, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 4, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: f09daf7f-d7f5-4415-a23f-586aed3d4a35, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 5, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: b67395d4-e3ba-4774-987e-d06a175e3a9a, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 1, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: a455aa3a-376b-444a-a175-3cb9dd4ac1c3, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: fdc55089-4553-4b6a-ab24-50cdb48b477b, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 838636c8-18b0-4324-b747-99ef748181c5, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 5, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: cd7eea10-6ca3-4588-a0c8-2bc6b5c99c8e, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 6, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 130b0c4a-1ced-4a3c-8e05-d8919295b3a2, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 7, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: a1cd4f97-d44e-4284-85a0-3c72afb9c1ce, sni: www.itunes.com, skip-cert-verify: true}
   
   - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
   - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
@@ -88,9 +92,15 @@ proxy-groups:
     - 🇭🇰 香港 01 1
     - 🇭🇰 香港 01 2
     - 🇭🇰 香港 01 3
+    - 🇭🇰 香港 01 4
+    - 🇭🇰 香港 01 5
     - 🇭🇰 香港 02 1
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
+    - 🇭🇰 香港 02 4
+    - 🇭🇰 香港 02 5
+    - 🇭🇰 香港 02 6
+    - 🇭🇰 香港 02 7
     - 🇭🇰 香港 03 1
     - 🇭🇰 香港 03 2
     
