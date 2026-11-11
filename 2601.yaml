@@ -89,7 +89,9 @@ proxies:
   - {name: 🇭🇰 香港-08, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz}
   - {name: 🇭🇰 香港-09, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
   - {name: 🇭🇰 香港-10, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
-
+  - {name: 🇭🇰 香港-11, type: hysteria2, port: 443, server: 165.154.193.165, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
+  - {name: 🇭🇰 香港-12, type: hysteria2, port: 443, server: 64.90.0.30, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
+  
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 02, type: trojan, server: wof2k.wocnode.com, port: 12351, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
@@ -198,7 +200,10 @@ proxy-groups:
     - 🇭🇰 香港-06
     - 🇭🇰 香港-07
     - 🇭🇰 香港-08
-    - 🇭🇰 香港-09    
+    - 🇭🇰 香港-09
+    - 🇭🇰 香港-10
+    - 🇭🇰 香港-11
+    - 🇭🇰 香港-12
     
 - name: 香港优选
   type: select
