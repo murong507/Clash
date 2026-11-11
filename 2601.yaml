@@ -27,6 +27,8 @@ proxies:
   - {name: 🇭🇰 香港 108, type: vless, server: aws-link4.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg, short-id: a31b59fe}, network: tcp}
   - {name: 🇭🇰 香港 109, type: vless, server: aws-link5.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ, short-id: a49232a7}, network: tcp}
   - {name: 🇭🇰 香港 110, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true,  udp: true, servername: hk010.zestapp778.com, skip-cert-verify: true, client-fingerprint: chrome}
+  - {name: 🇭🇰 香港 111, server: cf-cname.xingpingcn.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, skip-cert-verify: false, servername: d31e28d1s298.kuback.top, network: xhttp, xhttp-opts: {path: 455fc4c251ca8ce9fd6ce94870833c49, host: d31e28d1s298.kuback.top, sc-max-each-post-bytes: 500000-1000000, sc-min-posts-interval-ms: 30-80, x-padding-bytes: 100-1000, x-padding-header: X-Forwarded-Uri, x-padding-key: _, x-padding-method: tokenish, x-padding-obfs-mode: true, x-padding-placement: queryInHeader}}
+  - {name: 🇭🇰 香港 112, server: cf-cname.xingpingcn.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, skip-cert-verify: false, servername: d31e28d1s298.kuback.top, network: xhttp, xhttp-opts: {path: 455fc4c251ca8ce9fd6ce94870833c49, host: d31e28d1s298.kuback.top, sc-max-each-post-bytes: 500000-1000000, sc-min-posts-interval-ms: 30-80, x-padding-bytes: 100-1000, x-padding-header: X-Forwarded-Uri, x-padding-key: _, x-padding-method: tokenish, x-padding-obfs-mode: true, x-padding-placement: queryInHeader}}
 
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
@@ -185,6 +187,8 @@ proxy-groups:
     - 🇭🇰 香港 108
     - 🇭🇰 香港 109
     - 🇭🇰 香港 110
+    - 🇭🇰 香港 111
+    - 🇭🇰 香港 112
     
     - 🇭🇰 香港 201
     - 🇭🇰 香港 202
