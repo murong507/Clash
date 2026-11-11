@@ -28,8 +28,8 @@ proxies:
   - {"name":"🇭🇰 香港 02 5","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"cd7eea10-6ca3-4588-a0c8-2bc6b5c99c8e","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 6","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"130b0c4a-1ced-4a3c-8e05-d8919295b3a2","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 7","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"a1cd4f97-d44e-4284-85a0-3c72afb9c1ce","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 03 1,"server":"sclass-c1.catcat321.com,"port":20086,"type":"trojan","password":"d9064589-74af-432a-9390-5d8a9da281bf","sni":"hk.catxstar.com","skip-cert-verify":"true,"udp":true}
-  - {"name":"🇭🇰 香港 03 2,"server":"sclass-00.catcat321.com,"port":20123,"type":"trojan","password":"d9064589-74af-432a-9390-5d8a9da281bf","sni":"hk.catxstar.com","skip-cert-verify":"true,"udp":true}
+  - {"name":"🇭🇰 香港 03 1","server":"sclass-c1.catcat321.com","port":20086,"type":"trojan","password":"d9064589-74af-432a-9390-5d8a9da281bf","sni":"hk.catxstar.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 03 2","server":"sclass-00.catcat321.com","port":20123,"type":"trojan","password":"d9064589-74af-432a-9390-5d8a9da281bf","sni":"hk.catxstar.com","skip-cert-verify":true,"udp":true}
   
   - {"name":"🇭🇰 香港_A","type":"anytls","port":10000,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-02.riverfolder.com"}
   - {"name":"🇭🇰 香港_B","type":"anytls","port":10001,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-03.riverfolder.com"}
