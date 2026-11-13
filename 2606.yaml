@@ -88,7 +88,7 @@ proxies:
   - {"name":"🇭🇰 香港-06","type":"http","port":443,"server":"fan.240104.xyz","skip-cert-verify":true,"sni":"fan.240104.xyz","sub_tag":"R002-260618","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-07","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","skip-cert-verify":true,"sub_tag":"R002-260618","tls":true,"udp":true}
   - {"name":"🇭🇰 香港-08","type":"http","port":443,"server":"fan.240104.xyz","sni":"fan.240104.xyz","skip-cert-verify":true,"tls":true,"udp":true}
-  - {"name":"🇭🇰 香港-0"9,"type":"http","port":8443,"server":"38.76.140.254","skip-cert-verify":true,"tls":true}
+  - {"name":"🇭🇰 香港-09","type":"http","port":8443,"server":"38.76.140.254","skip-cert-verify":true,"tls":true}
   - {"name":"🇭🇰 香港-10","type":"socks5","port":8899,"server":"47.242.19.215","password":"admin","username":"admin","udp":true}
   - {"name":"🇭🇰 香港-11","type":"hysteria2","port":443,"server":"64.90.0.30","password":"Ya8s3KxQ9pLw2","auth":"Ya8s3KxQ9pLw2","sni":"hk-node","up":100 Mbps,"down":100 Mbps,"skip-cert-verify":true}
   - {"name":"🇭🇰 香港-12","type":"hysteria2","port":443,"server":"165.154.193.165","password":"qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt","auth":"qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt","sni":"165.154.193.165","skip-cert-verify":true,"obfs":salamander,"obfs-password":"d7897b996af77eeecb7ac010361d74fb","udp":true}
