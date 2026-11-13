@@ -89,7 +89,7 @@ proxies:
   - {name: 🇭🇰 香港-06, type: http, port: 3128, server: 119.28.24.235, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
   - {name: 🇭🇰 香港-07, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true}
   - {name: 🇭🇰 香港-08, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz}
-  - {name: 🇭🇰 香港 09, port: 8443, server: 38.76.140.254, skip-cert-verify: true, tls: true, type: http} 
+  - {name: 🇭🇰 香港-09, port: 8443, server: 38.76.140.254, skip-cert-verify: true, tls: true, type: http} 
   - {name: 🇭🇰 香港-10, type: socks5, password: , port: 10808, server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
   - {name: 🇭🇰 香港-11, type: hysteria2, port: 443, server: 165.154.193.165, password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt, sni: 165.154.193.165, skip-cert-verify: true, obfs: salamander, obfs-password: d7897b996af77eeecb7ac010361d74fb, udp: true}
   - {name: 🇭🇰 香港-12, type: hysteria2, port: 443, server: 64.90.0.30, password: Ya8s3KxQ9pLw2, auth: Ya8s3KxQ9pLw2, sni: hk-node, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true}
