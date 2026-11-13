@@ -19,7 +19,7 @@ proxies:
   - {"name":"🇭🇰 香港 01 1","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"c938430a-00b7-4d65-9df5-97a4716394b9","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 01 2","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"ae40ee5d-3d21-4942-aef4-25c17c5511ed","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 01 3","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"8eed44b1-c389-4901-9dac-2bda3b515239","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 01 4","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"f09daf7f-d7f5-4415-a23f-586aed3d4a35","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 01 4","server":"sclass-01.catcat321.com","port":20103,"type":"trojan","password":"d7563108-615c-4338-a7bd-77f359869a4a","sni":"hk.catxstar.com","skip-cert-verify":false,"udp":true}
   - {"name":"🇭🇰 香港 01 5","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"b67395d4-e3ba-4774-987e-d06a175e3a9a","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 1","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"fdc55089-4553-4b6a-ab24-50cdb48b477b","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 02 2","server":"xiaozhux8.xiaozhu9545515.com","port":49213,"type":"trojan","password":"fdc55089-4553-4b6a-ab24-50cdb48b477b","sni":"www.itunes.com","skip-cert-verify":true}
