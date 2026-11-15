@@ -86,7 +86,7 @@ proxies:
   - {name: 🇭🇰 香港-09, port: 8443, server: 38.76.140.254, skip-cert-verify: true, tls: true, type: http} 
   - {name: 🇭🇰 香港-10, type: socks5, port: 10808, password: , server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
   - {name: 🇭🇰 香港-11, type: socks5, port: 31003, password: pLBgZ2mOWDopvTI6CUWu5ZkI, server: 2.26.204.46, sub_tag: R002-260618, username: socks, udp: true}
-  - {name: 🇭🇰 香港-12 type: socks5, port: 11211, password: 111, server: 47.243.173.50, skip-cert-verify: true, sub_tag: K001-260618, username: 111, udp: true}
+  - {name: 🇭🇰 香港-12, type: socks5, port: 11211, password: 111, server: 47.243.173.50, skip-cert-verify: true, sub_tag: K001-260618, username: 111, udp: true}
   
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
