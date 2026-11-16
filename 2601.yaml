@@ -33,14 +33,15 @@ proxies:
   - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
   - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
 
-  - {name: 🇭🇰 香港 02 1, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: d4e2b71c-5735-443a-9d93-a076324e04c6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: d4e2b71c-5735-443a-9d93-a076324e04c6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: d4e2b71c-5735-443a-9d93-a076324e04c6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 01 1, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 01 2, server: xiaozhuaaaa2.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 🇭🇰 香港 03 1, server: sclass-c1.catcat321.com, port: 20086, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 03 2, server: sclass-00.catcat321.com, port: 20123, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02 1, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 59569497-f062-4042-9bef-063267d9095f, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 561aeab5-b967-42f8-bed6-431807e4e424, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: d4e2b71c-5735-443a-9d93-a076324e04c6, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 01 1, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 9a86e3a2-9dc8-4fca-aa7f-f3c3b979d088, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 1, server: 218.102.165.5, port: 16706, type: trojan, password: 2229a0db-0fc1-4523-bc85-94c1c8dd3b83, sni: hk05-z.ylxblkyndjj.sbs, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 2, server: 218.102.165.5, port: 27969, type: trojan, password: 2229a0db-0fc1-4523-bc85-94c1c8dd3b83, sni: hk02-z.ylxblkyndjj.sbs, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 3, server: 218.102.165.5, port: 25106, type: trojan, password: 2229a0db-0fc1-4523-bc85-94c1c8dd3b83, sni: hk03-z.ylxblkyndjj.sbs, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 03 4, server: 218.102.165.5, port: 25106, type: trojan, password: 2229a0db-0fc1-4523-bc85-94c1c8dd3b83, sni: hk03-z.ylxblkyndjj.sbs, skip-cert-verify: true}
   
   - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-02.riverfolder.com}
   - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, sni: api-03.riverfolder.com}
@@ -112,13 +113,14 @@ proxy-groups:
   type: select
   proxies:    
     - 🇭🇰 香港 01 1
-    - 🇭🇰 香港 01 2
     - 🇭🇰 香港 02 1
     - 🇭🇰 香港 02 2
     - 🇭🇰 香港 02 3
     - 🇭🇰 香港 02 4
     - 🇭🇰 香港 03 1
     - 🇭🇰 香港 03 2
+    - 🇭🇰 香港 03 3
+    - 🇭🇰 香港 03 4
     
 - name: 香港甄选
   type: select
