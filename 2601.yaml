@@ -62,6 +62,13 @@ proxies:
   - {name: 🇭🇰 香港-A5, type: trojan, server: vd.fireduocc.com, port: 12722, password: afcdd90e-72a2-439e-b449-1c6b0267690d, udp: true, skip-cert-verify: true, sni: dynamodb.ap-east-1.amazonaws.com, network: tcp}
   - {name: 🇭🇰 香港-A6, type: trojan, server: vd.fireduocc.com, port: 31440, password: afcdd90e-72a2-439e-b449-1c6b0267690d, udp: true, skip-cert-verify: true, sni: dynamodb.ap-east-1.amazonaws.com, network: tcp}
 
+  - {name: 🇭🇰 香港-B1, type: trojan, server: vd.fireduocc.com, port: 24572, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+  - {name: 🇭🇰 香港-B2, type: trojan, server: vd.fireduocc.com, port: 31440, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+  - {name: 🇭🇰 香港-B3, type: trojan, server: vd.fireduocc.com, port: 12722, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+  - {name: 🇭🇰 香港-B4, type: trojan, server: vd.fireduocc.com, port: 12731, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+  - {name: 🇭🇰 香港-B5, type: trojan, server: vd.fireduocc.com, port: 16258, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+  - {name: 🇭🇰 香港-B6, type: trojan, server: vd.fireduocc.com, port: 27896, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
+
   - {name: 🇭🇰 香港-01, type: http, port: 8443, server: 38.76.140.254, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
   - {name: 🇭🇰 香港-02, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true, password: null, username: null}
   - {name: 🇭🇰 香港-03, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
@@ -118,6 +125,16 @@ proxy-groups:
     - 🇭🇰 香港-A4
     - 🇭🇰 香港-A5
     - 🇭🇰 香港-A6
+
+- name: 香港珍选
+  type: select
+  proxies:    
+    - 🇭🇰 香港-B1
+    - 🇭🇰 香港-B2
+    - 🇭🇰 香港-B3
+    - 🇭🇰 香港-B4
+    - 🇭🇰 香港-B5
+    - 🇭🇰 香港-B6
     
 - name: 香港甄选
   type: select
