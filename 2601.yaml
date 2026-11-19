@@ -17,22 +17,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: 🇭🇰 香港 101, type: vless, server: lig-hk.mihoyo.site, port: 2096, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, servername: lyhk.mihoyo.site}
-  - {name: 🇭🇰 香港 102, type: vless, server: cf.mihoyo.site, port: 2087, uuid: 93c0244e-6eb2-41bc-ad9c-1a7606747e13, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: hkbase.666629.xyz, network: ws, ws-opts: { path: /api, headers: { Host: hkbase.666629.xyz}}}
-  - {name: 🇭🇰 香港 103, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, client-fingerprint: firefox, servername: hk010.zestapp778.com, skip-cert-verify: true, sni: hk010.zestapp778.com, tls: true, udp: true}
-  - {name: 🇭🇰 香港 104, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, network: tcp}
-  - {name: 🇭🇰 香港 105, type: vless, server: aws-link1.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA, short-id: c8660f6e}, network: tcp}
-  - {name: 🇭🇰 香港 106, type: vless, server: aws-link2.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: safari, skip-cert-verify: false, reality-opts: {public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28, short-id: 6afd82c0}, network: tcp}
-  - {name: 🇭🇰 香港 107, type: vless, server: aws-link3.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs, short-id: 3206e665}, network: tcp}
-  - {name: 🇭🇰 香港 108, type: vless, server: aws-link4.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: www.lamer.com.hk, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg, short-id: a31b59fe}, network: tcp}
-  - {name: 🇭🇰 香港 109, type: vless, server: aws-link5.lxyun.xyz, port: 443, uuid: c99fc6d2-216f-4b9e-8f42-392c9ce87681, tls: true, servername: fastcdn.hoyoverse.com, flow: xtls-rprx-vision, client-fingerprint: ios, skip-cert-verify: false, reality-opts: {public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ, short-id: a49232a7}, network: tcp}
-  - {name: 🇭🇰 香港 110, type: vless, server: 152.175.6.229, port: 31884, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true,  udp: true, servername: hk010.zestapp778.com, skip-cert-verify: true, client-fingerprint: chrome}
-  - {name: 🇭🇰 香港 111, server: cf-cname.xingpingcn.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, skip-cert-verify: false, servername: d31e28d1s298.kuback.top, network: xhttp, xhttp-opts: {path: 455fc4c251ca8ce9fd6ce94870833c49, host: d31e28d1s298.kuback.top, sc-max-each-post-bytes: 500000-1000000, sc-min-posts-interval-ms: 30-80, x-padding-bytes: 100-1000, x-padding-header: X-Forwarded-Uri, x-padding-key: _, x-padding-method: tokenish, x-padding-obfs-mode: true, x-padding-placement: queryInHeader}}
-  - {name: 🇭🇰 香港 112, server: cf-cname.xingpingcn.top, port: 443, type: vless, uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3, tls: true, alpn: [h2, http/1.1], tfo: false, skip-cert-verify: false, servername: d31e28d1s298.kuback.top, network: xhttp, xhttp-opts: {path: 455fc4c251ca8ce9fd6ce94870833c49, host: d31e28d1s298.kuback.top, sc-max-each-post-bytes: 500000-1000000, sc-min-posts-interval-ms: 30-80, x-padding-bytes: 100-1000, x-padding-header: X-Forwarded-Uri, x-padding-key: _, x-padding-method: tokenish, x-padding-obfs-mode: true, x-padding-placement: queryInHeader}}
-
-  - {name: 🇭🇰 香港 201, type: vmess, server: dog-hk.kunlun01dns.com, port: 21019, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
-  - {name: 🇭🇰 香港 202, type: vmess, server: dog-hk.kunlun01dns.com, port: 21020, uuid: 9464ca40-dd75-3742-a628-d931a9f413b2, alterId: 0, cipher: auto, udp: true}
-  
   - {name: 🇭🇰 香港 01 1, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: dbf5c062-ac75-4858-b6d5-1f3bab27b91e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 2, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 39169bfa-f3bf-469e-ae76-a9aa7ac80e52, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02 1, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 26d63bcd-26f1-4435-8b99-541444501cd0, sni: www.itunes.com, skip-cert-verify: true}
@@ -44,19 +28,6 @@ proxies:
   - {name: 🇭🇰 香港 02 4, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 9de797b8-92ba-4695-b349-1d1c2139eff8, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 4, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: 7756180a-3a07-4939-91be-ae7664b311ca, sni: www.itunes.com, skip-cert-verify: true}
 
-  - {name: 🇭🇰 香港_1, type: anytls, port: 443, server: byhk1106123.luoyun2.com, password: 052933f5-18d3-4590-84e0-cb0d2a48d529, udp: true, sni: byhk1106123.luoyun2.com}
-  - {name: 🇭🇰 香港_2, type: anytls, port: 443, server: byhk1106123.luoyun2.com, password: 052933f5-18d3-4590-84e0-cb0d2a48d529, udp: true, sni: byhk1106123.luoyun2.com}
-  - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-02.riverfolder.com}
-  - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-03.riverfolder.com}
-  - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-04.riverfolder.com}
-  - {name: 🇭🇰 香港_D, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-05.riverfolder.com}
-  - {name: 🇭🇰 香港_E, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-01.riverfolder.com}
-  - {name: 🇭🇰 香港_F, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-02.riverfolder.com}
-  - {name: 🇭🇰 香港_G, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-03.riverfolder.com}
-  - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-04.riverfolder.com}
-  - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-05.riverfolder.com}
-  - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-01.riverfolder.com}
-  
   - {name: 🇭🇰 香港-A1, type: trojan, server: vd.fireduocc.com, port: 12731, password: afcdd90e-72a2-439e-b449-1c6b0267690d, udp: true, skip-cert-verify: true, sni: dynamodb.ap-east-1.amazonaws.com, network: tcp}
   - {name: 🇭🇰 香港-A2, type: trojan, server: vd.fireduocc.com, port: 16258, password: afcdd90e-72a2-439e-b449-1c6b0267690d, udp: true, skip-cert-verify: true, sni: dynamodb.ap-east-1.amazonaws.com, network: tcp}
   - {name: 🇭🇰 香港-A3, type: trojan, server: vd.fireduocc.com, port: 27896, password: afcdd90e-72a2-439e-b449-1c6b0267690d, udp: true, skip-cert-verify: true, sni: dynamodb.ap-east-1.amazonaws.com, network: tcp}
@@ -71,18 +42,38 @@ proxies:
   - {name: 🇭🇰 香港-B5, type: trojan, server: vd.fireduocc.com, port: 16258, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
   - {name: 🇭🇰 香港-B6, type: trojan, server: vd.fireduocc.com, port: 27896, password: a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01, udp: true, skip-cert-verify: true, sni: v1-dy.ixigua.com, network: tcp}
 
-  - {name: 🇭🇰 香港-01, type: http, port: 8443, server: 38.76.140.254, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
-  - {name: 🇭🇰 香港-02, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true, password: null, username: null}
-  - {name: 🇭🇰 香港-03, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
-  - {name: 🇭🇰 香港-04, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz, password: null, username: null}
-  - {name: 🇭🇰 香港-05, type: http, password: null, port: 443, server: fan.240104.xyz, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, username: null, udp: true}
-  - {name: 🇭🇰 香港-06, type: http, port: 443, server: 202.85.53.25, skip-cert-verify: true, sub_tag: P002-260618, tls: true, udp: true}
-  - {name: 🇭🇰 香港-07, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sni: fan.240104.xyz, sub_tag: R002-260618, tls: true, udp: true, password: null, username: null}
-  - {name: 🇭🇰 香港-08, type: http, port: 443, server: fan.240104.xyz, skip-cert-verify: true, sub_tag: R002-260618, tls: true, udp: true, sni: fan.240104.xyz, password: null, username: null}
-  - {name: 🇭🇰 香港-09, port: 8443, server: 38.76.140.254, skip-cert-verify: true, tls: true, type: http} 
-  - {name: 🇭🇰 香港-10, type: socks5, port: 10808, password: , server: 123.58.219.171, skip-cert-verify: true, sub_tag: K001-260618, username: , udp: true}
-  - {name: 🇭🇰 香港-11, type: socks5, port: 31003, password: pLBgZ2mOWDopvTI6CUWu5ZkI, server: 2.26.204.46, sub_tag: R002-260618, username: socks, udp: true}
-  - {name: 🇭🇰 香港-12, type: socks5, port: 11211, password: 111, server: 47.243.173.50, skip-cert-verify: true, sub_tag: K001-260618, username: 111, udp: true}
+  - {name: 🇭🇰 香港_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-02.riverfolder.com}
+  - {name: 🇭🇰 香港_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-03.riverfolder.com}
+  - {name: 🇭🇰 香港_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-04.riverfolder.com}
+  - {name: 🇭🇰 香港_D, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-05.riverfolder.com}
+  - {name: 🇭🇰 香港_E, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-01.riverfolder.com}
+  - {name: 🇭🇰 香港_F, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-02.riverfolder.com}
+  - {name: 🇭🇰 香港_G, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-03.riverfolder.com}
+  - {name: 🇭🇰 香港_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-04.riverfolder.com}
+  - {name: 🇭🇰 香港_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: gateway-05.riverfolder.com}
+  - {name: 🇭🇰 香港_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: 18549d91-78d2-3108-9bc0-f3843328938b, client-fingerprint: chrome, udp: true, sni: api-01.riverfolder.com}
+
+  - {name: 🇭🇰 香港_AA, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: api-02.riverfolder.com}
+  - {name: 🇭🇰 香港_BB, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: api-03.riverfolder.com}
+  - {name: 🇭🇰 香港_CC, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: api-04.riverfolder.com}
+  - {name: 🇭🇰 香港_DD, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: api-05.riverfolder.com}
+  - {name: 🇭🇰 香港_EE, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: gateway-01.riverfolder.com}
+  - {name: 🇭🇰 香港_FF, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: gateway-02.riverfolder.com}
+  - {name: 🇭🇰 香港_GG, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: gateway-03.riverfolder.com}
+  - {name: 🇭🇰 香港_HH, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: gateway-04.riverfolder.com}
+  - {name: 🇭🇰 香港_II, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: gateway-05.riverfolder.com}
+  - {name: 🇭🇰 香港_JJ, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: b25231c4-737c-354b-837f-e6bb5be5f87c, client-fingerprint: chrome, udp: true, sni: api-01.riverfolder.com}
+
+  - {name: 🇭🇰 香港_BGP_A, type: anytls, port: 10000, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: api-02.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_B, type: anytls, port: 10001, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: api-03.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_C, type: anytls, port: 10002, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: api-04.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_D, type: anytls, port: 10003, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: api-05.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_E, type: anytls, port: 10004, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: gateway-01.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_F, type: anytls, port: 10005, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: gateway-02.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_G, type: anytls, port: 10006, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: gateway-03.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_H, type: anytls, port: 10007, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: gateway-04.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_I, type: anytls, port: 10008, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: gateway-05.riverfolder.com}
+  - {name: 🇭🇰 香港_BGP_J, type: anytls, port: 10009, server: balancer.cedarblanket.com, password: bee2835f-4007-3783-bfc6-8bf62632e291, client-fingerprint: chrome, udp: true, sni: api-01.riverfolder.com}
   
   - {name: 🇭🇰 香港 00, type: trojan, server: wof2s.wocnode.com, port: 12352, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 01, type: trojan, server: wof2s.wocnode.com, port: 12353, password: a987b451-b116-3059-97d4-1d6f466602cb, sni: mpvideo.qpic.cn, skip-cert-verify: true, udp: true}
@@ -141,8 +132,6 @@ proxy-groups:
 - name: 香港甄选
   type: select
   proxies:    
-    - 🇭🇰 香港_1
-    - 🇭🇰 香港_2
     - 🇭🇰 香港_A
     - 🇭🇰 香港_B
     - 🇭🇰 香港_C
@@ -157,37 +146,30 @@ proxy-groups:
 - name: 香港节点
   type: select
   proxies:
-    - 🇭🇰 香港 101
-    - 🇭🇰 香港 102
-    - 🇭🇰 香港 103
-    - 🇭🇰 香港 104
-    - 🇭🇰 香港 105
-    - 🇭🇰 香港 106
-    - 🇭🇰 香港 107
-    - 🇭🇰 香港 108
-    - 🇭🇰 香港 109
-    - 🇭🇰 香港 110
-    - 🇭🇰 香港 111
-    - 🇭🇰 香港 112
-    
-    - 🇭🇰 香港 201
-    - 🇭🇰 香港 202
+    - 🇭🇰 香港_AA
+    - 🇭🇰 香港_BB
+    - 🇭🇰 香港_CC
+    - 🇭🇰 香港_DD
+    - 🇭🇰 香港_EE
+    - 🇭🇰 香港_FF
+    - 🇭🇰 香港_GG
+    - 🇭🇰 香港_HH
+    - 🇭🇰 香港_II
+    - 🇭🇰 香港_JJ
 
 - name: 香港新点
   type: select
   proxies:
-    - 🇭🇰 香港-01
-    - 🇭🇰 香港-02
-    - 🇭🇰 香港-03
-    - 🇭🇰 香港-04
-    - 🇭🇰 香港-05
-    - 🇭🇰 香港-06
-    - 🇭🇰 香港-07
-    - 🇭🇰 香港-08
-    - 🇭🇰 香港-09
-    - 🇭🇰 香港-10
-    - 🇭🇰 香港-11
-    - 🇭🇰 香港-12
+    - 🇭🇰 香港_BGP_A
+    - 🇭🇰 香港_BGP_B
+    - 🇭🇰 香港_BGP_C
+    - 🇭🇰 香港_BGP_D
+    - 🇭🇰 香港_BGP_E
+    - 🇭🇰 香港_BGP_F
+    - 🇭🇰 香港_BGP_G
+    - 🇭🇰 香港_BGP_H
+    - 🇭🇰 香港_BGP_I
+    - 🇭🇰 香港_BGP_J
     
 - name: 香港优选
   type: select
