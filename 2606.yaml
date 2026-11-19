@@ -40,17 +40,19 @@ proxies:
   - {"name":"🇭🇰 香港-B4","type":"trojan","server":"vd.fireduocc.com","port":12731,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
   - {"name":"🇭🇰 香港-B5","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
   - {"name":"🇭🇰 香港-B6","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  
-  - {"name":"🇭🇰 香港_A","type":"anytls","port":10000,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-02.riverfolder.com"}
-  - {"name":"🇭🇰 香港_B","type":"anytls","port":10001,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-03.riverfolder.com"}
-  - {"name":"🇭🇰 香港_C","type":"anytls","port":10002,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-04.riverfolder.com"}
-  - {"name":"🇭🇰 香港_D","type":"anytls","port":10003,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-05.riverfolder.com"}
-  - {"name":"🇭🇰 香港_E","type":"anytls","port":10004,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"gateway-01.riverfolder.com"}
-  - {"name":"🇭🇰 香港_F","type":"anytls","port":10005,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"gateway-02.riverfolder.com"}
-  - {"name":"🇭🇰 香港_G","type":"anytls","port":10006,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"gateway-03.riverfolder.com"}
-  - {"name":"🇭🇰 香港_H","type":"anytls","port":10007,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"gateway-04.riverfolder.com"}
-  - {"name":"🇭🇰 香港_I","type":"anytls","port":10008,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"gateway-05.riverfolder.com"}
-  - {"name":"🇭🇰 香港_J","type":"anytls","port":10009,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","client-fingerprint":chrome,"udp":true,"idle-session-check-interval":30,"idle-session-timeout":30,"min-idle-session":0,"sni":"api-01.riverfolder.com"}
+
+  - {"name":"🇭🇰 香港_1","type":"anytls","port":443,"server":"byhk1106123.luoyun2.com","password":"052933f5-18d3-4590-84e0-cb0d2a48d529","udp":true,"sni":"byhk1106123.luoyun2.com"}
+  - {"name":"🇭🇰 香港_2","type":"anytls","port":443,"server":"byhk1106123.luoyun2.com","password":"052933f5-18d3-4590-84e0-cb0d2a48d529","udp":true,"sni":"byhk1106123.luoyun2.com"}
+  - {"name":"🇭🇰 香港_A","type":"anytls","port":10000,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-02.riverfolder.com"}
+  - {"name":"🇭🇰 香港_B","type":"anytls","port":10001,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-03.riverfolder.com"}
+  - {"name":"🇭🇰 香港_C","type":"anytls","port":10002,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-04.riverfolder.com"}
+  - {"name":"🇭🇰 香港_D","type":"anytls","port":10003,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-05.riverfolder.com"}
+  - {"name":"🇭🇰 香港_E","type":"anytls","port":10004,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-01.riverfolder.com"}
+  - {"name":"🇭🇰 香港_F","type":"anytls","port":10005,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-02.riverfolder.com"}
+  - {"name":"🇭🇰 香港_G","type":"anytls","port":10006,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-03.riverfolder.com"}
+  - {"name":"🇭🇰 香港_H","type":"anytls","port":10007,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-04.riverfolder.com"}
+  - {"name":"🇭🇰 香港_I","type":"anytls","port":10008,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-05.riverfolder.com"}
+  - {"name":"🇭🇰 香港_J","type":"anytls","port":10009,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-01.riverfolder.com"}
 
   - {"name":"🇭🇰 香港 101","type":"vless","server":"lig-hk.mihoyo.site","port":2096,"uuid":"93c0244e-6eb2-41bc-ad9c-1a7606747e13","alterId":0,"cipher":auto,"udp":true,"flow":"xtls-rprx-vision","tls":true,"servername":"lyhk.mihoyo.site","skip-cert-verify":false}
   - {"name":"🇭🇰 香港 102","type":"vless","server":"152.175.6.229","port":31884,"uuid":"e9a8144e-5237-488a-afb1-9ca3d8d54c80","tls":true,"skip-cert-verify":false,"servername":"hk010.zestapp778.com","client-fingerprint":chrome,"network":ws}
@@ -137,7 +139,9 @@ proxy-groups:
     
 - name: 香港甄选
   type: select
-  proxies:    
+  proxies:   
+    - "🇭🇰 香港_1"
+    - "🇭🇰 香港_2"
     - "🇭🇰 香港_A"
     - "🇭🇰 香港_B"
     - "🇭🇰 香港_C"
