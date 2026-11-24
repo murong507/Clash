@@ -33,22 +33,19 @@ proxies:
   - {"name":"🇭🇰 香港 03 1","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"06e6f70b-a42e-4acb-a011-cede2207dbf3","sni":"www.itunes.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港 03 2","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7756180a-3a07-4939-91be-ae7664b311ca","sni":"www.itunes.com","skip-cert-verify":true}
 
+  - {"name":"🇭🇰 香港 A 01","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 03","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 02","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 04","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 05","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 06","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
 
-  - {"name":"🇭🇰 香港-A1","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
-  - {"name":"🇭🇰 香港-A2","type":"trojan","server":"vd.fireduocc.com","port":12731,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
-  - {"name":"🇭🇰 香港-A3","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
-  - {"name":"🇭🇰 香港-A4","type":"trojan","server":"vd.fireduocc.com","port":31440,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-A5","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-A6","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-A7","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"i1.hdslb.com","network":tcp}
-  - {"name":"🇭🇰 香港-A8","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"i1.hdslb.com","network":tcp}
-
-  - {"name":"🇭🇰 香港-B1","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-B2","type":"trojan","server":"vd.fireduocc.com","port":31440,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-B3","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-B4","type":"trojan","server":"vd.fireduocc.com","port":12731,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-B5","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
-  - {"name":"🇭🇰 香港-B6","type":"trojan","server":"iepl.fireduocc.com","port":23501,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 01","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 03","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 02","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 04","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 05","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 06","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
 
   - {"name":"🇭🇰 香港_A","type":"anytls","port":10000,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-02.riverfolder.com"}
   - {"name":"🇭🇰 香港_B","type":"anytls","port":10001,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"api-03.riverfolder.com"}
@@ -126,24 +123,22 @@ proxy-groups:
 - name: 香港臻选
   type: select
   proxies:    
-    - "🇭🇰 香港-A1"
-    - "🇭🇰 香港-A2"
-    - "🇭🇰 香港-A3"
-    - "🇭🇰 香港-A4"
-    - "🇭🇰 香港-A5"
-    - "🇭🇰 香港-A6"
-    - "🇭🇰 香港-A7"
-    - "🇭🇰 香港-A8"
+    - "🇭🇰 香港 A 01"
+    - "🇭🇰 香港 A 02"
+    - "🇭🇰 香港 A 03"
+    - "🇭🇰 香港 A 04"
+    - "🇭🇰 香港 A 05"
+    - "🇭🇰 香港 A 06"
 
 - name: 香港珍选
   type: select
   proxies:    
-    - "🇭🇰 香港-B1"
-    - "🇭🇰 香港-B2"
-    - "🇭🇰 香港-B3"
-    - "🇭🇰 香港-B4"
-    - "🇭🇰 香港-B5"
-    - "🇭🇰 香港-B6"
+    - "🇭🇰 香港 B 01"
+    - "🇭🇰 香港 B 02"
+    - "🇭🇰 香港 B 03"
+    - "🇭🇰 香港 B 04"
+    - "🇭🇰 香港 B 05"
+    - "🇭🇰 香港 B 06"
     
 - name: 香港甄选
   type: select
