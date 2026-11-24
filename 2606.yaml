@@ -16,16 +16,23 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港 01 1","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"dbf5c062-ac75-4858-b6d5-1f3bab27b91e","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 01 2","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"39169bfa-f3bf-469e-ae76-a9aa7ac80e52","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 1","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"26d63bcd-26f1-4435-8b99-541444501cd0","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 2","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"0ad6317a-a2e9-43d9-975e-94e4107e7e2d","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 3","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"1086bb09-5860-40a4-a10e-6bbb24c724b4","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 01 3","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"f8b9346b-8c84-458c-9a4c-37de8bb8cf02","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 5","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"06e6f70b-a42e-4acb-a011-cede2207dbf3","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 6","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7756180a-3a07-4939-91be-ae7664b311ca","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 02 4","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"9de797b8-92ba-4695-b349-1d1c2139eff8","sni":"www.itunes.com","skip-cert-verify":true}
-  - {"name":"🇭🇰 香港 01 4","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"9de797b8-92ba-4695-b349-1d1c2139eff8","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 01 1","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"0c14995f-c250-4923-92a8-542de3c4567b","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 1","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"7de2f7ee-a1e6-4985-a065-0bb16543f092","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 2","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"4424caef-5b85-4839-9795-96ad65cdfc64","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 3","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"89cf1f1f-0b8c-4817-989a-ca6390fe0215","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 4","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"3bcf885d-ef98-4d68-bac9-22d14acf783f","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 5","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"9ed093c7-0961-4562-99d2-b5392e9b396f","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 6","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"b3f59d73-d8b5-41c1-b41c-0de883aec266","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 7","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"81f7443d-a6d1-4137-a284-ef1b35da6ea2","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 2","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"e08229a4-3f1b-4d5e-8f55-7a60232c278c","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 8","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"4f52e608-ae02-4d33-9fd4-2663b4763895","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 9","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"7db87bea-733b-4f2c-850a-4d9c5b8967ce","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 3","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"77a08ab2-a32e-4897-9a47-e028931de4dd","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 0","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"245486f4-a7d0-49b4-b68e-4cd2b2ea5a95","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 0","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"77a08ab2-a32e-4897-9a47-e028931de4dd","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 03 1","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"06e6f70b-a42e-4acb-a011-cede2207dbf3","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 03 2","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7756180a-3a07-4939-91be-ae7664b311ca","sni":"www.itunes.com","skip-cert-verify":true}
+
 
   - {"name":"🇭🇰 香港-A1","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
   - {"name":"🇭🇰 香港-A2","type":"trojan","server":"vd.fireduocc.com","port":12731,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
@@ -99,16 +106,22 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:    
+    - "🇭🇰 香港 01 0"
     - "🇭🇰 香港 01 1"
     - "🇭🇰 香港 01 2"
     - "🇭🇰 香港 01 3"
-    - "🇭🇰 香港 01 4"
+    - "🇭🇰 香港 02 0"
     - "🇭🇰 香港 02 1"
     - "🇭🇰 香港 02 2"
     - "🇭🇰 香港 02 3"
     - "🇭🇰 香港 02 4"
     - "🇭🇰 香港 02 5"
     - "🇭🇰 香港 02 6"
+    - "🇭🇰 香港 02 7"
+    - "🇭🇰 香港 02 8"
+    - "🇭🇰 香港 02 9"
+    - "🇭🇰 香港 03 1"
+    - "🇭🇰 香港 03 2"
 
 - name: 香港臻选
   type: select
