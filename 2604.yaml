@@ -31,10 +31,6 @@ proxies:
   - {"name":"🇭🇰 香港 12","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 香港 13","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 香港 14","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 15","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 16","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 17","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 18","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
 
 proxy-groups:
 - name: 节点选择
@@ -54,10 +50,6 @@ proxy-groups:
     - 🇭🇰 香港 12
     - 🇭🇰 香港 13
     - 🇭🇰 香港 14
-    - 🇭🇰 香港 15
-    - 🇭🇰 香港 16
-    - 🇭🇰 香港 17
-    - 🇭🇰 香港 18
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
