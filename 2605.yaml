@@ -261,6 +261,7 @@ proxies:
   - {"name":"🇭🇰 HK-VIP-8I","server":"sfu.gosthk.site","port":"57180","type":"anytls","password":"7d63393e-d64d-4dff-a154-1081dbe0e138","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 HK-VIP-2-7G","server":"turn.gosthk.site","port":"57180","type":"anytls","password":"2469563f-b780-49e4-90e2-9542685c8fd1","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 HK-VIP-2-8B","server":"turn.gosthk.site","port":"57180","type":"anytls","password":"8aaef69b-c781-4d33-8d8f-a01f61fe7d4b","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 HK-VIP-2-4L","server":"turn.gosthk.site","port":"57180","type":"anytls","password":"5b9a9c83-1abb-4736-83c1-e0497e87d9d1","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 HK-VIP-1N","server":"sfu.gosthk.site","port":"57180","type":"anytls","password":"3b34b175-b0aa-4529-b022-f807075d4e53","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 HK-VIP-2-6I","server":"turn.gosthk.site","port":"57180","type":"anytls","password":"931d2ddd-abe2-40e2-b91d-208b5adc87b2","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
   - {"name":"🇭🇰 HK-VIP-1H","server":"sfu.gosthk.site","port":"57180","type":"anytls","password":"40cdc52c-fef8-42bc-9f25-15cc0615b5ca","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
