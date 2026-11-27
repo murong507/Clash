@@ -17,14 +17,24 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港 01","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 02","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 03","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 04","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 05","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 06","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 07","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 08","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 01","type":"vless","server":"aws-link1.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA","short-id":"c8660f6e"}","network":tcp}
+  - {"name":"🇭🇰 香港 02","type":"vless","server":"aws-link1.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA","short-id":"c8660f6e"}","network":tcp}
+  - {"name":"🇭🇰 香港 03","type":"vless","server":"aws-link3.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"www.lamer.com.hk","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs","short-id":"3206e665"}","network":tcp}
+  - {"name":"🇭🇰 香港 04","type":"vless","server":"aws-link5.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ","short-id":"a49232a7"}","network":tcp}
+  - {"name":"🇭🇰 香港 05","type":"vless","server":"aws-link2.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"fastcdn.hoyoverse.com","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28","short-id":"6afd82c0"}","network":tcp}
+  - {"name":"🇭🇰 香港 06","type":"vless","server":"aws-link4.lxyun.xyz","port":443,"uuid":"7632c0da-fb01-45b9-9d3c-3671f677a0b5","tls":true,"servername":"www.lamer.com.hk","flow":"xtls-rprx-vision","client-fingerprint":"safari","skip-cert-verify":false,"reality-opts":"{public-key":"wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg","short-id":"a31b59fe"}","network":tcp}
+  - {"name":"🇭🇰 香港 07","type":"anytls","server":"ibsdsf.df6h451rh.xin","port":443,"password":"2902c46c8493","tls":true,"servername":"docs.microsoft.com","sni":"docs.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 08","type":"anytls","server":"ibsdsf.df6h451rh.xin","port":443,"password":"2902c46c8493","tls":true,"servername":"docs.microsoft.com","sni":"docs.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 09","type":"anytls","server":"ibsdsf.df6h451rh.xin","port":443,"password":"2902c46c8493","udp":true,"sni":"docs.microsoft.com","client-fingerprint":"chrome","skip-cert-verify":true}  
+  - {"name":"🇭🇰 香港 10","type":"anytls","server":"5641sdds.df6h451rh.xin","port":443,"password":"0324fbc29561","sni":"images.ctfassets.net","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 11","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港 12","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港 13","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港 14","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港 15","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 16","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 17","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 18","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
 
 proxy-groups:
 - name: 节点选择
@@ -38,6 +48,16 @@ proxy-groups:
     - 🇭🇰 香港 06
     - 🇭🇰 香港 07
     - 🇭🇰 香港 08
+    - 🇭🇰 香港 09
+    - 🇭🇰 香港 10
+    - 🇭🇰 香港 11
+    - 🇭🇰 香港 12
+    - 🇭🇰 香港 13
+    - 🇭🇰 香港 14
+    - 🇭🇰 香港 15
+    - 🇭🇰 香港 16
+    - 🇭🇰 香港 17
+    - 🇭🇰 香港 18
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
