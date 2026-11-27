@@ -12,32 +12,115 @@ dns:
   fallback:
     - 8.8.8.8
     - 8.8.4.4
-    - 1.1.1.1
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰 香港 01","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 02","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 03","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 04","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港 05","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 06","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 07","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港 08","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港 01 1","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"0c14995f-c250-4923-92a8-542de3c4567b","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 1","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"7de2f7ee-a1e6-4985-a065-0bb16543f092","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 2","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"4424caef-5b85-4839-9795-96ad65cdfc64","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 3","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"89cf1f1f-0b8c-4817-989a-ca6390fe0215","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 4","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"3bcf885d-ef98-4d68-bac9-22d14acf783f","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 5","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"9ed093c7-0961-4562-99d2-b5392e9b396f","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 6","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"b3f59d73-d8b5-41c1-b41c-0de883aec266","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 7","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"81f7443d-a6d1-4137-a284-ef1b35da6ea2","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 2","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"e08229a4-3f1b-4d5e-8f55-7a60232c278c","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 8","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"4f52e608-ae02-4d33-9fd4-2663b4763895","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 9","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"7db87bea-733b-4f2c-850a-4d9c5b8967ce","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 3","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"77a08ab2-a32e-4897-9a47-e028931de4dd","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 02 0","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"245486f4-a7d0-49b4-b68e-4cd2b2ea5a95","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 01 0","server":"xiaozhu4.kumao62654.com","port":49213,"type":"trojan","password":"77a08ab2-a32e-4897-9a47-e028931de4dd","sni":"www.itunes.com","skip-cert-verify":true,"tfo":true}
+  - {"name":"🇭🇰 香港 03 1","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"06e6f70b-a42e-4acb-a011-cede2207dbf3","sni":"www.itunes.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港 03 2","server":"xiaozhuaaaa3.xiaozhu9545515.com","port":49213,"type":"trojan","password":"7756180a-3a07-4939-91be-ae7664b311ca","sni":"www.itunes.com","skip-cert-verify":true}
 
+  - {"name":"🇭🇰 香港-A-01","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港-A-02","type":"anytls","server":"sfu.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"sfu.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港-A-03","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"d2c5a17f-05a9-4fb4-8e22-d1a045440b53","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港-A-04","type":"anytls","server":"turn.gosthk.site","port":57180,"password":"0832d062-6fc6-46ff-bd81-1f0e83febf23","udp":true,"sni":"turn.gosthk.site","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港-A-05","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港-A-06","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港-A-07","type":"hysteria2","server":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","port":21538,"password":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","auth":"1b5520bd-8c7e-4d39-9a8b-d926a996a996","sni":"snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港-A-08","type":"hysteria2","server":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","port":"21537","password":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","auth":"af7a0da1-9a05-4bc6-b6ff-3de88b56f34d","sni":"snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com","skip-cert-verify":true,"udp":true}
+
+  - {"name":"🇭🇰 香港 A 01","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 03","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 02","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 04","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 05","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 A 06","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"a6ecf85e-82a1-4b6b-a9fd-d07129fa5f01","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+
+  - {"name":"🇭🇰 香港 B 01","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 03","type":"trojan","server":"vd.fireduocc.com","port":16258,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 02","type":"trojan","server":"vd.fireduocc.com","port":12722,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"dynamodb.ap-east-1.amazonaws.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 04","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 05","type":"trojan","server":"vd.fireduocc.com","port":27896,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+  - {"name":"🇭🇰 香港 B 06","type":"trojan","server":"vd.fireduocc.com","port":24572,"password":"afcdd90e-72a2-439e-b449-1c6b0267690d","udp":true,"skip-cert-verify":true,"sni":"v1-dy.ixigua.com","network":tcp}
+
+  - {"name":"🇭🇰 香港_BGP_A","type":"anytls","port":10000,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"api-02.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_B","type":"anytls","port":10001,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"api-03.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_C","type":"anytls","port":10002,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"api-04.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_D","type":"anytls","port":10003,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"api-05.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_E","type":"anytls","port":10004,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"gateway-01.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_F","type":"anytls","port":10005,"server":"balancer.cedarblanket.com","password":"bee2835f-4007-3783-bfc6-8bf62632e291","udp":true,"sni":"gateway-02.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_G","type":"anytls","port":10006,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-03.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_H","type":"anytls","port":10007,"server":"balancer.cedarblanket.com","password":"18549d91-78d2-3108-9bc0-f3843328938b","udp":true,"sni":"gateway-04.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_I","type":"anytls","port":10008,"server":"balancer.cedarblanket.com","password":"b25231c4-737c-354b-837f-e6bb5be5f87c","udp":true,"sni":"gateway-05.riverfolder.com"}
+  - {"name":"🇭🇰 香港_BGP_J","type":"anytls","port":10009,"server":"balancer.cedarblanket.com","password":"b25231c4-737c-354b-837f-e6bb5be5f87c","udp":true,"sni":"api-01.riverfolder.com"}
+  
 proxy-groups:
 - name: 节点选择
   type: select
-  proxies:  
-    - 🇭🇰 香港 01
-    - 🇭🇰 香港 02
-    - 🇭🇰 香港 03
-    - 🇭🇰 香港 04
-    - 🇭🇰 香港 05
-    - 🇭🇰 香港 06
-    - 🇭🇰 香港 07
-    - 🇭🇰 香港 08
+  proxies:    
+    - "🇭🇰 香港 01 0"
+    - "🇭🇰 香港 01 1"
+    - "🇭🇰 香港 01 2"
+    - "🇭🇰 香港 01 3"
+    - "🇭🇰 香港 02 0"
+    - "🇭🇰 香港 02 1"
+    - "🇭🇰 香港 02 2"
+    - "🇭🇰 香港 02 3"
+    - "🇭🇰 香港 02 4"
+    - "🇭🇰 香港 02 5"
+    - "🇭🇰 香港 02 6"
+    - "🇭🇰 香港 02 7"
+    - "🇭🇰 香港 02 8"
+    - "🇭🇰 香港 02 9"
+    - "🇭🇰 香港 03 1"
+    - "🇭🇰 香港 03 2"
+
+    - "🇭🇰 香港-A-01"
+    - "🇭🇰 香港-A-02"
+    - "🇭🇰 香港-A-03"
+    - "🇭🇰 香港-A-04"
+    - "🇭🇰 香港-A-05"
+    - "🇭🇰 香港-A-06"
+    - "🇭🇰 香港-A-07"
+    - "🇭🇰 香港-A-08"
+ 
+    - "🇭🇰 香港 A 01"
+    - "🇭🇰 香港 A 02"
+    - "🇭🇰 香港 A 03"
+    - "🇭🇰 香港 A 04"
+    - "🇭🇰 香港 A 05"
+    - "🇭🇰 香港 A 06"
+ 
+    - "🇭🇰 香港 B 01"
+    - "🇭🇰 香港 B 02"
+    - "🇭🇰 香港 B 03"
+    - "🇭🇰 香港 B 04"
+    - "🇭🇰 香港 B 05"
+    - "🇭🇰 香港 B 06"
+    
+    - "🇭🇰 香港_BGP_A"
+    - "🇭🇰 香港_BGP_B"
+    - "🇭🇰 香港_BGP_C"
+    - "🇭🇰 香港_BGP_D"
+    - "🇭🇰 香港_BGP_E"
+    - "🇭🇰 香港_BGP_F"
+    - "🇭🇰 香港_BGP_G"
+    - "🇭🇰 香港_BGP_H"
+    - "🇭🇰 香港_BGP_I"
+    - "🇭🇰 香港_BGP_J"
 
 rules:
 - DOMAIN-SUFFIX,appspot.com,节点选择
